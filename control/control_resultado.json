@@ -1,1320 +1,964 @@
 {
+  "version": 2,
+  "revision": "V2_planta_final_trastero",
   "apto_para_renders": true,
-  "alcance": "Concordancia con XY de plantas y Z de vistas concordantes; no certifica concordancia total entre dibujos contradictorios ni dimensiones ausentes.",
-  "huella_mesh_m2": 190.5033141748911,
-  "huella_pdf_m2": 190.50332866999997,
-  "diferencia_simetrica_m2": 1.8763452627320732e-05,
-  "hausdorff_m": 9.900696771118595e-07,
+  "total_controles": 189,
+  "fallos": 0,
+  "tolerancia_vector_xy_m": 0.006351,
+  "tolerancia_nominal_m": 1e-05,
+  "modelo_sha256": "3abdabddb1774219b7e444e629cec6b322f12fdb0ef49fe31b96fbffa631d44c",
+  "fuente_sha256": "556b057350ec6b0a4050dfbf0cf104c35ca5ed48d0e8bf22b2b19c107f403995",
+  "advertencias_documentales": [
+    "Áreas rotuladas no fuerzan el contorno trazado",
+    "Baño2 profundidad gráfica2.67335frente2.68 escrita; discrepancia6.65mm registrada",
+    "Z piscina sin dato; representación superficial",
+    "Diferencia histórica de ancho de peto alto en alzado trasero/sección3 de0.80m registrada; XYplanta de cubierta prevalece"
+  ],
   "controles": [
     {
-      "elemento": "Huella construida m²",
-      "mesh": 190.5033141748911,
-      "objetivo_pdf": 190.50332866999997,
-      "error": 1.4495108871415141e-05,
-      "tolerancia": 0.002,
-      "pasa": true
-    },
-    {
-      "elemento": "Diferencia simétrica huella m²",
-      "mesh": 1.8763452627320732e-05,
-      "objetivo_pdf": 0,
-      "error": 1.8763452627320732e-05,
-      "tolerancia": 0.002,
-      "pasa": true
-    },
-    {
-      "elemento": "Distancia máxima huella m",
-      "mesh": 9.900696771118595e-07,
-      "objetivo_pdf": 0,
-      "error": 9.900696771118595e-07,
-      "tolerancia": 0.001,
-      "pasa": true
-    },
-    {
-      "elemento": "Vivienda ancho máximo m",
-      "mesh": 10.096499919891357,
-      "objetivo_pdf": 10.0965,
-      "error": 8.010864327445688e-08,
-      "tolerancia": 0.001,
-      "pasa": true
-    },
-    {
-      "elemento": "Vivienda longitud total m",
-      "mesh": 26.396949291229248,
-      "objetivo_pdf": 26.39695,
-      "error": 7.087707523112385e-07,
-      "tolerancia": 0.001,
-      "pasa": true
-    },
-    {
-      "elemento": "parcela área m²",
-      "mesh": 635.8359815669718,
-      "objetivo_pdf": 635.835996470625,
-      "error": 1.4903653209330514e-05,
-      "tolerancia": 0.002,
-      "pasa": true
-    },
-    {
-      "elemento": "parcela posición / Hausdorff m",
-      "mesh": 1.3945030626500165e-06,
-      "objetivo_pdf": 0,
-      "error": 1.3945030626500165e-06,
-      "tolerancia": 0.001,
-      "pasa": true
-    },
-    {
-      "elemento": "piscina área m²",
-      "mesh": 17.539314951456618,
-      "objetivo_pdf": 17.539319759999998,
-      "error": 4.808543380363517e-06,
-      "tolerancia": 0.002,
-      "pasa": true
-    },
-    {
-      "elemento": "piscina posición / Hausdorff m",
-      "mesh": 6.134640488261003e-07,
-      "objetivo_pdf": 0,
-      "error": 6.134640488261003e-07,
-      "tolerancia": 0.001,
-      "pasa": true
-    },
-    {
-      "elemento": "Cerramiento superficie fuera de parcela m²",
-      "mesh": 1.1356751933600774e-05,
-      "objetivo_pdf": 0,
-      "error": 1.1356751933600774e-05,
-      "tolerancia": 0.0002,
-      "pasa": true
-    },
-    {
-      "elemento": "V_bano1_norte XY máx m",
-      "mesh": 1.3488769496916575e-06,
-      "objetivo_pdf": 0,
-      "error": 1.3488769496916575e-06,
-      "tolerancia": 0.001,
-      "pasa": true
-    },
-    {
-      "elemento": "V_bano1_norte dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
-    },
-    {
-      "elemento": "V_bano1_norte antepecho Z m",
-      "mesh": 1.0,
-      "objetivo_pdf": 1.0,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Registro mediciones V2",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_despacho_oeste XY máx m",
-      "mesh": 5.859374994088284e-07,
-      "objetivo_pdf": 0,
-      "error": 5.859374994088284e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Identidad PDF final",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_despacho_oeste dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Cantidad muros final",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_despacho_oeste antepecho Z m",
-      "mesh": 0.8999999761581421,
-      "objetivo_pdf": 0.9,
-      "error": 2.384185793236071e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_001",
+      "cumple": true,
+      "detalle": "Desviación 0.00000135m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "V_bano2_oeste XY máx m",
-      "mesh": 3.9978027288611884e-07,
-      "objetivo_pdf": 0,
-      "error": 3.9978027288611884e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_001",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_bano2_oeste dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_002",
+      "cumple": true,
+      "detalle": "Desviación 0.00000135m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "V_bano2_oeste antepecho Z m",
-      "mesh": 1.0,
-      "objetivo_pdf": 1.0,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_002",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_lavadero_oeste XY máx m",
-      "mesh": 8.666992172834398e-07,
-      "objetivo_pdf": 0,
-      "error": 8.666992172834398e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_003",
+      "cumple": true,
+      "detalle": "Desviación 0.00000135m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "V_lavadero_oeste dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_003",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_lavadero_oeste antepecho Z m",
-      "mesh": 1.0,
-      "objetivo_pdf": 1.0,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_004",
+      "cumple": true,
+      "detalle": "Desviación 0.00000136m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "P_lavadero_oeste XY máx m",
-      "mesh": 6.103515630684342e-07,
-      "objetivo_pdf": 0,
-      "error": 6.103515630684342e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_004",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "P_lavadero_oeste dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_005",
+      "cumple": true,
+      "detalle": "Desviación 0.00000158m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "V_aseo_oeste XY máx m",
-      "mesh": 8.392333974427402e-07,
-      "objetivo_pdf": 0,
-      "error": 8.392333974427402e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_005",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_aseo_oeste dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_006",
+      "cumple": true,
+      "detalle": "Desviación 0.00000135m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "V_aseo_oeste antepecho Z m",
-      "mesh": 1.0,
-      "objetivo_pdf": 1.0,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_006",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "P_principal_oeste XY máx m",
-      "mesh": 6.530761709200306e-07,
-      "objetivo_pdf": 0,
-      "error": 6.530761709200306e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_007",
+      "cumple": true,
+      "detalle": "Desviación 0.00000158m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "P_principal_oeste dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_007",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_salon_oeste XY máx m",
-      "mesh": 4.669189461736778e-07,
-      "objetivo_pdf": 0,
-      "error": 4.669189461736778e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_008",
+      "cumple": true,
+      "detalle": "Desviación 0.00000088m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "V_salon_oeste dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_008",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_salon_oeste antepecho Z m",
-      "mesh": 0.8999999761581421,
-      "objetivo_pdf": 0.9,
-      "error": 2.384185793236071e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_009",
+      "cumple": true,
+      "detalle": "Desviación 0.00000088m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "V_dormitorio1_este XY máx m",
-      "mesh": 4.6691894439732096e-07,
-      "objetivo_pdf": 0,
-      "error": 4.6691894439732096e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_009",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_dormitorio1_este dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_010",
+      "cumple": true,
+      "detalle": "Desviación 0.00000060m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "V_dormitorio1_este antepecho Z m",
-      "mesh": 0.8999999761581421,
-      "objetivo_pdf": 0.9,
-      "error": 2.384185793236071e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_010",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_dormitorio1_sur XY máx m",
-      "mesh": 9.155273446026513e-07,
-      "objetivo_pdf": 0,
-      "error": 9.155273446026513e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_011",
+      "cumple": true,
+      "detalle": "Desviación 0.00000077m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "V_dormitorio1_sur dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_011",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_dormitorio2_este XY máx m",
-      "mesh": 5.645751954830303e-07,
-      "objetivo_pdf": 0,
-      "error": 5.645751954830303e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_012",
+      "cumple": true,
+      "detalle": "Desviación 0.00000158m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "V_dormitorio2_este dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_012",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_dormitorio3_este XY máx m",
-      "mesh": 3.7689208909341687e-07,
-      "objetivo_pdf": 0,
-      "error": 3.7689208909341687e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_013",
+      "cumple": true,
+      "detalle": "Desviación 0.00000047m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "V_dormitorio3_este dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_013",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_cocina_este XY máx m",
-      "mesh": 8.666992172834398e-07,
-      "objetivo_pdf": 0,
-      "error": 8.666992172834398e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_014",
+      "cumple": true,
+      "detalle": "Desviación 0.00000092m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "V_cocina_este dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_014",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "V_salon_este XY máx m",
-      "mesh": 4.547119143438749e-07,
-      "objetivo_pdf": 0,
-      "error": 4.547119143438749e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_015",
+      "cumple": true,
+      "detalle": "Desviación 0.00000094m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "V_salon_este dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_015",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "P_instalaciones_sur XY máx m",
-      "mesh": 1.7700195265035745e-07,
-      "objetivo_pdf": 0,
-      "error": 1.7700195265035745e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_016",
+      "cumple": true,
+      "detalle": "Desviación 0.00000092m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "P_instalaciones_sur dintel Z m",
-      "mesh": 2.5,
-      "objetivo_pdf": 2.5,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_016",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Peto_central_N coronación Z m",
-      "mesh": 5.099999904632568,
-      "objetivo_pdf": 5.1,
-      "error": 9.536743128535363e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_017",
+      "cumple": true,
+      "detalle": "Desviación 0.00000036m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Peto_central_E coronación Z m",
-      "mesh": 5.099999904632568,
-      "objetivo_pdf": 5.1,
-      "error": 9.536743128535363e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_017",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Peto_central_S coronación Z m",
-      "mesh": 5.099999904632568,
-      "objetivo_pdf": 5.1,
-      "error": 9.536743128535363e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_018",
+      "cumple": true,
+      "detalle": "Desviación 0.00000135m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Peto_central_W coronación Z m",
-      "mesh": 5.099999904632568,
-      "objetivo_pdf": 5.1,
-      "error": 9.536743128535363e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_018",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Peto_bajo_W_trasero coronación Z m",
-      "mesh": 4.400000095367432,
-      "objetivo_pdf": 4.4,
-      "error": 9.536743128535363e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_019",
+      "cumple": true,
+      "detalle": "Desviación 0.00000092m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Peto_bajo_N coronación Z m",
-      "mesh": 4.400000095367432,
-      "objetivo_pdf": 4.4,
-      "error": 9.536743128535363e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_019",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Peto_bajo_E_D1 coronación Z m",
-      "mesh": 4.400000095367432,
-      "objetivo_pdf": 4.4,
-      "error": 9.536743128535363e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_020",
+      "cumple": true,
+      "detalle": "Desviación 0.00000091m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Peto_bajo_S_D1 coronación Z m",
-      "mesh": 4.400000095367432,
-      "objetivo_pdf": 4.4,
-      "error": 9.536743128535363e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_020",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Peto_bajo_W_instalaciones coronación Z m",
-      "mesh": 4.400000095367432,
-      "objetivo_pdf": 4.4,
-      "error": 9.536743128535363e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_021",
+      "cumple": true,
+      "detalle": "Desviación 0.00000094m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Peto_bajo_S_instalaciones coronación Z m",
-      "mesh": 4.400000095367432,
-      "objetivo_pdf": 4.4,
-      "error": 9.536743128535363e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_021",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Peto_bajo_E_instalaciones coronación Z m",
-      "mesh": 4.400000095367432,
-      "objetivo_pdf": 4.4,
-      "error": 9.536743128535363e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_022",
+      "cumple": true,
+      "detalle": "Desviación 0.00000092m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Peto_portal_W coronación Z m",
-      "mesh": 4.75,
-      "objetivo_pdf": 4.75,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_022",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Peto_portal_N_visible coronación Z m",
-      "mesh": 4.75,
-      "objetivo_pdf": 4.75,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_023",
+      "cumple": true,
+      "detalle": "Desviación 0.00000091m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Peto_portal_S coronación Z m",
-      "mesh": 4.75,
-      "objetivo_pdf": 4.75,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_023",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Peto_portal_E_visible coronación Z m",
-      "mesh": 4.75,
-      "objetivo_pdf": 4.75,
-      "error": 0.0,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_024",
+      "cumple": true,
+      "detalle": "Desviación 0.00000092m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Forjado_cubierta_3_35_3_70 base Z m",
-      "mesh": 3.3499999046325684,
-      "objetivo_pdf": 3.35,
-      "error": 9.536743172944284e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_024",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Forjado_cubierta_3_35_3_70 superior Z m",
-      "mesh": 3.700000047683716,
-      "objetivo_pdf": 3.7,
-      "error": 4.7683715642676816e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_025",
+      "cumple": true,
+      "detalle": "Desviación 0.00000068m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Marquesina_terraza_sin_pilares base Z m",
-      "mesh": 3.3499999046325684,
-      "objetivo_pdf": 3.35,
-      "error": 9.536743172944284e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_025",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Marquesina_terraza_sin_pilares superior Z m",
-      "mesh": 3.549999952316284,
-      "objetivo_pdf": 3.55,
-      "error": 4.7683715642676816e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_026",
+      "cumple": true,
+      "detalle": "Desviación 0.00000063m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 01 XYZ m",
-      "mesh": 4.394531316620487e-08,
-      "objetivo_pdf": 0,
-      "error": 4.394531316620487e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_026",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 02 XYZ m",
-      "mesh": 4.9377440802800265e-08,
-      "objetivo_pdf": 0,
-      "error": 4.9377440802800265e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_027",
+      "cumple": true,
+      "detalle": "Desviación 0.00000074m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 03 XYZ m",
-      "mesh": 1.816406243193569e-07,
-      "objetivo_pdf": 0,
-      "error": 1.816406243193569e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_027",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 04 XYZ m",
-      "mesh": 2.944335939503162e-07,
-      "objetivo_pdf": 0,
-      "error": 2.944335939503162e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_028",
+      "cumple": true,
+      "detalle": "Desviación 0.00000031m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 05 XYZ m",
-      "mesh": 4.2669677746687285e-07,
-      "objetivo_pdf": 0,
-      "error": 4.2669677746687285e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_028",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 06 XYZ m",
-      "mesh": 4.678955072279223e-07,
-      "objetivo_pdf": 0,
-      "error": 4.678955072279223e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_029",
+      "cumple": true,
+      "detalle": "Desviación 0.00000057m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 07 XYZ m",
-      "mesh": 3.3563232371136564e-07,
-      "objetivo_pdf": 0,
-      "error": 3.3563232371136564e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_029",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 08 XYZ m",
-      "mesh": 2.496948248165154e-07,
-      "objetivo_pdf": 0,
-      "error": 2.496948248165154e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_030",
+      "cumple": true,
+      "detalle": "Desviación 0.00000057m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 09 XYZ m",
-      "mesh": 1.369018551855561e-07,
-      "objetivo_pdf": 0,
-      "error": 1.369018551855561e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_030",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 10 XYZ m",
-      "mesh": 4.310607915058995e-08,
-      "objetivo_pdf": 0,
-      "error": 4.310607915058995e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_031",
+      "cumple": true,
+      "detalle": "Desviación 0.00000058m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 11 XYZ m",
-      "mesh": 1.3500976514535523e-07,
-      "objetivo_pdf": 0,
-      "error": 1.3500976514535523e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_031",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 12 XYZ m",
-      "mesh": 2.4041747970215965e-07,
-      "objetivo_pdf": 0,
-      "error": 2.4041747970215965e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_032",
+      "cumple": true,
+      "detalle": "Desviación 0.00000040m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 13 XYZ m",
-      "mesh": 3.337402336711648e-07,
-      "objetivo_pdf": 0,
-      "error": 3.337402336711648e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_032",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 14 XYZ m",
-      "mesh": 4.660034171877214e-07,
-      "objetivo_pdf": 0,
-      "error": 4.660034171877214e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_033",
+      "cumple": true,
+      "detalle": "Desviación 0.00000011m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 15 XYZ m",
-      "mesh": 4.017333985473215e-07,
-      "objetivo_pdf": 0,
-      "error": 4.017333985473215e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_033",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 16 XYZ m",
-      "mesh": 2.9632568399051706e-07,
-      "objetivo_pdf": 0,
-      "error": 2.9632568399051706e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_034",
+      "cumple": true,
+      "detalle": "Desviación 0.00000066m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 17 XYZ m",
-      "mesh": 1.8353271435955776e-07,
-      "objetivo_pdf": 0,
-      "error": 1.8353271435955776e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_034",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 18 XYZ m",
-      "mesh": 5.126953084300112e-08,
-      "objetivo_pdf": 0,
-      "error": 5.126953084300112e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_035",
+      "cumple": true,
+      "detalle": "Desviación 0.00000073m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 19 XYZ m",
-      "mesh": 4.310607915058995e-08,
-      "objetivo_pdf": 0,
-      "error": 4.310607915058995e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_035",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 20 XYZ m",
-      "mesh": 1.7431640664256065e-07,
-      "objetivo_pdf": 0,
-      "error": 1.7431640664256065e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_036",
+      "cumple": true,
+      "detalle": "Desviación 0.00000089m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 21 XYZ m",
-      "mesh": 2.871093744971631e-07,
-      "objetivo_pdf": 0,
-      "error": 2.871093744971631e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_036",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 22 XYZ m",
-      "mesh": 3.730468751683702e-07,
-      "objetivo_pdf": 0,
-      "error": 3.730468751683702e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_037",
+      "cumple": true,
+      "detalle": "Desviación 0.00000055m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 23 XYZ m",
-      "mesh": 4.7521972668107537e-07,
-      "objetivo_pdf": 0,
-      "error": 4.7521972668107537e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_037",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 24 XYZ m",
-      "mesh": 3.4295654316451873e-07,
-      "objetivo_pdf": 0,
-      "error": 3.4295654316451873e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_038",
+      "cumple": true,
+      "detalle": "Desviación 0.00000055m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 25 XYZ m",
-      "mesh": 2.5701904249331164e-07,
-      "objetivo_pdf": 0,
-      "error": 2.5701904249331164e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_038",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 26 XYZ m",
-      "mesh": 1.4422607463870918e-07,
-      "objetivo_pdf": 0,
-      "error": 1.4422607463870918e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_039",
+      "cumple": true,
+      "detalle": "Desviación 0.00000058m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 27 XYZ m",
-      "mesh": 4.310607915058995e-08,
-      "objetivo_pdf": 0,
-      "error": 4.310607915058995e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_039",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 verticales 28 XYZ m",
-      "mesh": 8.135986284685259e-08,
-      "objetivo_pdf": 0,
-      "error": 8.135986284685259e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_040",
+      "cumple": true,
+      "detalle": "Desviación 0.00000089m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 horizontales 01 XYZ m",
-      "mesh": 1.8676757740365701e-07,
-      "objetivo_pdf": 0,
-      "error": 1.8676757740365701e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_040",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 horizontales 02 XYZ m",
-      "mesh": 1.8676757740365701e-07,
-      "objetivo_pdf": 0,
-      "error": 1.8676757740365701e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_041",
+      "cumple": true,
+      "detalle": "Desviación 0.00000095m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 horizontales 03 XYZ m",
-      "mesh": 1.8676757740365701e-07,
-      "objetivo_pdf": 0,
-      "error": 1.8676757740365701e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_041",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 horizontales 04 XYZ m",
-      "mesh": 1.8676757740365701e-07,
-      "objetivo_pdf": 0,
-      "error": 1.8676757740365701e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_042",
+      "cumple": true,
+      "detalle": "Desviación 0.00000089m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 horizontales 05 XYZ m",
-      "mesh": 1.8676757740365701e-07,
-      "objetivo_pdf": 0,
-      "error": 1.8676757740365701e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_042",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 horizontales 06 XYZ m",
-      "mesh": 1.8676757740365701e-07,
-      "objetivo_pdf": 0,
-      "error": 1.8676757740365701e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_043",
+      "cumple": true,
+      "detalle": "Desviación 0.00000087m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 horizontales 07 XYZ m",
-      "mesh": 1.8676757740365701e-07,
-      "objetivo_pdf": 0,
-      "error": 1.8676757740365701e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_043",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 horizontales 08 XYZ m",
-      "mesh": 1.8676757740365701e-07,
-      "objetivo_pdf": 0,
-      "error": 1.8676757740365701e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_044",
+      "cumple": true,
+      "detalle": "Desviación 0.00000088m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 horizontales 09 XYZ m",
-      "mesh": 1.8676757740365701e-07,
-      "objetivo_pdf": 0,
-      "error": 1.8676757740365701e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_044",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_1 horizontales 10 XYZ m",
-      "mesh": 1.8676757740365701e-07,
-      "objetivo_pdf": 0,
-      "error": 1.8676757740365701e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_045",
+      "cumple": true,
+      "detalle": "Desviación 0.00000088m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_1 horizontales 11 XYZ m",
-      "mesh": 1.8676757740365701e-07,
-      "objetivo_pdf": 0,
-      "error": 1.8676757740365701e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_045",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 01 XYZ m",
-      "mesh": 1.7437744226356244e-07,
-      "objetivo_pdf": 0,
-      "error": 1.7437744226356244e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_046",
+      "cumple": true,
+      "detalle": "Desviación 0.00000061m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 02 XYZ m",
-      "mesh": 2.603149411584127e-07,
-      "objetivo_pdf": 0,
-      "error": 2.603149411584127e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_046",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 03 XYZ m",
-      "mesh": 3.9257812467496933e-07,
-      "objetivo_pdf": 0,
-      "error": 3.9257812467496933e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_047",
+      "cumple": true,
+      "detalle": "Desviación 0.00000034m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 04 XYZ m",
-      "mesh": 4.516601563864242e-07,
-      "objetivo_pdf": 0,
-      "error": 4.516601563864242e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_047",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 05 XYZ m",
-      "mesh": 3.6975097650326916e-07,
-      "objetivo_pdf": 0,
-      "error": 3.6975097650326916e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_048",
+      "cumple": true,
+      "detalle": "Desviación 0.00000021m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 06 XYZ m",
-      "mesh": 2.569580086486667e-07,
-      "objetivo_pdf": 0,
-      "error": 2.569580086486667e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_048",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 07 XYZ m",
-      "mesh": 1.710205079774596e-07,
-      "objetivo_pdf": 0,
-      "error": 1.710205079774596e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_049",
+      "cumple": true,
+      "detalle": "Desviación 0.00000075m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 08 XYZ m",
-      "mesh": 4.310607915058995e-08,
-      "objetivo_pdf": 0,
-      "error": 4.310607915058995e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_049",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 09 XYZ m",
-      "mesh": 1.0089111412980856e-07,
-      "objetivo_pdf": 0,
-      "error": 1.0089111412980856e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_050",
+      "cumple": true,
+      "detalle": "Desviación 0.00000076m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 10 XYZ m",
-      "mesh": 2.1368408198441102e-07,
-      "objetivo_pdf": 0,
-      "error": 2.1368408198441102e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_050",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 11 XYZ m",
-      "mesh": 3.1909179654121544e-07,
-      "objetivo_pdf": 0,
-      "error": 3.1909179654121544e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_051",
+      "cumple": true,
+      "detalle": "Desviación 0.00000084m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 12 XYZ m",
-      "mesh": 4.318847643958179e-07,
-      "objetivo_pdf": 0,
-      "error": 4.318847643958179e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_051",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 13 XYZ m",
-      "mesh": 5.446777358031341e-07,
-      "objetivo_pdf": 0,
-      "error": 5.446777358031341e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_052",
+      "cumple": true,
+      "detalle": "Desviación 0.00000060m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 14 XYZ m",
-      "mesh": 6.306152329216275e-07,
-      "objetivo_pdf": 0,
-      "error": 6.306152329216275e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_052",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 15 XYZ m",
-      "mesh": 7.434082043289436e-07,
-      "objetivo_pdf": 0,
-      "error": 7.434082043289436e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_053",
+      "cumple": true,
+      "detalle": "Desviación 0.00000044m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 16 XYZ m",
-      "mesh": 8.682861327713454e-07,
-      "objetivo_pdf": 0,
-      "error": 8.682861327713454e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_053",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 17 XYZ m",
-      "mesh": 9.262695321865522e-07,
-      "objetivo_pdf": 0,
-      "error": 9.262695321865522e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_054",
+      "cumple": true,
+      "detalle": "Desviación 0.00000060m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 18 XYZ m",
-      "mesh": 8.403320315153451e-07,
-      "objetivo_pdf": 0,
-      "error": 8.403320315153451e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_054",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 19 XYZ m",
-      "mesh": 7.006835929246336e-07,
-      "objetivo_pdf": 0,
-      "error": 7.006835929246336e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_055",
+      "cumple": true,
+      "detalle": "Desviación 0.00000066m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 20 XYZ m",
-      "mesh": 6.147460922534265e-07,
-      "objetivo_pdf": 0,
-      "error": 6.147460922534265e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_055",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 21 XYZ m",
-      "mesh": 5.01953124398824e-07,
-      "objetivo_pdf": 0,
-      "error": 5.01953124398824e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_056",
+      "cumple": true,
+      "detalle": "Desviación 0.00000080m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 22 XYZ m",
-      "mesh": 5.839843737476258e-07,
-      "objetivo_pdf": 0,
-      "error": 5.839843737476258e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_056",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 23 XYZ m",
-      "mesh": 6.699218744188329e-07,
-      "objetivo_pdf": 0,
-      "error": 6.699218744188329e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_057",
+      "cumple": true,
+      "detalle": "Desviación 0.00000019m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 24 XYZ m",
-      "mesh": 7.827148422734354e-07,
-      "objetivo_pdf": 0,
-      "error": 7.827148422734354e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_057",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 25 XYZ m",
-      "mesh": 6.555175957601023e-08,
-      "objetivo_pdf": 0,
-      "error": 6.555175957601023e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_058",
+      "cumple": true,
+      "detalle": "Desviación 0.00000021m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 26 XYZ m",
-      "mesh": 8.869628906893468e-07,
-      "objetivo_pdf": 0,
-      "error": 8.869628906893468e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_058",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 27 XYZ m",
-      "mesh": 8.010253900181397e-07,
-      "objetivo_pdf": 0,
-      "error": 8.010253900181397e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_059",
+      "cumple": true,
+      "detalle": "Desviación 0.00000033m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 verticales 28 XYZ m",
-      "mesh": 6.882324221635372e-07,
-      "objetivo_pdf": 0,
-      "error": 6.882324221635372e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_059",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 horizontales 01 XYZ m",
-      "mesh": 3.977050795356263e-07,
-      "objetivo_pdf": 0,
-      "error": 3.977050795356263e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_060",
+      "cumple": true,
+      "detalle": "Desviación 0.00000033m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 horizontales 02 XYZ m",
-      "mesh": 3.977050795356263e-07,
-      "objetivo_pdf": 0,
-      "error": 3.977050795356263e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_060",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 horizontales 03 XYZ m",
-      "mesh": 3.977050795356263e-07,
-      "objetivo_pdf": 0,
-      "error": 3.977050795356263e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_061",
+      "cumple": true,
+      "detalle": "Desviación 0.00000047m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 horizontales 04 XYZ m",
-      "mesh": 3.977050795356263e-07,
-      "objetivo_pdf": 0,
-      "error": 3.977050795356263e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_061",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 horizontales 05 XYZ m",
-      "mesh": 3.977050795356263e-07,
-      "objetivo_pdf": 0,
-      "error": 3.977050795356263e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_062",
+      "cumple": true,
+      "detalle": "Desviación 0.00000045m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 horizontales 06 XYZ m",
-      "mesh": 3.977050795356263e-07,
-      "objetivo_pdf": 0,
-      "error": 3.977050795356263e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_062",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 horizontales 07 XYZ m",
-      "mesh": 3.977050795356263e-07,
-      "objetivo_pdf": 0,
-      "error": 3.977050795356263e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_063",
+      "cumple": true,
+      "detalle": "Desviación 0.00520019m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 horizontales 08 XYZ m",
-      "mesh": 3.977050795356263e-07,
-      "objetivo_pdf": 0,
-      "error": 3.977050795356263e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_063",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 horizontales 09 XYZ m",
-      "mesh": 3.977050795356263e-07,
-      "objetivo_pdf": 0,
-      "error": 3.977050795356263e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Muro muros_v2_064",
+      "cumple": true,
+      "detalle": "Desviación 0.00000045m; máximo cuantización6.35mm"
     },
     {
-      "elemento": "Rejilla_frontal_2 horizontales 10 XYZ m",
-      "mesh": 3.977050795356263e-07,
-      "objetivo_pdf": 0,
-      "error": 3.977050795356263e-07,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Z muro muros_v2_064",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "Rejilla_frontal_2 horizontales 11 XYZ m",
-      "mesh": 3.977050795356263e-07,
-      "objetivo_pdf": 0,
-      "error": 3.977050795356263e-07,
-      "tolerancia": 0.001,
-      "pasa": true
-    },
-    {
-      "elemento": "P_int_cocina_distribuidor1 alto hoja m",
-      "mesh": 2.0299999713897705,
-      "objetivo_pdf": 2.03,
-      "error": 2.8610229296788248e-08,
-      "tolerancia": 0.001,
-      "pasa": true
-    },
-    {
-      "elemento": "P_int_dormitorio3 alto hoja m",
-      "mesh": 2.0299999713897705,
-      "objetivo_pdf": 2.03,
-      "error": 2.8610229296788248e-08,
-      "tolerancia": 0.001,
-      "pasa": true
-    },
+      "control": "Muro muros_v2_065",
+      "cumple": true,
+      "detalle": "Desviación 0.00335008m; máximo cuantización6.35mm"
+    },
+    {
+      "control": "Z muro muros_v2_065",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Muro muros_v2_066",
+      "cumple": true,
+      "detalle": "Desviación 0.00335008m; máximo cuantización6.35mm"
+    },
+    {
+      "control": "Z muro muros_v2_066",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Muro muros_v2_067",
+      "cumple": true,
+      "detalle": "Desviación 0.00000135m; máximo cuantización6.35mm"
+    },
+    {
+      "control": "Z muro muros_v2_067",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Muro muros_v2_068",
+      "cumple": true,
+      "detalle": "Desviación 0.00335008m; máximo cuantización6.35mm"
+    },
+    {
+      "control": "Z muro muros_v2_068",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Muro muros_v2_069",
+      "cumple": true,
+      "detalle": "Desviación 0.00335008m; máximo cuantización6.35mm"
+    },
+    {
+      "control": "Z muro muros_v2_069",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Nueve rellenos de tendedero existente",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Tendedero tendedero_v2_001",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Tendedero tendedero_v2_002",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Tendedero tendedero_v2_003",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Tendedero tendedero_v2_004",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Tendedero tendedero_v2_005",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Tendedero tendedero_v2_006",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Tendedero tendedero_v2_007",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Tendedero tendedero_v2_008",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Tendedero tendedero_v2_009",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Parcela irregular 10vértices",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Piscina3.50×5.00 nominal",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Ancla NO piscina",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Piscina contra PDF",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Sin pérgola antigua",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Sin puerta instalaciones antigua",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Sin tabique instalaciones/pérgola",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Trastero ancho nominal7.15",
+      "cumple": true,
+      "detalle": 7.150000333786011
+    },
+    {
+      "control": "Trastero fondo nominal3.94",
+      "cumple": true,
+      "detalle": 3.939999580383301
+    },
     {
-      "elemento": "P_int_dormitorio2 alto hoja m",
-      "mesh": 2.0299999713897705,
-      "objetivo_pdf": 2.03,
-      "error": 2.8610229296788248e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Trastero fondo a exterior4.19",
+      "cumple": true,
+      "detalle": 4.189999580383301
     },
     {
-      "elemento": "P_int_suite_principal alto hoja m",
-      "mesh": 2.0299999713897705,
-      "objetivo_pdf": 2.03,
-      "error": 2.8610229296788248e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Umbral frontal0.25",
+      "cumple": true,
+      "detalle": 0.25
     },
     {
-      "elemento": "P_int_bano2 alto hoja m",
-      "mesh": 2.0299999713897705,
-      "objetivo_pdf": 2.03,
-      "error": 2.8610229296788248e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Hueco V_bano1_norte",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "P_int_distribuidor2 alto hoja m",
-      "mesh": 2.0299999713897705,
-      "objetivo_pdf": 2.03,
-      "error": 2.8610229296788248e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Hueco V_despacho_oeste",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "P_int_aseo alto hoja m",
-      "mesh": 2.0299999713897705,
-      "objetivo_pdf": 2.03,
-      "error": 2.8610229296788248e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Hueco V_bano2_oeste",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "P_int_despacho alto hoja m",
-      "mesh": 2.0299999713897705,
-      "objetivo_pdf": 2.03,
-      "error": 2.8610229296788248e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Hueco V_lavadero_oeste",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "P_int_bano1_corredera alto hoja m",
-      "mesh": 2.0299999713897705,
-      "objetivo_pdf": 2.03,
-      "error": 2.8610229296788248e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Hueco P_lavadero_oeste",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "P_int_vestidor_corredera alto hoja m",
-      "mesh": 2.0299999713897705,
-      "objetivo_pdf": 2.03,
-      "error": 2.8610229296788248e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Hueco V_aseo_oeste",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "P_int_cocina_hall_corredera alto hoja m",
-      "mesh": 2.0299999713897705,
-      "objetivo_pdf": 2.03,
-      "error": 2.8610229296788248e-08,
-      "tolerancia": 0.001,
-      "pasa": true
+      "control": "Hueco P_principal_oeste",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "elemento": "P_int_lavadero_corredera alto hoja m",
-      "mesh": 2.0299999713897705,
-      "objetivo_pdf": 2.03,
-      "error": 2.8610229296788248e-08,
-      "tolerancia": 0.001,
-      "pasa": true
-    }
-  ],
-  "incertidumbres_pdf": [
+      "control": "Hueco V_salon_oeste",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Hueco V_dormitorio1_este",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Hueco V_dormitorio1_sur",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Hueco V_dormitorio2_este",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Hueco V_dormitorio3_este",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Hueco V_cocina_este",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Hueco V_salon_este",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Nueva puerta norte hueco0.96",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Nueva puerta norte alto USER2.03",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Nuevo portón frontal alto USER2.50",
+      "cumple": true,
+      "detalle": ""
+    },
     {
-      "id": "V7_alto",
-      "modelado": "2,50m",
-      "alternativa_pdf": "Memoria2,05m",
-      "criterio": "Alzado lateral/sec1 y superficie13,47m² coinciden2,50."
+      "control": "Bisagra y hoja norte según plano",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "id": "Despacho_alto",
-      "modelado": "1,60m con antepecho0,90m",
-      "alternativa_pdf": "MemoriaV4alto1,50m",
-      "criterio": "Alzado principal/sec2 prevalecen gráficamente."
+      "control": "Forjado USER3.35/3.70",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "id": "Portal_alturas",
-      "modelado": "Base3,35/coronación4,75m",
-      "alternativa_pdf": "Sección2base3,70/coronación4,90m",
-      "criterio": "Principal/sec3/sec4 coincidentes."
+      "control": "Cubierta cierra trastero",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "id": "Central_ancho_transversal",
-      "modelado": "X323,84–406,88pt de cubierta37:4,39420m",
-      "alternativa_pdf": "Trasero/sec3 muestran98,28pt=5,20065m y bordeoccidentalX308,72pt en lugar323,84; diferencia0,80m",
-      "criterio": "XY de cubierta37 coincide con vial/sec4; trasero/sec3 conservados como residualdocumental."
+      "control": "Tres petos trastero USER4.40",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "id": "Instalaciones_puerta_ancho",
-      "modelado": "1,33985m en planta",
-      "alternativa_pdf": "1,59385m en alzado vial",
-      "criterio": "Conservar separación de muros y huecoXY; alzado aparenta incorporar pared lateral."
+      "control": "Sin peto interior instalaciones",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "id": "Peatonal_ancho",
-      "modelado": "0,820355m planta36",
-      "alternativa_pdf": "1,162m en alzado",
-      "criterio": "Planta gobiernaXY y ancho de hoja."
+      "control": "Cielorraso nuevo no supuesto",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "id": "Cerramiento",
-      "modelado": "Oeste1,80m y este2,00m desde jardín según sus alzados",
-      "alternativa_pdf": "Encuentros y perfilZ no especificados",
-      "criterio": "Conservar evidencia por fachada y declararinterpretación enfrente/trasero."
+      "control": "Césped contorno final y máscaras deducidas",
+      "cumple": true,
+      "detalle": "Error float32 de borde 0.000001451m; diferencia área 0.000045752m²"
     },
     {
-      "id": "Cubierta_acabado_Z",
-      "modelado": "Material/superficie de referencia; no asignar acabado real",
-      "alternativa_pdf": "Memoriagrava5cm, paquete no suficientemente acotado",
-      "criterio": "Z3,70 es cara superiorforjado; no afirmar cota real de grava."
+      "control": "Césped franja nueva aparcamiento",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "id": "Marquesina_terraza_omitida_en_cubierta",
-      "modelado": "Canto0,20m y vuelo2,2479m sobre salón/cocina según2alzados y sección4",
-      "alternativa_pdf": "Planta cubierta37 no muestra contornoX406,88–449,36/Y335,68–542,08",
-      "criterio": "Derivación cruzada de proyecciones registradas; conservar como elemento inferido documentalmente, no dato directo de planta."
+      "control": "Pavimento/césped sin solapamiento",
+      "cumple": true,
+      "detalle": ""
     },
     {
-      "id": "Cerramiento_espesor",
-      "modelado": "0,1524m hacia interior, exterior en lindero",
-      "alternativa_pdf": "Sólo el tendedero dibuja espesor real x205,64–208,52pt; otroslinderos carecen de doblecara",
-      "criterio": "Extrapolar detalle de tendedero al cerramiento; deducción explícita, sin centrar valla ni invadir fuera del polígono."
+      "control": "Huella contra planta final",
+      "cumple": true,
+      "detalle": ""
     }
   ]
 }

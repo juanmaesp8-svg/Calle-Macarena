@@ -1,14 +1,19 @@
 {
+  "revision": "V2",
   "blender": "4.3.2",
-  "python_dependencies": {
-    "PyMuPDF": "1.28.2",
-    "Shapely": "2.1.2",
-    "Matplotlib": "3.11.2",
-    "Pillow": "12.3.0",
-    "ReportLab": "5.0.1",
-    "numpy": "2.5.3"
-  },
-  "oidn": "2.5.1; checksum oficial comprobado; filtroCPU64×64 ejecutado",
-  "fuente_pdf_sha256": "071b9f6ccf7feffd4075de69ec5728f899123266ea42b3091d868604916cbc82",
-  "estado": "Configuración local probada; Blender/Cycles usados para modelar y renderizar"
+  "python_dependencias": [
+    "numpy==2.3.5",
+    "pymupdf==1.26.6",
+    "pillow==12.3.0",
+    "matplotlib==3.10.8",
+    "reportlab==4.4.9",
+    "shapely==2.1.2"
+  ],
+  "motor": "Cycles CPU, 5 hilos",
+  "modelo_1a1": true,
+  "controles_geometricos": 189,
+  "fallos": 0,
+  "ortograficas": 6,
+  "glb": 309,
+  "proceso": "construcción Python reproducible; render y OIDN externo"
 }

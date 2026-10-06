@@ -1,0 +1,249 @@
+{
+  "revision": "V2",
+  "fecha_utc": "2026-10-06T17:59:57.083579+00:00",
+  "alcance": "Documentación y cotejo visual; sin dictamen APTO y sin reutilizar controles/láminas V1.",
+  "modelo": "Calle_Macarena_modelo_1a1.blend",
+  "modelo_sha256": "3abdabddb1774219b7e444e629cec6b322f12fdb0ef49fe31b96fbffa631d44c",
+  "mediciones": "control/mediciones_mesh_real.json",
+  "mediciones_sha256": "7f324674840ce7feb793bc9778a462d188dc40fa059e9f1519f4974399887fcd",
+  "fuentes": [
+    {
+      "archivo": "fuentes/planta_final_proyecto_obra.pdf",
+      "sha256": "556b057350ec6b0a4050dfbf0cf104c35ca5ed48d0e8bf22b2b19c107f403995"
+    },
+    {
+      "archivo": "fuentes/proyecto_basico.pdf",
+      "sha256": "071b9f6ccf7feffd4075de69ec5728f899123266ea42b3091d868604916cbc82"
+    },
+    {
+      "archivo": "analisis_v2/auditoria_planta_final.json",
+      "sha256": "4809e5cb966e473ff4bdb2b35066477016a0993c7ab1795562a164248cd6a30d"
+    },
+    {
+      "archivo": "analisis_v2/auditoria_alturas_trastero.json",
+      "sha256": "7073d583b273daf4e54d335cefa14b7df45f4ab98de1f83add409c300ebf5844"
+    },
+    {
+      "archivo": "modelo/confirmaciones_usuario_v2.json",
+      "sha256": "690ac6dc924f743b6e9fcc896c44e4ba46f1a5a00193a2d4fa82d3584ec026d3"
+    }
+  ],
+  "ortograficas": {
+    "registro": "control/visual_v2/ortograficas/registro_v2.json",
+    "sha256": "c9923542eb8d47578e03440ddf7e7bebf72b5f9c6246b7fa29885d7ad7b6b032",
+    "vistas": 6
+  },
+  "estadisticas_documentales": {
+    "corte_z_m": 1.2,
+    "transformacion": {
+      "factor_m_por_pt": 0.05291666666666667,
+      "origen_pdf_izquierdo_pt": [
+        92.95999999999998,
+        770.32
+      ],
+      "x": "(u − 92,96) × 0,05291666666666667",
+      "y": "(770,32 − v) × 0,05291666666666667"
+    },
+    "muros_vector_vs_mesh": {
+      "area_vector_m2": 23.709146130000047,
+      "area_mesh_m2": 23.718258745066123,
+      "diferencia_simetrica_m2": 0.016474899687658893,
+      "hausdorff_m": 0.0052001907547432075,
+      "alcance": "Paños base con seqno del PDF; excluye dinteles/antepechos añadidos por Z. Sin criterio APTO."
+    },
+    "parcela": {
+      "area_mesh_m2": 635.7385935159779,
+      "area_vector_m2": 635.7386075525001,
+      "hausdorff_m": 1.3683527010147275e-06
+    },
+    "piscina": {
+      "area_mesh_m2": 17.499998331069946,
+      "area_vector_m2": 17.507545629999992,
+      "hausdorff_m": 0.003800003818819352,
+      "criterio": "Cotas directas 3,50×5,00; residual vectorial registrado, sin profundidad ni nivel de agua definido."
+    }
+  },
+  "niveles": [
+    {
+      "elemento": "Suelo vivienda",
+      "z_modelo_m": 0.0,
+      "z_referencia_m": 0,
+      "diferencia_m": 0.0,
+      "origen": "Básico",
+      "fuente": "Datum PDF38/39",
+      "objetos": "Suelo_vivienda"
+    },
+    {
+      "elemento": "Jardín",
+      "z_modelo_m": -0.15000000596046448,
+      "z_referencia_m": -0.15,
+      "diferencia_m": -5.960464483090178e-09,
+      "origen": "Básico",
+      "fuente": "PDF38/39",
+      "objetos": "Jardin_cesped_01, Jardin_cesped_02"
+    },
+    {
+      "elemento": "Forjado inferior edificio existente",
+      "z_modelo_m": 3.3499999046325684,
+      "z_referencia_m": 3.35,
+      "diferencia_m": -9.536743172944284e-08,
+      "origen": "Básico",
+      "fuente": "PDF38/39",
+      "objetos": "Forjado_cubierta_3_35_3_70"
+    },
+    {
+      "elemento": "Forjado superior edificio existente",
+      "z_modelo_m": 3.700000047683716,
+      "z_referencia_m": 3.7,
+      "diferencia_m": 4.7683715642676816e-08,
+      "origen": "Básico",
+      "fuente": "PDF38/39",
+      "objetos": "Forjado_cubierta_3_35_3_70"
+    },
+    {
+      "elemento": "Cielorraso sólo vivienda existente",
+      "z_modelo_m": 3.200000047683716,
+      "z_referencia_m": 3.2,
+      "diferencia_m": 4.7683715642676816e-08,
+      "origen": "Calculada del básico",
+      "fuente": "Secciones1/3; no se aplica al trastero",
+      "objetos": "Cielorraso_vivienda_existente_3_20"
+    },
+    {
+      "elemento": "Peto bajo existente",
+      "z_modelo_m": 4.400000095367432,
+      "z_referencia_m": 4.4,
+      "diferencia_m": 9.536743128535363e-08,
+      "origen": "Básico",
+      "fuente": "PDF38/39",
+      "objetos": "Peto_bajo_N"
+    },
+    {
+      "elemento": "Portal existente coronación",
+      "z_modelo_m": 4.75,
+      "z_referencia_m": 4.75,
+      "diferencia_m": 0.0,
+      "origen": "Básico",
+      "fuente": "PDF38/39",
+      "objetos": "Peto_portal_W"
+    },
+    {
+      "elemento": "Peto alto existente",
+      "z_modelo_m": 5.099999904632568,
+      "z_referencia_m": 5.1,
+      "diferencia_m": -9.536743128535363e-08,
+      "origen": "Básico",
+      "fuente": "PDF38/39",
+      "objetos": "Peto_central_N"
+    },
+    {
+      "elemento": "Trastero forjado inferior",
+      "z_modelo_m": 3.3499999046325684,
+      "z_referencia_m": 3.35,
+      "diferencia_m": -9.536743172944284e-08,
+      "origen": "Usuario V2",
+      "fuente": "Confirmación expresa del usuario; forjado continuo",
+      "objetos": "Forjado_cubierta_3_35_3_70"
+    },
+    {
+      "elemento": "Trastero forjado superior",
+      "z_modelo_m": 3.700000047683716,
+      "z_referencia_m": 3.7,
+      "diferencia_m": 4.7683715642676816e-08,
+      "origen": "Usuario V2",
+      "fuente": "Confirmación expresa del usuario; forjado continuo",
+      "objetos": "Forjado_cubierta_3_35_3_70"
+    },
+    {
+      "elemento": "Trastero puerta norte dintel",
+      "z_modelo_m": 2.0299999713897705,
+      "z_referencia_m": 2.03,
+      "diferencia_m": -2.8610229296788248e-08,
+      "origen": "Usuario V2",
+      "fuente": "Confirmación expresa del usuario",
+      "objetos": "P_interior_trastero_norte_dintel"
+    },
+    {
+      "elemento": "Trastero portón frontal dintel",
+      "z_modelo_m": 2.5,
+      "z_referencia_m": 2.5,
+      "diferencia_m": 0.0,
+      "origen": "Usuario V2",
+      "fuente": "Confirmación expresa del usuario",
+      "objetos": "P_porton_trastero_sur_dintel"
+    },
+    {
+      "elemento": "Peto_trastero_W coronación",
+      "z_modelo_m": 4.400000095367432,
+      "z_referencia_m": 4.4,
+      "diferencia_m": 9.536743128535363e-08,
+      "origen": "Usuario V2",
+      "fuente": "Confirmación expresa del usuario",
+      "objetos": "Peto_trastero_W"
+    },
+    {
+      "elemento": "Peto_trastero_S coronación",
+      "z_modelo_m": 4.400000095367432,
+      "z_referencia_m": 4.4,
+      "diferencia_m": 9.536743128535363e-08,
+      "origen": "Usuario V2",
+      "fuente": "Confirmación expresa del usuario",
+      "objetos": "Peto_trastero_S"
+    },
+    {
+      "elemento": "Peto_trastero_E coronación",
+      "z_modelo_m": 4.400000095367432,
+      "z_referencia_m": 4.4,
+      "diferencia_m": 9.536743128535363e-08,
+      "origen": "Usuario V2",
+      "fuente": "Confirmación expresa del usuario",
+      "objetos": "Peto_trastero_E"
+    }
+  ],
+  "salidas": [
+    {
+      "archivo": "control/visual_v2/laminas/01_planta_superposicion_final.png",
+      "sha256": "76f67d983067e416dcc34a9ee3c38b1783923070db673c6ad0b59633c987a02f"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/alzado_puerta_principal.png",
+      "sha256": "c79e5509c0fbb504df0293457bde7f3c9ff5d36e6d6c5fd08342187da1f6e3fa"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/alzado_lateral_porche.png",
+      "sha256": "a2084d25748cccc355b7ca299363d40d724ca8672265ff3748f45bca0612a3e4"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/alzado_vial_publico.png",
+      "sha256": "73c40c1e45974e1aebe744f58a871acbd0c4d59ec4419b078d530c6cccc2fbfa"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/alzado_trasero.png",
+      "sha256": "425476ec41cb03a1b8b84c89b0d8addb985003f6a3d23661fd91bfd1677b942d"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/secciones_niveles_fuentes_v2.png",
+      "sha256": "5970ad3e7caca1fbc7bb94d0b9e58864f88023d3ba9d3a5f20efbbdbab7aa7f7"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/tabla_geometria_visual_v2.csv",
+      "sha256": "d02bc2d02ae29a3ce2566c5a479ec642634119f317292ed227f4c78cf07a53b1"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/tabla_niveles_fuentes_v2.csv",
+      "sha256": "61dd776358dbaa1eb777814f1e8d733cd84dbdc4c0a11c656169f1d92f2a0128"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/informe_visual_v2.pdf",
+      "sha256": "56037803d67a744874952219144af2ac52db78e3ce66a7a598e40a7fa4f2bb7f"
+    }
+  ],
+  "secciones": "Se comparan cotas medidas con las secciones originales. No se inventan trazas de corte nuevas.",
+  "limites": [
+    "PDF final sin Z propias; trastero Z confirmado usuario",
+    "Piscina sin profundidad, contrahuellas ni nivel real de agua",
+    "Portón sin mecanismo/despiece definido",
+    "No se define cielorraso del trastero",
+    "Diferencia paño alto planta/trasero/sección3 del básico"
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "elemento": "Trastero interior",
+    "cota_directa_m": [
+      7.15,
+      3.94
+    ],
+    "anclas": "Oeste interior X3.2512; norte interior Y12.0777",
+    "max_desplazamiento_m": 0.00335
+  },
+  {
+    "elemento": "Trastero frente",
+    "cota_directa_m": 4.19,
+    "espesor_directo_m": 0.25,
+    "max_desplazamiento_m": 0.001
+  },
+  {
+    "elemento": "Puerta norte trastero, hueco bruto",
+    "cota_directa_m": 0.96,
+    "ancla": "Jamba oeste X7.3025",
+    "max_desplazamiento_m": 0.0052
+  },
+  {
+    "elemento": "Piscina",
+    "cota_directa_m": [
+      3.5,
+      5.0
+    ],
+    "anclas": "Esquina NO X11.7094/Y10.8585",
+    "max_desplazamiento_m": 0.0038
+  }
+]

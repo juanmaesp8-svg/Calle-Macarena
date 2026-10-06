@@ -1,0 +1,183 @@
+[
+  {
+    "nombre": "sofa",
+    "size_xy_solicitado": [
+      2.7,
+      0.89
+    ],
+    "size_xy_mesh_evaluado": [
+      2.700000762939453,
+      0.8900012969970703
+    ],
+    "centro_xy_solicitado": [
+      12.3,
+      17.1
+    ],
+    "centro_xy_mesh_evaluado": [
+      12.300000190734863,
+      17.100001335144043
+    ],
+    "z_minmax": [
+      0.0,
+      0.861788272857666
+    ],
+    "caras_evaluadas": 20848,
+    "objetos": 29
+  },
+  {
+    "nombre": "butaca",
+    "size_xy_solicitado": [
+      0.762,
+      0.6604
+    ],
+    "size_xy_mesh_evaluado": [
+      0.7620000839233398,
+      0.6603999137878418
+    ],
+    "centro_xy_solicitado": [
+      4.4,
+      5.5
+    ],
+    "centro_xy_mesh_evaluado": [
+      4.400000095367432,
+      5.499999761581421
+    ],
+    "z_minmax": [
+      0.0,
+      0.8610000014305115
+    ],
+    "caras_evaluadas": 10468,
+    "objetos": 17
+  },
+  {
+    "nombre": "ottoman",
+    "size_xy_solicitado": [
+      0.762,
+      0.66675
+    ],
+    "size_xy_mesh_evaluado": [
+      0.7620000839233398,
+      0.6667499542236328
+    ],
+    "centro_xy_solicitado": [
+      6.6,
+      7.7
+    ],
+    "centro_xy_mesh_evaluado": [
+      6.599999904632568,
+      7.699999809265137
+    ],
+    "z_minmax": [
+      0.0,
+      0.5460000038146973
+    ],
+    "caras_evaluadas": 3548,
+    "objetos": 9
+  },
+  {
+    "nombre": "cama",
+    "size_xy_solicitado": [
+      1.65,
+      2.05
+    ],
+    "size_xy_mesh_evaluado": [
+      1.6499996185302734,
+      2.0500001907348633
+    ],
+    "centro_xy_solicitado": [
+      9.9,
+      11.1
+    ],
+    "centro_xy_mesh_evaluado": [
+      9.899999618530273,
+      11.100000858306885
+    ],
+    "z_minmax": [
+      0.0,
+      1.1119999885559082
+    ],
+    "caras_evaluadas": 12106,
+    "objetos": 16
+  },
+  {
+    "nombre": "silla",
+    "size_xy_solicitado": [
+      0.254,
+      0.38735
+    ],
+    "size_xy_mesh_evaluado": [
+      0.2540000081062317,
+      0.38735008239746094
+    ],
+    "centro_xy_solicitado": [
+      1.1,
+      2.2
+    ],
+    "centro_xy_mesh_evaluado": [
+      1.0999999940395355,
+      2.200000047683716
+    ],
+    "z_minmax": [
+      0.0,
+      0.8095338940620422
+    ],
+    "caras_evaluadas": 4794,
+    "objetos": 20
+  },
+  {
+    "nombre": "mesa",
+    "size_xy_solicitado": [
+      0.99695,
+      1.8034
+    ],
+    "size_xy_mesh_evaluado": [
+      0.9969501495361328,
+      1.8034000396728516
+    ],
+    "centro_xy_solicitado": [
+      3.3,
+      4.4
+    ],
+    "centro_xy_mesh_evaluado": [
+      3.299999952316284,
+      4.400000095367432
+    ],
+    "z_minmax": [
+      0.0,
+      0.75
+    ],
+    "caras_evaluadas": 830,
+    "objetos": 12
+  },
+  {
+    "nombre": "comedor",
+    "size_xy_solicitado": [
+      3.4,
+      2.8
+    ],
+    "size_xy_mesh_evaluado": [
+      3.3999998569488525,
+      2.8000001907348633
+    ],
+    "centro_xy_solicitado": [
+      5.5,
+      6.6
+    ],
+    "centro_xy_mesh_evaluado": [
+      5.4999998807907104,
+      6.599999904632568
+    ],
+    "z_minmax": [
+      0.0,
+      0.8095338940620422
+    ],
+    "caras_evaluadas": 29594,
+    "objetos": 127
+  },
+  {
+    "nombre": "sofa_L",
+    "caras_evaluadas": 17564,
+    "objetos": 33,
+    "vertices_fuera_huella": 0
+  }
+]

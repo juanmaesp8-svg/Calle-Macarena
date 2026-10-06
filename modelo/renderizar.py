@@ -16,7 +16,7 @@ args=parser.parse_args(sys.argv[sys.argv.index('--')+1:])
 scene=bpy.context.scene
 if not args.qa:
     result=json.loads((ROOT/'control/control_resultado.json').read_text())
-    if not result['apto_para_renders']:raise RuntimeError('Control geométrico no superado')
+    if not result['apto_para_renders'] or result.get('version')!=2:raise RuntimeError('Control geométrico V2 no superado')
 output=ROOT/('control/ortograficas' if args.qa else 'previsualizaciones' if args.preview else 'renders')
 output.mkdir(parents=True,exist_ok=True)
 manifest_path=output/'registro_renders.json'
@@ -36,10 +36,10 @@ for ident in args.ids.split(','):
     scene.cycles.use_denoising=False;scene.cycles.device='CPU'
     scene.render.threads_mode='FIXED';scene.render.threads=5
     scene.cycles.samples=args.samples;scene.cycles.adaptive_min_samples=16
-    scene.cycles.adaptive_threshold=.025 if not args.preview else .05
-    scene.cycles.max_bounces=10;scene.cycles.diffuse_bounces=4;scene.cycles.glossy_bounces=4
+    scene.cycles.adaptive_threshold=.008 if not args.preview else .025
+    scene.cycles.max_bounces=14;scene.cycles.diffuse_bounces=5;scene.cycles.glossy_bounces=6
     scene.cycles.caustics_reflective=False;scene.cycles.caustics_refractive=False
-    scene.cycles.transmission_bounces=8
+    scene.cycles.transmission_bounces=12
     scene.view_layers[0].cycles.denoising_store_passes=True
     scene.render.use_persistent_data=True
     scene.render.resolution_x=args.width;scene.render.resolution_y=round(args.width*2/3)
@@ -47,7 +47,7 @@ for ident in args.ids.split(','):
         x,y=camera['resolucion_px'];scene.render.resolution_x=x;scene.render.resolution_y=y
         camera.data.sensor_fit='HORIZONTAL'
         # Exclusión de entorno sólo en la sesión analítica: el archivo principal no cambia.
-        visible={'Vivienda','Cubierta','Porches','Pergola','Carpinterias'}
+        visible={'Vivienda','Trastero','Cubierta','Porches','Carpinterias'}
         if ident=='QA00':visible|={'Parcela','Piscina','Pavimentos','Cerramiento_exterior','Aparcamiento','Jardin'}
         for ob in scene.objects:
             if ob.type=='MESH' and not any(c.name in visible for c in ob.users_collection):ob.hide_render=True

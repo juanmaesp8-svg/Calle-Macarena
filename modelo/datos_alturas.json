@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "estado": "Geometría derivada del PDF para modelo reproducible; no levantamiento ni proyecto de ejecución. Se procede tras instrucción de continuar utilizando únicamente el PDF, con discrepancias documentadas.",
+  "version": 2,
+  "estado": "Z vivienda original y Z trastero confirmadas por usuario",
   "unidades": "metros, escala1:1",
   "origen_pdf_pt": [
     205.64,
@@ -44,13 +44,13 @@
       "tipo_documental_propuesto": "V4",
       "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
       "bbox_pdf_pt": [
-        276.56,
+        163.76,
         122.44,
-        295.4,
+        182.72,
         129.04
       ],
       "bbox_xy_m": [
-        3.75285,
+        3.7465,
         33.9344,
         4.7498,
         34.28365
@@ -65,13 +65,13 @@
           34.109025
         ]
       ],
-      "ancho_grafico_m": 0.99695,
+      "ancho_grafico_m": 1.0033,
       "ancho_documental_m": 1.0,
       "z_antepecho_m": 1.0,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
+      "fuente": "Planta final PDF1, gap vectorial entre muros",
       "alto_modelado_m": 1.5,
-      "ancho_modelado_m": 0.99695,
+      "ancho_modelado_m": 1.0033,
       "alto_memoria_m": 1.5,
       "bbox_alzado_pdf_pt": [
         633.2,
@@ -93,15 +93,15 @@
       "tipo_documental_propuesto": "V4",
       "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
       "bbox_pdf_pt": [
-        262.4,
+        149.6,
         226.6,
-        269.0,
+        156.2,
         245.44
       ],
       "bbox_xy_m": [
-        3.00355,
+        2.9972,
         27.7749,
-        3.3528,
+        3.34645,
         28.77185
       ],
       "eje_extremos_xy_m": [
@@ -118,7 +118,7 @@
       "ancho_documental_m": 1.0,
       "z_antepecho_m": 0.9,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
+      "fuente": "Planta final PDF1, gap vectorial entre muros",
       "alto_modelado_m": 1.6,
       "ancho_modelado_m": 0.99695,
       "alto_memoria_m": 1.5,
@@ -143,15 +143,15 @@
       "tipo_documental_propuesto": "V2",
       "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
       "bbox_pdf_pt": [
-        262.4,
+        149.6,
         285.16,
-        269.0,
+        156.2,
         300.28
       ],
       "bbox_xy_m": [
-        3.00355,
+        2.9972,
         24.87295,
-        3.3528,
+        3.34645,
         25.67305
       ],
       "eje_extremos_xy_m": [
@@ -168,7 +168,7 @@
       "ancho_documental_m": 0.8,
       "z_antepecho_m": 1.0,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
+      "fuente": "Planta final PDF1, gap vectorial entre muros",
       "alto_modelado_m": 1.5,
       "ancho_modelado_m": 0.8001,
       "alto_memoria_m": 1.5,
@@ -192,15 +192,15 @@
       "tipo_documental_propuesto": "V3",
       "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
       "bbox_pdf_pt": [
-        262.4,
+        149.6,
         337.6,
-        269.0,
+        156.2,
         348.88
       ],
       "bbox_xy_m": [
-        3.00355,
+        2.9972,
         22.3012,
-        3.3528,
+        3.34645,
         22.8981
       ],
       "eje_extremos_xy_m": [
@@ -217,7 +217,7 @@
       "ancho_documental_m": 0.6,
       "z_antepecho_m": 1.0,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
+      "fuente": "Planta final PDF1, gap vectorial entre muros",
       "alto_modelado_m": 1.5,
       "ancho_modelado_m": 0.5969,
       "alto_memoria_m": 1.5,
@@ -241,15 +241,15 @@
       "tipo_documental_propuesto": null,
       "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
       "bbox_pdf_pt": [
-        262.4,
+        149.6,
         359.08,
-        269.0,
+        156.2,
         377.32
       ],
       "bbox_xy_m": [
-        3.00355,
+        2.9972,
         20.79625,
-        3.3528,
+        3.34645,
         21.76145
       ],
       "eje_extremos_xy_m": [
@@ -266,7 +266,7 @@
       "ancho_documental_m": null,
       "z_antepecho_m": 0.0,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
+      "fuente": "Planta final PDF1, gap vectorial entre muros",
       "alto_modelado_m": 2.5,
       "ancho_modelado_m": 0.9652,
       "alto_memoria_m": null,
@@ -291,15 +291,15 @@
       "tipo_documental_propuesto": "V2",
       "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
       "bbox_pdf_pt": [
-        262.4,
+        149.6,
         386.2,
-        269.0,
+        156.2,
         401.32
       ],
       "bbox_xy_m": [
-        3.00355,
+        2.9972,
         19.52625,
-        3.3528,
+        3.34645,
         20.32635
       ],
       "eje_extremos_xy_m": [
@@ -316,7 +316,7 @@
       "ancho_documental_m": 0.8,
       "z_antepecho_m": 1.0,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
+      "fuente": "Planta final PDF1, gap vectorial entre muros",
       "alto_modelado_m": 1.5,
       "ancho_modelado_m": 0.8001,
       "alto_memoria_m": 1.5,
@@ -340,15 +340,15 @@
       "tipo_documental_propuesto": null,
       "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
       "bbox_pdf_pt": [
-        262.4,
+        149.6,
         425.56,
-        269.0,
+        156.2,
         450.88
       ],
       "bbox_xy_m": [
-        3.00355,
+        2.9972,
         16.9037,
-        3.3528,
+        3.34645,
         18.24355
       ],
       "eje_extremos_xy_m": [
@@ -365,7 +365,7 @@
       "ancho_documental_m": null,
       "z_antepecho_m": 0.0,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
+      "fuente": "Planta final PDF1, gap vectorial entre muros",
       "alto_modelado_m": 2.5,
       "ancho_modelado_m": 1.33985,
       "alto_memoria_m": null,
@@ -389,15 +389,15 @@
       "tipo_documental_propuesto": "V1",
       "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
       "bbox_pdf_pt": [
-        262.4,
+        149.6,
         478.84,
-        269.0,
+        156.2,
         516.64
       ],
       "bbox_xy_m": [
-        3.00355,
+        2.9972,
         13.4239,
-        3.3528,
+        3.34645,
         15.42415
       ],
       "eje_extremos_xy_m": [
@@ -414,7 +414,7 @@
       "ancho_documental_m": 2.0,
       "z_antepecho_m": 0.9,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
+      "fuente": "Planta final PDF1, gap vectorial entre muros",
       "alto_modelado_m": 1.6,
       "ancho_modelado_m": 2.00025,
       "alto_memoria_m": 1.6,
@@ -438,9 +438,9 @@
       "tipo_documental_propuesto": "V1",
       "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
       "bbox_pdf_pt": [
-        446.6,
+        333.92,
         141.04,
-        453.2,
+        340.52,
         178.84
       ],
       "bbox_xy_m": [
@@ -463,7 +463,7 @@
       "ancho_documental_m": 2.0,
       "z_antepecho_m": 0.9,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
+      "fuente": "Planta final PDF1, gap vectorial entre muros",
       "alto_modelado_m": 1.6,
       "ancho_modelado_m": 2.00025,
       "alto_memoria_m": 1.6,
@@ -487,15 +487,15 @@
       "tipo_documental_propuesto": "V5",
       "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
       "bbox_pdf_pt": [
-        412.64,
+        299.84,
         190.72,
-        440.96,
+        328.16,
         197.32
       ],
       "bbox_xy_m": [
-        10.95375,
+        10.9474,
         30.32125,
-        12.45235,
+        12.446,
         30.6705
       ],
       "eje_extremos_xy_m": [
@@ -512,7 +512,7 @@
       "ancho_documental_m": 1.5,
       "z_antepecho_m": 0.0,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
+      "fuente": "Planta final PDF1, gap vectorial entre muros",
       "alto_modelado_m": 2.5,
       "ancho_modelado_m": 1.4986,
       "alto_memoria_m": 2.5,
@@ -537,9 +537,9 @@
       "tipo_documental_propuesto": "V5",
       "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
       "bbox_pdf_pt": [
-        400.28,
+        287.6,
         211.6,
-        406.88,
+        294.2,
         239.92
       ],
       "bbox_xy_m": [
@@ -562,7 +562,7 @@
       "ancho_documental_m": 1.5,
       "z_antepecho_m": 0.0,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
+      "fuente": "Planta final PDF1, gap vectorial entre muros",
       "alto_modelado_m": 2.5,
       "ancho_modelado_m": 1.4986,
       "alto_memoria_m": 2.5,
@@ -586,9 +586,9 @@
       "tipo_documental_propuesto": "V5",
       "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
       "bbox_pdf_pt": [
-        400.28,
+        287.6,
         293.08,
-        406.88,
+        294.2,
         321.4
       ],
       "bbox_xy_m": [
@@ -611,7 +611,7 @@
       "ancho_documental_m": 1.5,
       "z_antepecho_m": 0.0,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
+      "fuente": "Planta final PDF1, gap vectorial entre muros",
       "alto_modelado_m": 2.5,
       "ancho_modelado_m": 1.4986,
       "alto_memoria_m": 2.5,
@@ -635,9 +635,9 @@
       "tipo_documental_propuesto": "V6",
       "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
       "bbox_pdf_pt": [
-        400.28,
+        287.6,
         348.88,
-        406.88,
+        294.2,
         427.0
       ],
       "bbox_xy_m": [
@@ -660,7 +660,7 @@
       "ancho_documental_m": 4.13,
       "z_antepecho_m": 0.0,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
+      "fuente": "Planta final PDF1, gap vectorial entre muros",
       "alto_modelado_m": 2.5,
       "ancho_modelado_m": 4.13385,
       "alto_memoria_m": 2.5,
@@ -684,9 +684,9 @@
       "tipo_documental_propuesto": "V7",
       "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
       "bbox_pdf_pt": [
-        400.28,
+        287.6,
         433.6,
-        406.88,
+        294.2,
         535.48
       ],
       "bbox_xy_m": [
@@ -709,7 +709,7 @@
       "ancho_documental_m": 5.39,
       "z_antepecho_m": 0.0,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
+      "fuente": "Planta final PDF1, gap vectorial entre muros",
       "alto_modelado_m": 2.5,
       "ancho_modelado_m": 5.39115,
       "alto_memoria_m": 2.05,
@@ -728,54 +728,28 @@
       "discrepancia": "Modelo alto2,50 conforme alzado/sec1 y superficie13,47m²; memoriaV7 alto2,05."
     },
     {
-      "nombre": "P_instalaciones_sur",
-      "estancia": "Cuarto instalaciones",
+      "nombre": "P_porton_trastero_sur",
+      "estancia": "Trastero",
       "fachada_local": "S",
-      "tipo_documental_propuesto": null,
-      "tipo_criterio": "coincidencia ancho y ubicación; confirmar con alzado y memoria",
-      "bbox_pdf_pt": [
-        282.08,
-        616.6,
-        307.4,
-        621.28
-      ],
+      "tipo_documental_propuesto": "Porton",
       "bbox_xy_m": [
-        4.04495,
-        7.8867,
-        5.3848,
-        8.13435
+        4.826,
+        7.8877,
+        8.8265,
+        8.1377
       ],
-      "eje_extremos_xy_m": [
-        [
-          4.04495,
-          8.010525
-        ],
-        [
-          5.3848,
-          8.010525
-        ]
-      ],
-      "ancho_grafico_m": 1.33985,
-      "ancho_documental_m": null,
-      "z_antepecho_m": 0.0,
+      "z_antepecho_m": 0,
       "z_dintel_m": 2.5,
-      "fuente": "Página35, espacios entre rellenos azules000SOBREADO; sin cotas escritas de posiciones.",
-      "alto_modelado_m": 2.5,
-      "ancho_modelado_m": 1.33985,
-      "alto_memoria_m": null,
-      "bbox_alzado_pdf_pt": [
-        461.72,
-        306.64,
-        491.84,
-        353.92
-      ],
-      "alzado_fuente": "vial",
       "normal_exterior_xy": [
         0,
         -1
       ],
-      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
-      "discrepancia": "Planta apertura1,33985m; alzado1,59385m hasta esquina exterior, incorporando~0,25m de muro. Se conserva plantaXY."
+      "fuente": "Planta final PDF1, hueco frontal vectorial4.0005m",
+      "fuente_z": "Usuario confirma portón alto2.50m",
+      "ancho_modelado_m": 4.0005,
+      "alto_modelado_m": 2.5,
+      "ancho_documental_m": null,
+      "discrepancia": "Mecanismo y despiece no especificados; hoja opaca neutra, sin carriles ni sistema supuesto."
     }
   ],
   "cubierta": {
@@ -1080,48 +1054,30 @@
         "regla": "Recortar por centralalto; parte que vuela0,80m es abierta por debajo, no recinto cerrado hasta suelo."
       },
       {
-        "nombre": "Pano_instalaciones_bajo",
+        "nombre": "Pano_trastero_V2",
         "coronacion_m": 4.4,
         "base_peto_m": 3.7,
-        "contorno_visible": {
-          "vertices_pdf_pt": [
-            [
-              262.4,
-              557.2
-            ],
-            [
-              312.08,
-              557.2
-            ],
-            [
-              312.08,
-              621.28
-            ],
-            [
-              262.4,
-              621.28
-            ]
-          ],
+        "exterior": {
           "vertices_xy_m": [
             [
-              3.00355,
-              11.2776
+              2.9972,
+              12.42695
             ],
             [
-              5.63245,
-              11.2776
+              10.64895,
+              12.42695
             ],
             [
-              5.63245,
-              7.8867
+              10.64895,
+              7.8877
             ],
             [
-              3.00355,
-              7.8867
+              2.9972,
+              7.8877
             ]
           ]
         },
-        "regla": "Contorno visible empieza y557,20 por oclusión del portal; recinto instalaciones empieza y542,08."
+        "regla": "XYplanta final; Zusuario; respetar intersección con portal y cuerpo alto existentes"
       }
     ],
     "petos_tramos": [
@@ -1270,60 +1226,6 @@
         "fuente": "Líneas dobles exteriores/interiores de PDF37, capa000SECCIÓN, emparejadas conZ de PDF38/39."
       },
       {
-        "nombre": "Peto_bajo_W_instalaciones",
-        "bbox_pdf_pt": [
-          262.4,
-          557.2,
-          265.16,
-          621.28
-        ],
-        "bbox_xy_m": [
-          3.00355,
-          7.8867,
-          3.1496,
-          11.2776
-        ],
-        "z_base_m": 3.7,
-        "z_coronacion_m": 4.4,
-        "fuente": "Líneas dobles exteriores/interiores de PDF37, capa000SECCIÓN, emparejadas conZ de PDF38/39."
-      },
-      {
-        "nombre": "Peto_bajo_S_instalaciones",
-        "bbox_pdf_pt": [
-          265.16,
-          618.4,
-          309.32,
-          621.28
-        ],
-        "bbox_xy_m": [
-          3.1496,
-          7.8867,
-          5.4864,
-          8.0391
-        ],
-        "z_base_m": 3.7,
-        "z_coronacion_m": 4.4,
-        "fuente": "Líneas dobles exteriores/interiores de PDF37, capa000SECCIÓN, emparejadas conZ de PDF38/39."
-      },
-      {
-        "nombre": "Peto_bajo_E_instalaciones",
-        "bbox_pdf_pt": [
-          309.32,
-          557.2,
-          312.08,
-          621.28
-        ],
-        "bbox_xy_m": [
-          5.4864,
-          7.8867,
-          5.63245,
-          11.2776
-        ],
-        "z_base_m": 3.7,
-        "z_coronacion_m": 4.4,
-        "fuente": "Líneas dobles exteriores/interiores de PDF37, capa000SECCIÓN, emparejadas conZ de PDF38/39."
-      },
-      {
         "nombre": "Peto_portal_W",
         "bbox_pdf_pt": [
           247.28,
@@ -1394,6 +1296,42 @@
         "z_base_m": 3.35,
         "z_coronacion_m": 4.75,
         "fuente": "Líneas dobles exteriores/interiores de PDF37, capa000SECCIÓN, emparejadas conZ de PDF38/39."
+      },
+      {
+        "nombre": "Peto_trastero_W",
+        "bbox_xy_m": [
+          2.9972,
+          7.8877,
+          3.14325,
+          11.2776
+        ],
+        "z_base_m": 3.7,
+        "z_coronacion_m": 4.4,
+        "fuente": "XYplanta final, espesorpeto existentePDF37; altura4.40confirmadausuario"
+      },
+      {
+        "nombre": "Peto_trastero_S",
+        "bbox_xy_m": [
+          3.14325,
+          7.8877,
+          10.5029,
+          8.0391
+        ],
+        "z_base_m": 3.7,
+        "z_coronacion_m": 4.4,
+        "fuente": "XYplanta final, espesorpeto existentePDF37; altura4.40confirmadausuario"
+      },
+      {
+        "nombre": "Peto_trastero_E",
+        "bbox_xy_m": [
+          10.5029,
+          8.0391,
+          10.64895,
+          12.0777
+        ],
+        "z_base_m": 3.7,
+        "z_coronacion_m": 4.4,
+        "fuente": "XYplanta final, espesorpeto existentePDF37; altura4.40confirmadausuario"
       }
     ],
     "acabado_grava": {
@@ -1431,16 +1369,7 @@
     }
   },
   "pergola": {
-    "anchura_completa_m": 5.0165,
-    "largo_completo_planta_m": 4.191,
-    "luz_transversal_planta_m": 4.4196,
-    "luz_transversal_alzado_m": 4.41325,
-    "luz_longitudinal_planta_m": 3.94335,
-    "luz_longitudinal_seccion_m": 3.937,
-    "cara_inferior_vigas_m": 2.5,
-    "cara_superior_vigas_m": 2.85,
-    "estado": "Anchura completa y luz reconciliadas; diferencias≤6,35mm en dibujo.",
-    "evidencia": "Planta35: x312,08–406,88; apoyo derecho395,60–406,88. AlzadoVIAL: x491,84–586,64; apoyo575,24–586,64. Largo y542,08–621,28; cara interior apoyo616,60."
+    "estado": "RETIRADA por planta final; sin geometría"
   },
   "cerramiento": {
     "z_base_referencia_jardin_m": -0.15,
@@ -1578,5 +1507,28 @@
       "alternativa_pdf": "Sólo el tendedero dibuja espesor real x205,64–208,52pt; otroslinderos carecen de doblecara",
       "criterio": "Extrapolar detalle de tendedero al cerramiento; deducción explícita, sin centrar valla ni invadir fuera del polígono."
     }
-  ]
+  ],
+  "revision": "V2",
+  "trastero_confirmaciones_usuario": {
+    "forjado_trastero_inferior_m": 3.35,
+    "forjado_trastero_superior_m": 3.7,
+    "coronacion_peto_trastero_m": 4.4,
+    "puerta_interior_trastero_alto_m": 2.03,
+    "porton_frontal_trastero_alto_m": 2.5
+  },
+  "puerta_interior_trastero": {
+    "nombre": "P_interior_trastero_norte",
+    "bbox_xy_m": [
+      7.3025,
+      12.0777,
+      8.2625,
+      12.42695
+    ],
+    "alto_m": 2.03,
+    "ancho_hueco_nominal_m": 0.96,
+    "ancho_hoja_grafico_m": 0.81915,
+    "apertura": "Hacia trastero; bisagra oeste",
+    "fuente_xy": "Planta final PDF1, símbolo carpintería",
+    "fuente_z": "Confirmación usuario2.03m"
+  }
 }

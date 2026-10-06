@@ -15,6 +15,7 @@ H=json.loads((ROOT/'datos_alturas.json').read_text())
 def poly(v): return Polygon(v)
 parcela=poly(P['parcela']['points_xy_m'])
 casa=poly(P['huella_vivienda']['points_xy_m'])
+trastero=poly(P['trastero']['contorno_exterior']['poligono_xy_m']) if P.get('version')==2 else Polygon()
 piscina=poly(P['piscina']['poligono_xy_m'])
 grasspolys=[poly(g['poligono_xy_m']) for g in P['cesped_patches']]
 for g in P.get('cesped_bajo_mobiliario_deducido',[]):
@@ -70,6 +71,8 @@ def serialize(geometry):
 data={
     'parcela':serialize(parcela),
     'suelo_vivienda':serialize(casa),
+    'suelo_vivienda_existente':serialize(casa.difference(trastero)),
+    'trastero':serialize(trastero),
     'cesped':serialize(cesped),
     'pavimentos':serialize(pavimento),
     'cubierta':serialize(cubierta),

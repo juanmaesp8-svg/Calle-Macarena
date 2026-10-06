@@ -1,271 +1,259 @@
 {
   "valido": true,
   "unidades": "Metros conforme especificación glTF2.0; XYZ convertido de nuevo a Z-arriba mediante importadorBlender",
-  "objetos_verificados": 317,
+  "objetos_verificados": 309,
   "error_max_m": 0.0,
   "controles": [
     {
-      "objeto": "muros_001_01",
+      "objeto": "muros_v2_001_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_002_01",
+      "objeto": "muros_v2_002_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_003_01",
+      "objeto": "muros_v2_003_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_004_01",
+      "objeto": "muros_v2_004_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_005_01",
+      "objeto": "muros_v2_005_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_006_01",
+      "objeto": "muros_v2_006_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_007_01",
+      "objeto": "muros_v2_007_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_008_01",
+      "objeto": "muros_v2_008_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_009_01",
+      "objeto": "muros_v2_009_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_010_01",
+      "objeto": "muros_v2_010_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_011_01",
+      "objeto": "muros_v2_011_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_012_01",
+      "objeto": "muros_v2_012_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_013_01",
+      "objeto": "muros_v2_013_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_014_01",
+      "objeto": "muros_v2_014_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_015_01",
+      "objeto": "muros_v2_015_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_016_01",
+      "objeto": "muros_v2_016_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_017_01",
+      "objeto": "muros_v2_017_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_018_01",
+      "objeto": "muros_v2_018_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_019_01",
+      "objeto": "muros_v2_019_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_020_01",
+      "objeto": "muros_v2_020_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_021_01",
+      "objeto": "muros_v2_021_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_022_01",
+      "objeto": "muros_v2_022_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_023_01",
+      "objeto": "muros_v2_023_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_024_01",
+      "objeto": "muros_v2_024_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_025_01",
+      "objeto": "muros_v2_025_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_026_01",
+      "objeto": "muros_v2_026_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_027_01",
+      "objeto": "muros_v2_027_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_028_01",
+      "objeto": "muros_v2_028_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_029_01",
+      "objeto": "muros_v2_029_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_030_01",
+      "objeto": "muros_v2_030_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_031_01",
+      "objeto": "muros_v2_031_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_032_01",
+      "objeto": "muros_v2_032_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_033_01",
+      "objeto": "muros_v2_033_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_034_01",
+      "objeto": "muros_v2_034_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_035_01",
+      "objeto": "muros_v2_035_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_036_01",
+      "objeto": "muros_v2_036_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_037_01",
+      "objeto": "muros_v2_037_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_038_01",
+      "objeto": "muros_v2_038_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_039_01",
+      "objeto": "muros_v2_039_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_040_01",
+      "objeto": "muros_v2_040_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_041_01",
+      "objeto": "muros_v2_041_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_042_01",
+      "objeto": "muros_v2_042_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_043_01",
+      "objeto": "muros_v2_043_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_044_01",
+      "objeto": "muros_v2_044_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_045_01",
+      "objeto": "muros_v2_045_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_046_01",
+      "objeto": "muros_v2_046_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_047_01",
+      "objeto": "muros_v2_047_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_048_01",
+      "objeto": "muros_v2_048_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_049_01",
+      "objeto": "muros_v2_049_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_050_01",
+      "objeto": "muros_v2_050_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_051_01",
+      "objeto": "muros_v2_051_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_052_01",
+      "objeto": "muros_v2_052_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_053_01",
+      "objeto": "muros_v2_053_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_054_01",
+      "objeto": "muros_v2_054_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_055_01",
+      "objeto": "muros_v2_055_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_056_01",
+      "objeto": "muros_v2_056_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_057_01",
+      "objeto": "muros_v2_057_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_058_01",
+      "objeto": "muros_v2_058_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_059_01",
+      "objeto": "muros_v2_059_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_060_01",
+      "objeto": "muros_v2_060_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_061_01",
+      "objeto": "muros_v2_061_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_062_01",
+      "objeto": "muros_v2_062_01",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "muros_063_01",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "muros_064_01",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "muros_066_01",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "muros_067_01",
+      "objeto": "muros_v2_067_01",
       "error_bbox_max_m": 0.0
     },
     {
@@ -353,7 +341,35 @@
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "P_instalaciones_sur_dintel",
+      "objeto": "P_porton_trastero_sur_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_v2_063_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_v2_064_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_v2_065_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_v2_066_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_v2_068_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_v2_069_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_interior_trastero_norte_dintel",
       "error_bbox_max_m": 0.0
     },
     {
@@ -393,18 +409,6 @@
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "Peto_bajo_W_instalaciones",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "Peto_bajo_S_instalaciones",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "Peto_bajo_E_instalaciones",
-      "error_bbox_max_m": 0.0
-    },
-    {
       "objeto": "Peto_portal_W",
       "error_bbox_max_m": 0.0
     },
@@ -421,55 +425,19 @@
       "error_bbox_max_m": 0.0
     },
     {
+      "objeto": "Peto_trastero_W",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_trastero_S",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_trastero_E",
+      "error_bbox_max_m": 0.0
+    },
+    {
       "objeto": "Marquesina_terraza_sin_pilares",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "muros_065_01",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "pergola_viga_01",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "pergola_viga_02",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "pergola_viga_03",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "pergola_viga_04",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "pergola_viga_05",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "pergola_viga_06",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "pergola_viga_01_continuacion_bajo_vuelo",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "pergola_viga_02_continuacion_bajo_vuelo",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "pergola_viga_03_continuacion_bajo_vuelo",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "pergola_viga_04_continuacion_bajo_vuelo",
-      "error_bbox_max_m": 0.0
-    },
-    {
-      "objeto": "pergola_viga_05_continuacion_bajo_vuelo",
       "error_bbox_max_m": 0.0
     },
     {
@@ -1201,27 +1169,27 @@
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "P_instalaciones_sur_jamba1",
+      "objeto": "P_porton_trastero_sur_jamba1",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "P_instalaciones_sur_jamba2",
+      "objeto": "P_porton_trastero_sur_jamba2",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "P_instalaciones_sur_superior",
+      "objeto": "P_porton_trastero_sur_superior",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "P_instalaciones_sur_inferior",
+      "objeto": "P_porton_trastero_sur_inferior",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "P_instalaciones_sur_hoja",
+      "objeto": "P_porton_trastero_sur_hoja",
       "error_bbox_max_m": 0.0
     },
     {
-      "objeto": "P_instalaciones_sur_tirador",
+      "objeto": "P_interior_trastero_norte_hoja",
       "error_bbox_max_m": 0.0
     },
     {

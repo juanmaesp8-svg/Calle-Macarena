@@ -1,0 +1,279 @@
+{
+  "revision": "V2",
+  "valido": true,
+  "modelo_sha256": "3abdabddb1774219b7e444e629cec6b322f12fdb0ef49fe31b96fbffa631d44c",
+  "huecos": [
+    {
+      "nombre": "V_bano1_norte",
+      "ancho_nominal_m": 1.0,
+      "ancho_real_m": 1.0033001899719238,
+      "alto_real_m": 1.5,
+      "bbox_real_xyz_dintel": [
+        3.746500015258789,
+        33.93439865112305,
+        2.5,
+        4.749800205230713,
+        34.28364944458008,
+        3.3499999046325684
+      ],
+      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
+      "error_max_m": 1.3488769496916575e-06,
+      "valido": true
+    },
+    {
+      "nombre": "V_despacho_oeste",
+      "ancho_nominal_m": 1.0,
+      "ancho_real_m": 0.9969501495361328,
+      "alto_real_m": 1.600000023841858,
+      "bbox_real_xyz_dintel": [
+        2.9972000122070312,
+        27.774900436401367,
+        2.5,
+        3.346450090408325,
+        28.7718505859375,
+        3.3499999046325684
+      ],
+      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
+      "error_max_m": 5.859374994088284e-07,
+      "valido": true
+    },
+    {
+      "nombre": "V_bano2_oeste",
+      "ancho_nominal_m": 0.8,
+      "ancho_real_m": 0.8001003265380859,
+      "alto_real_m": 1.5,
+      "bbox_real_xyz_dintel": [
+        2.9972000122070312,
+        24.872949600219727,
+        2.5,
+        3.346450090408325,
+        25.673049926757812,
+        3.3499999046325684
+      ],
+      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
+      "error_max_m": 3.9978027288611884e-07,
+      "valido": true
+    },
+    {
+      "nombre": "V_lavadero_oeste",
+      "ancho_nominal_m": 0.6,
+      "ancho_real_m": 0.5968990325927734,
+      "alto_real_m": 1.5,
+      "bbox_real_xyz_dintel": [
+        2.9972000122070312,
+        22.30120086669922,
+        2.5,
+        3.346450090408325,
+        22.898099899291992,
+        3.3499999046325684
+      ],
+      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
+      "error_max_m": 8.666992172834398e-07,
+      "valido": true
+    },
+    {
+      "nombre": "P_lavadero_oeste",
+      "ancho_nominal_m": null,
+      "ancho_real_m": 0.9652004241943359,
+      "alto_real_m": 2.5,
+      "bbox_real_xyz_dintel": [
+        2.9972000122070312,
+        20.796249389648438,
+        2.5,
+        3.346450090408325,
+        21.761449813842773,
+        3.3499999046325684
+      ],
+      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
+      "error_max_m": 6.103515630684342e-07,
+      "valido": true
+    },
+    {
+      "nombre": "V_aseo_oeste",
+      "ancho_nominal_m": 0.8,
+      "ancho_real_m": 0.8000984191894531,
+      "alto_real_m": 1.5,
+      "bbox_real_xyz_dintel": [
+        2.9972000122070312,
+        19.5262508392334,
+        2.5,
+        3.346450090408325,
+        20.32634925842285,
+        3.3499999046325684
+      ],
+      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
+      "error_max_m": 8.392333974427402e-07,
+      "valido": true
+    },
+    {
+      "nombre": "P_principal_oeste",
+      "ancho_nominal_m": null,
+      "ancho_real_m": 1.3398494720458984,
+      "alto_real_m": 2.5,
+      "bbox_real_xyz_dintel": [
+        2.9972000122070312,
+        16.90369987487793,
+        2.5,
+        3.346450090408325,
+        18.243549346923828,
+        3.3499999046325684
+      ],
+      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
+      "error_max_m": 6.530761709200306e-07,
+      "valido": true
+    },
+    {
+      "nombre": "V_salon_oeste",
+      "ancho_nominal_m": 2.0,
+      "ancho_real_m": 2.000250816345215,
+      "alto_real_m": 1.600000023841858,
+      "bbox_real_xyz_dintel": [
+        2.9972000122070312,
+        13.42389965057373,
+        2.5,
+        3.346450090408325,
+        15.424150466918945,
+        3.3499999046325684
+      ],
+      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
+      "error_max_m": 4.669189461736778e-07,
+      "valido": true
+    },
+    {
+      "nombre": "V_dormitorio1_este",
+      "ancho_nominal_m": 2.0,
+      "ancho_real_m": 2.0002498626708984,
+      "alto_real_m": 1.600000023841858,
+      "bbox_real_xyz_dintel": [
+        12.750800132751465,
+        31.299150466918945,
+        2.5,
+        13.10004997253418,
+        33.299400329589844,
+        3.3499999046325684
+      ],
+      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
+      "error_max_m": 4.6691894439732096e-07,
+      "valido": true
+    },
+    {
+      "nombre": "V_dormitorio1_sur",
+      "ancho_nominal_m": 1.5,
+      "ancho_real_m": 1.4986000061035156,
+      "alto_real_m": 2.5,
+      "bbox_real_xyz_dintel": [
+        10.947400093078613,
+        30.321250915527344,
+        2.5,
+        12.446000099182129,
+        30.670499801635742,
+        3.3499999046325684
+      ],
+      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
+      "error_max_m": 9.155273446026513e-07,
+      "valido": true
+    },
+    {
+      "nombre": "V_dormitorio2_este",
+      "ancho_nominal_m": 1.5,
+      "ancho_real_m": 1.4986000061035156,
+      "alto_real_m": 2.5,
+      "bbox_real_xyz_dintel": [
+        10.299699783325195,
+        28.066999435424805,
+        2.5,
+        10.64894962310791,
+        29.56559944152832,
+        3.3499999046325684
+      ],
+      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
+      "error_max_m": 5.645751954830303e-07,
+      "valido": true
+    },
+    {
+      "nombre": "V_dormitorio3_este",
+      "ancho_nominal_m": 1.5,
+      "ancho_real_m": 1.4986000061035156,
+      "alto_real_m": 2.5,
+      "bbox_real_xyz_dintel": [
+        10.299699783325195,
+        23.75535011291504,
+        2.5,
+        10.64894962310791,
+        25.253950119018555,
+        3.3499999046325684
+      ],
+      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
+      "error_max_m": 3.7689208909341687e-07,
+      "valido": true
+    },
+    {
+      "nombre": "V_cocina_este",
+      "ancho_nominal_m": 4.13,
+      "ancho_real_m": 4.13385009765625,
+      "alto_real_m": 2.5,
+      "bbox_real_xyz_dintel": [
+        10.299699783325195,
+        18.16735076904297,
+        2.5,
+        10.64894962310791,
+        22.30120086669922,
+        3.3499999046325684
+      ],
+      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
+      "error_max_m": 8.666992172834398e-07,
+      "valido": true
+    },
+    {
+      "nombre": "V_salon_este",
+      "ancho_nominal_m": 5.39,
+      "ancho_real_m": 5.391149520874023,
+      "alto_real_m": 2.5,
+      "bbox_real_xyz_dintel": [
+        10.299699783325195,
+        12.426950454711914,
+        2.5,
+        10.64894962310791,
+        17.818099975585938,
+        3.3499999046325684
+      ],
+      "fuente_z": "PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20.",
+      "error_max_m": 4.547119143438749e-07,
+      "valido": true
+    },
+    {
+      "nombre": "P_porton_trastero_sur",
+      "ancho_nominal_m": null,
+      "ancho_real_m": 4.000499725341797,
+      "alto_real_m": 2.5,
+      "bbox_real_xyz_dintel": [
+        4.826000213623047,
+        7.887700080871582,
+        2.5,
+        8.826499938964844,
+        8.137700080871582,
+        3.3499999046325684
+      ],
+      "fuente_z": "Confirmación usuario",
+      "error_max_m": 2.1362304725158765e-07,
+      "valido": true
+    },
+    {
+      "nombre": "P_interior_trastero_norte",
+      "ancho_nominal_m": 0.96,
+      "ancho_real_m": 0.9600000381469727,
+      "alto_real_m": 2.0299999713897705,
+      "bbox_real_xyz_dintel": [
+        7.302499771118164,
+        12.077699661254883,
+        2.0299999713897705,
+        8.262499809265137,
+        12.426950454711914,
+        3.3499999046325684
+      ],
+      "fuente_z": "Confirmación usuario",
+      "error_max_m": 4.547119143438749e-07,
+      "valido": true
+    }
+  ]
+}

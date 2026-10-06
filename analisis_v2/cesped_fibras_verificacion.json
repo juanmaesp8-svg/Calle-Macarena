@@ -1,0 +1,18 @@
+{
+  "apto": true,
+  "Blender": "4.3.2",
+  "sin_render": true,
+  "area_m2": 147.3877760981679,
+  "fibras": 294776,
+  "caras": 884328,
+  "vertices": 2358208,
+  "generacion_segundos": 5.398901128999569,
+  "altura_local_min_max_m": [
+    0.0,
+    0.026999952271580696
+  ],
+  "densidad_m2": 2000.0030382686818,
+  "vertices_comprobados_en_triangulos": 47624,
+  "max_error_float32_fuera_triangulo_m": 1.573695087971845e-06,
+  "material": "Jard\u00edn \u00b7 fibra corta de c\u00e9sped artificial"
+}

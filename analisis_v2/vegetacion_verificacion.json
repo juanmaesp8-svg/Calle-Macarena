@@ -1,0 +1,85 @@
+{
+  "apto": true,
+  "Blender": "4.3.2",
+  "sin_render": true,
+  "assets": [
+    {
+      "nombre": "Palmera_frente",
+      "raiz": [
+        17.149999618530273,
+        2.9000000953674316,
+        -0.15000000596046448
+      ],
+      "altura_local_m": 4.900000095367432,
+      "radio_max_m": 2.373478949163577,
+      "caras": 36614,
+      "vertices": 61786,
+      "generacion_segundos": 0.64297768599954
+    },
+    {
+      "nombre": "Palmera_jardin_lateral",
+      "raiz": [
+        15.220000267028809,
+        23.200000762939453,
+        -0.15000000596046448
+      ],
+      "altura_local_m": 4.25,
+      "radio_max_m": 2.064218846655997,
+      "caras": 36614,
+      "vertices": 61786,
+      "generacion_segundos": 0.6300094369998988
+    },
+    {
+      "nombre": "Olivo_trasero_derecho",
+      "raiz": [
+        14.720000267028809,
+        36.02000045776367,
+        -0.15000000596046448
+      ],
+      "altura_local_m": 4.150000095367432,
+      "radio_max_m": 1.850477463724229,
+      "caras": 115262,
+      "vertices": 224664,
+      "generacion_segundos": 2.398104551999495
+    },
+    {
+      "nombre": "Olivo_trasero_izquierdo",
+      "raiz": [
+        4.800000190734863,
+        36.02000045776367,
+        -0.15000000596046448
+      ],
+      "altura_local_m": 3.700000047683716,
+      "radio_max_m": 1.6973871065103074,
+      "caras": 115262,
+      "vertices": 224664,
+      "generacion_segundos": 2.5264002730000357
+    },
+    {
+      "nombre": "Plantacion_perimetral_01",
+      "raiz": [
+        11.0,
+        2.799999952316284,
+        -0.15000000596046448
+      ],
+      "altura_local_m": 0.3190000057220459,
+      "radio_max_m": 0.289999986920092,
+      "caras": 8208,
+      "vertices": 16092,
+      "generacion_segundos": 0.1891249450000032
+    },
+    {
+      "nombre": "Plantacion_perimetral_16",
+      "raiz": [
+        12.800000190734863,
+        36.599998474121094,
+        -0.15000000596046448
+      ],
+      "altura_local_m": 0.28600001335144043,
+      "radio_max_m": 0.25999999767150395,
+      "caras": 8208,
+      "vertices": 16092,
+      "generacion_segundos": 0.16964144399935321
+    }
+  ]
+}

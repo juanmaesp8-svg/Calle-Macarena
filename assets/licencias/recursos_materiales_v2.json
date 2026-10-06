@@ -1,0 +1,30 @@
+{
+  "recursos": [
+    {
+      "nombre": "royal_esplanade",
+      "archivo": "assets/hdri/royal_esplanade_1k.hdr",
+      "resolucion": "1024×512, Radiance HDR lineal",
+      "tipo": "HDRI fotográfico",
+      "licencia": "CC0 1.0",
+      "original": "https://polyhaven.com/a/royal_esplanade",
+      "descarga": "https://raw.githubusercontent.com/mrdoob/three.js/r160/examples/textures/equirectangular/royal_esplanade_1k.hdr",
+      "sha256": "d72031e24581a0f13911fbcdee475db0f8cafcf48bf1771c6b971c3310db6cb2",
+      "bytes": 1667276
+    },
+    {
+      "nombre": "venice_sunset",
+      "archivo": "assets/hdri/venice_sunset_1k.hdr",
+      "resolucion": "1024×512, Radiance HDR lineal",
+      "tipo": "HDRI fotográfico",
+      "licencia": "CC0 1.0",
+      "original": "https://polyhaven.com/a/venice_sunset",
+      "descarga": "https://raw.githubusercontent.com/mrdoob/three.js/r160/examples/textures/equirectangular/venice_sunset_1k.hdr",
+      "sha256": "0e72ed46b5316cb5fb67fc81ff85b024a09146fd89ef3811a8d2299647ada118",
+      "bytes": 1397783
+    }
+  ],
+  "licencia_fuente": "https://raw.githubusercontent.com/Poly-Haven/polyhaven.com/master/public/locales/en/license.json",
+  "licencia_resumen": "Our assets are all licensed as CC0, which is effectively Public Domain.",
+  "uso": "Relleno difuso. Cámara, transmisión y reflexión utilizan cielo físico y geometría de este modelo, sin arquitectura ajena visible.",
+  "empaquetado": "bpy.data.images.load(...).pack(); no red al crear o renderizar."
+}

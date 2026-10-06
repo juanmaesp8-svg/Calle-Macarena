@@ -1,0 +1,25 @@
+﻿elemento;modelo;referencia;diferencia;obtencion;fuente
+Trastero ancho interior m;7.150000333786011;7.15;3.3378601038691613e-07;Cota directa;PDF final1
+Trastero fondo interior m;3.939999580383301;3.94;-4.196166991654593e-07;Cota directa;PDF final1
+Trastero fondo hasta exterior sur m;4.189999580383301;4.19;-4.196166996095485e-07;Cota directa;PDF final1
+Trastero hueco norte ancho m;0.9600000381469727;0.96;3.814697269177714e-08;Cota directa;PDF final1
+Trastero portón sur ancho m;4.000499725341797;4.0005;-2.7465820284788833e-07;Calculada del vector;PDF final1
+Trastero superficie interior más umbral m²;29.171123246192792;29.17;0.0011232461927903614;"Deducción del cómputo; no forzar perímetro";Etiqueta PDF final1
+Piscina ancho XY m;3.5;3.5;0.0;Cota directa;PDF final1
+Piscina largo XY m;4.999999523162842;5.0;-4.76837158203125e-07;Cota directa;PDF final1
+Piscina superficie XY m²;17.499998331069946;17.5;-1.6689300537109375e-06;Cotas directas;PDF final1
+Parcela área del trazo m²;635.7385935159779;635.6;0.13859351597784553;"Vector del lindero; área rotulada no fuerza contorno";Básico memoria / PDF final1
+V_bano1_norte ancho de hueco m;1.0033001899719238;;;"Mesh medido; comparar con tabla numérica V2";"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_despacho_oeste ancho de hueco m;0.9969501495361328;;;"Mesh medido; comparar con tabla numérica V2";"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_bano2_oeste ancho de hueco m;0.8001003265380859;;;"Mesh medido; comparar con tabla numérica V2";"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_lavadero_oeste ancho de hueco m;0.5968990325927734;;;"Mesh medido; comparar con tabla numérica V2";"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+P_lavadero_oeste ancho de hueco m;0.9652004241943359;;;"Mesh medido; comparar con tabla numérica V2";"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_aseo_oeste ancho de hueco m;0.8000984191894531;;;"Mesh medido; comparar con tabla numérica V2";"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+P_principal_oeste ancho de hueco m;1.3398494720458984;;;"Mesh medido; comparar con tabla numérica V2";"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_salon_oeste ancho de hueco m;2.000250816345215;;;"Mesh medido; comparar con tabla numérica V2";"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_dormitorio1_este ancho de hueco m;2.0002498626708984;;;"Mesh medido; comparar con tabla numérica V2";"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_dormitorio1_sur ancho de hueco m;1.4986000061035156;;;"Mesh medido; comparar con tabla numérica V2";"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_dormitorio2_este ancho de hueco m;1.4986000061035156;;;"Mesh medido; comparar con tabla numérica V2";"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_dormitorio3_este ancho de hueco m;1.4986000061035156;;;"Mesh medido; comparar con tabla numérica V2";"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_cocina_este ancho de hueco m;4.13385009765625;;;"Mesh medido; comparar con tabla numérica V2";"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_salon_este ancho de hueco m;5.391149520874023;;;"Mesh medido; comparar con tabla numérica V2";"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."

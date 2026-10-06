@@ -503,7 +503,7 @@
         2500,
         1667
       ],
-      "explicacion": "Vista aérea con margen de perímetro completo, ajuste de cámara sin alterar geometría.",
+      "explicacion": "Cámara de la revisión V2; toda geometría permanece idéntica entre vistas. Ajustes de cámara no alteran la parcela.",
       "verticales": "Perspectiva aérea deliberada",
       "modelo_identico_en_todas_las_vistas": true,
       "comprobacion_posicion_planta": {
@@ -538,7 +538,7 @@
         2500,
         1667
       ],
-      "explicacion": "Cámara en el vial por delante del lindero Y≈0; conserva el cerramiento y sus oclusiones. Verifica relación entre acceso público, aparcamiento, cuarto de instalaciones y pérgola. No se pretende mostrar el suelo interior a través de un muro opaco.",
+      "explicacion": "Cámara de la revisión V2; toda geometría permanece idéntica entre vistas. Ajustes de cámara no alteran la parcela.",
       "verticales": "Eje óptico horizontal; Z objetivo = Z cámara. Encadrar las coronaciones mediante shift_y y no mediante inclinación.",
       "modelo_identico_en_todas_las_vistas": true,
       "comprobacion_posicion_planta": {
@@ -573,7 +573,7 @@
         2500,
         1667
       ],
-      "explicacion": "Cámara a la derecha de los dos símbolos de vehículos, sin desplazar coches ni piscina. Mira hacia pérgola y testero de salón; la ubicación del estacionamiento sigue siendo frontal-izquierda de la piscina.",
+      "explicacion": "Cámara de la revisión V2; toda geometría permanece idéntica entre vistas. Ajustes de cámara no alteran la parcela.",
       "verticales": "Eje óptico horizontal; Z objetivo = Z cámara. Encadrar las coronaciones mediante shift_y y no mediante inclinación.",
       "modelo_identico_en_todas_las_vistas": true,
       "comprobacion_posicion_planta": {
@@ -608,7 +608,7 @@
         2500,
         1667
       ],
-      "explicacion": "Cámara dentro del retranqueo izquierdo entre cerramiento de calle privada y fachada, mirando en diagonal a puerta principal X≈3,00/Y≈17,57. La distancia≈7,33m permite abarcar suelo y portal +4,75 con 35mm sin inclinar verticales. A 4m esa óptica no abarcaría toda la altura; por eso se retrasa la cámara hacia el vial.",
+      "explicacion": "Cámara de la revisión V2; toda geometría permanece idéntica entre vistas. Ajustes de cámara no alteran la parcela.",
       "verticales": "Eje óptico horizontal; Z objetivo = Z cámara. Encadrar las coronaciones mediante shift_y y no mediante inclinación.",
       "modelo_identico_en_todas_las_vistas": true,
       "comprobacion_posicion_planta": {
@@ -643,7 +643,7 @@
         2500,
         1667
       ],
-      "explicacion": "Cámara en pavimento/jardín frontal a la derecha y por delante de piscina, no en el agua. Capta piscina en primer plano, comedor-pérgola a la izquierda y fachada de salón/cocina longitudinal al fondo.",
+      "explicacion": "Cámara de la revisión V2; toda geometría permanece idéntica entre vistas. Ajustes de cámara no alteran la parcela.",
       "verticales": "Eje óptico horizontal; Z objetivo = Z cámara. Encadrar las coronaciones mediante shift_y y no mediante inclinación.",
       "modelo_identico_en_todas_las_vistas": true,
       "comprobacion_posicion_planta": {
@@ -678,7 +678,7 @@
         2500,
         1667
       ],
-      "explicacion": "Cámara en el porche descubierto entre fachada X10,649 y borde de pavimento X14,002, mirando hacia el extremo frontal de la piscina. Mantiene relación exacta de piscina y pérgola.",
+      "explicacion": "Cámara de la revisión V2; toda geometría permanece idéntica entre vistas. Ajustes de cámara no alteran la parcela.",
       "verticales": "Eje óptico horizontal; Z objetivo = Z cámara. Encadrar las coronaciones mediante shift_y y no mediante inclinación.",
       "modelo_identico_en_todas_las_vistas": true,
       "comprobacion_posicion_planta": {
@@ -713,7 +713,7 @@
         2500,
         1667
       ],
-      "explicacion": "Cámara justo detrás de piscina y a derecha del pavimento longitudinal, mirando a lo largo de la fachada X10,649 hacia dormitorios. La vista rasante permite leer la sucesión V7/V6/V5 sin necesitar una distancia frontal inexistente dentro de la parcela.",
+      "explicacion": "Cámara de la revisión V2; toda geometría permanece idéntica entre vistas. Ajustes de cámara no alteran la parcela.",
       "verticales": "Eje óptico horizontal; Z objetivo = Z cámara. Encadrar las coronaciones mediante shift_y y no mediante inclinación.",
       "modelo_identico_en_todas_las_vistas": true,
       "comprobacion_posicion_planta": {
@@ -728,27 +728,27 @@
       "nombre": "Porche_y_comedor_exterior",
       "tipo": "PERSP",
       "posicion_m": [
-        11.05,
-        4.8,
+        15.7,
+        17.8,
         1.65
       ],
       "objetivo_m": [
-        8.683625,
-        10.086975,
+        11.8,
+        20.1,
         1.65
       ],
       "focal_mm": 30,
       "sensor_ancho_mm": 36,
       "sensor_fit": "HORIZONTAL",
       "shift_x": 0.0,
-      "shift_y": 0.04,
+      "shift_y": 0.03,
       "clip_start_m": 0.05,
       "clip_end_m": 250,
       "resolucion_inicial_px": [
         2500,
         1667
       ],
-      "explicacion": "Cámara entre aparcamiento y piscina, retrasada para mostrar comedor y pérgola completos; mesa permanece en posición del PDF.",
+      "explicacion": "Cámara de la revisión V2; toda geometría permanece idéntica entre vistas. Ajustes de cámara no alteran la parcela.",
       "verticales": "Eje óptico horizontal; Z objetivo = Z cámara. Encadrar las coronaciones mediante shift_y y no mediante inclinación.",
       "modelo_identico_en_todas_las_vistas": true,
       "comprobacion_posicion_planta": {
@@ -783,7 +783,7 @@
         2500,
         1667
       ],
-      "explicacion": "Cámara en esquina posterior derecha, entre testero Y34,284 y lindero Y37,3, por fuera del ala de dormitorio principal X13,100. Vista diagonal hacia fachada lateral y jardín, evitando atravesar habitación o muro.",
+      "explicacion": "Cámara de la revisión V2; toda geometría permanece idéntica entre vistas. Ajustes de cámara no alteran la parcela.",
       "verticales": "Eje óptico horizontal; Z objetivo = Z cámara. Encadrar las coronaciones mediante shift_y y no mediante inclinación.",
       "modelo_identico_en_todas_las_vistas": true,
       "comprobacion_posicion_planta": {
@@ -818,7 +818,7 @@
         2500,
         1667
       ],
-      "explicacion": "Repite exactamente cámara 05 y la misma geometría, materiales, vegetación y coches. Cambia únicamente estado de iluminación, intensidad y temperatura de luminarias. La dirección solar será una elección de visualización hasta comprobar el norte del emplazamiento.",
+      "explicacion": "Cámara de la revisión V2; toda geometría permanece idéntica entre vistas. Ajustes de cámara no alteran la parcela.",
       "verticales": "Eje óptico horizontal; Z objetivo = Z cámara. Encadrar las coronaciones mediante shift_y y no mediante inclinación.",
       "modelo_identico_en_todas_las_vistas": true,
       "comprobacion_posicion_planta": {
@@ -849,5 +849,7 @@
     "El cerramiento frontal de≈2m ocultará parte del plano inferior en vista peatonal desde vial; es comportamiento físico del proyecto.",
     "La cámara03 evita las cajas gráficas de coches; la cámara08 está detrás de su longitud gráfica y a izquierda del vaso.",
     "Las perspectivas de la fachada longitudinal se toman diagonales porque la franja exterior es≈3,35m y una vista frontal completa con óptica35mm no cabe dentro de la parcela."
-  ]
+  ],
+  "revision": "V2",
+  "fuente_planta_final": "fuentes/planta_final_proyecto_obra.pdf"
 }

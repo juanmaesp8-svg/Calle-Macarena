@@ -1,0 +1,26 @@
+{
+  "revision": "V2_planta_final_trastero",
+  "fecha_confirmacion": "2026-10-06",
+  "fuente_planta": {
+    "archivo": "fuentes/planta_final_proyecto_obra.pdf",
+    "sha256": "556b057350ec6b0a4050dfbf0cf104c35ca5ed48d0e8bf22b2b19c107f403995"
+  },
+  "confirmaciones_usuario": {
+    "forjado_trastero_inferior_m": 3.35,
+    "forjado_trastero_superior_m": 3.7,
+    "coronacion_peto_trastero_m": 4.4,
+    "puerta_interior_trastero_alto_m": 2.03,
+    "porton_frontal_trastero_alto_m": 2.5
+  },
+  "acabados_usuario": {
+    "fachada": "blanca salvo paños de madera entre huecos",
+    "madera": "clara, vertical y pegada a paños de fachada existentes",
+    "cesped": "artificial",
+    "soleria_exterior": "crema clara",
+    "soleria_modulo_m": [
+      0.9,
+      0.9
+    ]
+  },
+  "regla": "La planta final sustituye las zonas antiguas de instalaciones y pérgola/comedor-piscina por el trastero. Las alturas de este volumen son confirmación expresa del usuario; no se atribuyen al PDF."
+}

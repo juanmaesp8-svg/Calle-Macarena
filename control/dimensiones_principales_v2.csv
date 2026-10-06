@@ -1,0 +1,16 @@
+Elemento,Nominal,Modelado,Unidad,Fuente
+Parcela superficie,635.6,635.7385935159779,m²,PDFfinal rotulada; trazado calculado
+Edificación superficie,211.63,211.68743169224308,m²,PDFfinal rotulada; trazado ajustado a cotas; no forzar área
+Trastero ancho interior,7.15,7.150000333786011,m,Cota directa PDFfinal
+Trastero fondo interior,3.94,3.939999580383301,m,Cota directa PDFfinal
+Trastero profundidad exterior,4.19,4.189999580383301,m,Cota directa PDFfinal
+Piscina ancho,3.5,3.5,m,Cota directa PDFfinal
+Piscina largo,5,4.999999523162842,m,Cota directa PDFfinal
+Puerta trastero hueco,0.96,0.9599999999999991,m,Cota directa PDFfinal
+Puerta trastero altura,2.03,2.03,m,Usuario
+Portón trastero ancho,,4.0005,m,Calculado vectorPDFfinal
+Portón trastero altura,2.5,2.5,m,Usuario
+Forjado inferior,3.35,3.3499999046325684,m,PDForiginal y usuario para trastero
+Forjado superior,3.7,3.700000047683716,m,PDForiginal y usuario para trastero
+Peto trastero,4.4,4.400000095367432,m,Usuario
+Porcelánico módulo,0.9,0.9,m,Acabado usuario; shader métrico

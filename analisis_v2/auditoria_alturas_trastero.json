@@ -1,0 +1,332 @@
+{
+  "version": "V2",
+  "estado": "Auditoría documental; no modelado3D. Alturas nuevas confirmadas por usuario durante revisiónV2.",
+  "fuentes": {
+    "planta_final": "fuentes/planta_final_proyecto_obra.pdf; página1, lámina01, escalaA3 1:150",
+    "alturas_existentes": "fuentes/proyecto_basico.pdf pp38–39 y modelo/datos_alturas.json",
+    "alturas_nuevas": "Confirmación explícita del usuario comunicada duranteV2: inferiorforjado3,35/superior3,70;peto4,40;puerta interior2,03;portón frontal2,50."
+  },
+  "factor_m_por_pt": 0.05291666666666667,
+  "registro": {
+    "evidencia_parcela_dx_pt": 112.68,
+    "evidencia_fachada_oeste_dx_pt": 112.8,
+    "dy_pt": 0,
+    "residual_pt": 0.12,
+    "residual_m": 0.00635,
+    "criterio": "Seguir registro canónico de audit_planta; rawPDFpara trazabilidad. No confundir diferencia de registro/capas con cambio deimplantación."
+  },
+  "trastero": {
+    "superficie_rotulada_m2": 29.17,
+    "cotas_directas_planta": {
+      "ancho_interior_m": 7.15,
+      "fondo_hasta_muro_interior_m": 3.94,
+      "fondo_en_hueco_frontal_m": 4.19,
+      "puerta_salon_ancho_m": 0.96
+    },
+    "interior_bbox_pdf_izquierda_pt": [
+      154.4,
+      542.08,
+      289.52,
+      616.6
+    ],
+    "contorno_exterior_bbox_pdf_izquierda_pt": [
+      149.6,
+      535.48,
+      294.2,
+      621.28
+    ],
+    "interior_ancho_calculado_m": 7.150099999999999,
+    "interior_fondo_calculado_m": 3.9433499999999992,
+    "area_rectangular_calculada_m2": 28.195346834999985,
+    "umbral_frontal_ancho_calculado_m": 4.0005,
+    "umbral_frontal_fondo_calculado_m": 0.24764999999999734,
+    "area_reconciliacion_nominal_m2": 29.171,
+    "criterio_area": "La etiqueta29,17 es compatiblecon interior7,15×3,94 más umbral4,00×0,25=29,171; no forzar perímetro a29,17. Identificación deumbral es deduccióngeométrica.",
+    "z_pavimento_m": 0.0,
+    "z_pavimento_fuente": "Datum heredado de básico: zona instalaciones y pavimento depérgola aparecen a0,00 en sus secciones; nueva conexiónsalón sin desnivel representado. No cota escrita nueva.",
+    "z_forjado_inferior_m": 3.35,
+    "z_forjado_superior_m": 3.7,
+    "forjado_canto_m": 0.35,
+    "z_coronacion_peto_m": 4.4,
+    "z_forjado_peto_fuente": "CONFIRMACIÓN USUARIO V2; NO cotas escritas ni alturas derivadas de planta final.",
+    "muros": [
+      {
+        "nombre": "pared_compartida_N_salon_izq",
+        "bbox_pdf_izquierda_pt": [
+          149.6,
+          535.48,
+          230.96,
+          542.08
+        ],
+        "z_base_m": 0,
+        "z_superior_m": 3.35,
+        "fuente_z": "Confirmación usuarioforjadoinferior3,35"
+      },
+      {
+        "nombre": "pared_compartida_N_salon_der",
+        "bbox_pdf_izquierda_pt": [
+          249.2,
+          535.48,
+          294.2,
+          542.08
+        ],
+        "z_base_m": 0,
+        "z_superior_m": 3.35,
+        "fuente_z": "Confirmación usuarioforjadoinferior3,35"
+      },
+      {
+        "nombre": "cerramiento_W",
+        "bbox_pdf_izquierda_pt": [
+          149.6,
+          542.08,
+          154.4,
+          616.6
+        ],
+        "z_base_m": 0,
+        "z_superior_m": 3.35,
+        "fuente_z": "Confirmación usuarioforjadoinferior3,35"
+      },
+      {
+        "nombre": "cerramiento_E",
+        "bbox_pdf_izquierda_pt": [
+          289.52,
+          542.08,
+          294.2,
+          616.6
+        ],
+        "z_base_m": 0,
+        "z_superior_m": 3.35,
+        "fuente_z": "Confirmación usuarioforjadoinferior3,35"
+      },
+      {
+        "nombre": "cerramiento_S_izq",
+        "bbox_pdf_izquierda_pt": [
+          149.6,
+          616.6,
+          184.16,
+          621.28
+        ],
+        "z_base_m": 0,
+        "z_superior_m": 3.35,
+        "fuente_z": "Confirmación usuarioforjadoinferior3,35"
+      },
+      {
+        "nombre": "cerramiento_S_der",
+        "bbox_pdf_izquierda_pt": [
+          259.76,
+          616.6,
+          294.2,
+          621.28
+        ],
+        "z_base_m": 0,
+        "z_superior_m": 3.35,
+        "fuente_z": "Confirmación usuarioforjadoinferior3,35"
+      }
+    ],
+    "techo_planta_final_explicito": false,
+    "detalle_cubierta": "Cubierta3,35/3,70 y peto4,40 quedan autorizados; no hay nueva planta de cubierta que detalle pendientes/grava/capas/remates. Aplicar reglas de cubierta plana existente sin inventar cotas acabado.",
+    "encuentro_norte": "Pared norte compartida con salón. Conservarpañoalto principal5,10 yportalexistente4,75 sólo dondecorresponden; portaloriginalvuela≈0,80m al sur deltestero y intersectaextremonorte trastero. No duplicarunpetode4,40 sobre paredyaformadapor esospaños."
+  },
+  "huecos": [
+    {
+      "nombre": "Puerta_salon_trastero_N",
+      "bbox_pdf_izquierda_pt": [
+        230.96,
+        535.48,
+        249.2,
+        542.08
+      ],
+      "ancho_directo_m": 0.96,
+      "ancho_grafico_m": 0.965199999999999,
+      "alto_m": 2.03,
+      "z_umbral_m": 0,
+      "z_dintel_m": 2.03,
+      "fuente_alto": "CONFIRMACIÓN USUARIO V2",
+      "hoja": "Abatible hacia trastero, bisagra oeste/izquierda representada en planta. Sin carpintería verticaldibujada.",
+      "anterior_correspondiente": null
+    },
+    {
+      "nombre": "Porton_frontal_trastero_S",
+      "bbox_pdf_izquierda_pt": [
+        184.16,
+        616.6,
+        259.76,
+        621.28
+      ],
+      "ancho_directo_m": null,
+      "ancho_grafico_m": 4.0005,
+      "alto_m": 2.5,
+      "z_umbral_m": 0,
+      "z_dintel_m": 2.5,
+      "fuente_alto": "CONFIRMACIÓN USUARIO V2",
+      "hoja": "La planta interrumpe el muro; mecanismo/hojas no quedan representados. No asumir seccional/corredera/abatible.",
+      "anterior_correspondiente": "NO esla puerta de instalaciones antigua de1,34m; aquelhueco desaparece."
+    }
+  ],
+  "herencia_segura_solo_geometria_existente": [
+    {
+      "elemento": "Vivienda principal",
+      "niveles_m": {
+        "suelo": 0,
+        "forjado_inferior": 3.35,
+        "forjado_superior": 3.7,
+        "cielorraso": 3.2
+      },
+      "fuente": "Básico pp38–39; no transportar cielorraso3,20 a trastero sin indicación."
+    },
+    {
+      "elemento": "Jardín",
+      "nivel_m": -0.15,
+      "fuente": "Básico pp38–39"
+    },
+    {
+      "elemento": "Paño central alto",
+      "coronacion_m": 5.1,
+      "fuente": "Básico pp38–39,deducido; conservarXYplanta37 ante discrepancia anteriortrasero/sec3."
+    },
+    {
+      "elemento": "Alas bajas existentes",
+      "coronacion_m": 4.4,
+      "fuente": "Básico,deducido; trastero completoadopta4,40 AHORA porusuario, noherenciaautomática."
+    },
+    {
+      "elemento": "Portal entrada existente",
+      "base_m": 3.35,
+      "coronacion_m": 4.75,
+      "fuente": "Básico,consistente en principal/sec3/sec4; respetarvuelo0,80m."
+    },
+    {
+      "elemento": "Marquesina terrazaeste",
+      "inferior_m": 3.35,
+      "superior_m": 3.55,
+      "fuente": "Básico, proyecciones; terminaenY542,08, no cubre nuevoanexotodo."
+    }
+  ],
+  "antiguos_elementos_invalidos": [
+    {
+      "elemento": "Vigas pérgola",
+      "accion": "Retirar en zona sustituida; Z2,50/2,85 eraestructuraabierta ynoes cubierta nueva."
+    },
+    {
+      "elemento": "Pilar frontal derecho pérgola",
+      "accion": "No conservarcomo poste separado; nuevo cerramientoeste completo a3,35 y cubiertaautorizada."
+    },
+    {
+      "elemento": "Tabique instalaciones/barbacoa",
+      "bbox_basico_pdf_pt": [
+        307.4,
+        542.08,
+        312.08,
+        621.28
+      ],
+      "accion": "Eliminar; recinto único enplanta definitiva."
+    },
+    {
+      "elemento": "Puerta antigua instalaciones",
+      "bbox_basico_pdf_pt": [
+        282.08,
+        616.6,
+        307.4,
+        621.28
+      ],
+      "accion": "Eliminar. NuevaScentral mide4,0005m gráficamente, 2,50alto porusuario."
+    },
+    {
+      "elemento": "Slab/techo ypetos aislados instalaciones",
+      "accion": "No duplicar antiguacaja con cubiertanueva. La ampliaciónhorizontalde cubierta quedaautorizada sólo por definición nueva delusuario."
+    },
+    {
+      "elemento": "Barbacoa/comedorpiscina",
+      "accion": "Retirar de zona reemplazada; etiquetas nuevasRACK/TABLAS/GYM/MOTO no aportan Z arquitectónico."
+    }
+  ],
+  "esquina_posterior_izquierda": {
+    "etiqueta_nueva": "TENDEDERO7,00m²",
+    "misma_que_basico": true,
+    "n_rellenos_muro": 9,
+    "bbox_general_pdf_nuevo_pt": [
+      92.96,
+      65.8,
+      152.48,
+      125.32
+    ],
+    "rellenos_nuevos_pdf_pt": [
+      [
+        93.32,
+        65.8,
+        152.48,
+        66.16
+      ],
+      [
+        93.32,
+        66.16,
+        152.48,
+        68.56
+      ],
+      [
+        149.6,
+        68.56,
+        152.48,
+        69.04
+      ],
+      [
+        93.32,
+        68.56,
+        149.6,
+        69.04
+      ],
+      [
+        92.96,
+        69.04,
+        95.72,
+        100.84
+      ],
+      [
+        149.6,
+        69.04,
+        152.48,
+        105.52
+      ],
+      [
+        129.8,
+        87.88,
+        132.68,
+        122.44
+      ],
+      [
+        92.96,
+        100.84,
+        95.72,
+        122.44
+      ],
+      [
+        92.96,
+        122.44,
+        132.68,
+        125.32
+      ]
+    ],
+    "nueva_edificacion": false,
+    "nueva_altura_pendiente_por_cambio": false,
+    "cubierta_nueva_dibujada": false,
+    "criterio": "Tendederoexistente abierto, no caseta nueva. Losnuevos trazoscoincidencondesplazamientoycuantización≤0,12pt. No crear roof ni volúmen cerrado adicional."
+  },
+  "incertidumbres_persistentes_no_bloqueo_alturas_confirmadas": [
+    {
+      "id": "Sistema_porton",
+      "estado": "No documentado mecanismo; altura2,50confirmada. Evitar inventar sistema/hojas."
+    },
+    {
+      "id": "Acabado_cubierta",
+      "estado": "No cotaacabado realni pendientesgrava delnuevoanexo; preservar criterio delmodelosin afirmar alturas acabado certificadas."
+    },
+    {
+      "id": "Cielorraso_trastero",
+      "estado": "No definido. No copiar3,20interior vivienda silenciosamente."
+    },
+    {
+      "id": "Detalle_remate_entre_panos",
+      "estado": "Alturas finalesconfirmadas; geometría de petos/encuentro conportal necesita interpretar contornos antiguos conhuellanueva, sinvolumen duplicado."
+    }
+  ]
+}

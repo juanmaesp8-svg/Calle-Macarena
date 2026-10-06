@@ -1,0 +1,16 @@
+﻿elemento;z_modelo_m;z_referencia_m;diferencia_m;origen;fuente;objetos
+Suelo vivienda;0.0;0;0.0;Básico;Datum PDF38/39;Suelo_vivienda
+Jardín;-0.15000000596046448;-0.15;-5.960464483090178e-09;Básico;PDF38/39;Jardin_cesped_01, Jardin_cesped_02
+Forjado inferior edificio existente;3.3499999046325684;3.35;-9.536743172944284e-08;Básico;PDF38/39;Forjado_cubierta_3_35_3_70
+Forjado superior edificio existente;3.700000047683716;3.7;4.7683715642676816e-08;Básico;PDF38/39;Forjado_cubierta_3_35_3_70
+Cielorraso sólo vivienda existente;3.200000047683716;3.2;4.7683715642676816e-08;Calculada del básico;"Secciones1/3; no se aplica al trastero";Cielorraso_vivienda_existente_3_20
+Peto bajo existente;4.400000095367432;4.4;9.536743128535363e-08;Básico;PDF38/39;Peto_bajo_N
+Portal existente coronación;4.75;4.75;0.0;Básico;PDF38/39;Peto_portal_W
+Peto alto existente;5.099999904632568;5.1;-9.536743128535363e-08;Básico;PDF38/39;Peto_central_N
+Trastero forjado inferior;3.3499999046325684;3.35;-9.536743172944284e-08;Usuario V2;"Confirmación expresa del usuario; forjado continuo";Forjado_cubierta_3_35_3_70
+Trastero forjado superior;3.700000047683716;3.7;4.7683715642676816e-08;Usuario V2;"Confirmación expresa del usuario; forjado continuo";Forjado_cubierta_3_35_3_70
+Trastero puerta norte dintel;2.0299999713897705;2.03;-2.8610229296788248e-08;Usuario V2;Confirmación expresa del usuario;P_interior_trastero_norte_dintel
+Trastero portón frontal dintel;2.5;2.5;0.0;Usuario V2;Confirmación expresa del usuario;P_porton_trastero_sur_dintel
+Peto_trastero_W coronación;4.400000095367432;4.4;9.536743128535363e-08;Usuario V2;Confirmación expresa del usuario;Peto_trastero_W
+Peto_trastero_S coronación;4.400000095367432;4.4;9.536743128535363e-08;Usuario V2;Confirmación expresa del usuario;Peto_trastero_S
+Peto_trastero_E coronación;4.400000095367432;4.4;9.536743128535363e-08;Usuario V2;Confirmación expresa del usuario;Peto_trastero_E

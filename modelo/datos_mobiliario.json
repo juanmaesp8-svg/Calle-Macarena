@@ -1,14 +1,14 @@
 {
-  "version": 1,
-  "fuente_pdf": "/workspace/attachments/7d44de5b-6e10-466c-a21a-671bc224714e/001 PROYECTO BÁSICO DE VIVIENDA UNIFAMILIAR EN CALLE MACARENA Nº16.pdf",
-  "pagina": 35,
+  "version": 2,
+  "fuente_pdf": "fuentes/planta_final_proyecto_obra.pdf",
+  "pagina": 1,
   "lamina": "02",
   "origen_pdf_pt": [
     205.64,
     770.32
   ],
   "factor_m_por_pt": 0.05291666666666667,
-  "estado": "Mobiliario auxiliar extraído de simbología, no dimensiones arquitectónicas nuevas",
+  "estado": "Mobiliario existente común y símbolos actualizados en planta final. Trastero racks/gym/moto sólo referenciasXY; no inventar assetsdimensionales.",
   "ejes": "X derecha de plano;Y hacia trasero;metros",
   "objetos": [
     {
@@ -353,76 +353,6 @@
       "notas": "Contorno enL; no usar bbox rectangular como huella maciza."
     },
     {
-      "nombre": "asiento_salon_oeste",
-      "tipo": "asiento_ottoman",
-      "estancia": "Salón comedor",
-      "bbox_pdf_pt": [
-        271.52,
-        499.96,
-        285.92,
-        512.56
-      ],
-      "bbox_xy_m": [
-        3.48615,
-        13.6398,
-        4.24815,
-        14.30655
-      ],
-      "huella_pdf_pt": [
-        [
-          271.52,
-          499.96
-        ],
-        [
-          285.92,
-          499.96
-        ],
-        [
-          285.92,
-          512.56
-        ],
-        [
-          271.52,
-          512.56
-        ]
-      ],
-      "huella_xy_m": [
-        [
-          3.48615,
-          14.30655
-        ],
-        [
-          4.24815,
-          14.30655
-        ],
-        [
-          4.24815,
-          13.6398
-        ],
-        [
-          3.48615,
-          13.6398
-        ]
-      ],
-      "centro_xy_m": [
-        3.86715,
-        13.973175
-      ],
-      "tamano_bbox_xy_m": [
-        0.762,
-        0.66675
-      ],
-      "z_base_m": null,
-      "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
-      "seqno_rellenos_pdf": [
-        153,
-        155
-      ],
-      "criterio": "Medida gráfica derivada; no es cota escrita. Altura del asset decorativo a elegir y registrar; no cambiar huella o ubicación.",
-      "notas": null
-    },
-    {
       "nombre": "butaca_salon_1",
       "tipo": "butaca",
       "estancia": "Salón comedor",
@@ -433,9 +363,9 @@
         496.96
       ],
       "bbox_xy_m": [
-        6.54685,
+        6.36905,
         14.4653,
-        7.30885,
+        7.13105,
         15.1257
       ],
       "huella_pdf_pt": [
@@ -458,33 +388,33 @@
       ],
       "huella_xy_m": [
         [
-          6.54685,
-          15.1257
-        ],
-        [
-          7.30885,
-          15.1257
-        ],
-        [
-          7.30885,
+          6.36905,
           14.4653
         ],
         [
-          6.54685,
+          7.13105,
           14.4653
+        ],
+        [
+          7.13105,
+          15.1257
+        ],
+        [
+          6.36905,
+          15.1257
         ]
       ],
       "centro_xy_m": [
-        6.92785,
+        6.75005,
         14.7955
       ],
       "tamano_bbox_xy_m": [
-        0.762,
-        0.6604
+        0.7620000000000005,
+        0.660400000000001
       ],
       "z_base_m": null,
       "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
+      "fuente": "Planta final PDF1, símbolo actualizado",
       "seqno_rellenos_pdf": [
         133,
         135,
@@ -507,9 +437,9 @@
         512.56
       ],
       "bbox_xy_m": [
-        6.54685,
+        6.36905,
         13.6398,
-        7.30885,
+        7.13105,
         14.30655
       ],
       "huella_pdf_pt": [
@@ -532,33 +462,33 @@
       ],
       "huella_xy_m": [
         [
-          6.54685,
-          14.30655
-        ],
-        [
-          7.30885,
-          14.30655
-        ],
-        [
-          7.30885,
+          6.36905,
           13.6398
         ],
         [
-          6.54685,
+          7.13105,
           13.6398
+        ],
+        [
+          7.13105,
+          14.30655
+        ],
+        [
+          6.36905,
+          14.30655
         ]
       ],
       "centro_xy_m": [
-        6.92785,
+        6.75005,
         13.973175
       ],
       "tamano_bbox_xy_m": [
-        0.762,
-        0.66675
+        0.7620000000000005,
+        0.6667500000000004
       ],
       "z_base_m": null,
       "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
+      "fuente": "Planta final PDF1, símbolo actualizado",
       "seqno_rellenos_pdf": [
         149,
         151
@@ -577,10 +507,10 @@
         509.8
       ],
       "bbox_xy_m": [
-        4.94665,
-        13.78585,
-        5.84835,
-        14.986
+        4.7117,
+        14.2494,
+        5.9055,
+        14.9479
       ],
       "huella_pdf_pt": [
         [
@@ -602,33 +532,33 @@
       ],
       "huella_xy_m": [
         [
-          4.94665,
-          14.986
+          4.7117,
+          14.2494
         ],
         [
-          5.84835,
-          14.986
+          5.9055,
+          14.2494
         ],
         [
-          5.84835,
-          13.78585
+          5.9055,
+          14.9479
         ],
         [
-          4.94665,
-          13.78585
+          4.7117,
+          14.9479
         ]
       ],
       "centro_xy_m": [
-        5.3975,
-        14.385925
+        5.3086,
+        14.59865
       ],
       "tamano_bbox_xy_m": [
-        0.9017,
-        1.20015
+        1.1937999999999995,
+        0.698500000000001
       ],
       "z_base_m": null,
       "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
+      "fuente": "Planta final PDF1, símbolo actualizado",
       "seqno_rellenos_pdf": [
         147
       ],
@@ -646,9 +576,9 @@
         510.64
       ],
       "bbox_xy_m": [
-        8.5344,
-        13.7414,
-        9.53135,
+        8.42645,
+        13.54455,
+        9.6266,
         15.5448
       ],
       "huella_pdf_pt": [
@@ -671,33 +601,33 @@
       ],
       "huella_xy_m": [
         [
-          8.5344,
+          8.42645,
+          13.54455
+        ],
+        [
+          9.6266,
+          13.54455
+        ],
+        [
+          9.6266,
           15.5448
         ],
         [
-          9.53135,
+          8.42645,
           15.5448
-        ],
-        [
-          9.53135,
-          13.7414
-        ],
-        [
-          8.5344,
-          13.7414
         ]
       ],
       "centro_xy_m": [
-        9.032875,
-        14.6431
+        9.026525,
+        14.544675
       ],
       "tamano_bbox_xy_m": [
-        0.99695,
-        1.8034
+        1.200149999999999,
+        2.000250000000001
       ],
       "z_base_m": null,
       "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
+      "fuente": "Planta final PDF1, símbolo actualizado",
       "seqno_rellenos_pdf": [
         2335,
         2339,
@@ -721,10 +651,10 @@
         486.16
       ],
       "bbox_xy_m": [
-        8.2804,
-        15.0368,
-        8.5344,
-        15.42415
+        8.1788,
+        14.9606,
+        8.42645,
+        15.3543
       ],
       "huella_pdf_pt": [
         [
@@ -746,33 +676,33 @@
       ],
       "huella_xy_m": [
         [
-          8.2804,
-          15.42415
+          8.1788,
+          14.9606
         ],
         [
-          8.5344,
-          15.42415
+          8.42645,
+          14.9606
         ],
         [
-          8.5344,
-          15.0368
+          8.42645,
+          15.3543
         ],
         [
-          8.2804,
-          15.0368
+          8.1788,
+          15.3543
         ]
       ],
       "centro_xy_m": [
-        8.4074,
-        15.230475
+        8.302625,
+        15.15745
       ],
       "tamano_bbox_xy_m": [
-        0.254,
-        0.38735
+        0.24765000000000015,
+        0.3937000000000008
       ],
       "z_base_m": null,
       "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
+      "fuente": "Planta final PDF1, símbolo actualizado",
       "seqno_rellenos_pdf": [
         2341
       ],
@@ -790,10 +720,10 @@
         486.16
       ],
       "bbox_xy_m": [
-        9.53135,
-        15.0368,
-        9.78535,
-        15.42415
+        9.6266,
+        14.9606,
+        9.8806,
+        15.3543
       ],
       "huella_pdf_pt": [
         [
@@ -815,33 +745,33 @@
       ],
       "huella_xy_m": [
         [
-          9.53135,
-          15.42415
+          9.6266,
+          14.9606
         ],
         [
-          9.78535,
-          15.42415
+          9.8806,
+          14.9606
         ],
         [
-          9.78535,
-          15.0368
+          9.8806,
+          15.3543
         ],
         [
-          9.53135,
-          15.0368
+          9.6266,
+          15.3543
         ]
       ],
       "centro_xy_m": [
-        9.65835,
-        15.230475
+        9.753599999999999,
+        15.15745
       ],
       "tamano_bbox_xy_m": [
-        0.254,
-        0.38735
+        0.25399999999999956,
+        0.3937000000000008
       ],
       "z_base_m": null,
       "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
+      "fuente": "Planta final PDF1, símbolo actualizado",
       "seqno_rellenos_pdf": [
         2337
       ],
@@ -859,10 +789,10 @@
         497.32
       ],
       "bbox_xy_m": [
-        8.2804,
-        14.44625,
-        8.5344,
-        14.83995
+        8.1788,
+        14.351,
+        8.42645,
+        14.73835
       ],
       "huella_pdf_pt": [
         [
@@ -884,33 +814,33 @@
       ],
       "huella_xy_m": [
         [
-          8.2804,
-          14.83995
+          8.1788,
+          14.351
         ],
         [
-          8.5344,
-          14.83995
+          8.42645,
+          14.351
         ],
         [
-          8.5344,
-          14.44625
+          8.42645,
+          14.73835
         ],
         [
-          8.2804,
-          14.44625
+          8.1788,
+          14.73835
         ]
       ],
       "centro_xy_m": [
-        8.4074,
-        14.6431
+        8.302625,
+        14.544675000000002
       ],
       "tamano_bbox_xy_m": [
-        0.254,
-        0.3937
+        0.24765000000000015,
+        0.38734999999999964
       ],
       "z_base_m": null,
       "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
+      "fuente": "Planta final PDF1, símbolo actualizado",
       "seqno_rellenos_pdf": [
         2349
       ],
@@ -928,10 +858,10 @@
         497.32
       ],
       "bbox_xy_m": [
-        9.53135,
-        14.44625,
-        9.78535,
-        14.83995
+        9.6266,
+        14.351,
+        9.8806,
+        14.73835
       ],
       "huella_pdf_pt": [
         [
@@ -953,33 +883,33 @@
       ],
       "huella_xy_m": [
         [
-          9.53135,
-          14.83995
+          9.6266,
+          14.351
         ],
         [
-          9.78535,
-          14.83995
+          9.8806,
+          14.351
         ],
         [
-          9.78535,
-          14.44625
+          9.8806,
+          14.73835
         ],
         [
-          9.53135,
-          14.44625
+          9.6266,
+          14.73835
         ]
       ],
       "centro_xy_m": [
-        9.65835,
-        14.6431
+        9.753599999999999,
+        14.544675000000002
       ],
       "tamano_bbox_xy_m": [
-        0.254,
-        0.3937
+        0.25399999999999956,
+        0.38734999999999964
       ],
       "z_base_m": null,
       "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
+      "fuente": "Planta final PDF1, símbolo actualizado",
       "seqno_rellenos_pdf": [
         2345
       ],
@@ -997,10 +927,10 @@
         508.36
       ],
       "bbox_xy_m": [
-        8.2804,
-        13.86205,
-        8.5344,
-        14.25575
+        8.1788,
+        13.73505,
+        8.42645,
+        14.1224
       ],
       "huella_pdf_pt": [
         [
@@ -1022,33 +952,33 @@
       ],
       "huella_xy_m": [
         [
-          8.2804,
-          14.25575
+          8.1788,
+          13.73505
         ],
         [
-          8.5344,
-          14.25575
+          8.42645,
+          13.73505
         ],
         [
-          8.5344,
-          13.86205
+          8.42645,
+          14.1224
         ],
         [
-          8.2804,
-          13.86205
+          8.1788,
+          14.1224
         ]
       ],
       "centro_xy_m": [
-        8.4074,
-        14.0589
+        8.302625,
+        13.928725
       ],
       "tamano_bbox_xy_m": [
-        0.254,
-        0.3937
+        0.24765000000000015,
+        0.3873500000000014
       ],
       "z_base_m": null,
       "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
+      "fuente": "Planta final PDF1, símbolo actualizado",
       "seqno_rellenos_pdf": [
         2357
       ],
@@ -1066,10 +996,10 @@
         508.36
       ],
       "bbox_xy_m": [
-        9.53135,
-        13.86205,
-        9.78535,
-        14.25575
+        9.6266,
+        13.73505,
+        9.8806,
+        14.1224
       ],
       "huella_pdf_pt": [
         [
@@ -1091,33 +1021,33 @@
       ],
       "huella_xy_m": [
         [
-          9.53135,
-          14.25575
+          9.6266,
+          13.73505
         ],
         [
-          9.78535,
-          14.25575
+          9.8806,
+          13.73505
         ],
         [
-          9.78535,
-          13.86205
+          9.8806,
+          14.1224
         ],
         [
-          9.53135,
-          13.86205
+          9.6266,
+          14.1224
         ]
       ],
       "centro_xy_m": [
-        9.65835,
-        14.0589
+        9.753599999999999,
+        13.928725
       ],
       "tamano_bbox_xy_m": [
-        0.254,
-        0.3937
+        0.25399999999999956,
+        0.3873500000000014
       ],
       "z_base_m": null,
       "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
+      "fuente": "Planta final PDF1, símbolo actualizado",
       "seqno_rellenos_pdf": [
         2353
       ],
@@ -1135,7 +1065,7 @@
         476.56
       ],
       "bbox_xy_m": [
-        8.8392,
+        8.83285,
         15.5448,
         9.22655,
         15.79245
@@ -1160,33 +1090,33 @@
       ],
       "huella_xy_m": [
         [
-          8.8392,
-          15.79245
-        ],
-        [
-          9.22655,
-          15.79245
+          8.83285,
+          15.5448
         ],
         [
           9.22655,
           15.5448
         ],
         [
-          8.8392,
-          15.5448
+          9.22655,
+          15.79245
+        ],
+        [
+          8.83285,
+          15.79245
         ]
       ],
       "centro_xy_m": [
-        9.032875,
+        9.0297,
         15.668625
       ],
       "tamano_bbox_xy_m": [
-        0.38735,
-        0.24765
+        0.39369999999999905,
+        0.24765000000000015
       ],
       "z_base_m": null,
       "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
+      "fuente": "Planta final PDF1, símbolo actualizado",
       "seqno_rellenos_pdf": [
         2333
       ],
@@ -1204,10 +1134,10 @@
         515.32
       ],
       "bbox_xy_m": [
-        8.8392,
-        13.49375,
+        8.83285,
+        13.29055,
         9.22655,
-        13.7414
+        13.54455
       ],
       "huella_pdf_pt": [
         [
@@ -1229,33 +1159,33 @@
       ],
       "huella_xy_m": [
         [
-          8.8392,
-          13.7414
+          8.83285,
+          13.29055
         ],
         [
           9.22655,
-          13.7414
+          13.29055
         ],
         [
           9.22655,
-          13.49375
+          13.54455
         ],
         [
-          8.8392,
-          13.49375
+          8.83285,
+          13.54455
         ]
       ],
       "centro_xy_m": [
-        9.032875,
-        13.617575
+        9.0297,
+        13.417549999999999
       ],
       "tamano_bbox_xy_m": [
-        0.38735,
-        0.24765
+        0.39369999999999905,
+        0.25399999999999956
       ],
       "z_base_m": null,
       "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
+      "fuente": "Planta final PDF1, símbolo actualizado",
       "seqno_rellenos_pdf": [
         2361
       ],
@@ -2247,629 +2177,6 @@
       "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
       "seqno_rellenos_pdf": [
         1129
-      ],
-      "criterio": "Medida gráfica derivada; no es cota escrita. Altura del asset decorativo a elegir y registrar; no cambiar huella o ubicación.",
-      "notas": null
-    },
-    {
-      "nombre": "mesa_comedor_pergola",
-      "tipo": "mesa_comedor_exterior",
-      "estancia": "Comedor piscina/pérgola",
-      "bbox_pdf_pt": [
-        352.76,
-        570.28,
-        386.72,
-        589.12
-      ],
-      "bbox_xy_m": [
-        7.7851,
-        9.5885,
-        9.58215,
-        10.58545
-      ],
-      "huella_pdf_pt": [
-        [
-          352.76,
-          570.28
-        ],
-        [
-          386.72,
-          570.28
-        ],
-        [
-          386.72,
-          589.12
-        ],
-        [
-          352.76,
-          589.12
-        ]
-      ],
-      "huella_xy_m": [
-        [
-          7.7851,
-          10.58545
-        ],
-        [
-          9.58215,
-          10.58545
-        ],
-        [
-          9.58215,
-          9.5885
-        ],
-        [
-          7.7851,
-          9.5885
-        ]
-      ],
-      "centro_xy_m": [
-        8.683625,
-        10.086975
-      ],
-      "tamano_bbox_xy_m": [
-        1.79705,
-        0.99695
-      ],
-      "z_base_m": null,
-      "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
-      "seqno_rellenos_pdf": [
-        2627,
-        2631,
-        2635
-      ],
-      "criterio": "Medida gráfica derivada; no es cota escrita. Altura del asset decorativo a elegir y registrar; no cambiar huella o ubicación.",
-      "notas": "Mesa girada90grados respecto mesas de salón/terraza; eje largoX."
-    },
-    {
-      "nombre": "silla_pergola_norte_1",
-      "tipo": "silla_comedor",
-      "estancia": "Comedor piscina/pérgola",
-      "bbox_pdf_pt": [
-        354.92,
-        565.48,
-        362.36,
-        570.28
-      ],
-      "bbox_xy_m": [
-        7.8994,
-        10.58545,
-        8.2931,
-        10.83945
-      ],
-      "huella_pdf_pt": [
-        [
-          354.92,
-          565.48
-        ],
-        [
-          362.36,
-          565.48
-        ],
-        [
-          362.36,
-          570.28
-        ],
-        [
-          354.92,
-          570.28
-        ]
-      ],
-      "huella_xy_m": [
-        [
-          7.8994,
-          10.83945
-        ],
-        [
-          8.2931,
-          10.83945
-        ],
-        [
-          8.2931,
-          10.58545
-        ],
-        [
-          7.8994,
-          10.58545
-        ]
-      ],
-      "centro_xy_m": [
-        8.09625,
-        10.71245
-      ],
-      "tamano_bbox_xy_m": [
-        0.3937,
-        0.254
-      ],
-      "z_base_m": null,
-      "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
-      "seqno_rellenos_pdf": [
-        2625
-      ],
-      "criterio": "Medida gráfica derivada; no es cota escrita. Altura del asset decorativo a elegir y registrar; no cambiar huella o ubicación.",
-      "notas": null
-    },
-    {
-      "nombre": "silla_pergola_sur_1",
-      "tipo": "silla_comedor",
-      "estancia": "Comedor piscina/pérgola",
-      "bbox_pdf_pt": [
-        354.92,
-        589.12,
-        362.36,
-        593.8
-      ],
-      "bbox_xy_m": [
-        7.8994,
-        9.34085,
-        8.2931,
-        9.5885
-      ],
-      "huella_pdf_pt": [
-        [
-          354.92,
-          589.12
-        ],
-        [
-          362.36,
-          589.12
-        ],
-        [
-          362.36,
-          593.8
-        ],
-        [
-          354.92,
-          593.8
-        ]
-      ],
-      "huella_xy_m": [
-        [
-          7.8994,
-          9.5885
-        ],
-        [
-          8.2931,
-          9.5885
-        ],
-        [
-          8.2931,
-          9.34085
-        ],
-        [
-          7.8994,
-          9.34085
-        ]
-      ],
-      "centro_xy_m": [
-        8.09625,
-        9.464675
-      ],
-      "tamano_bbox_xy_m": [
-        0.3937,
-        0.24765
-      ],
-      "z_base_m": null,
-      "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
-      "seqno_rellenos_pdf": [
-        2641
-      ],
-      "criterio": "Medida gráfica derivada; no es cota escrita. Altura del asset decorativo a elegir y registrar; no cambiar huella o ubicación.",
-      "notas": null
-    },
-    {
-      "nombre": "silla_pergola_norte_2",
-      "tipo": "silla_comedor",
-      "estancia": "Comedor piscina/pérgola",
-      "bbox_pdf_pt": [
-        366.08,
-        565.48,
-        373.4,
-        570.28
-      ],
-      "bbox_xy_m": [
-        8.48995,
-        10.58545,
-        8.8773,
-        10.83945
-      ],
-      "huella_pdf_pt": [
-        [
-          366.08,
-          565.48
-        ],
-        [
-          373.4,
-          565.48
-        ],
-        [
-          373.4,
-          570.28
-        ],
-        [
-          366.08,
-          570.28
-        ]
-      ],
-      "huella_xy_m": [
-        [
-          8.48995,
-          10.83945
-        ],
-        [
-          8.8773,
-          10.83945
-        ],
-        [
-          8.8773,
-          10.58545
-        ],
-        [
-          8.48995,
-          10.58545
-        ]
-      ],
-      "centro_xy_m": [
-        8.683625,
-        10.71245
-      ],
-      "tamano_bbox_xy_m": [
-        0.38735,
-        0.254
-      ],
-      "z_base_m": null,
-      "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
-      "seqno_rellenos_pdf": [
-        2623
-      ],
-      "criterio": "Medida gráfica derivada; no es cota escrita. Altura del asset decorativo a elegir y registrar; no cambiar huella o ubicación.",
-      "notas": null
-    },
-    {
-      "nombre": "silla_pergola_sur_2",
-      "tipo": "silla_comedor",
-      "estancia": "Comedor piscina/pérgola",
-      "bbox_pdf_pt": [
-        366.08,
-        589.12,
-        373.4,
-        593.8
-      ],
-      "bbox_xy_m": [
-        8.48995,
-        9.34085,
-        8.8773,
-        9.5885
-      ],
-      "huella_pdf_pt": [
-        [
-          366.08,
-          589.12
-        ],
-        [
-          373.4,
-          589.12
-        ],
-        [
-          373.4,
-          593.8
-        ],
-        [
-          366.08,
-          593.8
-        ]
-      ],
-      "huella_xy_m": [
-        [
-          8.48995,
-          9.5885
-        ],
-        [
-          8.8773,
-          9.5885
-        ],
-        [
-          8.8773,
-          9.34085
-        ],
-        [
-          8.48995,
-          9.34085
-        ]
-      ],
-      "centro_xy_m": [
-        8.683625,
-        9.464675
-      ],
-      "tamano_bbox_xy_m": [
-        0.38735,
-        0.24765
-      ],
-      "z_base_m": null,
-      "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
-      "seqno_rellenos_pdf": [
-        2639
-      ],
-      "criterio": "Medida gráfica derivada; no es cota escrita. Altura del asset decorativo a elegir y registrar; no cambiar huella o ubicación.",
-      "notas": null
-    },
-    {
-      "nombre": "silla_pergola_norte_3",
-      "tipo": "silla_comedor",
-      "estancia": "Comedor piscina/pérgola",
-      "bbox_pdf_pt": [
-        377.12,
-        565.48,
-        384.56,
-        570.28
-      ],
-      "bbox_xy_m": [
-        9.07415,
-        10.58545,
-        9.46785,
-        10.83945
-      ],
-      "huella_pdf_pt": [
-        [
-          377.12,
-          565.48
-        ],
-        [
-          384.56,
-          565.48
-        ],
-        [
-          384.56,
-          570.28
-        ],
-        [
-          377.12,
-          570.28
-        ]
-      ],
-      "huella_xy_m": [
-        [
-          9.07415,
-          10.83945
-        ],
-        [
-          9.46785,
-          10.83945
-        ],
-        [
-          9.46785,
-          10.58545
-        ],
-        [
-          9.07415,
-          10.58545
-        ]
-      ],
-      "centro_xy_m": [
-        9.271,
-        10.71245
-      ],
-      "tamano_bbox_xy_m": [
-        0.3937,
-        0.254
-      ],
-      "z_base_m": null,
-      "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
-      "seqno_rellenos_pdf": [
-        2621
-      ],
-      "criterio": "Medida gráfica derivada; no es cota escrita. Altura del asset decorativo a elegir y registrar; no cambiar huella o ubicación.",
-      "notas": null
-    },
-    {
-      "nombre": "silla_pergola_sur_3",
-      "tipo": "silla_comedor",
-      "estancia": "Comedor piscina/pérgola",
-      "bbox_pdf_pt": [
-        377.12,
-        589.12,
-        384.56,
-        593.8
-      ],
-      "bbox_xy_m": [
-        9.07415,
-        9.34085,
-        9.46785,
-        9.5885
-      ],
-      "huella_pdf_pt": [
-        [
-          377.12,
-          589.12
-        ],
-        [
-          384.56,
-          589.12
-        ],
-        [
-          384.56,
-          593.8
-        ],
-        [
-          377.12,
-          593.8
-        ]
-      ],
-      "huella_xy_m": [
-        [
-          9.07415,
-          9.5885
-        ],
-        [
-          9.46785,
-          9.5885
-        ],
-        [
-          9.46785,
-          9.34085
-        ],
-        [
-          9.07415,
-          9.34085
-        ]
-      ],
-      "centro_xy_m": [
-        9.271,
-        9.464675
-      ],
-      "tamano_bbox_xy_m": [
-        0.3937,
-        0.24765
-      ],
-      "z_base_m": null,
-      "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
-      "seqno_rellenos_pdf": [
-        2637
-      ],
-      "criterio": "Medida gráfica derivada; no es cota escrita. Altura del asset decorativo a elegir y registrar; no cambiar huella o ubicación.",
-      "notas": null
-    },
-    {
-      "nombre": "silla_pergola_cabecera_oeste",
-      "tipo": "silla_comedor",
-      "estancia": "Comedor piscina/pérgola",
-      "bbox_pdf_pt": [
-        347.96,
-        575.92,
-        352.76,
-        583.36
-      ],
-      "bbox_xy_m": [
-        7.5311,
-        9.8933,
-        7.7851,
-        10.287
-      ],
-      "huella_pdf_pt": [
-        [
-          347.96,
-          575.92
-        ],
-        [
-          352.76,
-          575.92
-        ],
-        [
-          352.76,
-          583.36
-        ],
-        [
-          347.96,
-          583.36
-        ]
-      ],
-      "huella_xy_m": [
-        [
-          7.5311,
-          10.287
-        ],
-        [
-          7.7851,
-          10.287
-        ],
-        [
-          7.7851,
-          9.8933
-        ],
-        [
-          7.5311,
-          9.8933
-        ]
-      ],
-      "centro_xy_m": [
-        7.6581,
-        10.09015
-      ],
-      "tamano_bbox_xy_m": [
-        0.254,
-        0.3937
-      ],
-      "z_base_m": null,
-      "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
-      "seqno_rellenos_pdf": [
-        2633
-      ],
-      "criterio": "Medida gráfica derivada; no es cota escrita. Altura del asset decorativo a elegir y registrar; no cambiar huella o ubicación.",
-      "notas": null
-    },
-    {
-      "nombre": "silla_pergola_cabecera_este",
-      "tipo": "silla_comedor",
-      "estancia": "Comedor piscina/pérgola",
-      "bbox_pdf_pt": [
-        386.72,
-        575.92,
-        391.52,
-        583.36
-      ],
-      "bbox_xy_m": [
-        9.58215,
-        9.8933,
-        9.83615,
-        10.287
-      ],
-      "huella_pdf_pt": [
-        [
-          386.72,
-          575.92
-        ],
-        [
-          391.52,
-          575.92
-        ],
-        [
-          391.52,
-          583.36
-        ],
-        [
-          386.72,
-          583.36
-        ]
-      ],
-      "huella_xy_m": [
-        [
-          9.58215,
-          10.287
-        ],
-        [
-          9.83615,
-          10.287
-        ],
-        [
-          9.83615,
-          9.8933
-        ],
-        [
-          9.58215,
-          9.8933
-        ]
-      ],
-      "centro_xy_m": [
-        9.70915,
-        10.09015
-      ],
-      "tamano_bbox_xy_m": [
-        0.254,
-        0.3937
-      ],
-      "z_base_m": null,
-      "altura_m": null,
-      "fuente": "Página35/lámina02; símbolo vectorial000SOBREADO RGB≈.8902 y líneas000MOBILIARIO",
-      "seqno_rellenos_pdf": [
-        2629
       ],
       "criterio": "Medida gráfica derivada; no es cota escrita. Altura del asset decorativo a elegir y registrar; no cambiar huella o ubicación.",
       "notas": null
@@ -4111,5 +3418,70 @@
     339.2,
     423.28
   ],
-  "criterio_z": "Todas las alturas desconocidas sonnull. El creador del modelo puede asignar altura/material decorativos de assets y registrar dicha decisión; mantendrá XY y paso libre dibujados."
+  "criterio_z": "Todas las alturas desconocidas sonnull. El creador del modelo puede asignar altura/material decorativos de assets y registrar dicha decisión; mantendrá XY y paso libre dibujados.",
+  "referencias_trastero": [
+    {
+      "nombre": "rack_tablas_trastero",
+      "accion": "anadir",
+      "bbox_pdf_v2_pt": [
+        154.4,
+        542.08,
+        221.96,
+        553.48
+      ],
+      "bbox_xy_m": [
+        3.2512,
+        11.47445,
+        6.82625,
+        12.0777
+      ],
+      "dimensiones_directas_m": [
+        3.58,
+        0.6
+      ],
+      "criterio": "Referencia auxiliar nueva acotada; altura no definida."
+    },
+    {
+      "nombre": "gym_rack_trastero",
+      "accion": "anadir",
+      "bbox_pdf_v2_pt": [
+        157.64,
+        578.68,
+        195.44,
+        610.84
+      ],
+      "bbox_xy_m": [
+        3.42265,
+        8.43915,
+        5.4229,
+        10.14095
+      ],
+      "dimensiones_directas_m": [
+        2,
+        1.7
+      ],
+      "criterio": "Referencia auxiliar nueva acotada; altura no definida."
+    },
+    {
+      "nombre": "moto_trastero",
+      "accion": "anadir",
+      "bbox_pdf_v2_pt": [
+        265.4,
+        563.8,
+        282.44,
+        609.16
+      ],
+      "bbox_xy_m": [
+        9.12495,
+        8.52805,
+        10.02665,
+        10.92835
+      ],
+      "dimensiones_directas_m": [
+        0.9,
+        2.4
+      ],
+      "criterio": "Referencia auxiliar nueva acotada; altura no definida."
+    }
+  ]
 }

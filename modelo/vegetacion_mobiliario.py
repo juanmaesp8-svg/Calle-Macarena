@@ -296,7 +296,9 @@ def make_olive(name, xy, height, col, mats):
     return result
 
 
+
 def _box(name, location, size, col, parent, material, bevel=0.02):
+    """Manufactured solid with physically rounded edges, dimensions unchanged."""
     sx, sy, sz = [v * 0.5 for v in size]
     verts = [(x * sx, y * sy, z * sz) for x, y, z in
              [(-1,-1,-1),(1,-1,-1),(1,1,-1),(-1,1,-1),(-1,-1,1),(1,-1,1),(1,1,1),(-1,1,1)]]
@@ -304,103 +306,418 @@ def _box(name, location, size, col, parent, material, bevel=0.02):
     obj = _mesh(name, verts, faces, col, parent, [material])
     obj.location = location
     if bevel:
-        modifier = obj.modifiers.new('Bordes del mueble', 'BEVEL')
-        modifier.width = min(bevel, min(size) * 0.23)
-        modifier.segments = 3
+        modifier = obj.modifiers.new('Radio físico de canto', 'BEVEL')
+        modifier.width = min(bevel, min(size) * 0.42)
+        modifier.segments = 5
         modifier.limit_method = 'ANGLE'
-        modifier = obj.modifiers.new('Normales del mueble', 'WEIGHTED_NORMAL')
+        modifier.harden_normals = True
+        modifier = obj.modifiers.new('Normales de superficie manufacturada', 'WEIGHTED_NORMAL')
         modifier.keep_sharp = True
+        modifier.weight = 50
     return obj
 
 
+def _curve(name, points, col, parent, material, radius=0.002, closed=False):
+    data = bpy.data.curves.new(name + ' · curva', 'CURVE')
+    data.dimensions = '3D'
+    data.resolution_u = 1
+    data.bevel_depth = radius
+    data.bevel_resolution = 2
+    spline = data.splines.new('POLY')
+    spline.points.add(len(points)-1)
+    for p, xyz in zip(spline.points, points):
+        p.co = (*xyz,1)
+    spline.use_cyclic_u = closed
+    obj = bpy.data.objects.new(name,data)
+    _collection(col).objects.link(obj)
+    obj.parent = parent
+    data.materials.append(material)
+    obj['procedencia'] = NOTE
+    return obj
+
+
+def _rod(name, start, end, radius0, radius1, col, parent, material, sides=20):
+    vertices, faces = [], []
+    _tube(vertices,faces,[start,end],[radius0,radius1],sides)
+    obj = _mesh(name,vertices,faces,col,parent,[material])
+    for face in obj.data.polygons[-2:]:
+        face.use_smooth = False
+    return obj
+
+
+def _spow(value, exponent):
+    return math.copysign(abs(value)**exponent,value)
+
+
+def _upholstered(name, location, size, col, parent, material,
+                 rotation=(0,0,0), fullness=0.36, wrinkles=0.002, seam=True):
+    """Closed soft cushion, not a bevelled cube; small sewn compression folds.
+
+    Cardinal vertices retain its supplied dimensions. Seams lie inside the
+    cushion envelope. Height, puff and folds are visual furnishing choices.
+    """
+    hx,hy,hz=[v*.5 for v in size]
+    nt,nv=48,20
+    verts=[]
+    for j in range(nv+1):
+        phi=-math.pi/2+1e-6+(math.pi-2e-6)*j/nv
+        cp=abs(math.cos(phi))**fullness
+        zp=_spow(math.sin(phi),fullness)
+        for i in range(nt):
+            theta=2*math.pi*i/nt
+            x=hx*cp*_spow(math.cos(theta),0.30)
+            y=hy*cp*_spow(math.sin(theta),0.30)
+            # Local folds close to the edge, disappearing at cardinal/pole
+            # extrema: volume is within original bbox, no simulated sculpture.
+            edge=math.exp(-((abs(phi)-.34)/.25)**2)
+            ripple=wrinkles*math.sin(theta*13+.4)*math.sin(theta*2)**2*edge
+            z=hz*zp+ripple
+            z=max(-hz,min(hz,z))
+            verts.append((x,y,z))
+    faces=[]
+    for j in range(nv):
+        for i in range(nt):
+            a=j*nt+i;b=j*nt+(i+1)%nt
+            faces.append((a,b,b+nt,a+nt))
+    faces.append(tuple(reversed(range(nt))))
+    faces.append(tuple(nv*nt+i for i in range(nt)))
+    obj=_mesh(name,verts,faces,col,parent,[material])
+    obj.location=location
+    obj.rotation_euler=rotation
+    result=[obj]
+    if seam:
+        radius=min(.0017,min(size)*.013)
+        inset=max(radius*2.5,.0025)
+        points=[]
+        for i in range(96):
+            t=2*math.pi*i/96
+            points.append(((hx-inset)*_spow(math.cos(t),.30),
+                           (hy-inset)*_spow(math.sin(t),.30),0))
+        line=_curve(name+' · vivo cosido',points,col,parent,material,radius,True)
+        line.location=location
+        line.rotation_euler=rotation
+        result.append(line)
+    return result
+
+
+def _fit_xy(parent, objects, size):
+    """Normalize accessory XY envelope to supplied source footprint exactly.
+
+    Evaluates the actual meshes, including cloth, piping and nested chair
+    groups. Only the accessory transform changes; source centre and Z remain.
+    """
+    bpy.context.view_layer.update()
+    graph=bpy.context.evaluated_depsgraph_get()
+    inverse=parent.matrix_world.inverted()
+    points=[]
+    for obj in objects:
+        if obj.type not in ('MESH','CURVE'):
+            continue
+        evaluated=obj.evaluated_get(graph)
+        data=evaluated.to_mesh()
+        matrix=inverse@evaluated.matrix_world
+        points.extend(matrix@v.co for v in data.vertices)
+        evaluated.to_mesh_clear()
+    if not points:
+        raise ValueError('Accessory has no geometry')
+    lo=[min(p[i] for p in points) for i in (0,1)]
+    hi=[max(p[i] for p in points) for i in (0,1)]
+    shift=[(a+b)/2 for a,b in zip(lo,hi)]
+    for obj in objects:
+        if obj.parent==parent:
+            obj.location.x-=shift[0]
+            obj.location.y-=shift[1]
+    parent.scale.x*=size[0]/(hi[0]-lo[0])
+    parent.scale.y*=size[1]/(hi[1]-lo[1])
+    parent['huella_asset_m']=list(size)
+    parent['altura_asset_evaluada_m']=max(p.z for p in points)
+    parent['control_xy']='Envolvente evaluada ajustada a size, centro de fuente conservado'
+    bpy.context.view_layer.update()
+
+
 def _chair(name, local_xy, yaw, col, parent, mats, scale=1):
-    """Minimal dining chair with actual legs/back, no intersecting planes."""
-    group = bpy.data.objects.new(name, None)
+    """Refined bent-wood dining chair; nominal silhouette .47×.46m."""
+    group=bpy.data.objects.new(name,None)
     _collection(col).objects.link(group)
-    group.parent = parent
-    group.location = (*local_xy, 0)
-    group.rotation_euler.z = yaw
-    group.scale = (scale, scale, scale)
-    group['procedencia'] = NOTE
-    result = [group]
-    wood = _mat(mats, 'madera_pergola', 'wood')
-    fabric = _mat(mats, 'tejido', 'fabric')
-    for x in (-0.19, 0.19):
-        for y in (-0.18, 0.18):
-            result.append(_box(name + ' · pata', (x, y, 0.225), (0.038, 0.038, 0.45), col, group, wood, 0.008))
-    result.append(_box(name + ' · asiento', (0, 0, 0.455), (0.47, 0.46, 0.07), col, group, fabric, 0.03))
-    for x in (-0.19, 0.19):
-        result.append(_box(name + ' · montante', (x, 0.19, 0.63), (0.03, 0.035, 0.35), col, group, wood, 0.008))
-    result.append(_box(name + ' · respaldo', (0, 0.19, 0.76), (0.46, 0.055, 0.22), col, group, wood, 0.025))
+    group.parent=parent
+    group.location=(*local_xy,0)
+    group.rotation_euler.z=yaw
+    group.scale=(scale,scale,scale)
+    group['procedencia']=NOTE
+    result=[group]
+    wood=_mat(mats,'madera_mesa','madera_pergola','wood')
+    vertical=_mat(mats,'madera_patas','madera_mesa','madera_pergola','wood')
+    fabric=_mat(mats,'tejido_tapizado','tejido','fabric')
+    dark=_mat(mats,'metal_mobiliario','carpinteria_antracita','frame')
+    # Tapered, subtly splayed legs, real frame and rubber floor glides.
+    for signx in (-1,1):
+        for signy in (-1,1):
+            lower=(signx*.204,signy*.188,.018)
+            upper=(signx*.172,signy*.145,.421)
+            result.append(_rod(name+' · pata torneada',lower,upper,.016,.023,col,group,vertical))
+            result.append(_rod(name+' · apoyo de suelo',
+                (lower[0],lower[1],0),(lower[0],lower[1],.023),.018,.018,col,group,dark))
+    result.extend(_upholstered(name+' · asiento tapizado',(0,-.005,.466),
+                  (.47,.46,.093),col,group,fabric,fullness=.28,wrinkles=.0012))
+    # Slender apron under the seat, no massive floating slab.
+    for x in (-.176,.176):
+        result.append(_rod(name+' · larguero lateral',(x,-.158,.419),(x,.147,.419),.015,.015,col,group,wood))
+    result.append(_rod(name+' · travesaño frontal',(-.18,-.151,.419),(.18,-.151,.419),.017,.017,col,group,wood))
+    for sx in (-1,1):
+        line=[]
+        for j in range(13):
+            t=j/12
+            line.append((sx*(.177-.015*math.sin(math.pi*t)),.145+.046*t,.425+.382*t))
+        result.append(_curve(name+' · montante curvo',line,col,group,vertical,.015))
+    # Back is a curved, closed laminated shell, upholstered on its front.
+    width=.445; nx,nz=24,8; vertices=[]; faces=[]
+    for j in range(nz+1):
+        t=j/nz
+        for i in range(nx+1):
+            u=-1+2*i/nx
+            vertices.append((u*width/2,.187-.036*u*u+.011*t,.579+.230*t-.008*u*u))
+    for j in range(nz):
+        for i in range(nx):
+            a=j*(nx+1)+i;faces.append((a,a+1,a+nx+2,a+nx+1))
+    shell=_mesh(name+' · respaldo de madera curvada',vertices,faces,col,group,[wood])
+    solid=shell.modifiers.new('Lámina de madera curvada 14mm','SOLIDIFY');solid.thickness=.014;solid.offset=0
+    bevel=shell.modifiers.new('Canto suavizado 3mm','BEVEL');bevel.width=.003;bevel.segments=3
+    result.append(shell)
+    result.extend(_upholstered(name+' · acolchado de respaldo',(0,.172,.700),
+                  (.414,.055,.204),col,group,fabric,rotation=(math.radians(-3),0,0),
+                  fullness=.25,wrinkles=.0008))
+    return result
+
+
+def make_chair(name, center, size, z, collection, mats, yaw=0):
+    """One source-position chair; size is its WORLD-XY bbox, including rotation.
+
+    Back at +Y for yaw0, -X for yaw+pi/2. For source symbols partly tucked
+    under a table this preserves the documented visible footprint; dimensions
+    of a named manufacturer chair are not claimed.
+    """
+    parent=_parent(name,(center[0],center[1],z),collection)
+    result=[parent]+_chair(name+' · estructura',(0,0),0,collection,parent,mats)
+    quarter=abs(math.sin(yaw))>0.99
+    local_size=(size[1],size[0]) if quarter else size
+    _fit_xy(parent,result,local_size)
+    parent.rotation_euler.z=yaw
+    parent['altura_asset_m']=.815
+    return result
+
+
+def make_table(name, center, size, z, collection, mats, height=.75, coffee=False):
+    """Thin physically rounded table; footprint exactly follows caller's size."""
+    parent=_parent(name,(center[0],center[1],z),collection)
+    sx,sy=size
+    result=[parent]
+    wood=_mat(mats,'madera_mesa','madera_pergola','wood')
+    metal=_mat(mats,'metal_mobiliario','carpinteria_antracita','frame')
+    topmat=_mat(mats,'porcelanico_exterior','paving') if coffee else wood
+    thickness=.034 if not coffee else .028
+    result.append(_box(name+' · tablero de canto fino',(0,0,height-thickness/2),
+                  (sx,sy,thickness),collection,parent,topmat,.008))
+    # Fine timber/steel support and a recessed apron below the top.
+    if not coffee:
+        for sign in (-1,1):
+            result.append(_box(name+' · faldón longitudinal',(sign*sx*.39,0,height-.057),
+                (.023,sy*.69,.042),collection,parent,metal,.004))
+    for ix in (-1,1):
+        for iy in (-1,1):
+            x=ix*sx*.375;y=iy*sy*.345
+            result.append(_rod(name+' · pata cónica',
+                (x*1.035,y*1.035,.009),(x,y,height-thickness),
+                .015 if coffee else .018,.022 if coffee else .026,
+                collection,parent,metal))
+            result.append(_rod(name+' · protector de apoyo',
+                (x*1.035,y*1.035,0),(x*1.035,y*1.035,.011),.017,.017,
+                collection,parent,metal))
+    _fit_xy(parent,result,size)
+    parent['altura_asset_m']=height
     return result
 
 
 def make_dining(name, center, size, z, collection, mats):
-    """Dining set contained in size=(X,Y), with nominal 0.75m table height."""
-    parent = _parent(name, (center[0], center[1], z), collection)
-    sx, sy = size
-    parent['huella_asset_m'] = f'{sx} × {sy}'
-    result = [parent]
-    wood = _mat(mats, 'madera_pergola', 'wood')
-    metal = _mat(mats, 'carpinteria_antracita', 'frame')
-    clearance = min(0.62, sy * 0.27, sx * 0.27)
-    tx, ty = max(0.5, sx - clearance * 2), max(0.48, sy - clearance * 2)
-    result.append(_box(name + ' · tablero', (0, 0, 0.745), (tx, ty, 0.045), collection, parent, wood, 0.025))
-    for x in (-tx * 0.4, tx * 0.4):
-        for y in (-ty * 0.34, ty * 0.34):
-            result.append(_box(name + ' · pata mesa', (x, y, 0.36), (0.04, 0.04, 0.72), collection, parent, metal, 0.008))
-    chair_scale = min(1.0, clearance / 0.54)
-    seat_y = (ty / 2 + clearance * 0.51)
-    n = 3 if tx > 1.75 else 2 if tx > 1.0 else 1
-    for sign in (-1, 1):
+    """Complete dining set inside source bbox; source set centre is unchanged."""
+    parent=_parent(name,(center[0],center[1],z),collection)
+    sx,sy=size
+    clearance=min(.62,sy*.27,sx*.27)
+    tx,ty=max(.50,sx-2*clearance),max(.48,sy-2*clearance)
+    # make_table coordinates are relative to the global set parent after attach.
+    table=make_table(name+' · mesa',(0,0),(tx,ty),0,collection,mats)
+    table[0].parent=parent
+    result=[parent]+table
+    chair_scale=min(1.0,clearance/.54)
+    seat_y=ty/2+clearance*.51
+    n=3 if tx>1.75 else 2 if tx>1.0 else 1
+    for sign in (-1,1):
         for index in range(n):
-            x = 0 if n == 1 else (index / (n - 1) - 0.5) * tx * 0.70
-            result.extend(_chair(name + f' · silla {sign}_{index}', (x, seat_y * sign),
-                                 0 if sign > 0 else math.pi, collection, parent, mats, chair_scale))
+            x=0 if n==1 else (index/(n-1)-.5)*tx*.70
+            result.extend(_chair(name+f' · silla {sign}_{index}',(x,seat_y*sign),
+                0 if sign>0 else math.pi,collection,parent,mats,chair_scale))
+    _fit_xy(parent,result,size)
+    parent['altura_asset_m']=.815
     return result
 
 
 def make_sofa(name, center, size, z, collection, mats):
-    """Neutral contemporary sofa, exact outer X/Y footprint supplied by caller."""
-    parent = _parent(name, (center[0], center[1], z), collection)
-    sx, sy = size
-    parent['huella_asset_m'] = f'{sx} × {sy}'
-    result = [parent]
-    fabric = _mat(mats, 'tejido', 'fabric')
-    dark = _mat(mats, 'carpinteria_antracita', 'frame')
-    result.append(_box(name + ' · base', (0, 0, 0.22), (sx, sy, 0.30), collection, parent, fabric, 0.055))
-    result.append(_box(name + ' · respaldo', (0, sy * 0.39, 0.58), (sx, sy * 0.22, 0.46), collection, parent, fabric, 0.08))
-    arm = min(0.16, sx * 0.10)
-    for sign in (-1, 1):
-        result.append(_box(name + ' · brazo', (sign * (sx / 2 - arm / 2), 0, 0.48),
-                           (arm, sy, 0.36), collection, parent, fabric, 0.055))
-    seats = max(1, round(sx / 0.85))
-    width = (sx - 2 * arm) / seats
-    for index in range(seats):
-        result.append(_box(name + f' · cojín {index+1}', (-sx/2 + arm + (index+0.5)*width, -sy*0.075, 0.42),
-                           (width * 0.965, sy * 0.70, 0.16), collection, parent, fabric, 0.065))
-    for x in (-sx * 0.41, sx * 0.41):
-        for y in (-sy * 0.37, sy * 0.37):
-            result.append(_box(name + ' · pata', (x,y,0.05),(0.05,0.05,0.10),collection,parent,dark,0.005))
+    """Soft upholstered sofa/butaca, same source centre and total XY envelope."""
+    parent=_parent(name,(center[0],center[1],z),collection)
+    sx,sy=size
+    result=[parent]
+    fabric=_mat(mats,'tejido_tapizado','tejido','fabric')
+    metal=_mat(mats,'metal_mobiliario','carpinteria_antracita','frame')
+    ottoman=('ottoman' in name.lower() or 'asiento_' in name.lower())
+    result.extend(_upholstered(name+' · bastidor tapizado',(0,0,.265),
+                  (sx,sy,.285),collection,parent,fabric,fullness=.22,wrinkles=.0005))
+    for x in (-sx*.39,sx*.39):
+        for y in (-sy*.35,sy*.35):
+            result.append(_rod(name+' · pata cilíndrica',(x,y,0),(x,y,.15),
+                          .017,.021,collection,parent,metal))
+    if ottoman:
+        result.extend(_upholstered(name+' · cojín superior',(0,0,.461),
+                    (sx*.985,sy*.985,.170),collection,parent,fabric,fullness=.31))
+    else:
+        arm=min(.16,sx*.12)
+        result.extend(_upholstered(name+' · carcasa de respaldo',(0,sy*.387,.654),
+                    (sx*.996,sy*.224,.414),collection,parent,fabric,
+                    fullness=.23,wrinkles=.0011))
+        for sign in (-1,1):
+            result.extend(_upholstered(name+' · apoyabrazos '+str(sign),
+                    (sign*(sx/2-arm/2),-.01*sy,.484),
+                    (arm,sy*.984,.356),collection,parent,fabric,
+                    fullness=.23,wrinkles=.0011))
+        seats=max(1,min(4,round(sx/.78)))
+        usable=sx-2*arm
+        width=usable/seats
+        for index in range(seats):
+            x=-usable/2+(index+.5)*width
+            result.extend(_upholstered(name+f' · cojín asiento {index+1}',
+                    (x,-sy*.11,.462),(width-.012,sy*.716,.178),
+                    collection,parent,fabric,fullness=.30,wrinkles=.0021))
+            result.extend(_upholstered(name+f' · cojín respaldo {index+1}',
+                    (x,sy*.276,.682),(width-.014,sy*.155,.355),
+                    collection,parent,fabric,rotation=(math.radians(-5),0,0),
+                    fullness=.28,wrinkles=.0018))
+        # Loose side cushions sit on the seat, well within source footprint.
+        if sx>1.5:
+            for sign in (-1,1):
+                pillow=min(.36,sy*.46)
+                result.extend(_upholstered(name+' · almohadón suelto '+str(sign),
+                    (sign*(usable/2-pillow*.52),sy*.045,.641),
+                    (pillow,.135,pillow),collection,parent,fabric,
+                    rotation=(math.radians(-12),math.radians(sign*9),math.radians(sign*6)),
+                    fullness=.48,wrinkles=.0022))
+    _fit_xy(parent,result,size)
+    parent['altura_asset_m']=.88 if not ottoman else .55
+    parent['detalle_visual']='Tapizado cerrado con compresión milimétrica, vivos cosidos y cojines separados'
     return result
 
 
+def _inside_xy(point, polygon):
+    x,y=point;inside=False
+    for i,(a,b) in enumerate(polygon):
+        c,d=polygon[(i+1)%len(polygon)]
+        if (b>y)!=(d>y) and x<(c-a)*(y-b)/(d-b)+a:
+            inside=not inside
+    return inside
+
+
+def make_sofa_l(name, footprint_xy, z, collection, mats):
+    """Sectional sofa following an axis-aligned source L polygon, no bbox fill.
+
+    New helper for the builder: source polygon determines every occupied cell.
+    Back rests remain on the north/west boundaries already drawn in V1.
+    """
+    xs=sorted(set(p[0] for p in footprint_xy));ys=sorted(set(p[1] for p in footprint_xy))
+    center=((xs[0]+xs[-1])/2,(ys[0]+ys[-1])/2)
+    parent=_parent(name,(*center,z),collection)
+    result=[parent]
+    fabric=_mat(mats,'tejido_tapizado','tejido','fabric')
+    metal=_mat(mats,'metal_mobiliario','carpinteria_antracita','frame')
+    cells=[]
+    for a,b in zip(xs[:-1],xs[1:]):
+        for c,d in zip(ys[:-1],ys[1:]):
+            if _inside_xy(((a+b)/2,(c+d)/2),footprint_xy):cells.append((a,b,c,d))
+    for i,(a,b,c,d) in enumerate(cells):
+        x=(a+b)/2-center[0];y=(c+d)/2-center[1];sx=b-a;sy=d-c
+        result.extend(_upholstered(name+f' · base modular {i+1}',(x,y,.270),
+                      (sx,sy,.29),collection,parent,fabric,fullness=.20,wrinkles=.0006))
+        # Multiple real seat pads on wide row; chaise occupies its own source cell.
+        count=max(1,round(sx/.78))
+        for j in range(count):
+            px=x-sx/2+(j+.5)*sx/count
+            result.extend(_upholstered(name+f' · asiento modular {i+1}_{j+1}',
+                      (px,y,.467),(sx/count-.014,sy-.024,.178),
+                      collection,parent,fabric,fullness=.29,wrinkles=.0020))
+        for dx in (-1,1):
+            for dy in (-1,1):
+                p=(x+dx*sx*.36,y+dy*sy*.34)
+                result.append(_rod(name+f' · pata módulo {i+1}',(*p,0),(*p,.15),
+                              .017,.020,collection,parent,metal))
+    width=xs[-1]-xs[0];depth=ys[-1]-ys[0]
+    north_y=ys[-1]-center[1]-.085
+    west_x=xs[0]-center[0]+.080
+    result.extend(_upholstered(name+' · respaldo norte',(0,north_y,.68),
+                  (width,.17,.36),collection,parent,fabric,fullness=.23))
+    result.extend(_upholstered(name+' · respaldo oeste',(west_x,0,.68),
+                  (.16,depth,.36),collection,parent,fabric,fullness=.23))
+    parent['huella_poligono_xy_m']=[list(p) for p in footprint_xy]
+    parent['huella_asset_m']=[width,depth]
+    parent['altura_asset_m']=.86
+    return result
+
+
+def _blanket(name, location, size, col, parent, material):
+    sx,sy=size;nx,ny=32,36;vertices=[];faces=[]
+    for j in range(ny+1):
+        y=(-.5+j/ny)*sy
+        for i in range(nx+1):
+            x=(-.5+i/nx)*sx
+            u=x/(sx/2);v=y/(sy/2)
+            # Small fabric folds and perimeter fall, not deep sculpted terrain.
+            fold=.0038*math.sin(16*u+2.7*v)*math.sin(4.3*v+.3)
+            fold+=.0027*math.sin(25*v-3*u)*math.cos(5*u)
+            fall=-.027*(abs(u)**12)-.022*(max(0,-v)**12)
+            vertices.append((x,y,fold+fall))
+    for j in range(ny):
+        for i in range(nx):
+            a=j*(nx+1)+i;faces.append((a,a+1,a+nx+2,a+nx+1))
+    obj=_mesh(name,vertices,faces,col,parent,[material]);obj.location=location
+    solid=obj.modifiers.new('Espesor de tejido 1.5mm','SOLIDIFY');solid.thickness=.0015;solid.offset=-1
+    return obj
+
+
 def make_bed(name, center, size, z, collection, mats):
-    """Simple neutral bed; supplied footprint is respected, headboard at +Y."""
-    parent = _parent(name, (center[0], center[1], z), collection)
-    sx, sy = size
-    parent['huella_asset_m'] = f'{sx} × {sy}'
-    result = [parent]
-    wood = _mat(mats, 'madera_clara_vertical', 'wood')
-    fabric = _mat(mats, 'tejido', 'fabric')
-    white = _mat(mats, 'pared_interior', 'white')
-    result.append(_box(name + ' · estructura', (0,0,0.22),(sx,sy,0.28),collection,parent,wood,0.025))
-    result.append(_box(name + ' · colchón', (0,-sy*0.015,0.46),(sx*0.98,sy*0.95,0.25),collection,parent,white,0.07))
-    result.append(_box(name + ' · cabecero', (0,sy/2-0.035,0.61),(sx,0.07,1.02),collection,parent,fabric,0.04))
-    result.append(_box(name + ' · ropa de cama', (0,-sy*0.10,0.595),(sx*0.96,sy*0.76,0.065),collection,parent,fabric,0.032))
-    pillows = 2 if sx > 1.1 else 1
-    for index in range(pillows):
-        px = (index-(pillows-1)/2)*sx*0.47
-        result.append(_box(name + f' · almohada {index+1}', (px,sy*0.30,0.62),
-                           (sx*0.42 if pillows==2 else sx*0.80,sy*0.22,0.12),collection,parent,white,0.05))
+    """Upholstered bed, closed mattress, layered linens; headboard at +Y."""
+    parent=_parent(name,(center[0],center[1],z),collection)
+    sx,sy=size;result=[parent]
+    wood=_mat(mats,'madera_mesa','madera_clara_vertical','wood')
+    fabric=_mat(mats,'tejido_tapizado','tejido','fabric')
+    linen=_mat(mats,'tejido_sabanas','tejido_tapizado','tejido','fabric')
+    metal=_mat(mats,'metal_mobiliario','carpinteria_antracita','frame')
+    result.append(_box(name+' · bastidor',(0,-sy*.015,.205),
+                  (sx*.985,sy*.975,.245),collection,parent,wood,.014))
+    for x in (-sx*.38,sx*.38):
+        for y in (-sy*.37,sy*.37):
+            result.append(_rod(name+' · apoyo',(x,y,0),(x,y,.095),.025,.030,
+                          collection,parent,metal))
+    result.extend(_upholstered(name+' · cabecero cosido',(0,sy/2-.060,.607),
+                  (sx,.12,1.01),collection,parent,fabric,fullness=.16,wrinkles=.0008))
+    result.extend(_upholstered(name+' · colchón',(0,-sy*.019,.462),
+                  (sx*.969,sy*.936,.265),collection,parent,linen,
+                  fullness=.23,wrinkles=.0012))
+    result.append(_blanket(name+' · sábana con pliegues',(0,-sy*.03,.599),
+                  (sx*.965,sy*.902),collection,parent,linen))
+    result.append(_blanket(name+' · manta ligera',(0,-sy*.160,.610),
+                  (sx*.967,sy*.59),collection,parent,fabric))
+    count=2 if sx>1.1 else 1
+    for i in range(count):
+        x=(i-(count-1)/2)*sx*.47
+        result.extend(_upholstered(name+f' · almohada {i+1}',(x,sy*.288,.658),
+                      (sx*.428 if count==2 else sx*.80,sy*.215,.145),
+                      collection,parent,linen,fullness=.47,wrinkles=.0022))
+    _fit_xy(parent,result,size)
+    parent['altura_asset_m']=1.12
+    parent['detalle_visual']='Colchón cerrado, ropa de cama por capas y almohadas cosidas'
     return result

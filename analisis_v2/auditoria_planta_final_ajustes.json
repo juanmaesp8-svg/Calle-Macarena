@@ -1,0 +1,390 @@
+{
+  "estado": "Propuesta de implementación para root; datos canónicos no modificados",
+  "criterio": "Las cotas escritas rigen distancias. Conservar anclajes existentes y caras comunes; corregir sólo extremos libres por milímetros. No trasladar ni redimensionar estancias a partir de residuos del trazado.",
+  "registro": "X/Y en metros, origen y escala V1. Registro de planta izquierda por parcela +112,68pt enX; Yigual.",
+  "tabla_directa_vector": [
+    {
+      "dimension": "Ancho interior trastero",
+      "cota_directa_m": 7.15,
+      "medida_vector_m": 7.1501,
+      "error_vector_m": 0.0001,
+      "error_mm": 0.1,
+      "seqno_pdf": 61313,
+      "mayor_6_35mm": false
+    },
+    {
+      "dimension": "Profundidad interior trastero",
+      "cota_directa_m": 3.94,
+      "medida_vector_m": 3.94335,
+      "error_vector_m": 0.00335,
+      "error_mm": 3.35,
+      "seqno_pdf": 61321,
+      "mayor_6_35mm": false
+    },
+    {
+      "dimension": "Profundidad norte interior–sur exterior",
+      "cota_directa_m": 4.19,
+      "medida_vector_m": 4.191,
+      "error_vector_m": 0.001,
+      "error_mm": 1.0,
+      "seqno_pdf": 61329,
+      "mayor_6_35mm": false
+    },
+    {
+      "dimension": "Hueco bruto puerta norte",
+      "cota_directa_m": 0.96,
+      "medida_vector_m": 0.9652,
+      "error_vector_m": 0.0052,
+      "error_mm": 5.2,
+      "seqno_pdf": 61536,
+      "mayor_6_35mm": false
+    },
+    {
+      "dimension": "Hueco puerta norte según extremos línea cota",
+      "cota_directa_m": 0.96,
+      "medida_vector_m": 0.95885,
+      "error_vector_m": -0.00115,
+      "error_mm": -1.15,
+      "seqno_pdf": 61536,
+      "mayor_6_35mm": false
+    },
+    {
+      "dimension": "Portón sur, sin cota escrita específica",
+      "cota_directa_m": null,
+      "medida_vector_m": 4.0005,
+      "error_vector_m": null,
+      "error_mm": null,
+      "seqno_pdf": 59561,
+      "mayor_6_35mm": false
+    },
+    {
+      "dimension": "Piscina ancho según bordes azul/solería izquierda",
+      "cota_directa_m": 3.5,
+      "medida_vector_m": 3.49885,
+      "error_vector_m": -0.00115,
+      "error_mm": -1.15,
+      "seqno_pdf": 54387,
+      "mayor_6_35mm": false
+    },
+    {
+      "dimension": "Piscina ancho según línea cota derecha",
+      "cota_directa_m": 3.5,
+      "medida_vector_m": 3.5052,
+      "error_vector_m": 0.0052,
+      "error_mm": 5.2,
+      "seqno_pdf": 62204,
+      "mayor_6_35mm": false
+    },
+    {
+      "dimension": "Piscina longitud",
+      "cota_directa_m": 5,
+      "medida_vector_m": 5.0038,
+      "error_vector_m": 0.0038,
+      "error_mm": 3.8,
+      "seqno_pdf": 62196,
+      "mayor_6_35mm": false
+    }
+  ],
+  "anclajes_confirmados": [
+    {
+      "elemento": "Cara interior oeste del nuevo trastero",
+      "x_m": 3.2512,
+      "evidencia": "V2left154,40pt +112,68=267,08pt V1, coincide con cara interior oeste instalaciones preexistente."
+    },
+    {
+      "elemento": "Cara interior norte del nuevo trastero",
+      "y_m": 12.0777,
+      "evidencia": "y542,08pt en ambas versiones, cara sur del muro salón/trastero."
+    },
+    {
+      "elemento": "Cara exterior este nuevo trastero",
+      "x_m": 10.64895,
+      "evidencia": "V2left294,20pt +112,68=406,88pt V1, coincide con línea exterior derecha de antigua pérgola y cuerpo principal."
+    },
+    {
+      "elemento": "Extremo este hueco puerta norte",
+      "x_m": 8.2677,
+      "evidencia": "V2left249,20pt +112,68=361,88pt; V2right633,44pt−271,56=361,88pt. Coinciden relleno y extremo de cota."
+    },
+    {
+      "elemento": "Fachada oeste común vivienda V1",
+      "x_m": 3.00355,
+      "evidencia": "Cara exterior x262,40pt del modelo V1. V2left149,60+112,68=262,28pt difiere6,35mm por registro/quantización; conservar continuidad con fachada V1 evita escalón artificial de6mm."
+    }
+  ],
+  "caras_trastero_propuestas_m": {
+    "interior_oeste_x": 3.2512,
+    "interior_este_x": 10.4012,
+    "interior_norte_y": 12.0777,
+    "interior_sur_y": 8.1377,
+    "exterior_sur_y": 7.8877,
+    "exterior_este_x": 10.64895,
+    "exterior_oeste_x_continuidad_vivienda": 3.00355,
+    "puerta_norte_extremo_este_x": 8.2677,
+    "puerta_norte_extremo_oeste_x": 7.3077,
+    "espesor_muro_sur_calculado_de_cotas_m": 0.25
+  },
+  "desplazamientos_locales_desde_vector_m": {
+    "interior_este_x": -0.0001,
+    "interior_sur_y": 0.00335,
+    "exterior_sur_y": 0.001,
+    "puerta_norte_extremo_oeste_x": 0.0052
+  },
+  "restricciones_resultantes": {
+    "interior_ancho_m": 7.15,
+    "interior_profundo_m": 3.94,
+    "profundo_hasta_exterior_sur_m": 4.19,
+    "hueco_norte_m": 0.96,
+    "sin_modificar_norte_salon_y": true,
+    "sin_modificar_oeste_interior_x": true,
+    "sin_modificar_eje_exterior_este_x": true
+  },
+  "espesor_laterales": "No hay cota escrita de0,25m para laterales. Conservar caras exteriores comunes documentadas produce espesores0,24765m oeste y0,24775m este; no imponer0,25m a costa de desplazar fachadas.",
+  "puerta_norte_hoja": "Cota0,96 es hueco bruto. Hoja gráfica0,81915m (~0,82), jambas~0,07m. Abre hacia trastero, bisagra oeste. Altura2,03m confirmada por usuario; no atribuirla a esta planta.",
+  "porton_sur": "Abertura gráfica4,0005m; sin cota escrita exclusiva. Nominal4,00m es deducción cercana y compatible con29,17m²; conservar centro o extremo documentado y declarar0,5mm de ajuste si se adopta4,00.",
+  "superficie": "No forzar29,17. El cómputo nominal interior7,15×3,94 + umbral4,00×0,25=29,171m² explica rotulación. Etiqueta29,17 no obliga a deformar paredes.",
+  "piscina_propuesta_m": {
+    "anclaje_lateral_oeste_x": 11.7094,
+    "anclaje_norte_y": 10.8585,
+    "dimension_x": 3.5,
+    "dimension_y": 5.0,
+    "nuevo_este_x": 15.2094,
+    "nuevo_sur_y": 5.8585,
+    "ajustes_desde_izquierda_vector_m": {
+      "este_x": 0.00115,
+      "sur_y": 0.0038
+    },
+    "criterio": "Mantener los bordes oeste/norte registrados; satisfacer dimensiones escritas3,50×5,00 mediante caras libres este/sur. Mantener posiciones XY de escalones, recortando su terminación a cara este exacta."
+  },
+  "otras_cotas_mayor_6_35mm": [
+    {
+      "texto": "1,6m",
+      "valor_directo_m": 1.6,
+      "direccion": "Y",
+      "bbox_texto_pdf_v2_pt": [
+        547.3033,
+        475.3988,
+        549.2832,
+        479.8
+      ],
+      "contexto": "salón; cota recinto o mobiliario según posición",
+      "linea_central_seqno_pdf": 61421,
+      "extremos_cota_pdf_v2_pt": [
+        [
+          551.0,
+          462.4
+        ],
+        [
+          551.0,
+          492.76
+        ]
+      ],
+      "extremos_cota_xy_m": [
+        [
+          3.90525,
+          16.2941
+        ],
+        [
+          3.90525,
+          14.68755
+        ]
+      ],
+      "medida_vector_m": 1.60655,
+      "desvio_vector_directa_m": 0.00655,
+      "asociacion": "Línea roja de igual orientación, longitud con flechas ±0,96 pt y proximidad al texto; verificar contexto.",
+      "contexto_preciso": "SofáL, fondo",
+      "interpretacion": "Línea roja462,40–492,76pt mide1,60655m, relleno real462,52–492,64pt mide1,59385m. Nominal1,60rige asset; ambos extremos de línea sobrepasan relleno0,12pt. No es pared."
+    },
+    {
+      "texto": "2m",
+      "valor_directo_m": 2.0,
+      "direccion": "Y",
+      "bbox_texto_pdf_v2_pt": [
+        632.6234,
+        398.93,
+        634.6032,
+        401.68
+      ],
+      "contexto": "cocina/lavadero/aseo",
+      "linea_central_seqno_pdf": 61676,
+      "extremos_cota_pdf_v2_pt": [
+        [
+          636.08,
+          381.4
+        ],
+        [
+          636.08,
+          419.32
+        ]
+      ],
+      "extremos_cota_xy_m": [
+        [
+          8.4074,
+          20.58035
+        ],
+        [
+          8.4074,
+          18.57375
+        ]
+      ],
+      "medida_vector_m": 2.0066,
+      "desvio_vector_directa_m": 0.0066,
+      "asociacion": "Línea roja de igual orientación, longitud con flechas ±0,96 pt y proximidad al texto; verificar contexto.",
+      "contexto_preciso": "Isla cocina, longitud",
+      "interpretacion": "Línea roja381,40–419,32pt mide2,00660m, pero relleno real381,40–419,20pt mide2,00025m, error+0,25mm. Cota2,00rige mueble."
+    },
+    {
+      "texto": "3,52m",
+      "valor_directo_m": 3.52,
+      "direccion": "Y",
+      "bbox_texto_pdf_v2_pt": [
+        602.2634,
+        397.618,
+        604.2432,
+        403.12
+      ],
+      "contexto": "cocina/lavadero/aseo",
+      "linea_central_seqno_pdf": 61700,
+      "extremos_cota_pdf_v2_pt": [
+        [
+          605.96,
+          367.0
+        ],
+        [
+          605.96,
+          433.72
+        ]
+      ],
+      "extremos_cota_xy_m": [
+        [
+          6.81355,
+          21.34235
+        ],
+        [
+          6.81355,
+          17.81175
+        ]
+      ],
+      "medida_vector_m": 3.5306,
+      "desvio_vector_directa_m": 0.0106,
+      "asociacion": "Línea roja de igual orientación, longitud con flechas ±0,96 pt y proximidad al texto; verificar contexto.",
+      "contexto_preciso": "Encimera longitudinal cocina",
+      "interpretacion": "La línea de cota roja va367,00–433,72pt, pero el relleno real encimera va367,12–433,60pt:3,51790m, error−2,10mm respecto3,52. Diferencia de la línea de dimensión, no necesidad de desplazar muro."
+    },
+    {
+      "texto": "1,72m",
+      "valor_directo_m": 1.72,
+      "direccion": "Y",
+      "bbox_texto_pdf_v2_pt": [
+        632.2634,
+        362.458,
+        634.2432,
+        367.96
+      ],
+      "contexto": "cocina/lavadero/aseo",
+      "linea_central_seqno_pdf": 61716,
+      "extremos_cota_pdf_v2_pt": [
+        [
+          636.08,
+          348.88
+        ],
+        [
+          636.08,
+          381.52
+        ]
+      ],
+      "extremos_cota_xy_m": [
+        [
+          8.4074,
+          22.3012
+        ],
+        [
+          8.4074,
+          20.574
+        ]
+      ],
+      "medida_vector_m": 1.7272,
+      "desvio_vector_directa_m": 0.0072,
+      "asociacion": "Línea roja de igual orientación, longitud con flechas ±0,96 pt y proximidad al texto; verificar contexto.",
+      "contexto_preciso": "Cocina, separación a isla",
+      "interpretacion": "Línea roja incluye381,52pt, mientras isla real comienza381,40pt: distancia348,88–381,40=1,72085m, error+0,85mm respecto1,72. No altera muro."
+    },
+    {
+      "texto": "2,68m",
+      "valor_directo_m": 2.68,
+      "direccion": "Y",
+      "bbox_texto_pdf_v2_pt": [
+        567.7034,
+        307.618,
+        569.6832,
+        313.12
+      ],
+      "contexto": "dormitorio3/baño2",
+      "linea_central_seqno_pdf": 62060,
+      "extremos_cota_pdf_v2_pt": [
+        [
+          571.4,
+          285.16
+        ],
+        [
+          571.4,
+          335.68
+        ]
+      ],
+      "extremos_cota_xy_m": [
+        [
+          4.98475,
+          25.67305
+        ],
+        [
+          4.98475,
+          22.9997
+        ]
+      ],
+      "medida_vector_m": 2.67335,
+      "desvio_vector_directa_m": -0.00665,
+      "asociacion": "Línea roja de igual orientación, longitud con flechas ±0,96 pt y proximidad al texto; verificar contexto.",
+      "contexto_preciso": "Baño2, profundidad interior",
+      "interpretacion": "Vector285,16–335,68pt mide2,67335m frente cota2,68m:−6,65mm, supera una unidad de cuantización en0,30mm. Se identifica como discrepancia menor; no desplazar dormitorios o baño sin resolver sus demás cotas comunes."
+    },
+    {
+      "texto": "1,02m",
+      "valor_directo_m": 1.02,
+      "direccion": "Y",
+      "bbox_texto_pdf_v2_pt": [
+        560.6234,
+        386.098,
+        562.6032,
+        391.6
+      ],
+      "contexto": "cocina/lavadero/aseo",
+      "linea_central_seqno_pdf": 62116,
+      "extremos_cota_pdf_v2_pt": [
+        [
+          564.32,
+          398.56
+        ],
+        [
+          564.32,
+          379.12
+        ]
+      ],
+      "extremos_cota_xy_m": [
+        [
+          4.6101,
+          19.6723
+        ],
+        [
+          4.6101,
+          20.701
+        ]
+      ],
+      "medida_vector_m": 1.0287,
+      "desvio_vector_directa_m": 0.0087,
+      "asociacion": "Línea roja de igual orientación, longitud con flechas ±0,96 pt y proximidad al texto; verificar contexto.",
+      "contexto_preciso": "Aseo, relación con equipamiento",
+      "interpretacion": "Línea de cota1,02va379,12–398,56pt; no es dimensión total de recinto. Diferencia8,70mm; aplicar nominal si se reproduce ese equipamiento, sin mover límites del aseo."
+    }
+  ],
+  "todos_los_datos": "auditoria_planta_final.json contiene93cotas, extremos y93asociaciones vectoriales; estas cotas se separan de muebles y máscaras gráficas."
+}

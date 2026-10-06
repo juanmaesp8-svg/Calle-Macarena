@@ -16,7 +16,8 @@ DIR=Path(__file__).resolve().parent
 ROOT=DIR.parent
 sys.path.insert(0,str(DIR))
 from materiales import make_materials, setup_lighting
-from vegetacion_mobiliario import make_palm, make_olive, make_shrub, make_sofa, make_bed
+from vegetacion_v2 import make_palm, make_olive, make_shrub, make_turf_fibres
+from vegetacion_mobiliario import make_sofa, make_bed, make_chair, make_table, make_sofa_l
 from vehiculos import make_car
 
 P=json.loads((DIR/'datos_planta.json').read_text())
@@ -32,12 +33,14 @@ for c in list(bpy.data.collections):
 scene=bpy.context.scene
 scene.unit_settings.system='METRIC';scene.unit_settings.length_unit='METERS';scene.unit_settings.scale_length=1.0
 scene['proyecto']='Vivienda unifamiliar Calle Macarena nº16 — reconstrucción del PDF'
-scene['fuente']='PDF39 páginas; XY plantas35/37, Z alzados38/secciones39'
+scene['fuente']='V2: XY planta final proyectoobra PDF1; Z vivienda original alzados38/secciones39; Z trastero confirmadas por usuario'
+scene['revision']='V2_planta_final_trastero'
+scene['sha256_planta_final']=P['fuente_sha256']
 scene['criterio_discrepancias']=H['regla']
 scene['incertidumbres']=json.dumps(H['incertidumbres'],ensure_ascii=False)
 scene['sin_dimensiones_inventadas']='Vaso sin fondo ni contrahuellas. Agua/grava son superficies gráficas, no cotas de acabado verificadas.'
 scene['estado']='MODELO DOCUMENTAL; control geométrico independiente disponible en control/control_resultado.json'
-names=['Parcela','Vivienda','Cubierta','Porches','Pergola','Piscina','Pavimentos','Cerramiento_exterior','Carpinterias','Aparcamiento','Jardin','Mobiliario','Iluminacion','Camaras','Referencias_PDF']
+names=['Parcela','Vivienda','Trastero','Cubierta','Porches','Piscina','Pavimentos','Cerramiento_exterior','Carpinterias','Aparcamiento','Jardin','Mobiliario','Iluminacion','Camaras','Referencias_PDF']
 C={}
 for name in names:
     c=bpy.data.collections.new(name);scene.collection.children.link(c);C[name]=c
@@ -109,19 +112,18 @@ def camera(name,position,target,lens=35,shift=0,ortho=None):
 surface('Parcela_limite_documental',S['parcela'],-.151,'Parcela',M['cesped'],'parcela',source='PDF35 capaPARCELA')
 # La base parcelaria sólo define un plano XY; no debe verse bajo el vaso desconocido.
 for ob in C['Parcela'].objects:ob.hide_render=True
-surface('Jardin_cesped',S['cesped'],-.15,'Jardin',M['cesped'],'jardin',source='Patches césped PDF37; continuidad bajo tumbonas deducida')
+surface('Jardin_cesped',S['cesped'],-.15,'Jardin',M['cesped'],'jardin',source='Planta final PDF1, césped artificial usuario; continuidad bajo tumbonas deducida')
+make_turf_fibres('Cesped_artificial_fibras_visual',S['cesped'],-.15,C['Jardin'],M,density=2000)
 surface('Pavimento_exterior_contorno_PDF',S['pavimentos'],0,'Pavimentos',M['porcelanico_exterior'],'pavimento',zbottom=-.15,source='Bordes césped/solería PDF35/37; altura suelo referencia0')
 surface('Suelo_vivienda',S['suelo_vivienda'],0,'Vivienda',M['suelo_interior'],'suelo_vivienda',source='Huella PDF35; datum0')
 
 # Muros y particiones: cada polígono procede del relleno azul del plano.
 for wall in P['muros']:
-    is_pier=wall['seqno_pdf']==647 # Pilar frontal de pérgola; no vivienda.
-    col='Pergola' if is_pier else 'Vivienda'
-    role='pilar_pergola' if is_pier else 'muro_vivienda'
-    ztop=2.85 if is_pier else 3.35
+    col='Trastero' if wall['clasificacion']=='trastero' else 'Vivienda'
+    role='muro_vivienda';ztop=3.35
     for i,xy in enumerate(wall['poligonos_xy_m']):
-        ob=prism(wall['nombre']+f'_{i+1:02d}',xy,0,ztop,col,M['fachada_blanca'],role,f"PDF35 relleno {wall['seqno_pdf']}")
-        ob['id_vector_pdf']=wall['seqno_pdf'];ob['clasificacion_planta']=wall['clasificacion']
+        ob=prism(wall['nombre']+f'_{i+1:02d}',xy,0,ztop,col,M['fachada_blanca'],role,f"Planta final PDF1 relleno {wall['seqno_pdf']}",bevel=.0015)
+        ob['id_vector_pdf']=wall['seqno_pdf'];ob['seqno_pdf_v2']=wall['seqno_pdf'];ob['clasificacion_planta']=wall['clasificacion']
 for wall in P['tendedero']:
     for i,xy in enumerate(wall['poligonos_xy_m']):
         prism(wall['nombre']+f'_{i+1:02d}',xy,-.15,1.65,'Cerramiento_exterior',M['muro_blanco'],'tendedero','PDF35; altura inferida por cerramiento lateral')
@@ -156,9 +158,10 @@ def opening(h):
         if 'principal' in name:
             for zz in [.52,1.04,1.56,2.08]:
                 framebox('_junta_'+str(zz),u0+profile,u1-profile,zz,zz+.007,M['metal_pergola'],.052)
-        handleu=u1-.14
-        handle=framebox('_tirador',handleu,handleu+.027,1.03,1.28,M['metal_pergola'],.12)
-        handle['estado_dimension']='Accesorio decorativo; no acotado'
+        if 'porton_trastero' not in name:
+            handleu=u1-.14
+            handle=framebox('_tirador',handleu,handleu+.027,1.03,1.28,M['metal_pergola'],.12)
+            handle['estado_dimension']='Accesorio decorativo; no acotado'
     else:
         leaves=3 if typ in ['V6','V7'] else 2 if typ in ['V1','V5'] else 1
         for j in range(leaves):
@@ -178,7 +181,7 @@ for h in H['huecos_exteriores']:opening(h)
 
 # Forjado común, petos de paños diferentes, portal abierto y marquesina derivada.
 surface('Forjado_cubierta_3_35_3_70',S['cubierta'],3.7,'Cubierta',M['fachada_blanca'],'forjado',zbottom=3.35,source='Planta37; cotas directas3.35/3.70')
-surface('Cielorraso_3_20',S['suelo_vivienda'],3.2,'Cubierta',M['fachada_blanca'],'cielorraso',source='Secciones1/3; Zcalculada3.20')
+surface('Cielorraso_vivienda_existente_3_20',S['suelo_vivienda_existente'],3.2,'Cubierta',M['fachada_blanca'],'cielorraso',source='Secciones1/3; Zcalculada3.20; excluye trastero nuevo, sin dato de cielorraso')
 surface('Grava_superficie_referencia_NO_cota_acabado',S['cubierta'],3.702,'Cubierta',M['grava'],'grava_visual',source='Memoria: plana grava; acabadoZsinacotar',status='Plano de referencia de visualización; no cota de acabado real')
 for pa in H['cubierta']['petos_tramos']:
     # El portal empieza en3.35; sus primeros35cm ya pertenecen al forjado.
@@ -190,16 +193,16 @@ for pa in H['cubierta']['petos_tramos']:
     ob['division_solidos']='Porción3.35–3.70 del portal incluida en Forjado; sin duplicar caras inferiores.'
 can=H['cubierta']['marquesina_terraza_derivada']
 box('Marquesina_terraza_sin_pilares',can['bbox_xy_m'],3.35,3.55,'Porches',M['fachada_blanca'],'marquesina','Alzado lateral/vial y sección4; contorno omitido enplantas')
-for beam in P['pergola']['vigas_visibles_planta_cubierta']:
-    box(beam['nombre'],beam['bbox_xy_m'],2.5,2.85,'Pergola',M['metal_pergola'],'viga_pergola',beam['fuente'])
-# Las vigas longitudinales van bajo el vuelo hasta testero; ese tramo se oculta, no añade área.
-for beam in P['pergola']['vigas_visibles_planta_cubierta']:
-    b=beam['bbox_xy_m']
-    if b[3]-b[1]>1 and b[2]-b[0]<.4:
-        box(beam['nombre']+'_continuacion_bajo_vuelo',[b[0],b[3],b[2],12.0777],2.5,2.85,'Pergola',M['metal_pergola'],'viga_pergola','Conexión al testero deducida; tramo oculto trasvuelo')
+
+# Trastero: nueva puerta norte en el hueco real, abierta hacia el recinto.
+di=H['puerta_interior_trastero'];b=di['bbox_xy_m']
+box('P_interior_trastero_norte_dintel',b,di['alto_m'],3.35,'Trastero',M['fachada_blanca'],'muro_vivienda','Hueco XYplanta final; alto2.03confirmadousuario')
+xhinge,ynorth=P['trastero']['puerta_norte']['hoja_referencia']['bisagra_xy_m']
+thin_line('P_interior_trastero_norte_hoja',(xhinge,ynorth),(xhinge,ynorth-di['ancho_hoja_grafico_m']),0,di['alto_m'],.035,'Carpinterias',M['fachada_blanca'],'carpinteria','Hoja gráfica0.81915 enplanta final; alto2.03usuario; espesorDMF existente35mm')
+OPEN.append({'nombre':di['nombre'],'bbox_xy':b,'zmin':0,'zmax':di['alto_m'],'ancho':b[2]-b[0],'alto':di['alto_m'],'fuente':di['fuente_z'],'tipo':'interior'})
 
 # Madera: láminas de acabado en caras de paños existentes, conservando huecos.
-for i,(ya,yb) in enumerate([(17.8181,18.16735),(22.3012,23.75535),(25.25,25.85)]):
+for i,(ya,yb) in enumerate([(17.8181,18.16735),(22.3012,23.75535),(25.25395,28.067)]):
     # Superficie sin volumen añadido. El tercer paño está dentro de muro entre dormitorios.
     xx=10.64905
     ob=mesh_obj('Acabado_madera_vertical_'+str(i+1),[(xx,ya,0),(xx,yb,0),(xx,yb,2.5),(xx,ya,2.5)],[(0,1,2,3)],'Carpinterias',M['madera_clara_vertical'],'acabado_decorativo','Preferencia usuario; paños existentes','elección de acabado; no cambia dimensiones')
@@ -209,7 +212,7 @@ water=M['agua'];shader=water.node_tree.nodes.get('PBR')
 if shader:
     shader.inputs['Transmission Weight'].default_value=0.0
     shader.inputs['Base Color'].default_value=(.035,.24,.27,1)
-    shader.inputs['Roughness'].default_value=.075
+    shader.inputs['Roughness'].default_value=.045
 surface('Piscina_agua_representacion_superficial',S['piscina'],-.15,'Piscina',water,'piscina',source='XYplanta; Zagua noacotada, plano gráficoreferencia jardín',status='Superficie de visualización; NO define fondo ni nivel de agua real')
 water['nota']='Reflexión superficial PBR. Sin simulación de profundidad/volumen: el PDF no define vasoZ.'
 # Mantener huellas escalera como geometría 2D editable oculta en renders.
@@ -227,7 +230,7 @@ for wall in S['cerramiento_linderos']:
         ob['criterio_altura']='Lateralcalleprivada1.80; opuesto/trasero2.00; inferenciaexplícita'
         ob['criterio_espesor']='Exterior en lindero, interior0.1524m; relación del tendedero extrapolada; no invadir parcela ajena'
 
-def front_y(x):return x*1.02235/18.61185
+def front_y(x):return .003175+x*(1.025525-.003175)/18.61185
 def gate_line(name,x0,x1,z0,z1,material,role,width=.1016):
     return thin_line(name,(x0,front_y(x0)+.127),(x1,front_y(x1)+.127),z0,z1,width,'Cerramiento_exterior',material,role,'XYacceso planta36 registrado; altura2m esquemaalzado')
 # Huecos de portones no se trasladan a partir del panel completo del alzado.
@@ -275,17 +278,9 @@ def decor_box(name,b,z0,z1,mat,bevel=.012):
     ob=box(name,b,z0,z1,'Mobiliario',mat,'mobiliario','XYsímbolo PDF35; altura decorativa noacotada',bevel)
     ob['estado_dimension']='XYdelPDF; altura/espesor de visualización';return ob
 def chair(item):
-    x0,y0,x1,y1=item['bbox_xy_m'];name=item['nombre'];w=x1-x0;d=y1-y0
-    decor_box(name+'_asiento',[x0,y0,x1,y1],.405,.47,M['suelo_interior'],.025)
-    # Respaldo hacia fuera de la mesa según identificador, sin mover huella.
-    t=min(w,d)*.12
-    if '_izq_' in name or '_oeste' in name:b=[x0,y0,x0+t,y1]
-    elif '_der_' in name or '_este' in name:b=[x1-t,y0,x1,y1]
-    elif '_sur_' in name or '_sur' in name:b=[x0,y0,x1,y0+t]
-    else:b=[x0,y1-t,x1,y1]
-    decor_box(name+'_respaldo',b,.45,.81,M['madera_clara_vertical'],.013)
-    for xx in [x0+t,x1-t]:
-        for yy in [y0+t,y1-t]:decor_box(name+'_pata_'+str(xx)+str(yy),[xx-.012,yy-.012,xx+.012,yy+.012],0,.405,M['carpinteria_antracita'],.003)
+    name=item['nombre']
+    yaw=math.pi/2 if '_izq_' in name or '_oeste' in name else -math.pi/2 if '_der_' in name or '_este' in name else math.pi if '_sur' in name else 0
+    return make_chair(name,item['centro_xy_m'],item['tamano_bbox_xy_m'],0,C['Mobiliario'],M,yaw=yaw)
 for item in F['objetos']:
     typ=item['tipo'];b=item['bbox_xy_m'];xy=item['centro_xy_m'];size=item['tamano_bbox_xy_m'];name=item['nombre']
     if typ=='cama_doble':
@@ -296,17 +291,12 @@ for item in F['objetos']:
         obs=make_sofa(name,xy,ss,0,C['Mobiliario'],M)
         if rotate:obs[0].rotation_euler.z=math.pi/2
     elif typ=='sofa_L':
-        ob=prism(name+'_base',item['huella_xy_m'],.12,.47,'Mobiliario',M['suelo_interior'],'mobiliario','Huella LsímboloPDF35',.035)
-        decor_box(name+'_respaldo_norte',[b[0],b[3]-.15,b[2],b[3]],.44,.84,M['suelo_interior'],.035)
-        decor_box(name+'_respaldo_oeste',[b[0],b[1],b[0]+.16,b[3]],.44,.84,M['suelo_interior'],.035)
+        make_sofa_l(name,item['huella_xy_m'],0,C['Mobiliario'],M)
     elif typ.startswith('mesa_comedor'):
-        decor_box(name+'_tapa',b,.72,.765,M['madera_clara_vertical'],.018)
-        for xx in [b[0]+.09,b[2]-.09]:
-            for yy in [b[1]+.09,b[3]-.09]:decor_box(name+'_pata'+str(xx)+str(yy),[xx-.027,yy-.027,xx+.027,yy+.027],0,.72,M['carpinteria_antracita'],.004)
+        make_table(name,xy,size,0,C['Mobiliario'],M)
     elif typ=='silla_comedor':chair(item)
     elif typ in ['mesa_baja','mesa_baja_exterior']:
-        decor_box(name+'_tapa',b,.34,.385,M['porcelanico_exterior'],.025)
-        decor_box(name+'_pedestal',[xy[0]-.13,xy[1]-.13,xy[0]+.13,xy[1]+.13],0,.34,M['carpinteria_antracita'])
+        make_table(name,xy,size,0,C['Mobiliario'],M,height=.385,coffee=True)
     elif typ in ['encimera_lineal','isla']:
         decor_box(name+'_mueble',b,0,.87,M['fachada_blanca'],.015)
         decor_box(name+'_encimera',b,.87,.91,M['porcelanico_exterior'],.007)
@@ -357,7 +347,7 @@ for ca in CAM['camaras_analiticas']:
 setup_lighting(scene,'day')
 scene.cycles.use_denoising=False # Este build de Blender carece OIDN; se usa OIDNoficial externo.
 scene.cycles.device='CPU';scene.render.threads_mode='FIXED';scene.render.threads=5
-scene.render.use_persistent_data=True;scene.cycles.samples=64;scene.cycles.adaptive_threshold=.025
+scene.render.use_persistent_data=True;scene.cycles.samples=384;scene.cycles.adaptive_threshold=.008
 scene.cycles.adaptive_min_samples=12
 scene.view_layers[0].cycles.denoising_store_passes=True
 scene.render.resolution_x=2500;scene.render.resolution_y=1667;scene.render.resolution_percentage=100
@@ -370,19 +360,20 @@ scene['denoise']='OpenImageDenoise oficial independiente; beauty/albedo/normal l
 from anadir_puertas_interiores import anadir_puertas_interiores
 anadir_puertas_interiores()
 actual=[]
-architectural={'parcela','muro_vivienda','pilar_pergola','forjado','peto','marquesina','viga_pergola','pavimento','jardin','piscina','suelo_vivienda','cielorraso','carpinteria','vidrio','cerramiento','puerta_peatonal','porton_vehiculos','rejilla'}
+architectural={'parcela','muro_vivienda','tendedero','pilar_pergola','forjado','peto','marquesina','viga_pergola','pavimento','jardin','piscina','suelo_vivienda','cielorraso','carpinteria','vidrio','cerramiento','puerta_peatonal','porton_vehiculos','rejilla'}
 for ob in scene.objects:
     if ob.type=='MESH' and ob.get('categoria') in architectural:
         vs=[list(ob.matrix_world@v.co) for v in ob.data.vertices]
-        actual.append({'nombre':ob.name,'categoria':ob['categoria'],'fuente':ob.get('fuente',''),'vertices':vs,'caras':[list(p.vertices) for p in ob.data.polygons],'bbox_xyz':[min(v[i] for v in vs) for i in range(3)]+[max(v[i] for v in vs) for i in range(3)]})
-(ROOT/'control/mediciones_mesh_real.json').write_text(json.dumps({'unidades':'m','objetos':actual,'huecos':OPEN,'estado':'Meshes generados; cifras extraídas de vértices Blender'},ensure_ascii=False))
-for filename in ['datos_planta.json','datos_alturas.json','datos_mobiliario.json','criterios_qa_camaras.json','datos_cerramiento_frontal.json']:
+        actual.append({'nombre':ob.name,'categoria':ob['categoria'],'fuente':ob.get('fuente',''),'seqno_pdf_v2':ob.get('seqno_pdf_v2'),'vertices':vs,'caras':[list(p.vertices) for p in ob.data.polygons],'bbox_xyz':[min(v[i] for v in vs) for i in range(3)]+[max(v[i] for v in vs) for i in range(3)]})
+(ROOT/'control/mediciones_mesh_real.json').write_text(json.dumps({'version':2,'revision':'V2','fuente_sha256':P['fuente_sha256'],'decisiones_modelado':P['ajustes_nominales'],'unidades':'m','objetos':actual,'huecos':OPEN,'estado':'Meshes generados; cifras extraídas de vértices Blender'},ensure_ascii=False))
+for filename in ['datos_planta.json','datos_alturas.json','datos_mobiliario.json','criterios_qa_camaras.json','datos_cerramiento_frontal.json','confirmaciones_usuario_v2.json']:
     txt=bpy.data.texts.new(filename);txt.write((DIR/filename).read_text())
-txt=bpy.data.texts.new('LEEME_MODELO.txt');txt.write('Unidades metros 1:1. Geometría trazada desde PDF. Colecciones y fuentes por objeto.\nVaso sin fondo y peldaños sólo referencia XY: alturas no definidas. Agua/grava planos gráficos, no cotas de ejecución.\nVentanal V7 altura2.50; despacho1.60; portal3.35/4.75 conforme vistas concordantes.\nPañoalto XY de cubierta37; trasero/sec3 ancho0.80 mayor no compatible, registrado.\nMobiliario/vegetación/luces/entorno son visualización y se pueden ocultar.\nRenders salen exclusivamente de este modelo. Ver informe_control.pdf para cotejo.\n')
+txt=bpy.data.texts.new('LEEME_MODELO.txt');txt.write('REVISION V2: planta final PROY.OBRA. Metros 1:1. Arquitectura, parcela y huecos extraídos del PDF final, alturas existentes del proyecto básico.\nTrastero cerrado sustituye instalaciones y pérgola/comedor piscina. Interior7.15×3.94; hueco norte0.96; piscina3.50×5.00. Ajustes locales de cuantización documentados.\nZ trastero confirmadas por usuario: forjado3.35/3.70,peto4.40,puerta2.03,porton2.50.\nPorcelánico exterior crema90×90cm; césped artificial; madera clara vertical sobre paños existentes.\nVaso sin fondo y peldaños sólo referencia XY: no hay alturas en fuente. Agua/grava planos gráficos, no cotas de ejecución.\nVentanalV7 alto2.50 y despacho1.60 conforme alzados originales; discrepancias con memoria registradas.\nPañoalto XYcubierta37; trasero/sec3 ancho0.80mayor incompatible, registrado.\nMobiliario,vegetación,luces,entorno son visualización. HDRI empaquetado. Microfibras completas enblend; GLB conserva superficie césped sin microfibras y usa coloresbase.\nRenders exclusivamente de este modelo. Cotejo: control/informe_revision_v2.pdf.\n')
 scene['objetos_modelados']=len(scene.objects)
-bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'Calle_Macarena_modelo_1a1.blend'))
+bpy.ops.file.pack_all()
+bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'Calle_Macarena_modelo_1a1.blend'),compress=True)
 # glTF limita materiales procedurales a colores base; el .blend preserva shaders completos.
-for ob in scene.objects:ob.select_set(ob.type=='MESH' and not ob.hide_render)
+for ob in scene.objects:ob.select_set(ob.type=='MESH' and not ob.hide_render and ob.get('categoria') not in {'entorno_visual','jardin_microgeometria_material'})
 bpy.ops.export_scene.gltf(filepath=str(ROOT/'Calle_Macarena_modelo_1a1.glb'),export_format='GLB',use_selection=True,export_apply=True,export_materials='EXPORT',export_cameras=False,export_lights=False)
 print('MODELO_GUARDADO',ROOT/'Calle_Macarena_modelo_1a1.blend',flush=True)
 print('OBJETOS',len(scene.objects),'HUECOS',len(OPEN),flush=True)
