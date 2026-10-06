@@ -1,0 +1,176 @@
+﻿Elemento;Mesh real;Referencia PDF;Error;Obtención;Fuente
+Huella construida m²;190.503314;190.503329;1.45e-05;Calculada del dibujo;Planta PDF35
+Diferencia simétrica huella m²;1.9e-05;0;1.88e-05;Calculada del dibujo;Vértices de muro reales / PDF35
+Distancia máxima huella m;1e-06;0;1e-06;Calculada del dibujo;Vértices de muro reales / PDF35
+Vivienda ancho máximo m;10.0965;10.0965;1e-07;Calculada del dibujo;Planta PDF35
+Vivienda longitud total m;26.396949;26.39695;7e-07;Calculada del dibujo;Planta PDF35
+parcela área m²;635.835982;635.835996;1.49e-05;Calculada del dibujo;Planta PDF35
+parcela posición / Hausdorff m;1e-06;0;1.4e-06;Calculada del dibujo;Planta PDF35
+piscina área m²;17.539315;17.53932;4.8e-06;Calculada del dibujo;Planta PDF35
+piscina posición / Hausdorff m;1e-06;0;6e-07;Calculada del dibujo;Planta PDF35
+Cerramiento superficie fuera de parcela m²;1.1e-05;0;1.14e-05;Deducción explícita;"Detalle tendedero PDF35; espesor extrapolado hacia dentro"
+Cerramiento espesor hacia interior m;0.1524;0.1524;0;"Sólo directo en tendedero; resto deducido";"PDF35; cara exterior sobre lindero"
+V_bano1_norte XY máx m;1e-06;0;1.3e-06;Calculada del dibujo;Planta PDF35 / registro PDF36
+V_bano1_norte dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_bano1_norte antepecho Z m;1.0;1.0;0.0;Calculada del dibujo;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_bano1_norte ancho × alto m;0.9970 × 1.50;;;"Mesh real; ancho gráfico/altura contrastada";trasero
+V_despacho_oeste XY máx m;1e-06;0;6e-07;Calculada del dibujo;Planta PDF35 / registro PDF36
+V_despacho_oeste dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_despacho_oeste antepecho Z m;0.9;0.9;0.0;Calculada del dibujo;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_despacho_oeste ancho × alto m;0.9970 × 1.60;;;"Mesh real; ancho gráfico/altura contrastada";principal
+V_bano2_oeste XY máx m;0.0;0;4e-07;Calculada del dibujo;Planta PDF35 / registro PDF36
+V_bano2_oeste dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_bano2_oeste antepecho Z m;1.0;1.0;0.0;Calculada del dibujo;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_bano2_oeste ancho × alto m;0.8001 × 1.50;;;"Mesh real; ancho gráfico/altura contrastada";principal
+V_lavadero_oeste XY máx m;1e-06;0;9e-07;Calculada del dibujo;Planta PDF35 / registro PDF36
+V_lavadero_oeste dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_lavadero_oeste antepecho Z m;1.0;1.0;0.0;Calculada del dibujo;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_lavadero_oeste ancho × alto m;0.5969 × 1.50;;;"Mesh real; ancho gráfico/altura contrastada";principal
+P_lavadero_oeste XY máx m;1e-06;0;6e-07;Calculada del dibujo;Planta PDF35 / registro PDF36
+P_lavadero_oeste dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+P_lavadero_oeste ancho × alto m;0.9652 × 2.50;;;"Mesh real; ancho gráfico/altura contrastada";principal
+V_aseo_oeste XY máx m;1e-06;0;8e-07;Calculada del dibujo;Planta PDF35 / registro PDF36
+V_aseo_oeste dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_aseo_oeste antepecho Z m;1.0;1.0;0.0;Calculada del dibujo;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_aseo_oeste ancho × alto m;0.8001 × 1.50;;;"Mesh real; ancho gráfico/altura contrastada";principal
+P_principal_oeste XY máx m;1e-06;0;7e-07;Calculada del dibujo;Planta PDF35 / registro PDF36
+P_principal_oeste dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+P_principal_oeste ancho × alto m;1.3398 × 2.50;;;"Mesh real; ancho gráfico/altura contrastada";principal
+V_salon_oeste XY máx m;0.0;0;5e-07;Calculada del dibujo;Planta PDF35 / registro PDF36
+V_salon_oeste dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_salon_oeste antepecho Z m;0.9;0.9;0.0;Calculada del dibujo;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_salon_oeste ancho × alto m;2.0003 × 1.60;;;"Mesh real; ancho gráfico/altura contrastada";principal
+V_dormitorio1_este XY máx m;0.0;0;5e-07;Calculada del dibujo;Planta PDF35 / registro PDF36
+V_dormitorio1_este dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_dormitorio1_este antepecho Z m;0.9;0.9;0.0;Calculada del dibujo;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_dormitorio1_este ancho × alto m;2.0002 × 1.60;;;"Mesh real; ancho gráfico/altura contrastada";lateral_porche
+V_dormitorio1_sur XY máx m;1e-06;0;9e-07;Calculada del dibujo;Planta PDF35 / registro PDF36
+V_dormitorio1_sur dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_dormitorio1_sur ancho × alto m;1.4986 × 2.50;;;"Mesh real; ancho gráfico/altura contrastada";vial
+V_dormitorio2_este XY máx m;1e-06;0;6e-07;Calculada del dibujo;Planta PDF35 / registro PDF36
+V_dormitorio2_este dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_dormitorio2_este ancho × alto m;1.4986 × 2.50;;;"Mesh real; ancho gráfico/altura contrastada";lateral_porche
+V_dormitorio3_este XY máx m;0.0;0;4e-07;Calculada del dibujo;Planta PDF35 / registro PDF36
+V_dormitorio3_este dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_dormitorio3_este ancho × alto m;1.4986 × 2.50;;;"Mesh real; ancho gráfico/altura contrastada";lateral_porche
+V_cocina_este XY máx m;1e-06;0;9e-07;Calculada del dibujo;Planta PDF35 / registro PDF36
+V_cocina_este dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_cocina_este ancho × alto m;4.1339 × 2.50;;;"Mesh real; ancho gráfico/altura contrastada";lateral_porche
+V_salon_este XY máx m;0.0;0;5e-07;Calculada del dibujo;Planta PDF35 / registro PDF36
+V_salon_este dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+V_salon_este ancho × alto m;5.3911 × 2.50;;;"Mesh real; ancho gráfico/altura contrastada";lateral_porche
+P_instalaciones_sur XY máx m;0.0;0;2e-07;Calculada del dibujo;Planta PDF35 / registro PDF36
+P_instalaciones_sur dintel Z m;2.5;2.5;0.0;Directa / alzado calculado;"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
+P_instalaciones_sur ancho × alto m;1.3398 × 2.50;;;"Mesh real; ancho gráfico/altura contrastada";vial
+Peto_central_N coronación Z m;5.1;5.1;1e-07;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Peto_central_E coronación Z m;5.1;5.1;1e-07;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Peto_central_S coronación Z m;5.1;5.1;1e-07;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Peto_central_W coronación Z m;5.1;5.1;1e-07;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Peto_bajo_W_trasero coronación Z m;4.4;4.4;1e-07;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Peto_bajo_N coronación Z m;4.4;4.4;1e-07;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Peto_bajo_E_D1 coronación Z m;4.4;4.4;1e-07;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Peto_bajo_S_D1 coronación Z m;4.4;4.4;1e-07;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Peto_bajo_W_instalaciones coronación Z m;4.4;4.4;1e-07;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Peto_bajo_S_instalaciones coronación Z m;4.4;4.4;1e-07;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Peto_bajo_E_instalaciones coronación Z m;4.4;4.4;1e-07;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Peto_portal_W coronación Z m;4.75;4.75;0.0;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Peto_portal_N_visible coronación Z m;4.75;4.75;0.0;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Peto_portal_S coronación Z m;4.75;4.75;0.0;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Peto_portal_E_visible coronación Z m;4.75;4.75;0.0;Directa / calculada;"Cubierta PDF37; alzados38/secciones39"
+Forjado_cubierta_3_35_3_70 base Z m;3.35;3.35;1e-07;Directa;PDF38/39
+Forjado_cubierta_3_35_3_70 superior Z m;3.7;3.7;0.0;Directa;PDF38/39
+Marquesina_terraza_sin_pilares base Z m;3.35;3.35;1e-07;Calculada del dibujo;PDF38 lateral/vial y PDF39 sección4
+Marquesina_terraza_sin_pilares superior Z m;3.55;3.55;0.0;Calculada del dibujo;PDF38 lateral/vial y PDF39 sección4
+Rejilla_frontal_1 verticales 01 XYZ m;0.0;0;0.0;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 02 XYZ m;0.0;0;0.0;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 03 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 04 XYZ m;0.0;0;3e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 05 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 06 XYZ m;0.0;0;5e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 07 XYZ m;0.0;0;3e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 08 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 09 XYZ m;0.0;0;1e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 10 XYZ m;0.0;0;0.0;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 11 XYZ m;0.0;0;1e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 12 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 13 XYZ m;0.0;0;3e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 14 XYZ m;0.0;0;5e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 15 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 16 XYZ m;0.0;0;3e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 17 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 18 XYZ m;0.0;0;1e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 19 XYZ m;0.0;0;0.0;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 20 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 21 XYZ m;0.0;0;3e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 22 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 23 XYZ m;0.0;0;5e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 24 XYZ m;0.0;0;3e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 25 XYZ m;0.0;0;3e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 26 XYZ m;0.0;0;1e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 27 XYZ m;0.0;0;0.0;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 verticales 28 XYZ m;0.0;0;1e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 horizontales 01 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 horizontales 02 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 horizontales 03 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 horizontales 04 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 horizontales 05 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 horizontales 06 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 horizontales 07 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 horizontales 08 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 horizontales 09 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 horizontales 10 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 horizontales 11 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_1 ancho × alto m;3.3782 × 1.4986;;;Esquema vectorial registrado;"PDF38; espesor normal desconocido"
+Rejilla_frontal_2 verticales 01 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 02 XYZ m;0.0;0;3e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 03 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 04 XYZ m;0.0;0;5e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 05 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 06 XYZ m;0.0;0;3e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 07 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 08 XYZ m;0.0;0;0.0;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 09 XYZ m;0.0;0;1e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 10 XYZ m;0.0;0;2e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 11 XYZ m;0.0;0;3e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 12 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 13 XYZ m;1e-06;0;5e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 14 XYZ m;1e-06;0;6e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 15 XYZ m;1e-06;0;7e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 16 XYZ m;1e-06;0;9e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 17 XYZ m;1e-06;0;9e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 18 XYZ m;1e-06;0;8e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 19 XYZ m;1e-06;0;7e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 20 XYZ m;1e-06;0;6e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 21 XYZ m;1e-06;0;5e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 22 XYZ m;1e-06;0;6e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 23 XYZ m;1e-06;0;7e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 24 XYZ m;1e-06;0;8e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 25 XYZ m;0.0;0;1e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 26 XYZ m;1e-06;0;9e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 27 XYZ m;1e-06;0;8e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 verticales 28 XYZ m;1e-06;0;7e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 horizontales 01 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 horizontales 02 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 horizontales 03 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 horizontales 04 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 horizontales 05 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 horizontales 06 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 horizontales 07 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 horizontales 08 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 horizontales 09 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 horizontales 10 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 horizontales 11 XYZ m;0.0;0;4e-07;Calculada del dibujo;Vectores esquema PDF38, registro al lindero derecho
+Rejilla_frontal_2 ancho × alto m;3.3782 × 1.4986;;;Esquema vectorial registrado;"PDF38; espesor normal desconocido"
+P_int_cocina_distribuidor1 alto hoja m;2.03;2.03;0.0;Directa;MemoriaPDF21
+P_int_dormitorio3 alto hoja m;2.03;2.03;0.0;Directa;MemoriaPDF21
+P_int_dormitorio2 alto hoja m;2.03;2.03;0.0;Directa;MemoriaPDF21
+P_int_suite_principal alto hoja m;2.03;2.03;0.0;Directa;MemoriaPDF21
+P_int_bano2 alto hoja m;2.03;2.03;0.0;Directa;MemoriaPDF21
+P_int_distribuidor2 alto hoja m;2.03;2.03;0.0;Directa;MemoriaPDF21
+P_int_aseo alto hoja m;2.03;2.03;0.0;Directa;MemoriaPDF21
+P_int_despacho alto hoja m;2.03;2.03;0.0;Directa;MemoriaPDF21
+P_int_bano1_corredera alto hoja m;2.03;2.03;0.0;Directa;MemoriaPDF21
+P_int_vestidor_corredera alto hoja m;2.03;2.03;0.0;Directa;MemoriaPDF21
+P_int_cocina_hall_corredera alto hoja m;2.03;2.03;0.0;Directa;MemoriaPDF21
+P_int_lavadero_corredera alto hoja m;2.03;2.03;0.0;Directa;MemoriaPDF21
+Aparcamiento superficie declarada m²;Sin límite de plazas definido;46.86;;"Directa memoria; no polígono verificable";PDF11/35

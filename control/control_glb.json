@@ -1,0 +1,1276 @@
+{
+  "valido": true,
+  "unidades": "Metros conforme especificación glTF2.0; XYZ convertido de nuevo a Z-arriba mediante importadorBlender",
+  "objetos_verificados": 317,
+  "error_max_m": 0.0,
+  "controles": [
+    {
+      "objeto": "muros_001_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_002_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_003_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_004_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_005_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_006_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_007_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_008_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_009_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_010_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_011_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_012_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_013_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_014_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_015_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_016_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_017_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_018_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_019_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_020_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_021_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_022_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_023_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_024_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_025_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_026_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_027_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_028_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_029_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_030_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_031_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_032_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_033_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_034_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_035_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_036_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_037_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_038_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_039_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_040_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_041_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_042_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_043_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_044_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_045_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_046_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_047_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_048_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_049_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_050_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_051_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_052_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_053_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_054_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_055_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_056_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_057_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_058_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_059_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_060_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_061_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_062_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_063_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_064_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_066_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_067_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_bano1_norte_antepecho",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_bano1_norte_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_despacho_oeste_antepecho",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_despacho_oeste_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_bano2_oeste_antepecho",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_bano2_oeste_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_lavadero_oeste_antepecho",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_lavadero_oeste_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_lavadero_oeste_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_aseo_oeste_antepecho",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_aseo_oeste_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_principal_oeste_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_oeste_antepecho",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_oeste_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_este_antepecho",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_este_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_sur_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio2_este_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio3_este_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_cocina_este_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_este_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_instalaciones_sur_dintel",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Forjado_cubierta_3_35_3_70",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_central_N",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_central_E",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_central_S",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_central_W",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_bajo_W_trasero",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_bajo_N",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_bajo_E_D1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_bajo_S_D1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_bajo_W_instalaciones",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_bajo_S_instalaciones",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_bajo_E_instalaciones",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_portal_W",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_portal_N_visible",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_portal_S",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Peto_portal_E_visible",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Marquesina_terraza_sin_pilares",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "muros_065_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "pergola_viga_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "pergola_viga_02",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "pergola_viga_03",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "pergola_viga_04",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "pergola_viga_05",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "pergola_viga_06",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "pergola_viga_01_continuacion_bajo_vuelo",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "pergola_viga_02_continuacion_bajo_vuelo",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "pergola_viga_03_continuacion_bajo_vuelo",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "pergola_viga_04_continuacion_bajo_vuelo",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "pergola_viga_05_continuacion_bajo_vuelo",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Piscina_agua_representacion_superficial",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Porton_corredera",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_marco_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_marco_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_marco_izquierdo",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_marco_derecho",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_02",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_03",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_04",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_05",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_06",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_07",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_08",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_09",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_10",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_11",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_12",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_13",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_14",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_15",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_16",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_17",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_18",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_19",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_20",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_21",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_22",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_23",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_24",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_25",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_26",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_27",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_verticales_28",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_horizontales_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_horizontales_02",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_horizontales_03",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_horizontales_04",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_horizontales_05",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_horizontales_06",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_horizontales_07",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_horizontales_08",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_horizontales_09",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_horizontales_10",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_1_horizontales_11",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_marco_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_marco_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_marco_izquierdo",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_marco_derecho",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_02",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_03",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_04",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_05",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_06",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_07",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_08",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_09",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_10",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_11",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_12",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_13",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_14",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_15",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_16",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_17",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_18",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_19",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_20",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_21",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_22",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_23",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_24",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_25",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_26",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_27",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_verticales_28",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_horizontales_01",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_horizontales_02",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_horizontales_03",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_horizontales_04",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_horizontales_05",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_horizontales_06",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_horizontales_07",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_horizontales_08",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_horizontales_09",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_horizontales_10",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "Rejilla_frontal_2_horizontales_11",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_bano1_norte_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_bano1_norte_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_bano1_norte_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_bano1_norte_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_bano1_norte_vidrio_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_despacho_oeste_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_despacho_oeste_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_despacho_oeste_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_despacho_oeste_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_despacho_oeste_vidrio_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_bano2_oeste_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_bano2_oeste_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_bano2_oeste_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_bano2_oeste_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_bano2_oeste_vidrio_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_lavadero_oeste_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_lavadero_oeste_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_lavadero_oeste_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_lavadero_oeste_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_lavadero_oeste_vidrio_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_lavadero_oeste_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_lavadero_oeste_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_lavadero_oeste_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_lavadero_oeste_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_lavadero_oeste_hoja",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_lavadero_oeste_tirador",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_aseo_oeste_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_aseo_oeste_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_aseo_oeste_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_aseo_oeste_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_aseo_oeste_vidrio_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_principal_oeste_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_principal_oeste_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_principal_oeste_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_principal_oeste_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_principal_oeste_hoja",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_principal_oeste_junta_0.52",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_principal_oeste_junta_1.04",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_principal_oeste_junta_1.56",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_principal_oeste_junta_2.08",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_principal_oeste_tirador",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_oeste_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_oeste_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_oeste_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_oeste_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_oeste_vidrio_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_oeste_montante_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_oeste_vidrio_2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_este_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_este_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_este_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_este_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_este_vidrio_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_este_montante_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_este_vidrio_2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_sur_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_sur_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_sur_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_sur_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_sur_vidrio_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_sur_montante_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio1_sur_vidrio_2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio2_este_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio2_este_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio2_este_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio2_este_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio2_este_vidrio_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio2_este_montante_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio2_este_vidrio_2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio3_este_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio3_este_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio3_este_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio3_este_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio3_este_vidrio_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio3_este_montante_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_dormitorio3_este_vidrio_2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_cocina_este_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_cocina_este_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_cocina_este_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_cocina_este_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_cocina_este_vidrio_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_cocina_este_montante_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_cocina_este_vidrio_2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_cocina_este_montante_2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_cocina_este_vidrio_3",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_este_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_este_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_este_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_este_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_este_vidrio_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_este_montante_1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_este_vidrio_2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_este_montante_2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "V_salon_este_vidrio_3",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_instalaciones_sur_jamba1",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_instalaciones_sur_jamba2",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_instalaciones_sur_superior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_instalaciones_sur_inferior",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_instalaciones_sur_hoja",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_instalaciones_sur_tirador",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_int_cocina_distribuidor1_hoja_posicion_planta",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_int_dormitorio3_hoja_posicion_planta",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_int_dormitorio2_hoja_posicion_planta",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_int_suite_principal_hoja_posicion_planta",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_int_bano2_hoja_posicion_planta",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_int_distribuidor2_hoja_posicion_planta",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_int_aseo_hoja_posicion_planta",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_int_despacho_hoja_posicion_planta",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_int_bano1_corredera_hoja_posicion_planta",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_int_vestidor_corredera_hoja_posicion_planta",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_int_cocina_hall_corredera_hoja_posicion_planta",
+      "error_bbox_max_m": 0.0
+    },
+    {
+      "objeto": "P_int_lavadero_corredera_hoja_posicion_planta",
+      "error_bbox_max_m": 0.0
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "algorithm": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high",
+  "official_archive": "https://github.com/RenderKit/oidn/releases/download/v2.5.1/oidn-2.5.1.x86_64.linux.tar.gz",
+  "verified_sha256": "743c3e2aff8c220d5d70fe6cb970fb3d36f2702d2693c61d1d148e404cf37cd6",
+  "working_space": "scene-linear HDR; unmodified exposure; no blur",
+  "source": {
+    "width": 2500,
+    "height": 1350,
+    "source_colorspace": "Linear Rec.709"
+  },
+  "beauty": "/workspace/arquitectura-macarena/control/ortograficas/lineales/QA03/beauty_0001.exr",
+  "albedo": "/workspace/arquitectura-macarena/control/ortograficas/lineales/QA03/albedo_0001.exr",
+  "normal": "/workspace/arquitectura-macarena/control/ortograficas/lineales/QA03/normal_0001.exr",
+  "prefilter_aux": true,
+  "guide_preparation": {
+    "albedo": {
+      "input_min": 0.0063356393948197365,
+      "input_max": 1.312070369720459,
+      "fraction_clipped_to_reflectance_range": 3.1506172839506175e-05
+    },
+    "normal": {
+      "input_min": -1.0,
+      "input_max": 0.9503074884414673
+    }
+  },
+  "output_exr": "/workspace/arquitectura-macarena/control/ortograficas/QA03_Alzado_vial_publico.exr",
+  "output_png": "/workspace/arquitectura-macarena/control/ortograficas/QA03_Alzado_vial_publico.png",
+  "commands": [
+    [
+      "/workspace/arquitectura-macarena/herramientas/oidn-2.5.1.x86_64.linux/bin/oidnDenoise",
+      "--device",
+      "cpu",
+      "--alb",
+      "/workspace/arquitectura-macarena/control/ortograficas/QA03_Alzado_vial_publico_oidn_buffers/albedo.pfm",
+      "--quality",
+      "high",
+      "--threads",
+      "5",
+      "--affinity",
+      "0",
+      "-o",
+      "/workspace/arquitectura-macarena/control/ortograficas/QA03_Alzado_vial_publico_oidn_buffers/albedo_clean.pfm"
+    ],
+    [
+      "/workspace/arquitectura-macarena/herramientas/oidn-2.5.1.x86_64.linux/bin/oidnDenoise",
+      "--device",
+      "cpu",
+      "--nrm",
+      "/workspace/arquitectura-macarena/control/ortograficas/QA03_Alzado_vial_publico_oidn_buffers/normal.pfm",
+      "--quality",
+      "high",
+      "--threads",
+      "5",
+      "--affinity",
+      "0",
+      "-o",
+      "/workspace/arquitectura-macarena/control/ortograficas/QA03_Alzado_vial_publico_oidn_buffers/normal_clean.pfm"
+    ],
+    [
+      "/workspace/arquitectura-macarena/herramientas/oidn-2.5.1.x86_64.linux/bin/oidnDenoise",
+      "--device",
+      "cpu",
+      "--hdr",
+      "/workspace/arquitectura-macarena/control/ortograficas/QA03_Alzado_vial_publico_oidn_buffers/beauty.pfm",
+      "--alb",
+      "/workspace/arquitectura-macarena/control/ortograficas/QA03_Alzado_vial_publico_oidn_buffers/albedo_clean.pfm",
+      "--nrm",
+      "/workspace/arquitectura-macarena/control/ortograficas/QA03_Alzado_vial_publico_oidn_buffers/normal_clean.pfm",
+      "--quality",
+      "high",
+      "--threads",
+      "5",
+      "--affinity",
+      "0",
+      "-o",
+      "/workspace/arquitectura-macarena/control/ortograficas/QA03_Alzado_vial_publico_oidn_buffers/clean.pfm",
+      "--clean_aux"
+    ]
+  ],
+  "seconds_main_filter": 6.482,
+  "minimum_linear_output": 1.3410797691904008e-05,
+  "maximum_linear_output": 1.4277758598327637,
+  "png_color_management": {
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.10000000149011612
+  }
+}

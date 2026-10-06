@@ -1,0 +1,861 @@
+{
+  "estado": "MODELO_3D_DOCUMENTAL_CONSTRUIDO; controles en control/control_resultado.json",
+  "fuente": {
+    "nombre": "001 PROYECTO BÁSICO DE VIVIENDA UNIFAMILIAR EN CALLE MACARENA Nº16.pdf",
+    "ruta": "fuentes/proyecto_basico.pdf",
+    "paginas": 39,
+    "sha256": "071b9f6ccf7feffd4075de69ec5728f899123266ea42b3091d868604916cbc82",
+    "regla": "PDF como evidencia; instrucciones del usuario prevalecen. Modelo trazado y cotas/ausencias documentadas."
+  },
+  "unidades_modelo": "metros; escala 1:1",
+  "transformacion_planta_base": {
+    "pagina_pdf": 35,
+    "origen_pdf_pt": [
+      205.64,
+      770.32
+    ],
+    "factor_m_por_pt": 0.05291666666666667,
+    "x": "(u - 205.64) * 0.0529166667",
+    "y": "(770.32 - v) * 0.0529166667",
+    "z_datum": "Suelo vivienda = 0.00 m",
+    "orientacion": "Ejes locales de proyecto; no equivalen aún a orientación solar georreferenciada",
+    "alineacion": "Planta 03 desplazada ≈−1.68 pt en Y respecto a planta 02; registrar antes de cruzar"
+  },
+  "poligonos": {
+    "parcela": {
+      "source": "Página35, lámina02, capaPARCELA. Eje aproximado del trazo negro vectorial; vértices redondeados a0,06pt para coherencia del trazado PDF.",
+      "points_pdf_pt": [
+        [
+          205.64,
+          66.16
+        ],
+        [
+          506.24,
+          64.0
+        ],
+        [
+          509.72,
+          129.16
+        ],
+        [
+          528.56,
+          129.16
+        ],
+        [
+          531.68,
+          344.98
+        ],
+        [
+          510.44,
+          364.06
+        ],
+        [
+          517.88,
+          513.34
+        ],
+        [
+          548.36,
+          529.9
+        ],
+        [
+          557.36,
+          751.0
+        ],
+        [
+          205.64,
+          770.32
+        ]
+      ],
+      "declared_area_m2": 635.6,
+      "points_xy_m": [
+        [
+          0.0,
+          37.2618
+        ],
+        [
+          15.90675,
+          37.3761
+        ],
+        [
+          16.0909,
+          33.92805
+        ],
+        [
+          17.08785,
+          33.92805
+        ],
+        [
+          17.25295,
+          22.507575
+        ],
+        [
+          16.129,
+          21.497925
+        ],
+        [
+          16.5227,
+          13.598525
+        ],
+        [
+          18.1356,
+          12.722225
+        ],
+        [
+          18.61185,
+          1.02235
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "area_traced_m2": 635.835996,
+      "difference_area_m2": 0.235996,
+      "perimeter_traced_m": 110.645644,
+      "edge_lengths_m": [
+        15.907161,
+        3.452964,
+        0.99695,
+        11.421668,
+        1.510846,
+        7.909205,
+        1.835578,
+        11.709564,
+        18.639908,
+        37.2618
+      ]
+    },
+    "envolvente_vivienda_incl_instalaciones": {
+      "source": "Página35, lámina02. Límites exteriores de polígonos000SOBREADO del cerramiento; cierre de huecos en línea de fachada. Incluye cuarto instalaciones; excluye pérgola y vuelo de cubierta sobre entrada.",
+      "points_pdf_pt": [
+        [
+          262.4,
+          122.44
+        ],
+        [
+          453.2,
+          122.44
+        ],
+        [
+          453.2,
+          197.32
+        ],
+        [
+          406.88,
+          197.32
+        ],
+        [
+          406.88,
+          542.08
+        ],
+        [
+          312.08,
+          542.08
+        ],
+        [
+          312.08,
+          621.28
+        ],
+        [
+          262.4,
+          621.28
+        ]
+      ],
+      "declared_area_m2": 190.61,
+      "points_xy_m": [
+        [
+          3.00355,
+          34.28365
+        ],
+        [
+          13.10005,
+          34.28365
+        ],
+        [
+          13.10005,
+          30.32125
+        ],
+        [
+          10.64895,
+          30.32125
+        ],
+        [
+          10.64895,
+          12.0777
+        ],
+        [
+          5.63245,
+          12.0777
+        ],
+        [
+          5.63245,
+          7.8867
+        ],
+        [
+          3.00355,
+          7.8867
+        ]
+      ],
+      "area_traced_m2": 190.503329,
+      "difference_area_m2": -0.106671,
+      "perimeter_traced_m": 72.9869,
+      "edge_lengths_m": [
+        10.0965,
+        3.9624,
+        2.4511,
+        18.24355,
+        5.0165,
+        4.191,
+        2.6289,
+        26.39695
+      ]
+    },
+    "piscina": {
+      "source": "Página35 y37, láminas02y04. Cuatro segmentos000SOLERÍA. Escalera en extremo superior derecho incluida en rectángulo.",
+      "points_pdf_pt": [
+        [
+          426.92,
+          565.12
+        ],
+        [
+          493.16,
+          565.12
+        ],
+        [
+          493.16,
+          659.68
+        ],
+        [
+          426.92,
+          659.68
+        ]
+      ],
+      "declared_area_m2": 17.5,
+      "points_xy_m": [
+        [
+          11.7094,
+          10.8585
+        ],
+        [
+          15.2146,
+          10.8585
+        ],
+        [
+          15.2146,
+          5.8547
+        ],
+        [
+          11.7094,
+          5.8547
+        ]
+      ],
+      "area_traced_m2": 17.53932,
+      "difference_area_m2": 0.03932,
+      "perimeter_traced_m": 17.018,
+      "edge_lengths_m": [
+        3.5052,
+        5.0038,
+        3.5052,
+        5.0038
+      ]
+    },
+    "porche_descubierto_candidato": {
+      "source": "Página35. Rectángulo entre fachada larga derecha de planta x406,88pt y línea pavimento x470,24pt, desde testero de ala dormitorio1 y197,32pt hasta testero salón y542,08pt. Delimitación semántica inferida; no polígono de superficie rotulado.",
+      "points_pdf_pt": [
+        [
+          406.88,
+          197.32
+        ],
+        [
+          470.24,
+          197.32
+        ],
+        [
+          470.24,
+          542.08
+        ],
+        [
+          406.88,
+          542.08
+        ]
+      ],
+      "declared_area_m2": 61.12,
+      "warning": "No confundir con toda pavimentación; línea exterior pavimentada continúa a y553,84pt y rodea piscina.",
+      "points_xy_m": [
+        [
+          10.64895,
+          30.32125
+        ],
+        [
+          14.00175,
+          30.32125
+        ],
+        [
+          14.00175,
+          12.0777
+        ],
+        [
+          10.64895,
+          12.0777
+        ]
+      ],
+      "area_traced_m2": 61.166974,
+      "difference_area_m2": 0.046974,
+      "perimeter_traced_m": 43.1927,
+      "edge_lengths_m": [
+        3.3528,
+        18.24355,
+        3.3528,
+        18.24355
+      ]
+    },
+    "pergola_piscina_exterior_candidato": {
+      "source": "Página35 y37. Entre cuarto instalaciones y fachada derecha de planta, desde testero salón hasta pilares delanteros. Contorno exterior candidato; discrepancia superficie sin resolver.",
+      "points_pdf_pt": [
+        [
+          312.08,
+          542.08
+        ],
+        [
+          406.88,
+          542.08
+        ],
+        [
+          406.88,
+          621.28
+        ],
+        [
+          312.08,
+          621.28
+        ]
+      ],
+      "declared_area_m2": 20.87,
+      "warning": "Gráfico21,024m² frente20,87m²; no ajustar para forzar área declarada.",
+      "points_xy_m": [
+        [
+          5.63245,
+          12.0777
+        ],
+        [
+          10.64895,
+          12.0777
+        ],
+        [
+          10.64895,
+          7.8867
+        ],
+        [
+          5.63245,
+          7.8867
+        ]
+      ],
+      "area_traced_m2": 21.024151,
+      "difference_area_m2": 0.154151,
+      "perimeter_traced_m": 18.415,
+      "edge_lengths_m": [
+        5.0165,
+        4.191,
+        5.0165,
+        4.191
+      ]
+    }
+  },
+  "aparcamiento": {
+    "declared_area_m2": 46.86,
+    "explicit_area_polygon": false,
+    "car_symbol_bboxes_pdf_pt": [
+      [
+        297.183014,
+        652.23999,
+        336.572632,
+        745.47998
+      ],
+      [
+        344.827362,
+        652.23999,
+        384.21698,
+        745.47998
+      ]
+    ],
+    "car_symbol_centers_xy_m": [
+      [
+        5.886335,
+        3.781426
+      ],
+      [
+        8.407515,
+        3.781426
+      ]
+    ],
+    "notes": "Dos vehículos paralelos al eje longitudinal, ante vial público, a izquierda de piscina. Dimensiones del símbolo≈2,084×4,934m incluyendo espejos, no dimensiones de plazas."
+  },
+  "accesos": {
+    "vehicle_gate_plan03": {
+      "leaf_endpoints_pdf_pt": [
+        [
+          277.76,
+          759.88
+        ],
+        [
+          400.28,
+          753.16
+        ]
+      ],
+      "graphic_leaf_length_m": 6.493095,
+      "opening_post_endpoints_pdf_pt": [
+        [
+          282.44,
+          759.64
+        ],
+        [
+          395.48,
+          753.4
+        ]
+      ],
+      "graphic_opening_m": 5.990807
+    },
+    "pedestrian_gate_plan03": {
+      "leaf_endpoint_pdf_pt": [
+        [
+          260.24,
+          745.36
+        ],
+        [
+          261.08,
+          760.84
+        ]
+      ],
+      "graphic_leaf_length_m": 0.820355,
+      "notes": "Hoja abatible a izquierda del portón. Sin cota escrita en planta; medidas no reconciliadas con alzado."
+    },
+    "main_house_door_plan02": {
+      "facade_x_pdf_pt": 262.4,
+      "opening_y_pdf_pt": [
+        425.56,
+        450.88
+      ],
+      "graphic_opening_m": 1.3398499999999998,
+      "notes": "Entrada principal sobre lateral izquierdo/calle privada, entre aseo y salón. No confundir con acceso peatonal de parcela, que está en lindero frontal/vial."
+    }
+  },
+  "dimensiones": [
+    {
+      "elemento": "Parcela",
+      "magnitud": "Superficie",
+      "directo": "635,60 m²",
+      "calculado": "635,78–635,84 m²",
+      "estado": "Directa / trazado calculado",
+      "fuente": "PDF 7, 9, 35–37",
+      "observacion": "Conservar perímetro; no deformar para cuadrar superficie."
+    },
+    {
+      "elemento": "Parcela",
+      "magnitud": "Frente",
+      "directo": "18,64 m",
+      "calculado": "18,6399 m",
+      "estado": "Directa; control gráfico",
+      "fuente": "PDF 35",
+      "observacion": "Escala 1:150 corroborada."
+    },
+    {
+      "elemento": "Parcela",
+      "magnitud": "Retranqueo frontal",
+      "directo": "5,00 m",
+      "calculado": "",
+      "estado": "Directa",
+      "fuente": "PDF 9, 35",
+      "observacion": "Línea urbanística; no es el borde del pavimento."
+    },
+    {
+      "elemento": "Parcela",
+      "magnitud": "Retranqueos laterales/trasero",
+      "directo": "3,00 m",
+      "calculado": "3,0036 m en lateral izquierdo",
+      "estado": "Directa; control gráfico",
+      "fuente": "PDF 9, 35",
+      "observacion": "Puntos particulares acotados: 3,02 / 3,32 / 3,44 m."
+    },
+    {
+      "elemento": "Vivienda e instalaciones",
+      "magnitud": "Superficie construida",
+      "directo": "190,61 m²",
+      "calculado": "190,5033 m²",
+      "estado": "Directa / trazado calculado",
+      "fuente": "PDF 11, 35",
+      "observacion": "Huella cerrada; excluye pérgola y vuelo de entrada."
+    },
+    {
+      "elemento": "Vivienda",
+      "magnitud": "Superficie útil",
+      "directo": "157,78 m²",
+      "calculado": "157,78 m² suma de tabla",
+      "estado": "Directa; control aritmético",
+      "fuente": "PDF 11",
+      "observacion": "Suma de las 15 estancias comprobada; no es medición de recintos."
+    },
+    {
+      "elemento": "Vivienda e instalaciones",
+      "magnitud": "Ancho máximo",
+      "directo": "",
+      "calculado": "10,10 m",
+      "estado": "Calculada del dibujo",
+      "fuente": "PDF 35",
+      "observacion": "Ala del dormitorio principal; no cota total escrita."
+    },
+    {
+      "elemento": "Vivienda",
+      "magnitud": "Ancho del cuerpo longitudinal",
+      "directo": "",
+      "calculado": "7,65 m",
+      "estado": "Calculada del dibujo",
+      "fuente": "PDF 35",
+      "observacion": "Distancia entre caras exteriores de fachada."
+    },
+    {
+      "elemento": "Vivienda e instalaciones",
+      "magnitud": "Longitud total",
+      "directo": "",
+      "calculado": "26,40 m",
+      "estado": "Calculada del dibujo",
+      "fuente": "PDF 35",
+      "observacion": "Incluye cuarto de instalaciones, no la pérgola."
+    },
+    {
+      "elemento": "Piscina",
+      "magnitud": "Superficie / lados",
+      "directo": "17,50 m²",
+      "calculado": "3,5052 × 5,0038 m; 17,5393 m²",
+      "estado": "Directa / calculada del dibujo",
+      "fuente": "PDF 11, 35–37",
+      "observacion": "Lados probablemente nominales 3,50 × 5,00; no están acotados."
+    },
+    {
+      "elemento": "Piscina",
+      "magnitud": "Fondo, agua y alturas de peldaños",
+      "directo": "",
+      "calculado": "",
+      "estado": "Pendiente",
+      "fuente": "No definido en PDF",
+      "observacion": "No se asignará una profundidad ni una escalera por intuición."
+    },
+    {
+      "elemento": "Porche longitudinal",
+      "magnitud": "Superficie / perímetro candidato",
+      "directo": "61,12 m²",
+      "calculado": "3,35 × 18,24 m; 61,1670 m²",
+      "estado": "Directa / delimitación inferida",
+      "fuente": "PDF 11, 35",
+      "observacion": "No equivale a toda la zona exterior pavimentada."
+    },
+    {
+      "elemento": "Pérgola piscina",
+      "magnitud": "Superficie / perímetro exterior candidato",
+      "directo": "20,87 m²",
+      "calculado": "5,02 × 4,19 m; 21,0242 m²",
+      "estado": "Directa / perímetro contrastado",
+      "fuente": "PDF 11, 35–39",
+      "observacion": "Huella 5,02 × 4,19 m concordante entre planta/alzado/sección; cómputo de área por confirmar."
+    },
+    {
+      "elemento": "Aparcamiento",
+      "magnitud": "Superficie",
+      "directo": "46,86 m²",
+      "calculado": "Sin polígono de área identificado",
+      "estado": "Directa; perímetro pendiente",
+      "fuente": "PDF 11, 35–37",
+      "observacion": "Ubicación y dos coches definidos; sus símbolos no son cotas de plazas."
+    },
+    {
+      "elemento": "Suelo vivienda",
+      "magnitud": "Nivel Z",
+      "directo": "+0,00 m",
+      "calculado": "",
+      "estado": "Directa",
+      "fuente": "PDF 38–39",
+      "observacion": "Datum del modelo."
+    },
+    {
+      "elemento": "Jardín",
+      "magnitud": "Nivel Z",
+      "directo": "−0,15 m",
+      "calculado": "",
+      "estado": "Directa",
+      "fuente": "PDF 38–39",
+      "observacion": "No deducir pendientes del terreno que no estén dibujadas."
+    },
+    {
+      "elemento": "Forjado",
+      "magnitud": "Cara inferior / superior",
+      "directo": "+3,35 / +3,70 m",
+      "calculado": "Canto 0,35 m",
+      "estado": "Directa / diferencia calculada",
+      "fuente": "PDF 38–39",
+      "observacion": "Memoria indica soporte 0,30 m; no alterar cotas de planos."
+    },
+    {
+      "elemento": "Petos",
+      "magnitud": "Coronaciones",
+      "directo": "",
+      "calculado": "+4,40 / +5,10 m",
+      "estado": "Calculada; control cruzado",
+      "fuente": "PDF 38–39",
+      "observacion": "Altura máxima 5,10 m también figura en memoria PDF 23 y 30."
+    },
+    {
+      "elemento": "Cielorraso",
+      "magnitud": "Nivel",
+      "directo": "",
+      "calculado": "+3,20 m",
+      "estado": "Calculada del dibujo",
+      "fuente": "PDF 39",
+      "observacion": "Concordante en secciones 1 y 3."
+    },
+    {
+      "elemento": "Pérgola piscina",
+      "magnitud": "Viga inferior / superior",
+      "directo": "",
+      "calculado": "+2,50 / +2,85 m",
+      "estado": "Calculada; control cruzado",
+      "fuente": "PDF 38–39",
+      "observacion": "Concordante en alzado vial, lateral y sección 1."
+    },
+    {
+      "elemento": "Portal entrada",
+      "magnitud": "Base / coronación",
+      "directo": "",
+      "calculado": "+3,35 / +4,75 m o +3,70 / +4,90 m",
+      "estado": "Contradictoria",
+      "fuente": "PDF 38–39",
+      "observacion": "Alzado y secciones 3/4 frente a sección 2."
+    },
+    {
+      "elemento": "Puerta principal vivienda",
+      "magnitud": "Ancho × alto",
+      "directo": "",
+      "calculado": "1,34 × 2,50 m",
+      "estado": "Calculada; planta/alzado",
+      "fuente": "PDF 35, 38",
+      "observacion": "Lateral de calle privada; acceso a parcela desde vial público."
+    },
+    {
+      "elemento": "Portón vehículos",
+      "magnitud": "Luz / longitud de hoja",
+      "directo": "",
+      "calculado": "5,99 / 6,49 m en planta",
+      "estado": "Calculada del dibujo",
+      "fuente": "PDF 36",
+      "observacion": "Alzado luz 5,98 m. No confundir luz con longitud de hoja."
+    },
+    {
+      "elemento": "Puerta peatonal parcela",
+      "magnitud": "Longitud de hoja",
+      "directo": "",
+      "calculado": "0,82 m planta / 1,16 m alzado",
+      "estado": "Contradictoria",
+      "fuente": "PDF 36, 38",
+      "observacion": "Panel oscuro completo de alzado 3,45 m incluye parte fija."
+    },
+    {
+      "elemento": "Cierre lateral",
+      "magnitud": "Altura desde jardín",
+      "directo": "",
+      "calculado": "1,80 / 2,00 m según vista",
+      "estado": "Pendiente de perfil",
+      "fuente": "PDF 38",
+      "observacion": "Coronaciones +1,65 / +1,85; no imponer altura uniforme."
+    },
+    {
+      "elemento": "Cubierta",
+      "magnitud": "Acabado",
+      "directo": "Plana, grava 0,05 m",
+      "calculado": "",
+      "estado": "Directa; nivel acabado pendiente",
+      "fuente": "PDF 13, 18, 20, 37",
+      "observacion": "Faltan cotas de drenaje; las diagonales son pendientes de cubierta plana."
+    },
+    {
+      "elemento": "Cubierta",
+      "magnitud": "Vuelos de paño entrada",
+      "directo": "",
+      "calculado": "0,80 m lateral / frontal",
+      "estado": "Calculada de planta",
+      "fuente": "PDF 37",
+      "observacion": "No extruirlos como recinto cerrado."
+    }
+  ],
+  "carpinterias": [
+    {
+      "elemento": "V1 salón / dormitorio principal",
+      "memoria_ancho_alto_m": "2,00 × 1,60",
+      "dibujo_ancho_alto_m": "2,00 × 1,60",
+      "observacion": "Concordante; antepecho gráfico +0,90"
+    },
+    {
+      "elemento": "V2 baño nº2 / aseo",
+      "memoria_ancho_alto_m": "0,80 × 1,50",
+      "dibujo_ancho_alto_m": "0,80 × 1,50",
+      "observacion": "Concordante; antepecho gráfico +1,00"
+    },
+    {
+      "elemento": "V3 lavadero",
+      "memoria_ancho_alto_m": "0,60 × 1,50",
+      "dibujo_ancho_alto_m": "0,60 × 1,50",
+      "observacion": "Concordante; antepecho gráfico +1,00"
+    },
+    {
+      "elemento": "V4 baño principal",
+      "memoria_ancho_alto_m": "1,00 × 1,50",
+      "dibujo_ancho_alto_m": "1,00 × 1,50",
+      "observacion": "Concordante; alzado trasero"
+    },
+    {
+      "elemento": "V4 despacho",
+      "memoria_ancho_alto_m": "1,00 × 1,50",
+      "dibujo_ancho_alto_m": "1,00 × 1,60",
+      "observacion": "Discrepancia de altura 0,10 m"
+    },
+    {
+      "elemento": "V5 dormitorios",
+      "memoria_ancho_alto_m": "1,50 × 2,50",
+      "dibujo_ancho_alto_m": "1,50 × 2,50",
+      "observacion": "D1 perpendicular a fachada porche; no añadir otra ventana"
+    },
+    {
+      "elemento": "V6 cocina",
+      "memoria_ancho_alto_m": "4,13 × 2,50",
+      "dibujo_ancho_alto_m": "4,13 × 2,50",
+      "observacion": "Concordante alzado / sección 1"
+    },
+    {
+      "elemento": "V7 salón",
+      "memoria_ancho_alto_m": "5,39 × 2,05",
+      "dibujo_ancho_alto_m": "5,39 × 2,50",
+      "observacion": "Área escrita 13,47 m² respalda 2,50 m; resolver"
+    }
+  ],
+  "geometria_3d_pendiente": {
+    "profundidad_piscina": null,
+    "perfil_peldanos_piscina": null,
+    "nivel_agua": null,
+    "cotas_pendiente_cubierta": null,
+    "limite_area_aparcamiento": null,
+    "criterio_area_pergola": null
+  },
+  "restriccion": "Conservar datos no definidos sin geometría inventada. Modelo construido tras instrucción de continuar sólo con el PDF; discrepancias resueltas mediante criterios documentados, controles geométricos antes de renders.",
+  "estado_anterior": "Analisis inicial previo al modelo, conservado como referencia histórica en informe_geometria.pdf.",
+  "criterios_aplicados_3d": [
+    {
+      "id": "V7_alto",
+      "modelado": "2,50m",
+      "alternativa_pdf": "Memoria2,05m",
+      "criterio": "Alzado lateral/sec1 y superficie13,47m² coinciden2,50."
+    },
+    {
+      "id": "Despacho_alto",
+      "modelado": "1,60m con antepecho0,90m",
+      "alternativa_pdf": "MemoriaV4alto1,50m",
+      "criterio": "Alzado principal/sec2 prevalecen gráficamente."
+    },
+    {
+      "id": "Portal_alturas",
+      "modelado": "Base3,35/coronación4,75m",
+      "alternativa_pdf": "Sección2base3,70/coronación4,90m",
+      "criterio": "Principal/sec3/sec4 coincidentes."
+    },
+    {
+      "id": "Central_ancho_transversal",
+      "modelado": "X323,84–406,88pt de cubierta37:4,39420m",
+      "alternativa_pdf": "Trasero/sec3 muestran98,28pt=5,20065m y bordeoccidentalX308,72pt en lugar323,84; diferencia0,80m",
+      "criterio": "XY de cubierta37 coincide con vial/sec4; trasero/sec3 conservados como residualdocumental."
+    },
+    {
+      "id": "Instalaciones_puerta_ancho",
+      "modelado": "1,33985m en planta",
+      "alternativa_pdf": "1,59385m en alzado vial",
+      "criterio": "Conservar separación de muros y huecoXY; alzado aparenta incorporar pared lateral."
+    },
+    {
+      "id": "Peatonal_ancho",
+      "modelado": "0,820355m planta36",
+      "alternativa_pdf": "1,162m en alzado",
+      "criterio": "Planta gobiernaXY y ancho de hoja."
+    },
+    {
+      "id": "Cerramiento",
+      "modelado": "Oeste1,80m y este2,00m desde jardín según sus alzados",
+      "alternativa_pdf": "Encuentros y perfilZ no especificados",
+      "criterio": "Conservar evidencia por fachada y declararinterpretación enfrente/trasero."
+    },
+    {
+      "id": "Cubierta_acabado_Z",
+      "modelado": "Material/superficie de referencia; no asignar acabado real",
+      "alternativa_pdf": "Memoriagrava5cm, paquete no suficientemente acotado",
+      "criterio": "Z3,70 es cara superiorforjado; no afirmar cota real de grava."
+    },
+    {
+      "id": "Marquesina_terraza_omitida_en_cubierta",
+      "modelado": "Canto0,20m y vuelo2,2479m sobre salón/cocina según2alzados y sección4",
+      "alternativa_pdf": "Planta cubierta37 no muestra contornoX406,88–449,36/Y335,68–542,08",
+      "criterio": "Derivación cruzada de proyecciones registradas; conservar como elemento inferido documentalmente, no dato directo de planta."
+    },
+    {
+      "id": "Cerramiento_espesor",
+      "modelado": "0,1524m hacia interior, exterior en lindero",
+      "alternativa_pdf": "Sólo el tendedero dibuja espesor real x205,64–208,52pt; otroslinderos carecen de doblecara",
+      "criterio": "Extrapolar detalle de tendedero al cerramiento; deducción explícita, sin centrar valla ni invadir fuera del polígono."
+    }
+  ],
+  "registro_cerramiento_frontal": [
+    {
+      "id": "Ancho_total",
+      "planta_m": 18.639907723618162,
+      "esquema_m": 18.757900000000003,
+      "diferencia_m": 0.11799227638184107,
+      "impacto": "Registro al extremo derecho deja inicio esquema en s≈−0,118m; no modelar ese inicio ni mover lindero."
+    },
+    {
+      "id": "Jamba_vehiculos",
+      "s_jamba_esquema_registrada_m": 10.092807723618163,
+      "evidencia_planta": "Cara de poste enplanta36 x395,48/y753,40; registrarY+1,68 a35. Su proyección al lindero gobiernaapertura.",
+      "recomendacion": "Conservar acceso vehicular segúnplanta. Si cara esquema difiere, recortar exclusivamente extremo de machón izquierdo al poste existente y documentar residual; no modificar luz puerta ni rejillas.",
+      "poste_planta35_pdf_pt": [
+        395.48,
+        755.0799999999999
+      ],
+      "poste_xy_m": [
+        10.045700000000002,
+        0.8064500000000066
+      ],
+      "s_poste_planta_m": 10.074810373902848,
+      "diferencia_al_registro_m": 0.017997349715315636
+    },
+    {
+      "id": "Hoja_peatonal",
+      "planta_m": 0.820355,
+      "alzado_candidata_m": 1.162049999999999,
+      "impacto": "No aplicar alzado dehoja a puerta existente."
+    },
+    {
+      "id": "Espesor_barrotes",
+      "valor_m": null,
+      "impacto": "Alzado2D define ancho visible/paso pero no profundidad normal debarrotes; representarlos con caras/trazos explícitos."
+    },
+    {
+      "id": "Franja_coronacion",
+      "valor": "Aberturas empiezan en y715,36, misma coronación de muro. No existe dintel blanco por encima de estasrejillas en elesquema."
+    }
+  ],
+  "colecciones_modelo": [
+    "Parcela",
+    "Vivienda",
+    "Cubierta",
+    "Porches",
+    "Pergola",
+    "Piscina",
+    "Pavimentos",
+    "Cerramiento_exterior",
+    "Carpinterias",
+    "Aparcamiento",
+    "Jardin"
+  ]
+}

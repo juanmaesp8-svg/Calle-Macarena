@@ -1,0 +1,152 @@
+[
+  {
+    "id": "QA00",
+    "nombre": "QA00_Planta_superior",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      1600,
+      2800
+    ],
+    "samples_max": 24,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      9.305925369262695,
+      18.68804931640625,
+      80.0
+    ],
+    "camara_rotacion_radianes": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "focal_mm": 35.0,
+    "tipo": "ORTHO",
+    "shift_y": 0.0,
+    "iluminacion": "day",
+    "segundos_cycles": 156.66,
+    "png": "/workspace/arquitectura-macarena/control/ortograficas/QA00_Planta_superior.png",
+    "exr": "/workspace/arquitectura-macarena/control/ortograficas/QA00_Planta_superior.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "QA01",
+    "nombre": "QA01_Alzado_puerta_principal",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      2500,
+      650
+    ],
+    "samples_max": 24,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      -60.0,
+      21.085174560546875,
+      2.4749999046325684
+    ],
+    "camara_rotacion_radianes": [
+      1.5707963705062866,
+      -0.0,
+      -1.5707963705062866
+    ],
+    "focal_mm": 35.0,
+    "tipo": "ORTHO",
+    "shift_y": 0.0,
+    "iluminacion": "day",
+    "segundos_cycles": 19.22,
+    "png": "/workspace/arquitectura-macarena/control/ortograficas/QA01_Alzado_puerta_principal.png",
+    "exr": "/workspace/arquitectura-macarena/control/ortograficas/QA01_Alzado_puerta_principal.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "QA02",
+    "nombre": "QA02_Alzado_lateral_porche",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      2500,
+      650
+    ],
+    "samples_max": 24,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      65.0,
+      21.085174560546875,
+      2.4749999046325684
+    ],
+    "camara_rotacion_radianes": [
+      1.5707963705062866,
+      -0.0,
+      1.5707963705062866
+    ],
+    "focal_mm": 35.0,
+    "tipo": "ORTHO",
+    "shift_y": 0.0,
+    "iluminacion": "day",
+    "segundos_cycles": 32.5,
+    "png": "/workspace/arquitectura-macarena/control/ortograficas/QA02_Alzado_lateral_porche.png",
+    "exr": "/workspace/arquitectura-macarena/control/ortograficas/QA02_Alzado_lateral_porche.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "QA03",
+    "nombre": "QA03_Alzado_vial_publico",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      2500,
+      1350
+    ],
+    "samples_max": 24,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      8.051799774169922,
+      -60.0,
+      2.4749999046325684
+    ],
+    "camara_rotacion_radianes": [
+      1.5707964897155762,
+      -0.0,
+      0.0
+    ],
+    "focal_mm": 35.0,
+    "tipo": "ORTHO",
+    "shift_y": 0.0,
+    "iluminacion": "day",
+    "segundos_cycles": 46.69,
+    "png": "/workspace/arquitectura-macarena/control/ortograficas/QA03_Alzado_vial_publico.png",
+    "exr": "/workspace/arquitectura-macarena/control/ortograficas/QA03_Alzado_vial_publico.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "QA04",
+    "nombre": "QA04_Alzado_trasero",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      2500,
+      1350
+    ],
+    "samples_max": 24,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      8.051799774169922,
+      70.0,
+      2.4749999046325684
+    ],
+    "camara_rotacion_radianes": [
+      1.570796251296997,
+      8.742279788975793e-08,
+      3.1415927410125732
+    ],
+    "focal_mm": 35.0,
+    "tipo": "ORTHO",
+    "shift_y": 0.0,
+    "iluminacion": "day",
+    "segundos_cycles": 33.83,
+    "png": "/workspace/arquitectura-macarena/control/ortograficas/QA04_Alzado_trasero.png",
+    "exr": "/workspace/arquitectura-macarena/control/ortograficas/QA04_Alzado_trasero.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  }
+]

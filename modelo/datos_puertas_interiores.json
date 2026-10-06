@@ -1,0 +1,1589 @@
+{
+  "version": 1,
+  "fuente_pdf": "/workspace/attachments/7d44de5b-6e10-466c-a21a-671bc224714e/001 PROYECTO BÁSICO DE VIVIENDA UNIFAMILIAR EN CALLE MACARENA Nº16.pdf",
+  "factor_m_por_pt": 0.05291666666666667,
+  "origen_pdf35_pt": [
+    205.64,
+    770.32
+  ],
+  "estado": "12hojas interiores identificables+1referencia ambigua; hojas abiertas según planta",
+  "puertas": [
+    {
+      "nombre": "P_int_cocina_distribuidor1",
+      "estancias": "Cocina / distribuidor1",
+      "tipo": "abatible",
+      "estado_identificacion": "alta_para_XY",
+      "seqno_hoja_pdf36": 3476,
+      "fuente_pagina": 36,
+      "registro_a_pagina35_dy_pt": 1.68,
+      "hoja_poligono_pdf35_pt": [
+        [
+          325.639984,
+          350.20002
+        ],
+        [
+          341.119995,
+          350.20002
+        ],
+        [
+          341.119995,
+          351.040016
+        ],
+        [
+          325.639984,
+          351.040016
+        ]
+      ],
+      "hoja_bbox_pdf35_pt": [
+        325.639984,
+        350.20002,
+        341.119995,
+        351.040016
+      ],
+      "hoja_bbox_xy_m": [
+        6.349999,
+        22.186899,
+        7.16915,
+        22.231349
+      ],
+      "hoja_eje_pdf35_pt": [
+        [
+          325.639984,
+          350.62001799999996
+        ],
+        [
+          341.119995,
+          350.62001799999996
+        ]
+      ],
+      "hoja_eje_xy_m": [
+        [
+          6.349999,
+          22.209124
+        ],
+        [
+          7.16915,
+          22.209124
+        ]
+      ],
+      "ancho_hoja_grafico_m": 0.819151,
+      "ancho_generico_memoria_m": 0.825,
+      "ancho_modelado_m": 0.819151,
+      "espesor_modelado_m": 0.035,
+      "altura_hoja_m": 2.03,
+      "z_base_m": 0,
+      "z_dintel_real_m": null,
+      "intervalo_superior_hueco_no_definido_z_m": [
+        2.03,
+        3.35
+      ],
+      "fuente_altura_hoja": "Memoria p21: puertas ciegas hoja lisa y fijo superior DMF lacado,203×82,5×3,5cm. Altura2,03 y espesor0,035 directos; ancho simbología conserva diferencias.",
+      "fuente_dintel": "Memoria p28 cita altura libre mínima2,50m; no es cota de dintel de cada puerta. No crear geometría de dintel/fijo superior.",
+      "notas": null,
+      "hueco_posible_bbox_pdf35_pt": [
+        323.84,
+        348.88,
+        328.52,
+        367.12
+      ],
+      "hueco_posible_bbox_xy_m": [
+        6.25475,
+        21.336,
+        6.5024,
+        22.3012
+      ],
+      "hueco_criterio": "Intervalo vacío entre rellenos azules del plano35; caja de paso derivada. No se modifica ninguno de los muros existentes.",
+      "bisagra_pdf35_pt": [
+        325.639984,
+        350.62001799999996
+      ],
+      "bisagra_xy_m": [
+        6.349999,
+        22.209124
+      ],
+      "punta_libre_xy_m": [
+        7.16915,
+        22.209124
+      ],
+      "direccion_cerrada_xy": [
+        0,
+        -1
+      ],
+      "direccion_abierta_xy": [
+        1.000001,
+        0.0
+      ],
+      "sentido_apertura_visto_desde_arriba": "antihorario",
+      "angulo_apertura_grafico_grados": 90.0,
+      "angulo_hoja_abierta_xy_grados": 0.0,
+      "seqno_arco_pdf36": 3478,
+      "arco_bezier_pdf35_pt": [
+        [
+          325.749146,
+          365.679908
+        ],
+        [
+          333.992035,
+          365.653846
+        ],
+        [
+          340.780457,
+          359.196327
+        ],
+        [
+          341.218079,
+          350.965004
+        ]
+      ],
+      "jambas_referencia_pdf35_pt": [
+        [
+          323.839996,
+          348.880012,
+          325.639984,
+          350.20002
+        ],
+        [
+          323.839996,
+          365.799995,
+          325.639984,
+          367.120002
+        ]
+      ]
+    },
+    {
+      "nombre": "P_int_dormitorio3",
+      "estancias": "Dormitorio3 / distribuidor2",
+      "tipo": "abatible",
+      "estado_identificacion": "alta_para_XY",
+      "seqno_hoja_pdf36": 3483,
+      "fuente_pagina": 36,
+      "registro_a_pagina35_dy_pt": 1.68,
+      "hoja_poligono_pdf35_pt": [
+        [
+          325.639984,
+          280.120002
+        ],
+        [
+          341.119995,
+          280.120002
+        ],
+        [
+          341.119995,
+          280.840034
+        ],
+        [
+          325.639984,
+          280.840034
+        ]
+      ],
+      "hoja_bbox_pdf35_pt": [
+        325.639984,
+        280.120002,
+        341.119995,
+        280.840034
+      ],
+      "hoja_bbox_xy_m": [
+        6.349999,
+        25.901648,
+        7.16915,
+        25.93975
+      ],
+      "hoja_eje_pdf35_pt": [
+        [
+          325.639984,
+          280.480018
+        ],
+        [
+          341.119995,
+          280.480018
+        ]
+      ],
+      "hoja_eje_xy_m": [
+        [
+          6.349999,
+          25.920699
+        ],
+        [
+          7.16915,
+          25.920699
+        ]
+      ],
+      "ancho_hoja_grafico_m": 0.819151,
+      "ancho_generico_memoria_m": 0.825,
+      "ancho_modelado_m": 0.819151,
+      "espesor_modelado_m": 0.035,
+      "altura_hoja_m": 2.03,
+      "z_base_m": 0,
+      "z_dintel_real_m": null,
+      "intervalo_superior_hueco_no_definido_z_m": [
+        2.03,
+        3.35
+      ],
+      "fuente_altura_hoja": "Memoria p21: puertas ciegas hoja lisa y fijo superior DMF lacado,203×82,5×3,5cm. Altura2,03 y espesor0,035 directos; ancho simbología conserva diferencias.",
+      "fuente_dintel": "Memoria p28 cita altura libre mínima2,50m; no es cota de dintel de cada puerta. No crear geometría de dintel/fijo superior.",
+      "notas": null,
+      "hueco_posible_bbox_pdf35_pt": [
+        323.84,
+        278.8,
+        328.52,
+        296.92
+      ],
+      "hueco_posible_bbox_xy_m": [
+        6.25475,
+        25.05075,
+        6.5024,
+        26.0096
+      ],
+      "hueco_criterio": "Intervalo vacío entre rellenos azules del plano35; caja de paso derivada. No se modifica ninguno de los muros existentes.",
+      "bisagra_pdf35_pt": [
+        325.639984,
+        280.480018
+      ],
+      "bisagra_xy_m": [
+        6.349999,
+        25.920699
+      ],
+      "punta_libre_xy_m": [
+        7.16915,
+        25.920699
+      ],
+      "direccion_cerrada_xy": [
+        0,
+        -1
+      ],
+      "direccion_abierta_xy": [
+        1.000001,
+        0.0
+      ],
+      "sentido_apertura_visto_desde_arriba": "antihorario",
+      "angulo_apertura_grafico_grados": 90.0,
+      "angulo_hoja_abierta_xy_grados": 0.0,
+      "seqno_arco_pdf36": 3485,
+      "arco_bezier_pdf35_pt": [
+        [
+          325.749146,
+          295.479927
+        ],
+        [
+          333.992035,
+          295.453865
+        ],
+        [
+          340.780457,
+          288.996345
+        ],
+        [
+          341.218079,
+          280.765022
+        ]
+      ],
+      "jambas_referencia_pdf35_pt": [
+        [
+          323.839996,
+          278.799995,
+          325.639984,
+          280.120002
+        ],
+        [
+          323.839996,
+          295.599983,
+          325.639984,
+          296.91999
+        ]
+      ]
+    },
+    {
+      "nombre": "P_int_dormitorio2",
+      "estancias": "Dormitorio2 / distribuidor2",
+      "tipo": "abatible",
+      "estado_identificacion": "alta_para_XY",
+      "seqno_hoja_pdf36": 3489,
+      "fuente_pagina": 36,
+      "registro_a_pagina35_dy_pt": 1.68,
+      "hoja_poligono_pdf35_pt": [
+        [
+          325.639984,
+          252.880012
+        ],
+        [
+          341.119995,
+          252.880012
+        ],
+        [
+          341.119995,
+          252.160042
+        ],
+        [
+          325.639984,
+          252.160042
+        ]
+      ],
+      "hoja_bbox_pdf35_pt": [
+        325.639984,
+        252.160042,
+        341.119995,
+        252.880012
+      ],
+      "hoja_bbox_xy_m": [
+        6.349999,
+        27.381199,
+        7.16915,
+        27.419298
+      ],
+      "hoja_eje_pdf35_pt": [
+        [
+          325.639984,
+          252.520027
+        ],
+        [
+          341.119995,
+          252.520027
+        ]
+      ],
+      "hoja_eje_xy_m": [
+        [
+          6.349999,
+          27.400249
+        ],
+        [
+          7.16915,
+          27.400249
+        ]
+      ],
+      "ancho_hoja_grafico_m": 0.819151,
+      "ancho_generico_memoria_m": 0.825,
+      "ancho_modelado_m": 0.819151,
+      "espesor_modelado_m": 0.035,
+      "altura_hoja_m": 2.03,
+      "z_base_m": 0,
+      "z_dintel_real_m": null,
+      "intervalo_superior_hueco_no_definido_z_m": [
+        2.03,
+        3.35
+      ],
+      "fuente_altura_hoja": "Memoria p21: puertas ciegas hoja lisa y fijo superior DMF lacado,203×82,5×3,5cm. Altura2,03 y espesor0,035 directos; ancho simbología conserva diferencias.",
+      "fuente_dintel": "Memoria p28 cita altura libre mínima2,50m; no es cota de dintel de cada puerta. No crear geometría de dintel/fijo superior.",
+      "notas": null,
+      "hueco_posible_bbox_pdf35_pt": [
+        323.84,
+        236.08,
+        328.52,
+        254.2
+      ],
+      "hueco_posible_bbox_xy_m": [
+        6.25475,
+        27.31135,
+        6.5024,
+        28.2702
+      ],
+      "hueco_criterio": "Intervalo vacío entre rellenos azules del plano35; caja de paso derivada. No se modifica ninguno de los muros existentes.",
+      "bisagra_pdf35_pt": [
+        325.639984,
+        252.520027
+      ],
+      "bisagra_xy_m": [
+        6.349999,
+        27.400249
+      ],
+      "punta_libre_xy_m": [
+        7.16915,
+        27.400249
+      ],
+      "direccion_cerrada_xy": [
+        0,
+        1
+      ],
+      "direccion_abierta_xy": [
+        1.000001,
+        0.0
+      ],
+      "sentido_apertura_visto_desde_arriba": "horario",
+      "angulo_apertura_grafico_grados": 90.0,
+      "angulo_hoja_abierta_xy_grados": 0.0,
+      "seqno_arco_pdf36": 3491,
+      "arco_bezier_pdf35_pt": [
+        [
+          341.218079,
+          252.114998
+        ],
+        [
+          340.780457,
+          243.883674
+        ],
+        [
+          333.992035,
+          237.426155
+        ],
+        [
+          325.749146,
+          237.400093
+        ]
+      ],
+      "jambas_referencia_pdf35_pt": [
+        [
+          323.839996,
+          252.880012,
+          325.639984,
+          254.20002
+        ],
+        [
+          323.839996,
+          236.080024,
+          325.639984,
+          237.400032
+        ]
+      ]
+    },
+    {
+      "nombre": "P_int_suite_principal",
+      "estancias": "Suite dormitorio1 / distribuidor2",
+      "tipo": "abatible",
+      "estado_identificacion": "alta_para_XY",
+      "seqno_hoja_pdf36": 3499,
+      "fuente_pagina": 36,
+      "registro_a_pagina35_dy_pt": 1.68,
+      "hoja_poligono_pdf35_pt": [
+        [
+          306.559998,
+          209.560005
+        ],
+        [
+          306.559998,
+          194.080024
+        ],
+        [
+          307.399994,
+          194.080024
+        ],
+        [
+          307.399994,
+          209.560005
+        ]
+      ],
+      "hoja_bbox_pdf35_pt": [
+        306.559998,
+        194.080024,
+        307.399994,
+        209.560005
+      ],
+      "hoja_bbox_xy_m": [
+        5.34035,
+        29.67355,
+        5.3848,
+        30.492699
+      ],
+      "hoja_eje_pdf35_pt": [
+        [
+          306.979996,
+          194.080024
+        ],
+        [
+          306.979996,
+          209.560005
+        ]
+      ],
+      "hoja_eje_xy_m": [
+        [
+          5.362575,
+          30.492699
+        ],
+        [
+          5.362575,
+          29.67355
+        ]
+      ],
+      "ancho_hoja_grafico_m": 0.819149,
+      "ancho_generico_memoria_m": 0.825,
+      "ancho_modelado_m": 0.819149,
+      "espesor_modelado_m": 0.035,
+      "altura_hoja_m": 2.03,
+      "z_base_m": 0,
+      "z_dintel_real_m": null,
+      "intervalo_superior_hueco_no_definido_z_m": [
+        2.03,
+        3.35
+      ],
+      "fuente_altura_hoja": "Memoria p21: puertas ciegas hoja lisa y fijo superior DMF lacado,203×82,5×3,5cm. Altura2,03 y espesor0,035 directos; ancho simbología conserva diferencias.",
+      "fuente_dintel": "Memoria p28 cita altura libre mínima2,50m; no es cota de dintel de cada puerta. No crear geometría de dintel/fijo superior.",
+      "notas": null,
+      "hueco_posible_bbox_pdf35_pt": [
+        305.24,
+        209.56,
+        323.36,
+        211.48
+      ],
+      "hueco_posible_bbox_xy_m": [
+        5.2705,
+        29.57195,
+        6.22935,
+        29.67355
+      ],
+      "hueco_criterio": "Intervalo vacío entre rellenos azules del plano35; caja de paso derivada. No se modifica ninguno de los muros existentes.",
+      "bisagra_pdf35_pt": [
+        306.979996,
+        209.560005
+      ],
+      "bisagra_xy_m": [
+        5.362575,
+        29.67355
+      ],
+      "punta_libre_xy_m": [
+        5.362575,
+        30.492699
+      ],
+      "direccion_cerrada_xy": [
+        1,
+        0
+      ],
+      "direccion_abierta_xy": [
+        0.0,
+        1.0
+      ],
+      "sentido_apertura_visto_desde_arriba": "antihorario",
+      "angulo_apertura_grafico_grados": 90.0,
+      "angulo_hoja_abierta_xy_grados": 90.0,
+      "seqno_arco_pdf36": 3501,
+      "arco_bezier_pdf35_pt": [
+        [
+          322.159912,
+          209.570869
+        ],
+        [
+          322.13382,
+          201.327949
+        ],
+        [
+          315.6763,
+          194.539558
+        ],
+        [
+          307.445007,
+          194.101936
+        ]
+      ],
+      "jambas_referencia_pdf35_pt": [
+        [
+          305.23999,
+          209.560005,
+          306.559998,
+          211.479988
+        ],
+        [
+          322.039978,
+          209.560005,
+          323.359985,
+          211.479988
+        ]
+      ]
+    },
+    {
+      "nombre": "P_int_bano2",
+      "estancias": "Baño2 / distribuidor2",
+      "tipo": "abatible",
+      "estado_identificacion": "alta_para_XY",
+      "seqno_hoja_pdf36": 3511,
+      "fuente_pagina": 36,
+      "registro_a_pagina35_dy_pt": 1.68,
+      "hoja_poligono_pdf35_pt": [
+        [
+          302.959991,
+          314.560005
+        ],
+        [
+          289.399994,
+          314.560005
+        ],
+        [
+          289.399994,
+          313.840004
+        ],
+        [
+          302.959991,
+          313.840004
+        ]
+      ],
+      "hoja_bbox_pdf35_pt": [
+        289.399994,
+        313.840004,
+        302.959991,
+        314.560005
+      ],
+      "hoja_bbox_xy_m": [
+        4.4323,
+        24.1173,
+        5.14985,
+        24.1554
+      ],
+      "hoja_eje_pdf35_pt": [
+        [
+          289.399994,
+          314.2000045
+        ],
+        [
+          302.959991,
+          314.2000045
+        ]
+      ],
+      "hoja_eje_xy_m": [
+        [
+          4.4323,
+          24.13635
+        ],
+        [
+          5.14985,
+          24.13635
+        ]
+      ],
+      "ancho_hoja_grafico_m": 0.71755,
+      "ancho_generico_memoria_m": 0.825,
+      "ancho_modelado_m": 0.71755,
+      "espesor_modelado_m": 0.035,
+      "altura_hoja_m": 2.03,
+      "z_base_m": 0,
+      "z_dintel_real_m": null,
+      "intervalo_superior_hueco_no_definido_z_m": [
+        2.03,
+        3.35
+      ],
+      "fuente_altura_hoja": "Memoria p21: puertas ciegas hoja lisa y fijo superior DMF lacado,203×82,5×3,5cm. Altura2,03 y espesor0,035 directos; ancho simbología conserva diferencias.",
+      "fuente_dintel": "Memoria p28 cita altura libre mínima2,50m; no es cota de dintel de cada puerta. No crear geometría de dintel/fijo superior.",
+      "notas": null,
+      "hueco_posible_bbox_pdf35_pt": [
+        302.96,
+        298.84,
+        304.88,
+        315.88
+      ],
+      "hueco_posible_bbox_xy_m": [
+        5.14985,
+        24.04745,
+        5.25145,
+        24.94915
+      ],
+      "hueco_criterio": "Intervalo vacío entre rellenos azules del plano35; caja de paso derivada. No se modifica ninguno de los muros existentes.",
+      "bisagra_pdf35_pt": [
+        302.959991,
+        314.2000045
+      ],
+      "bisagra_xy_m": [
+        5.14985,
+        24.13635
+      ],
+      "punta_libre_xy_m": [
+        4.4323,
+        24.13635
+      ],
+      "direccion_cerrada_xy": [
+        0,
+        1
+      ],
+      "direccion_abierta_xy": [
+        -1.0,
+        0.0
+      ],
+      "sentido_apertura_visto_desde_arriba": "antihorario",
+      "angulo_apertura_grafico_grados": 90.0,
+      "angulo_hoja_abierta_xy_grados": 180.0,
+      "seqno_arco_pdf36": 3513,
+      "arco_bezier_pdf35_pt": [
+        [
+          303.019989,
+          300.160042
+        ],
+        [
+          295.497864,
+          300.160042
+        ],
+        [
+          289.399994,
+          306.257911
+        ],
+        [
+          289.399994,
+          313.780006
+        ]
+      ],
+      "jambas_referencia_pdf35_pt": [
+        [
+          302.959991,
+          314.560005,
+          304.880005,
+          315.880012
+        ],
+        [
+          302.959991,
+          298.840034,
+          304.880005,
+          300.160042
+        ]
+      ]
+    },
+    {
+      "nombre": "P_int_distribuidor2",
+      "estancias": "Distribuidor2 / distribuidor1",
+      "tipo": "abatible",
+      "estado_identificacion": "alta_para_XY",
+      "seqno_hoja_pdf36": 4456,
+      "fuente_pagina": 36,
+      "registro_a_pagina35_dy_pt": 1.68,
+      "hoja_poligono_pdf35_pt": [
+        [
+          306.559998,
+          335.68
+        ],
+        [
+          306.559998,
+          320.20002
+        ],
+        [
+          307.399994,
+          320.20002
+        ],
+        [
+          307.399994,
+          335.68
+        ]
+      ],
+      "hoja_bbox_pdf35_pt": [
+        306.559998,
+        320.20002,
+        307.399994,
+        335.68
+      ],
+      "hoja_bbox_xy_m": [
+        5.34035,
+        22.9997,
+        5.3848,
+        23.818849
+      ],
+      "hoja_eje_pdf35_pt": [
+        [
+          306.979996,
+          320.20002
+        ],
+        [
+          306.979996,
+          335.68
+        ]
+      ],
+      "hoja_eje_xy_m": [
+        [
+          5.362575,
+          23.818849
+        ],
+        [
+          5.362575,
+          22.9997
+        ]
+      ],
+      "ancho_hoja_grafico_m": 0.819149,
+      "ancho_generico_memoria_m": 0.825,
+      "ancho_modelado_m": 0.819149,
+      "espesor_modelado_m": 0.035,
+      "altura_hoja_m": 2.03,
+      "z_base_m": 0,
+      "z_dintel_real_m": null,
+      "intervalo_superior_hueco_no_definido_z_m": [
+        2.03,
+        3.35
+      ],
+      "fuente_altura_hoja": "Memoria p21: puertas ciegas hoja lisa y fijo superior DMF lacado,203×82,5×3,5cm. Altura2,03 y espesor0,035 directos; ancho simbología conserva diferencias.",
+      "fuente_dintel": "Memoria p28 cita altura libre mínima2,50m; no es cota de dintel de cada puerta. No crear geometría de dintel/fijo superior.",
+      "notas": null,
+      "hueco_posible_bbox_pdf35_pt": [
+        305.24,
+        335.68,
+        323.36,
+        337.6
+      ],
+      "hueco_posible_bbox_xy_m": [
+        5.2705,
+        22.8981,
+        6.22935,
+        22.9997
+      ],
+      "hueco_criterio": "Intervalo vacío entre rellenos azules del plano35; caja de paso derivada. No se modifica ninguno de los muros existentes.",
+      "bisagra_pdf35_pt": [
+        306.979996,
+        335.68
+      ],
+      "bisagra_xy_m": [
+        5.362575,
+        22.9997
+      ],
+      "punta_libre_xy_m": [
+        5.362575,
+        23.818849
+      ],
+      "direccion_cerrada_xy": [
+        1,
+        0
+      ],
+      "direccion_abierta_xy": [
+        0.0,
+        1.0
+      ],
+      "sentido_apertura_visto_desde_arriba": "antihorario",
+      "angulo_apertura_grafico_grados": 90.0,
+      "angulo_hoja_abierta_xy_grados": 90.0,
+      "seqno_arco_pdf36": 4458,
+      "arco_bezier_pdf35_pt": [
+        [
+          322.159912,
+          335.690864
+        ],
+        [
+          322.13382,
+          327.447975
+        ],
+        [
+          315.6763,
+          320.659553
+        ],
+        [
+          307.445007,
+          320.221931
+        ]
+      ],
+      "jambas_referencia_pdf35_pt": [
+        [
+          305.23999,
+          335.68,
+          306.559998,
+          337.600013
+        ],
+        [
+          322.039978,
+          335.68,
+          323.359985,
+          337.600013
+        ]
+      ]
+    },
+    {
+      "nombre": "P_int_aseo",
+      "estancias": "Aseo / distribuidor1",
+      "tipo": "abatible",
+      "estado_identificacion": "alta_para_XY",
+      "seqno_hoja_pdf36": 4680,
+      "fuente_pagina": 36,
+      "registro_a_pagina35_dy_pt": 1.68,
+      "hoja_poligono_pdf35_pt": [
+        [
+          302.959991,
+          380.44001
+        ],
+        [
+          289.399994,
+          380.44001
+        ],
+        [
+          289.399994,
+          381.280006
+        ],
+        [
+          302.959991,
+          381.280006
+        ]
+      ],
+      "hoja_bbox_pdf35_pt": [
+        289.399994,
+        380.44001,
+        302.959991,
+        381.280006
+      ],
+      "hoja_bbox_xy_m": [
+        4.4323,
+        20.5867,
+        5.14985,
+        20.631149
+      ],
+      "hoja_eje_pdf35_pt": [
+        [
+          289.399994,
+          380.860008
+        ],
+        [
+          302.959991,
+          380.860008
+        ]
+      ],
+      "hoja_eje_xy_m": [
+        [
+          4.4323,
+          20.608925
+        ],
+        [
+          5.14985,
+          20.608925
+        ]
+      ],
+      "ancho_hoja_grafico_m": 0.71755,
+      "ancho_generico_memoria_m": 0.825,
+      "ancho_modelado_m": 0.71755,
+      "espesor_modelado_m": 0.035,
+      "altura_hoja_m": 2.03,
+      "z_base_m": 0,
+      "z_dintel_real_m": null,
+      "intervalo_superior_hueco_no_definido_z_m": [
+        2.03,
+        3.35
+      ],
+      "fuente_altura_hoja": "Memoria p21: puertas ciegas hoja lisa y fijo superior DMF lacado,203×82,5×3,5cm. Altura2,03 y espesor0,035 directos; ancho simbología conserva diferencias.",
+      "fuente_dintel": "Memoria p28 cita altura libre mínima2,50m; no es cota de dintel de cada puerta. No crear geometría de dintel/fijo superior.",
+      "notas": null,
+      "hueco_posible_bbox_pdf35_pt": [
+        302.96,
+        379.12,
+        304.88,
+        396.16
+      ],
+      "hueco_posible_bbox_xy_m": [
+        5.14985,
+        19.7993,
+        5.25145,
+        20.701
+      ],
+      "hueco_criterio": "Intervalo vacío entre rellenos azules del plano35; caja de paso derivada. No se modifica ninguno de los muros existentes.",
+      "bisagra_pdf35_pt": [
+        302.959991,
+        380.860008
+      ],
+      "bisagra_xy_m": [
+        5.14985,
+        20.608925
+      ],
+      "punta_libre_xy_m": [
+        4.4323,
+        20.608925
+      ],
+      "direccion_cerrada_xy": [
+        0,
+        -1
+      ],
+      "direccion_abierta_xy": [
+        -1.0,
+        0.0
+      ],
+      "sentido_apertura_visto_desde_arriba": "horario",
+      "angulo_apertura_grafico_grados": 90.0,
+      "angulo_hoja_abierta_xy_grados": 180.0,
+      "seqno_arco_pdf36": 4682,
+      "arco_bezier_pdf35_pt": [
+        [
+          289.399994,
+          381.220009
+        ],
+        [
+          289.399994,
+          388.742134
+        ],
+        [
+          295.497864,
+          394.840004
+        ],
+        [
+          303.019989,
+          394.840004
+        ]
+      ],
+      "jambas_referencia_pdf35_pt": [
+        [
+          302.959991,
+          379.120002,
+          304.880005,
+          380.44001
+        ],
+        [
+          302.959991,
+          394.840004,
+          304.880005,
+          396.160011
+        ]
+      ]
+    },
+    {
+      "nombre": "P_int_despacho",
+      "estancias": "Despacho / distribuidor2",
+      "tipo": "abatible",
+      "estado_identificacion": "alta_para_XY",
+      "seqno_hoja_pdf36": 4711,
+      "fuente_pagina": 36,
+      "registro_a_pagina35_dy_pt": 1.68,
+      "hoja_poligono_pdf35_pt": [
+        [
+          302.959991,
+          267.039985
+        ],
+        [
+          287.47998,
+          267.039985
+        ],
+        [
+          287.47998,
+          266.320015
+        ],
+        [
+          302.959991,
+          266.320015
+        ]
+      ],
+      "hoja_bbox_pdf35_pt": [
+        287.47998,
+        266.320015,
+        302.959991,
+        267.039985
+      ],
+      "hoja_bbox_xy_m": [
+        4.330699,
+        26.631901,
+        5.14985,
+        26.669999
+      ],
+      "hoja_eje_pdf35_pt": [
+        [
+          287.47998,
+          266.68
+        ],
+        [
+          302.959991,
+          266.68
+        ]
+      ],
+      "hoja_eje_xy_m": [
+        [
+          4.330699,
+          26.65095
+        ],
+        [
+          5.14985,
+          26.65095
+        ]
+      ],
+      "ancho_hoja_grafico_m": 0.819151,
+      "ancho_generico_memoria_m": 0.825,
+      "ancho_modelado_m": 0.819151,
+      "espesor_modelado_m": 0.035,
+      "altura_hoja_m": 2.03,
+      "z_base_m": 0,
+      "z_dintel_real_m": null,
+      "intervalo_superior_hueco_no_definido_z_m": [
+        2.03,
+        3.35
+      ],
+      "fuente_altura_hoja": "Memoria p21: puertas ciegas hoja lisa y fijo superior DMF lacado,203×82,5×3,5cm. Altura2,03 y espesor0,035 directos; ancho simbología conserva diferencias.",
+      "fuente_dintel": "Memoria p28 cita altura libre mínima2,50m; no es cota de dintel de cada puerta. No crear geometría de dintel/fijo superior.",
+      "notas": null,
+      "hueco_posible_bbox_pdf35_pt": [
+        302.96,
+        250.24,
+        304.88,
+        268.36
+      ],
+      "hueco_posible_bbox_xy_m": [
+        5.14985,
+        26.56205,
+        5.25145,
+        27.5209
+      ],
+      "hueco_criterio": "Intervalo vacío entre rellenos azules del plano35; caja de paso derivada. No se modifica ninguno de los muros existentes.",
+      "bisagra_pdf35_pt": [
+        302.959991,
+        266.68
+      ],
+      "bisagra_xy_m": [
+        5.14985,
+        26.65095
+      ],
+      "punta_libre_xy_m": [
+        4.330699,
+        26.65095
+      ],
+      "direccion_cerrada_xy": [
+        0,
+        1
+      ],
+      "direccion_abierta_xy": [
+        -1.000001,
+        0.0
+      ],
+      "sentido_apertura_visto_desde_arriba": "antihorario",
+      "angulo_apertura_grafico_grados": 90.0,
+      "angulo_hoja_abierta_xy_grados": 180.0,
+      "seqno_arco_pdf36": 4713,
+      "arco_bezier_pdf35_pt": [
+        [
+          303.09082,
+          251.560066
+        ],
+        [
+          294.847961,
+          251.586128
+        ],
+        [
+          288.059509,
+          258.043708
+        ],
+        [
+          287.621918,
+          266.275032
+        ]
+      ],
+      "jambas_referencia_pdf35_pt": [
+        [
+          302.959991,
+          267.039985,
+          304.880005,
+          268.359993
+        ],
+        [
+          302.959991,
+          250.239998,
+          304.880005,
+          251.560005
+        ]
+      ]
+    },
+    {
+      "nombre": "P_int_bano1_corredera",
+      "estancias": "Baño1 / paso suite",
+      "tipo": "corredera",
+      "estado_identificacion": "alta_para_XY",
+      "seqno_hoja_pdf36": 4290,
+      "fuente_pagina": 36,
+      "registro_a_pagina35_dy_pt": 1.68,
+      "hoja_poligono_pdf35_pt": [
+        [
+          304.279999,
+          155.20002
+        ],
+        [
+          303.559998,
+          155.20002
+        ],
+        [
+          303.559998,
+          175.840034
+        ],
+        [
+          304.279999,
+          175.840034
+        ]
+      ],
+      "hoja_bbox_pdf35_pt": [
+        303.559998,
+        155.20002,
+        304.279999,
+        175.840034
+      ],
+      "hoja_bbox_xy_m": [
+        5.1816,
+        31.457898,
+        5.2197,
+        32.550099
+      ],
+      "hoja_eje_pdf35_pt": [
+        [
+          303.9199985,
+          155.20002
+        ],
+        [
+          303.9199985,
+          175.840034
+        ]
+      ],
+      "hoja_eje_xy_m": [
+        [
+          5.20065,
+          32.550099
+        ],
+        [
+          5.20065,
+          31.457898
+        ]
+      ],
+      "ancho_hoja_grafico_m": 1.092201,
+      "ancho_generico_memoria_m": 0.825,
+      "ancho_modelado_m": 1.092201,
+      "espesor_modelado_m": 0.035,
+      "altura_hoja_m": 2.03,
+      "z_base_m": 0,
+      "z_dintel_real_m": null,
+      "intervalo_superior_hueco_no_definido_z_m": [
+        2.03,
+        3.35
+      ],
+      "fuente_altura_hoja": "Memoria p21: puertas ciegas hoja lisa y fijo superior DMF lacado,203×82,5×3,5cm. Altura2,03 y espesor0,035 directos; ancho simbología conserva diferencias.",
+      "fuente_dintel": "Memoria p28 cita altura libre mínima2,50m; no es cota de dintel de cada puerta. No crear geometría de dintel/fijo superior.",
+      "notas": "Hoja vertical aparcada hacia parte superior del plano, entre dos paredes finas del bolsillo.",
+      "hueco_posible_bbox_pdf35_pt": [
+        302.96,
+        171.76,
+        304.88,
+        190.72
+      ],
+      "hueco_posible_bbox_xy_m": [
+        5.14985,
+        30.6705,
+        5.25145,
+        31.6738
+      ],
+      "hueco_criterio": "Intervalo vacío entre rellenos azules del plano35; caja de paso derivada. No se modifica ninguno de los muros existentes.",
+      "bisagra_xy_m": null,
+      "sentido_apertura": "Hoja conservada en posición desplazada dibujada; eje de desplazamiento paralelo al eje largo. Signo/recorrido no acotados.",
+      "recorrido_desplazamiento_m": null,
+      "jambas_referencia_pdf35_pt": []
+    },
+    {
+      "nombre": "P_int_vestidor_corredera",
+      "estancias": "Vestidor / paso suite",
+      "tipo": "corredera",
+      "estado_identificacion": "alta_para_XY",
+      "seqno_hoja_pdf36": 4510,
+      "fuente_pagina": 36,
+      "registro_a_pagina35_dy_pt": 1.68,
+      "hoja_poligono_pdf35_pt": [
+        [
+          310.759979,
+          170.560005
+        ],
+        [
+          310.759979,
+          171.160042
+        ],
+        [
+          329.0,
+          171.160042
+        ],
+        [
+          329.0,
+          170.560005
+        ]
+      ],
+      "hoja_bbox_pdf35_pt": [
+        310.759979,
+        170.560005,
+        329.0,
+        171.160042
+      ],
+      "hoja_bbox_xy_m": [
+        5.562599,
+        31.705548,
+        6.5278,
+        31.7373
+      ],
+      "hoja_eje_pdf35_pt": [
+        [
+          310.759979,
+          170.8600235
+        ],
+        [
+          329.0,
+          170.8600235
+        ]
+      ],
+      "hoja_eje_xy_m": [
+        [
+          5.562599,
+          31.721424
+        ],
+        [
+          6.5278,
+          31.721424
+        ]
+      ],
+      "ancho_hoja_grafico_m": 0.965201,
+      "ancho_generico_memoria_m": 0.825,
+      "ancho_modelado_m": 0.965201,
+      "espesor_modelado_m": 0.035,
+      "altura_hoja_m": 2.03,
+      "z_base_m": 0,
+      "z_dintel_real_m": null,
+      "intervalo_superior_hueco_no_definido_z_m": [
+        2.03,
+        3.35
+      ],
+      "fuente_altura_hoja": "Memoria p21: puertas ciegas hoja lisa y fijo superior DMF lacado,203×82,5×3,5cm. Altura2,03 y espesor0,035 directos; ancho simbología conserva diferencias.",
+      "fuente_dintel": "Memoria p28 cita altura libre mínima2,50m; no es cota de dintel de cada puerta. No crear geometría de dintel/fijo superior.",
+      "notas": "Hoja horizontal desplazada hacia izquierda y parcialmente dentro del hueco.",
+      "hueco_posible_bbox_pdf35_pt": [
+        325.64,
+        169.96,
+        342.68,
+        171.76
+      ],
+      "hueco_posible_bbox_xy_m": [
+        6.35,
+        31.6738,
+        7.2517,
+        31.76905
+      ],
+      "hueco_criterio": "Intervalo vacío entre rellenos azules del plano35; caja de paso derivada. No se modifica ninguno de los muros existentes.",
+      "bisagra_xy_m": null,
+      "sentido_apertura": "Hoja conservada en posición desplazada dibujada; eje de desplazamiento paralelo al eje largo. Signo/recorrido no acotados.",
+      "recorrido_desplazamiento_m": null,
+      "jambas_referencia_pdf35_pt": []
+    },
+    {
+      "nombre": "P_int_cocina_hall_corredera",
+      "estancias": "Cocina / hall entrada",
+      "tipo": "corredera",
+      "estado_identificacion": "alta_para_XY",
+      "seqno_hoja_pdf36": 4587,
+      "fuente_pagina": 36,
+      "registro_a_pagina35_dy_pt": 1.68,
+      "hoja_poligono_pdf35_pt": [
+        [
+          325.160004,
+          417.400001
+        ],
+        [
+          324.440002,
+          417.400001
+        ],
+        [
+          324.440002,
+          439.120002
+        ],
+        [
+          325.160004,
+          439.120002
+        ]
+      ],
+      "hoja_bbox_pdf35_pt": [
+        324.440002,
+        417.400001,
+        325.160004,
+        439.120002
+      ],
+      "hoja_bbox_xy_m": [
+        6.2865,
+        17.526,
+        6.3246,
+        18.67535
+      ],
+      "hoja_eje_pdf35_pt": [
+        [
+          324.800003,
+          417.400001
+        ],
+        [
+          324.800003,
+          439.120002
+        ]
+      ],
+      "hoja_eje_xy_m": [
+        [
+          6.30555,
+          18.67535
+        ],
+        [
+          6.30555,
+          17.526
+        ]
+      ],
+      "ancho_hoja_grafico_m": 1.14935,
+      "ancho_generico_memoria_m": 0.825,
+      "ancho_modelado_m": 1.14935,
+      "espesor_modelado_m": 0.035,
+      "altura_hoja_m": 2.03,
+      "z_base_m": 0,
+      "z_dintel_real_m": null,
+      "intervalo_superior_hueco_no_definido_z_m": [
+        2.03,
+        3.35
+      ],
+      "fuente_altura_hoja": "Memoria p21: puertas ciegas hoja lisa y fijo superior DMF lacado,203×82,5×3,5cm. Altura2,03 y espesor0,035 directos; ancho simbología conserva diferencias.",
+      "fuente_dintel": "Memoria p28 cita altura libre mínima2,50m; no es cota de dintel de cada puerta. No crear geometría de dintel/fijo superior.",
+      "notas": "Hoja vertical desplazada hacia cocina, parte superior del plano; hueco inferido hasta encuentro con partición salón.",
+      "hueco_posible_bbox_pdf35_pt": [
+        323.84,
+        433.6,
+        328.52,
+        455.2
+      ],
+      "hueco_posible_bbox_xy_m": [
+        6.25475,
+        16.6751,
+        6.5024,
+        17.8181
+      ],
+      "hueco_criterio": "Intervalo vacío entre rellenos azules del plano35; caja de paso derivada. No se modifica ninguno de los muros existentes.",
+      "bisagra_xy_m": null,
+      "sentido_apertura": "Hoja conservada en posición desplazada dibujada; eje de desplazamiento paralelo al eje largo. Signo/recorrido no acotados.",
+      "recorrido_desplazamiento_m": null,
+      "jambas_referencia_pdf35_pt": []
+    },
+    {
+      "nombre": "P_int_lavadero_corredera",
+      "estancias": "Lavadero / distribuidor1",
+      "tipo": "corredera",
+      "estado_identificacion": "alta_para_XY",
+      "seqno_hoja_pdf36": 4884,
+      "fuente_pagina": 36,
+      "registro_a_pagina35_dy_pt": 1.68,
+      "hoja_poligono_pdf35_pt": [
+        [
+          304.279999,
+          348.400001
+        ],
+        [
+          303.559998,
+          348.400001
+        ],
+        [
+          303.559998,
+          367.000007
+        ],
+        [
+          304.279999,
+          367.000007
+        ]
+      ],
+      "hoja_bbox_pdf35_pt": [
+        303.559998,
+        348.400001,
+        304.279999,
+        367.000007
+      ],
+      "hoja_bbox_xy_m": [
+        5.1816,
+        21.34235,
+        5.2197,
+        22.3266
+      ],
+      "hoja_eje_pdf35_pt": [
+        [
+          303.9199985,
+          348.400001
+        ],
+        [
+          303.9199985,
+          367.000007
+        ]
+      ],
+      "hoja_eje_xy_m": [
+        [
+          5.20065,
+          22.3266
+        ],
+        [
+          5.20065,
+          21.34235
+        ]
+      ],
+      "ancho_hoja_grafico_m": 0.98425,
+      "ancho_generico_memoria_m": 0.825,
+      "ancho_modelado_m": 0.98425,
+      "espesor_modelado_m": 0.035,
+      "altura_hoja_m": 2.03,
+      "z_base_m": 0,
+      "z_dintel_real_m": null,
+      "intervalo_superior_hueco_no_definido_z_m": [
+        2.03,
+        3.35
+      ],
+      "fuente_altura_hoja": "Memoria p21: puertas ciegas hoja lisa y fijo superior DMF lacado,203×82,5×3,5cm. Altura2,03 y espesor0,035 directos; ancho simbología conserva diferencias.",
+      "fuente_dintel": "Memoria p28 cita altura libre mínima2,50m; no es cota de dintel de cada puerta. No crear geometría de dintel/fijo superior.",
+      "notas": "Hoja vertical aparcada hacia parte superior del plano, bolsillo entre paredes finas.",
+      "hueco_posible_bbox_pdf35_pt": [
+        302.96,
+        360.28,
+        304.88,
+        377.32
+      ],
+      "hueco_posible_bbox_xy_m": [
+        5.14985,
+        20.79625,
+        5.25145,
+        21.69795
+      ],
+      "hueco_criterio": "Intervalo vacío entre rellenos azules del plano35; caja de paso derivada. No se modifica ninguno de los muros existentes.",
+      "bisagra_xy_m": null,
+      "sentido_apertura": "Hoja conservada en posición desplazada dibujada; eje de desplazamiento paralelo al eje largo. Signo/recorrido no acotados.",
+      "recorrido_desplazamiento_m": null,
+      "jambas_referencia_pdf35_pt": []
+    },
+    {
+      "nombre": "Referencia_hoja_horizontal_servicios",
+      "estancias": "Encuentro lavadero/aseo/distribuidor1",
+      "tipo": "no_asignada",
+      "estado_identificacion": "ambigua",
+      "seqno_hoja_pdf36": 4717,
+      "fuente_pagina": 36,
+      "registro_a_pagina35_dy_pt": 1.68,
+      "hoja_poligono_pdf35_pt": [
+        [
+          290.720001,
+          377.920021
+        ],
+        [
+          290.720001,
+          378.519996
+        ],
+        [
+          311.23999,
+          378.519996
+        ],
+        [
+          311.23999,
+          377.920021
+        ]
+      ],
+      "hoja_bbox_pdf35_pt": [
+        290.720001,
+        377.920021,
+        311.23999,
+        378.519996
+      ],
+      "hoja_bbox_xy_m": [
+        4.50215,
+        20.73275,
+        5.587999,
+        20.764499
+      ],
+      "hoja_eje_pdf35_pt": [
+        [
+          290.720001,
+          378.2200085
+        ],
+        [
+          311.23999,
+          378.2200085
+        ]
+      ],
+      "hoja_eje_xy_m": [
+        [
+          4.50215,
+          20.748625
+        ],
+        [
+          5.587999,
+          20.748625
+        ]
+      ],
+      "ancho_hoja_grafico_m": 1.085849,
+      "ancho_generico_memoria_m": 0.825,
+      "ancho_modelado_m": 1.085849,
+      "espesor_modelado_m": 0.035,
+      "altura_hoja_m": null,
+      "z_base_m": 0,
+      "z_dintel_real_m": null,
+      "intervalo_superior_hueco_no_definido_z_m": [
+        2.03,
+        3.35
+      ],
+      "fuente_altura_hoja": "Memoria p21: puertas ciegas hoja lisa y fijo superior DMF lacado,203×82,5×3,5cm. Altura2,03 y espesor0,035 directos; ancho simbología conserva diferencias.",
+      "fuente_dintel": "Memoria p28 cita altura libre mínima2,50m; no es cota de dintel de cada puerta. No crear geometría de dintel/fijo superior.",
+      "notas": "Línea/hoja horizontal en partición entre lavadero y aseo. No hay un hueco de paso inequívoco asociado y podría ser carpintería/panel. Guardar como referencia visible en viewport, oculta en render.",
+      "hueco_posible_bbox_pdf35_pt": null,
+      "hueco_posible_bbox_xy_m": null,
+      "hueco_criterio": "No se identifica un hueco de paso inequívoco; sólo referencia.",
+      "bisagra_xy_m": null,
+      "sentido_apertura": null,
+      "recorrido_desplazamiento_m": null,
+      "jambas_referencia_pdf35_pt": []
+    }
+  ],
+  "criterio_modelado": "Añadir sólo hojas de2,03m de altura y0,035m de espesor. Anchos y posicionesXY proceden del símbolo del PDF, no de la medida genérica82,5cm. No crear dinteles ni fijos superiores sin cota. Intervalo2,03–3,35m del hueco interior permanece no definido y se registra mediante referencias. No transformar ni desplazar muros existentes."
+}

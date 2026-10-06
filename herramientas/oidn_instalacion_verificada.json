@@ -1,0 +1,25 @@
+{
+  "tool": "Intel Open Image Denoise",
+  "version": "2.5.1",
+  "official_release": "https://github.com/RenderKit/oidn/releases/tag/v2.5.1",
+  "official_asset_page": "https://github.com/RenderKit/oidn/releases/expanded_assets/v2.5.1",
+  "archive": "oidn-2.5.1.x86_64.linux.tar.gz",
+  "sha256_published_and_verified": "743c3e2aff8c220d5d70fe6cb970fb3d36f2702d2693c61d1d148e404cf37cd6",
+  "TLS_verification": "preserved; curl --proto =https --tlsv1.2; no insecure flags",
+  "CPU_confirmed": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "representative_test": {
+    "renderer": "Blender4.3.2 Cycles CPU24 samples",
+    "resolution": [
+      640,
+      480
+    ],
+    "passes": [
+      "beauty",
+      "Denoising Albedo",
+      "Denoising Normal"
+    ],
+    "output": "/tmp/oidn_test/clean.exr and /tmp/oidn_test/clean.png",
+    "validation": "Persisted 32bit HDREXR reloaded and matched OIDN floats at tolerance1e-5; PNG visually inspected. No generic blur.",
+    "metadata": "/tmp/oidn_test/clean.oidn.json"
+  }
+}

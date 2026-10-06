@@ -1,0 +1,302 @@
+[
+  {
+    "id": "01",
+    "nombre": "01_Aerea_oblicua_parcela",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 96,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      27.22599983215332,
+      -16.860000610351562,
+      30.016000747680664
+    ],
+    "camara_rotacion_radianes": [
+      0.9331086874008179,
+      1.0964384955514106e-09,
+      0.4862425923347473
+    ],
+    "focal_mm": 35.0,
+    "tipo": "PERSP",
+    "shift_y": -0.04500000178813934,
+    "iluminacion": "day",
+    "segundos_cycles": 292.74,
+    "png": "/workspace/arquitectura-macarena/renders/01_Aerea_oblicua_parcela.png",
+    "exr": "/workspace/arquitectura-macarena/renders/01_Aerea_oblicua_parcela.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "02",
+    "nombre": "02_Desde_vial_publico",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 96,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      9.199999809265137,
+      -9.0,
+      1.7000000476837158
+    ],
+    "camara_rotacion_radianes": [
+      1.5707964897155762,
+      -2.6759621185590277e-09,
+      0.032246850430965424
+    ],
+    "focal_mm": 30.0,
+    "tipo": "PERSP",
+    "shift_y": 0.07500000298023224,
+    "iluminacion": "day",
+    "segundos_cycles": 169.95,
+    "png": "/workspace/arquitectura-macarena/renders/02_Desde_vial_publico.png",
+    "exr": "/workspace/arquitectura-macarena/renders/02_Desde_vial_publico.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "03",
+    "nombre": "03_Desde_aparcamiento",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 96,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      10.25,
+      3.0999999046325684,
+      1.649999976158142
+    ],
+    "camara_rotacion_radianes": [
+      1.5707963705062866,
+      -3.2912684133634684e-08,
+      0.28702959418296814
+    ],
+    "focal_mm": 30.0,
+    "tipo": "PERSP",
+    "shift_y": 0.0949999988079071,
+    "iluminacion": "day",
+    "segundos_cycles": 492.21,
+    "png": "/workspace/arquitectura-macarena/renders/03_Desde_aparcamiento.png",
+    "exr": "/workspace/arquitectura-macarena/renders/03_Desde_aparcamiento.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "04",
+    "nombre": "04_Entrada_principal",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 96,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      0.75,
+      10.600000381469727,
+      1.649999976158142
+    ],
+    "camara_rotacion_radianes": [
+      1.570796251296997,
+      2.081660355202075e-08,
+      -0.31256070733070374
+    ],
+    "focal_mm": 35.0,
+    "tipo": "PERSP",
+    "shift_y": 0.10000000149011612,
+    "iluminacion": "day",
+    "segundos_cycles": 702.65,
+    "png": "/workspace/arquitectura-macarena/renders/04_Entrada_principal.png",
+    "exr": "/workspace/arquitectura-macarena/renders/04_Entrada_principal.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "05",
+    "nombre": "05_Piscina_hacia_vivienda",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 96,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      16.100000381469727,
+      4.099999904632568,
+      1.7000000476837158
+    ],
+    "camara_rotacion_radianes": [
+      1.5707963705062866,
+      -0.0,
+      0.3792094588279724
+    ],
+    "focal_mm": 28.0,
+    "tipo": "PERSP",
+    "shift_y": 0.09000000357627869,
+    "iluminacion": "day",
+    "segundos_cycles": 451.24,
+    "png": "/workspace/arquitectura-macarena/renders/05_Piscina_hacia_vivienda.png",
+    "exr": "/workspace/arquitectura-macarena/renders/05_Piscina_hacia_vivienda.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "06",
+    "nombre": "06_Terraza_hacia_piscina",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 96,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      12.75,
+      15.449999809265137,
+      1.649999976158142
+    ],
+    "camara_rotacion_radianes": [
+      1.5707963705062866,
+      -6.314157019460254e-08,
+      -3.0417842864990234
+    ],
+    "focal_mm": 35.0,
+    "tipo": "PERSP",
+    "shift_y": 0.014999999664723873,
+    "iluminacion": "day",
+    "segundos_cycles": 354.68,
+    "png": "/workspace/arquitectura-macarena/renders/06_Terraza_hacia_piscina.png",
+    "exr": "/workspace/arquitectura-macarena/renders/06_Terraza_hacia_piscina.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "07",
+    "nombre": "07_Longitudinal_salon_cocina_terraza",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 96,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      15.300000190734863,
+      11.649999618530273,
+      1.649999976158142
+    ],
+    "camara_rotacion_radianes": [
+      1.570796251296997,
+      -0.0,
+      0.3666081726551056
+    ],
+    "focal_mm": 30.0,
+    "tipo": "PERSP",
+    "shift_y": 0.08500000089406967,
+    "iluminacion": "day",
+    "segundos_cycles": 714.46,
+    "png": "/workspace/arquitectura-macarena/renders/07_Longitudinal_salon_cocina_terraza.png",
+    "exr": "/workspace/arquitectura-macarena/renders/07_Longitudinal_salon_cocina_terraza.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "08",
+    "nombre": "08_Porche_y_comedor_exterior",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 96,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      11.050000190734863,
+      4.800000190734863,
+      1.649999976158142
+    ],
+    "camara_rotacion_radianes": [
+      1.5707963705062866,
+      2.3610542854157757e-08,
+      0.4208444654941559
+    ],
+    "focal_mm": 30.0,
+    "tipo": "PERSP",
+    "shift_y": 0.03999999910593033,
+    "iluminacion": "day",
+    "segundos_cycles": 640.65,
+    "png": "/workspace/arquitectura-macarena/renders/08_Porche_y_comedor_exterior.png",
+    "exr": "/workspace/arquitectura-macarena/renders/08_Porche_y_comedor_exterior.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "09",
+    "nombre": "09_Esquina_jardin_trasero",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 96,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      15.149999618530273,
+      35.54999923706055,
+      1.7000000476837158
+    ],
+    "camara_rotacion_radianes": [
+      1.5707964897155762,
+      9.892563213043104e-08,
+      2.7547168731689453
+    ],
+    "focal_mm": 28.0,
+    "tipo": "PERSP",
+    "shift_y": 0.09000000357627869,
+    "iluminacion": "day",
+    "segundos_cycles": 626.28,
+    "png": "/workspace/arquitectura-macarena/renders/09_Esquina_jardin_trasero.png",
+    "exr": "/workspace/arquitectura-macarena/renders/09_Esquina_jardin_trasero.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "10",
+    "nombre": "10_Atardecer_piscina",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 96,
+    "muestreo_adaptativo": 0.02500000037252903,
+    "camara_posicion_m": [
+      16.100000381469727,
+      4.099999904632568,
+      1.7000000476837158
+    ],
+    "camara_rotacion_radianes": [
+      1.5707963705062866,
+      -0.0,
+      0.3792094588279724
+    ],
+    "focal_mm": 28.0,
+    "tipo": "PERSP",
+    "shift_y": 0.09000000357627869,
+    "iluminacion": "sunset",
+    "segundos_cycles": 421.27,
+    "png": "/workspace/arquitectura-macarena/renders/10_Atardecer_piscina.png",
+    "exr": "/workspace/arquitectura-macarena/renders/10_Atardecer_piscina.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  }
+]

@@ -1,0 +1,195 @@
+{
+  "apto_para_entrega": true,
+  "minimo_lado_largo_px": 2500,
+  "ids_requeridos": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10"
+  ],
+  "errores": [],
+  "imagenes": [
+    {
+      "id": "01",
+      "vista": "Vista aérea oblicua de la parcela",
+      "png": "renders/01_Aerea_oblicua_parcela.png",
+      "resolucion_px": [
+        2500,
+        1667
+      ],
+      "sha256_png": "ecf3160914effc7318f5bd062cdb1401f51338d3bed36e35753d5b6de4b27ba8",
+      "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+      "focal_mm": 35.0,
+      "motor": "Cycles CPU",
+      "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high",
+      "iluminacion": "day"
+    },
+    {
+      "id": "02",
+      "vista": "Vista desde el vial público",
+      "png": "renders/02_Desde_vial_publico.png",
+      "resolucion_px": [
+        2500,
+        1667
+      ],
+      "sha256_png": "adc55f9ec3c3e14c945617928be951ae51ed1dba2148f33d06f66e6adc6e325c",
+      "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+      "focal_mm": 30.0,
+      "motor": "Cycles CPU",
+      "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high",
+      "iluminacion": "day"
+    },
+    {
+      "id": "03",
+      "vista": "Vista desde el aparcamiento",
+      "png": "renders/03_Desde_aparcamiento.png",
+      "resolucion_px": [
+        2500,
+        1667
+      ],
+      "sha256_png": "6a97c8034f1c3eabef6ed2f6c467501cad923e92d5a779281d230f0d1eacd0be",
+      "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+      "focal_mm": 30.0,
+      "motor": "Cycles CPU",
+      "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high",
+      "iluminacion": "day"
+    },
+    {
+      "id": "04",
+      "vista": "Entrada principal",
+      "png": "renders/04_Entrada_principal.png",
+      "resolucion_px": [
+        2500,
+        1667
+      ],
+      "sha256_png": "899b8cc425aa88463e7419846f428f7d049d4fb6e630de35562916d8f7587bbe",
+      "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+      "focal_mm": 35.0,
+      "motor": "Cycles CPU",
+      "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high",
+      "iluminacion": "day"
+    },
+    {
+      "id": "05",
+      "vista": "Piscina hacia vivienda",
+      "png": "renders/05_Piscina_hacia_vivienda.png",
+      "resolucion_px": [
+        2500,
+        1667
+      ],
+      "sha256_png": "ed4b722bac0721c4da4a52f56eb4c86827da27e6368ca8886fdd4fafb8fdb6fa",
+      "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+      "focal_mm": 28.0,
+      "motor": "Cycles CPU",
+      "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high",
+      "iluminacion": "day"
+    },
+    {
+      "id": "06",
+      "vista": "Terraza hacia piscina",
+      "png": "renders/06_Terraza_hacia_piscina.png",
+      "resolucion_px": [
+        2500,
+        1667
+      ],
+      "sha256_png": "9a8ddd2ed6758a4df9c32ffa6095b9cfcd1dc75c31df1d75702624919aa0ae23",
+      "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+      "focal_mm": 35.0,
+      "motor": "Cycles CPU",
+      "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high",
+      "iluminacion": "day"
+    },
+    {
+      "id": "07",
+      "vista": "Fachada de salón, cocina y terraza",
+      "png": "renders/07_Longitudinal_salon_cocina_terraza.png",
+      "resolucion_px": [
+        2500,
+        1667
+      ],
+      "sha256_png": "de010b600a10d6907e11b9ef93046cbaeb263cb3517de3247aa20aa2fa85b688",
+      "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+      "focal_mm": 30.0,
+      "motor": "Cycles CPU",
+      "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high",
+      "iluminacion": "day"
+    },
+    {
+      "id": "08",
+      "vista": "Porche y comedor exterior",
+      "png": "renders/08_Porche_y_comedor_exterior.png",
+      "resolucion_px": [
+        2500,
+        1667
+      ],
+      "sha256_png": "bec52f4d5c0f1f15a58b43f2c9cacfaf7b15299011d568abbf4091c34127ba45",
+      "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+      "focal_mm": 30.0,
+      "motor": "Cycles CPU",
+      "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high",
+      "iluminacion": "day"
+    },
+    {
+      "id": "09",
+      "vista": "Esquina del jardín",
+      "png": "renders/09_Esquina_jardin_trasero.png",
+      "resolucion_px": [
+        2500,
+        1667
+      ],
+      "sha256_png": "a7a809735d1abf3b1047736c57678572117c6af399200230f5d632933ecab057",
+      "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+      "focal_mm": 28.0,
+      "motor": "Cycles CPU",
+      "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high",
+      "iluminacion": "day"
+    },
+    {
+      "id": "10",
+      "vista": "Vista al atardecer",
+      "png": "renders/10_Atardecer_piscina.png",
+      "resolucion_px": [
+        2500,
+        1667
+      ],
+      "sha256_png": "d9fa5d338a68ce733c843436728f7fe615f9f4be3c2758a31b9b23418e329cfd",
+      "modelo_sha256": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+      "focal_mm": 28.0,
+      "motor": "Cycles CPU",
+      "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high",
+      "iluminacion": "sunset"
+    }
+  ],
+  "regla": "La resolución y el hash común verifican la serie, no convierten cotas ausentes del PDF en medidas confirmadas.",
+  "hashes_blend_en_registro": [
+    "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc"
+  ],
+  "todos_renders_mismo_modelo": true,
+  "sha256_blend_entregado": "477c505053540b1c91cce2bc58afd95abe7336ccdfa64fd9c77c7713135b29dc",
+  "registro_coincide_blend_entregado": true,
+  "archivos_presentacion": [
+    {
+      "ruta": "entrega/galeria_renders.pdf",
+      "sha256": "73f629ae5ef7d89063d3dabc14a15b42d81959eab1fe1334f31cd5e3c5fb2c7d",
+      "bytes": 8433220
+    },
+    {
+      "ruta": "entrega/hoja/contacto.jpg",
+      "sha256": "0a13d759ca65a8a7d2da3ed0bc2a121d708d2026e167ccb8aa96a3b60421ffcf",
+      "bytes": 1062303
+    },
+    {
+      "ruta": "entrega/galeria.html",
+      "sha256": "0243ca2cc9c21bb73941e3ecfd0488c428d1b2fcfc4933b79eef7c78c3bebc86",
+      "bytes": 9214
+    }
+  ],
+  "paginas_galeria_pdf": 10,
+  "miniaturas_contacto": 10
+}
