@@ -1,0 +1,1584 @@
+{
+  "revision": "V3_interiores_exteriores",
+  "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
+  "controles_geometricos": 189,
+  "arquitectura_objetos_sin_cambios": 346,
+  "vistas": [
+    {
+      "id": "I01",
+      "titulo": "Salón",
+      "png": "renders/I01_Salon.png",
+      "jpg": "renders/I01_Salon.jpg",
+      "sha256_png": "2657aa5e7054838ce0c0f6cc6ed9a3f1848fb9466bcac99ac9727751b251e339",
+      "sha256_jpg": "cdc89ce82ff7ac6661b5da224c6daa353b0c241992eb647c092cdff5e461631d",
+      "resolucion": [
+        2500,
+        1667
+      ]
+    },
+    {
+      "id": "I02",
+      "titulo": "Cocina",
+      "png": "renders/I02_Cocina.png",
+      "jpg": "renders/I02_Cocina.jpg",
+      "sha256_png": "bf380b15b32ab8cdc5a4c585c70fc13d651910f70a21e08cbc791c88f72b4bc9",
+      "sha256_jpg": "d6206a57b7517ba313ee0d04c562566ea4da7d1054d82f846bde0d7956606014",
+      "resolucion": [
+        2500,
+        1667
+      ]
+    },
+    {
+      "id": "I03",
+      "titulo": "Comedor",
+      "png": "renders/I03_Comedor.png",
+      "jpg": "renders/I03_Comedor.jpg",
+      "sha256_png": "553ff0e44ffe857bdf3608ac27f3b4efe79828fc42b5d882ba18f719d1903b54",
+      "sha256_jpg": "38e7ce35701658434d5e28378007378e202b261ba54edc5f1e1f1e4a5e725401",
+      "resolucion": [
+        2500,
+        1667
+      ]
+    },
+    {
+      "id": "E01",
+      "titulo": "Terraza · vista longitudinal",
+      "png": "renders/E01_Terraza.png",
+      "jpg": "renders/E01_Terraza.jpg",
+      "sha256_png": "96c01bfcea825093712c1b438cd2301ad2b2cbcf0945a46262c0d7f426cd2478",
+      "sha256_jpg": "3e7a49e458a99f6987d51b7679191c53857e83ba8718d5c201880ec2469518a5",
+      "resolucion": [
+        2500,
+        1667
+      ]
+    },
+    {
+      "id": "E02",
+      "titulo": "Piscina y vivienda",
+      "png": "renders/E02_Piscina.png",
+      "jpg": "renders/E02_Piscina.jpg",
+      "sha256_png": "4ef8e898d7001917f31c28513e0d2d1841b285be6a4d091180bb0a5a5ead662c",
+      "sha256_jpg": "9e31806db4f9939d5303a18e63baca9cc86d169ad12e6ed5e3815fd1e1de7ce0",
+      "resolucion": [
+        2500,
+        1667
+      ]
+    },
+    {
+      "id": "E03",
+      "titulo": "Aparcamiento descubierto",
+      "png": "renders/E03_Aparcamiento.png",
+      "jpg": "renders/E03_Aparcamiento.jpg",
+      "sha256_png": "acd099bc7e3354a0648cdbe11194611a85f001c2526d0a43df7f387562777e3e",
+      "sha256_jpg": "7200dec1feb04905dfca39770e41dbb788e7a29d837e71d2f123152884d607c9",
+      "resolucion": [
+        2500,
+        1667
+      ]
+    },
+    {
+      "id": "E04",
+      "titulo": "Terraza · comedor exterior",
+      "png": "renders/E04_Terraza_comedor.png",
+      "jpg": "renders/E04_Terraza_comedor.jpg",
+      "sha256_png": "3825ccec4bbcc3e12b7eed1315d1d786e61312866ee789868a6c5a7a7ee563d8",
+      "sha256_jpg": "3286f7e440c2ec66ccabd9f115ef7d8da3c6ba10291c521f0258d434ba480f7f",
+      "resolucion": [
+        2500,
+        1667
+      ]
+    }
+  ],
+  "archivos": [
+    {
+      "archivo": "Calle_Macarena_modelo_1a1.blend",
+      "bytes": 92306307,
+      "sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0"
+    },
+    {
+      "archivo": "Calle_Macarena_modelo_1a1.glb",
+      "bytes": 60678960,
+      "sha256": "a31b72764184854700427b3c69ef1c18cd492bca9b40b3242c2c1e4b4a5274c5"
+    },
+    {
+      "archivo": "analisis_v2/ajustes_nominales_aplicados.json",
+      "bytes": 671,
+      "sha256": "0fa527e025ab6a46d3a270a573181b83269000ab47358159de0f942eb6262db6"
+    },
+    {
+      "archivo": "analisis_v2/auditoria_alturas_trastero.json",
+      "bytes": 10187,
+      "sha256": "7073d583b273daf4e54d335cefa14b7df45f4ab98de1f83add409c300ebf5844"
+    },
+    {
+      "archivo": "analisis_v2/auditoria_alturas_trastero.md",
+      "bytes": 8482,
+      "sha256": "9c79596d1a48430c6a8e47358cff4505432cf1042bf146a507b6bddbe604d7df"
+    },
+    {
+      "archivo": "analisis_v2/auditoria_planta_final.json",
+      "bytes": 340724,
+      "sha256": "4809e5cb966e473ff4bdb2b35066477016a0993c7ab1795562a164248cd6a30d"
+    },
+    {
+      "archivo": "analisis_v2/auditoria_planta_final.md",
+      "bytes": 20039,
+      "sha256": "cc11556efd45b286c5ccbf82da46d73e13e1313bfe3c23dd3f0f8d4ba0b86069"
+    },
+    {
+      "archivo": "analisis_v2/auditoria_planta_final_ajustes.json",
+      "bytes": 12559,
+      "sha256": "3f03afac47d2247f3a76d98d2b234f1b59dcb2926cf6cf08e639264ad1dbc025"
+    },
+    {
+      "archivo": "analisis_v2/cesped_fibras_verificacion.json",
+      "bytes": 491,
+      "sha256": "ef50764090793330b31fbdd01e021e2d1be67edadc3653332585db267af65b06"
+    },
+    {
+      "archivo": "analisis_v2/extraer_auditoria_planta_final.py",
+      "bytes": 24717,
+      "sha256": "46a760a73021525192bbd9be7149162027ce1814a1d6e6ec13622fd886962644"
+    },
+    {
+      "archivo": "analisis_v2/materiales_realismo.md",
+      "bytes": 7364,
+      "sha256": "0d8da7c54ccd3440814fec9069a5c95ce4df81297f156247bfba7d8c2d6b1167"
+    },
+    {
+      "archivo": "analisis_v2/mobiliario_qa.json",
+      "bytes": 3165,
+      "sha256": "92ec9ef725ca36363cd5aff7bc5a75d6eedcc669282c591ba76c4e423f06c9e6"
+    },
+    {
+      "archivo": "analisis_v2/mobiliario_realismo.md",
+      "bytes": 5199,
+      "sha256": "6fab3eab32a12e763c4466ac1e3dcad81456737feb97a4b1f3b2047117e6d84b"
+    },
+    {
+      "archivo": "analisis_v2/preparar_ajustes_auditoria_planta_final.py",
+      "bytes": 6431,
+      "sha256": "364b265ade5f724ff6251c45387cb00302b13f179367111b95b55fa2d0480bea"
+    },
+    {
+      "archivo": "analisis_v2/redactar_auditoria_planta_final.py",
+      "bytes": 10038,
+      "sha256": "782de3ed93ae6376c7f15cc8b391639289b48a3005936fdb34085b0cd3d742f9"
+    },
+    {
+      "archivo": "analisis_v2/vegetacion_realismo.md",
+      "bytes": 7137,
+      "sha256": "8f220e3803fb9486ff620d4fa69cc56bba12bc35ab0610467da947b159f4d52e"
+    },
+    {
+      "archivo": "analisis_v2/vegetacion_verificacion.json",
+      "bytes": 2109,
+      "sha256": "726247da8bd713514c67a14805979bfb245d931f1a0688032fbf86164062ce90"
+    },
+    {
+      "archivo": "analisis_v2/vehiculos_realismo.md",
+      "bytes": 3730,
+      "sha256": "71a08dba2f316046e4fe89fcffdb76b3321dfe684c8fe6fd064667e09ed9f9ef"
+    },
+    {
+      "archivo": "assets/hdri/royal_esplanade_1k.hdr",
+      "bytes": 1667276,
+      "sha256": "d72031e24581a0f13911fbcdee475db0f8cafcf48bf1771c6b971c3310db6cb2"
+    },
+    {
+      "archivo": "assets/hdri/venice_sunset_1k.hdr",
+      "bytes": 1397783,
+      "sha256": "0e72ed46b5316cb5fb67fc81ff85b024a09146fd89ef3811a8d2299647ada118"
+    },
+    {
+      "archivo": "assets/licencias/BMW_M6_CC0_BLENDSWAP_LICENSE.txt",
+      "bytes": 3191,
+      "sha256": "de4ebc4bc9336251d898e7ceab5c238ec1f0c126fa138401f21cf44dcf661965"
+    },
+    {
+      "archivo": "assets/licencias/BMW_M6_CC0_procedencia.json",
+      "bytes": 1567,
+      "sha256": "3ba2d227549dd17031545cad104bed0b24998c9580194a4266291c118b420df7"
+    },
+    {
+      "archivo": "assets/licencias/PBRT_scenes_README_fuente_BMW_M6.md",
+      "bytes": 12747,
+      "sha256": "570b84a7b0e13b7d69aaf8417c63f6fa48ed15ca58ea585f4c38974a34f33b08"
+    },
+    {
+      "archivo": "assets/licencias/ambientcg_mirror_CC0.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "archivo": "assets/licencias/polyhaven_cc0_texto_oficial.json",
+      "bytes": 2216,
+      "sha256": "a9d88b758d1751dd41713381115ed309ea659e219c1654157b709dce7757e779"
+    },
+    {
+      "archivo": "assets/licencias/recursos_materiales_v2.json",
+      "bytes": 1507,
+      "sha256": "8e2acd2d6a3dd26ac957e26d022752d58308254f05d4eabcfc4faa6afdfe20ed"
+    },
+    {
+      "archivo": "assets/licencias/texturas_fotograficas_v3.json",
+      "bytes": 14152,
+      "sha256": "1c32a7091a154add4ef289f7df196fbf91f1379ae9198db43dcb02154ead7543"
+    },
+    {
+      "archivo": "assets/mobiliario/SheenChair/README_fuente.md",
+      "bytes": 4250,
+      "sha256": "7bbb705e0532711b80a512161da64ab0f2a719412121daf24b8177bdbdbaca7a"
+    },
+    {
+      "archivo": "assets/mobiliario/SheenChair/SheenChair.glb",
+      "bytes": 4125648,
+      "sha256": "f0af2a2b102d28d540236306ae19f8fb36842df76bd38cf76f063f9bd2853399"
+    },
+    {
+      "archivo": "assets/mobiliario/SheenChair/procedencia.json",
+      "bytes": 1242,
+      "sha256": "a1e2ba0f84d24d7ab9e08c4409f0edbf9fdd9ac1687ab69c4aa950d911802b5a"
+    },
+    {
+      "archivo": "assets/mobiliario/SheenChair/screenshot.jpg",
+      "bytes": 316185,
+      "sha256": "e41a9080903f4415f014470f934b3aec1bc1cacf6f03bc929d1561be65606678"
+    },
+    {
+      "archivo": "assets/texturas/README_V3.md",
+      "bytes": 2337,
+      "sha256": "c8ac0c467d55d6d33372cdd98f88d5473bb4f7a7b2d4bb601cb378bed290408a"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Fabric040/Fabric040_1K-PNG_Color.ktx2",
+      "bytes": 292155,
+      "sha256": "b9ab2cda84268d1ef720cb15529bc7af4e317ff366102f34e908f2cf945b4cbd"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Fabric040/Fabric040_1K-PNG_Color.png",
+      "bytes": 420563,
+      "sha256": "e1a304e7598d24dfbd31bf11c01d65ddd1fc2fab71b5b1b2540a5555495126c6"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Fabric040/Fabric040_1K-PNG_Displacement.ktx2",
+      "bytes": 283150,
+      "sha256": "f0eb3017681fadcd8ce647c39a1c7edf226bf78518641942e34ff3fc3d1a34c6"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Fabric040/Fabric040_1K-PNG_Displacement.png",
+      "bytes": 194736,
+      "sha256": "62798e8fea2b1701d54b7c7af683b81186e8ddf91fde27803a9fb42fda05f7be"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Fabric040/Fabric040_1K-PNG_NormalGL.ktx2",
+      "bytes": 225788,
+      "sha256": "7d873d0dab88f7983c36ed15f167efafd2f8092bfbb1e274ba101e628410f172"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Fabric040/Fabric040_1K-PNG_NormalGL.png",
+      "bytes": 456661,
+      "sha256": "f9e4bb911618e42377af4652133bba8cf66fd4ca94ffdfb37eb5fc3285ae8a3b"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Fabric040/Fabric040_1K-PNG_Roughness.ktx2",
+      "bytes": 171130,
+      "sha256": "f5fd37fd2cd22134a2cfadb65675a8eb8caca75cc126926461fd817fe4d717b2"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Fabric040/Fabric040_1K-PNG_Roughness.png",
+      "bytes": 149274,
+      "sha256": "bc0cfa923fb4e3620093eff9b55fdb070ade3a80836d863f680f78655a682e18"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Marble015/Marble015_1K-PNG_Color.ktx2",
+      "bytes": 142967,
+      "sha256": "46d074e26b5d4bc9048e485a86e67e6d68c3666dd8670358624ddf0319b8e171"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Marble015/Marble015_1K-PNG_Color.png",
+      "bytes": 258890,
+      "sha256": "018764d442e656ebdd2afa7b09e2db4d13d291c2d7a870109f329693ca7940c1"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Marble015/Marble015_1K-PNG_Displacement.ktx2",
+      "bytes": 297206,
+      "sha256": "444008625a77be8534a2cdeb4793c6320a331d70f8dc2594916ded095cc8998f"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Marble015/Marble015_1K-PNG_Displacement.png",
+      "bytes": 187895,
+      "sha256": "8458ceb598d56df034790d3cec30f276c070eb5090b33a18da954865638357a7"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Marble015/Marble015_1K-PNG_NormalGL.ktx2",
+      "bytes": 142538,
+      "sha256": "44b6492fc72812f4719821af6dc58deff5bfe9ee93c38424874d5541ede6e3cc"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Marble015/Marble015_1K-PNG_NormalGL.png",
+      "bytes": 65847,
+      "sha256": "9516bb89a32846e502d6b572ec7cdf75033ac6537de3ed2ba9a184502a1a63d4"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Marble015/Marble015_1K-PNG_Roughness.ktx2",
+      "bytes": 237735,
+      "sha256": "b55c05cca82245eacb6833510cf84c3977e0bf0eae0a43217b0aec0fb43ea0fe"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Marble015/Marble015_1K-PNG_Roughness.png",
+      "bytes": 158311,
+      "sha256": "222d96ac3b4dd31653585353de99b96e273e0264114d86f0667b3ff1a2d52d18"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Plaster001/Plaster001_1K-PNG_Color.ktx2",
+      "bytes": 189854,
+      "sha256": "dfd72397da5906b26184c19a3ce2679d2ac606d4f534cba114cb9816e2993975"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Plaster001/Plaster001_1K-PNG_Color.png",
+      "bytes": 309286,
+      "sha256": "ea2889e39b84eb66cd9d0e4bd19509a356de03b2d5230fde0f3f1d63795c7130"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Plaster001/Plaster001_1K-PNG_Displacement.ktx2",
+      "bytes": 288322,
+      "sha256": "ef854704fa8243b890af68cb8172d110875e9ae50b0b1b22ec2dc3c72faf872b"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Plaster001/Plaster001_1K-PNG_Displacement.png",
+      "bytes": 210976,
+      "sha256": "7738e37d9f9c0404a546cc3abfbc61b1b7ef82ade999af222bb1e6e0c40a5e80"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Plaster001/Plaster001_1K-PNG_NormalGL.ktx2",
+      "bytes": 332556,
+      "sha256": "2748e9ff3d85e42bf384522b936e3f604599655c1494b1682f6531f423c28623"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Plaster001/Plaster001_1K-PNG_NormalGL.png",
+      "bytes": 499843,
+      "sha256": "4e907c69468ed115dfc34679e3f921670d76eb4770e2ce9bc5178d57334ce894"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Plaster001/Plaster001_1K-PNG_Roughness.ktx2",
+      "bytes": 192983,
+      "sha256": "432b7c6ad897ece92e8f8fffbbbf027779e63eaa2a01e4661dc8de564668d99d"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Plaster001/Plaster001_1K-PNG_Roughness.png",
+      "bytes": 134124,
+      "sha256": "108b945beeffc7ad63bb58279d2e4e500b43a1e808724db744e57ddb4595f1a4"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood046/Wood046_1K-PNG_Color.ktx2",
+      "bytes": 266494,
+      "sha256": "4d3e6564905a511c18817f8e05d2067282c8716d4d43f2e12ce9473dd67e83e1"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood046/Wood046_1K-PNG_Color.png",
+      "bytes": 358634,
+      "sha256": "38682f331605a530b3bda46811df5d7199b6e3e329c569762144d5f09bdbac0a"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood046/Wood046_1K-PNG_Displacement.ktx2",
+      "bytes": 247180,
+      "sha256": "8553fbedee2a6df1f29752abfd8e824ce53bd50dd2ba1e34d1bfe3d5c94275cf"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood046/Wood046_1K-PNG_Displacement.png",
+      "bytes": 192688,
+      "sha256": "700720fa250a579a9068dedeec4e6a801106b71a8f11f7d59150616c6da8ae89"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood046/Wood046_1K-PNG_NormalGL.ktx2",
+      "bytes": 192321,
+      "sha256": "22731d0dc6599dd498595dce95cf76c54d7c4aac15e04cbea6e461129355ac13"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood046/Wood046_1K-PNG_NormalGL.png",
+      "bytes": 291415,
+      "sha256": "2b18b3786123bbe5b3d87dafa4ed0e1998911d290b4ab9a8f1fc9bfd02f834f5"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood046/Wood046_1K-PNG_Roughness.ktx2",
+      "bytes": 150708,
+      "sha256": "be5532060d749a1b0b8083887659f5c50e6a4179f06fb4bd4c2591212e3b42e0"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood046/Wood046_1K-PNG_Roughness.png",
+      "bytes": 84469,
+      "sha256": "667801ad80dba03230cfd44b1a895d9da5c6f3de44480101fae95f7d9ee31ecd"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood058/Wood058_1K-PNG_Color.ktx2",
+      "bytes": 277843,
+      "sha256": "a45affddccafc6f077c0c9730b585cf29f8a9d63cc80080aee3c2b4e81d83781"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood058/Wood058_1K-PNG_Color.png",
+      "bytes": 355349,
+      "sha256": "f7d1f8fea63bb3f65ca536ee386c2aa98bec8cdbc39b41743a37215051e259df"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood058/Wood058_1K-PNG_Displacement.ktx2",
+      "bytes": 282921,
+      "sha256": "7aedbe84775ab57ccea84ae56a8ec0e3a1af44486cf21ecaef1f55c547362b7f"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood058/Wood058_1K-PNG_Displacement.png",
+      "bytes": 168124,
+      "sha256": "028c480065282a11aaa37ebcf3bbfe609fbfc3e4f8279a8b2fa6bc4a38df411e"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood058/Wood058_1K-PNG_NormalGL.ktx2",
+      "bytes": 223050,
+      "sha256": "c7ae623f664c6be1c3a04d5c35c755c0d40f304ba6379097c034a64c8b61dcae"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood058/Wood058_1K-PNG_NormalGL.png",
+      "bytes": 361119,
+      "sha256": "b322d4c16cf9cc1f2acc1d5cfa87588d3e1448047390e6003d882f6344c06695"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood058/Wood058_1K-PNG_Roughness.ktx2",
+      "bytes": 257556,
+      "sha256": "f8090ad459d86a7d78a5ff58a9a993773c7912031455ca1d203051df72c0db4c"
+    },
+    {
+      "archivo": "assets/texturas/ambientcg/Wood058/Wood058_1K-PNG_Roughness.png",
+      "bytes": 146799,
+      "sha256": "9b0f9ce643cf8136b81f882d608e11734ad280cae9b65d927ffd6f65dd8b2625"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_BLENDSWAP_LICENSE.txt",
+      "bytes": 3191,
+      "sha256": "de4ebc4bc9336251d898e7ceab5c238ec1f0c126fa138401f21cf44dcf661965"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/BLENDSWAP_LICENSE.txt",
+      "bytes": 3191,
+      "sha256": "de4ebc4bc9336251d898e7ceab5c238ec1f0c126fa138401f21cf44dcf661965"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/MANIFIESTO_FUENTE_BMW_M6.json",
+      "bytes": 34647,
+      "sha256": "ab19922c18990f55401568be51e903cf666747021cced3f6d8639dcfbe3a4a47"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/bmw-m6.pbrt",
+      "bytes": 22550,
+      "sha256": "aa3a76499c528e6e83a5597dffa7d41a5659183c344e9df73548d141809654d1"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00001.ply",
+      "bytes": 18643,
+      "sha256": "bff8f2993dd87814feabb64e46459a62433fcbe89d16c262fe65fdcc87eef666"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00002.ply",
+      "bytes": 105671,
+      "sha256": "f78505ca1c6650ae66a5cfda4446523c546333289e57875f7f80d1b733b25e21"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00003.ply",
+      "bytes": 70599,
+      "sha256": "5b2dd6f857f11f4a6bce2bafc199b64ae25185c4dddd348de9dd4dcf19f444db"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00004.ply",
+      "bytes": 826937,
+      "sha256": "1fdee28cbdaeb56a43468ab28f6dace080c8546f9c8dbbc67fd4aa6e4418691d"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00005.ply",
+      "bytes": 104199,
+      "sha256": "c49a6d9c8b12a63b391a887734b2d6943e9154e04c0dbcaf38a487b11abea853"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00006.ply",
+      "bytes": 45206,
+      "sha256": "60128dc4329f9a7288f544b4549808d06caf193c8d6e5ef5215bb26bffc88bc0"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00007.ply",
+      "bytes": 19141,
+      "sha256": "ccb545471dc527bddc5a280219c6e46048581f47e0186763179294efd2055f0d"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00008.ply",
+      "bytes": 8037,
+      "sha256": "b3a6f8e4d43898c8d3ef198a7a42ea3e2953539e1fcf0508649d43cc0e3746ad"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00009.ply",
+      "bytes": 8597,
+      "sha256": "eb4a0448a257eafe7c7f1db51ff7d5fbc202a7195bd0bcd5ee16a851c3d540b9"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00010.ply",
+      "bytes": 18643,
+      "sha256": "ce6d6955e88d657979202ecccd818c9738f7511f3ddee4eebc4c3989bfba7b73"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00011.ply",
+      "bytes": 211173,
+      "sha256": "f8b3eb32e5b1e09d50d824a31ecb5a7204a57eb0f3e2c7bc484c9ed16f7111dd"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00012.ply",
+      "bytes": 28900,
+      "sha256": "a04dda9bd04850d50cbfe6188021cd4090f224e79525ddb2ec14fe64fdcec7c6"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00013.ply",
+      "bytes": 17763,
+      "sha256": "6667aa21ccb86be7cb04914539ddf1820fa292af7cf47a604ba64d170d5fb8b8"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00014.ply",
+      "bytes": 7875,
+      "sha256": "99f6615acb67cdc8f8bd934bc1d4cc4de1ffa6a15011f39f597134e9d798db77"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00015.ply",
+      "bytes": 623015,
+      "sha256": "9ea01f0a327d141db90e0aa070b6f28d7b94dd14e6f2a0c2a3d89e09919c6065"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00016.ply",
+      "bytes": 34567,
+      "sha256": "493d8a89e6646e6c5eb1c317da7fed0f3f0ec6ec182e3b78e9da90f277573c9e"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00017.ply",
+      "bytes": 1069289,
+      "sha256": "8d631b8c6be33dd4328285e4523d298f14c05dd7653e94126f9c9794a736138d"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00018.ply",
+      "bytes": 4387,
+      "sha256": "0cb09a077c444242f7f77b9c9e711b744f846ee88b030fc573e5bba09c889aa2"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00019.ply",
+      "bytes": 13653,
+      "sha256": "32da9d3791fc0db92eb1b8f8c88f0e2d0cbcbd6013ca5370e38635cc73d47fc6"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00020.ply",
+      "bytes": 98567,
+      "sha256": "89e233f22dda2a115b19e224b73228bbb689af2735ec73cb44bc5f1d33530859"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00021.ply",
+      "bytes": 28900,
+      "sha256": "691a5b5fcefef1fe0a616a880c0536d8dcccf535236b45a53fc1472c6c335a07"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00022.ply",
+      "bytes": 1631,
+      "sha256": "28065bb5c406930be38d8530a9b4353a796674d1f1002b0913c8868c55ef07ec"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00023.ply",
+      "bytes": 1521,
+      "sha256": "87773539fffae09d5c3e698e4bb690ba6e6c3da64847808a3cba5f91fd1a5c5a"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00024.ply",
+      "bytes": 12808,
+      "sha256": "946815406914de0f42ab282111f7724fa021ede9448a5ec0b5c1cf8750fc9f1a"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00025.ply",
+      "bytes": 1521,
+      "sha256": "8fc7650294ca0201ec33466b4f90c1e866231b64ac5b7562bff35f3d729bda86"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00026.ply",
+      "bytes": 1631,
+      "sha256": "afd8a78536fb88f6d608b608645aaf5fba01010667c7cf87254dae934815b1e5"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00027.ply",
+      "bytes": 1521,
+      "sha256": "3a6aff2d8cdc6885e1511fefa9cf0411167a9a60877970a81c4785fcd73b4495"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00028.ply",
+      "bytes": 5210,
+      "sha256": "dd24c436df26ce142367552bcac60292808e15ace8fed1cfe76f321d2c571aab"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00029.ply",
+      "bytes": 11233,
+      "sha256": "2502a5ef26f986d131ecff953496557ddfbfb6bc40dd39a21116bac316f4f5fa"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00030.ply",
+      "bytes": 9317,
+      "sha256": "9e1a5432744101825c6d73a3155932dc75458a6180d3ec2f60ae21d86e05c564"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00031.ply",
+      "bytes": 9317,
+      "sha256": "dba7b9bd86d856b6c5639509bb60800eb10d564c2d6683eadf4d8062c7c60d57"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00032.ply",
+      "bytes": 431703,
+      "sha256": "b1dee54e0fa3de97769f553b265e3ddc2a13208e78e52899f2e81ccef0902e17"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00033.ply",
+      "bytes": 47479,
+      "sha256": "02c9a573d04cff772d1456721987cd7b7bfdcdfa7d4f5ddd77c5f249eda3c4c0"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00034.ply",
+      "bytes": 3225866,
+      "sha256": "0654bf3b2e8c9c1cb456b6dd6b5260a5e337a53057e9b053ef4be075bcbb716a"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00035.ply",
+      "bytes": 490671,
+      "sha256": "0b224839fb245d5212459cc4442fb1a7f2b8b71982739d778234b80e99195f06"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00036.ply",
+      "bytes": 490671,
+      "sha256": "c6385f8b1215ffd944ceace186ce198fbe33a1127aaf42202b18c76f5f1263df"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00037.ply",
+      "bytes": 2778856,
+      "sha256": "4e5cac64d79e6cd68e0e0620bf6b039d88632be1de785a3c878d7998a0b91e64"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00038.ply",
+      "bytes": 2778856,
+      "sha256": "e29e8494b828c68df3cfe1bd5f41a282d59cc695f7916714250aae6f465725af"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00039.ply",
+      "bytes": 490671,
+      "sha256": "a5dda94a0ae7b3bad1798175756c8fcf13dcd7e6bb9ff1d75935e0c8ad8259ba"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00040.ply",
+      "bytes": 509575,
+      "sha256": "54a66b32143cfc25db95c46de8db275f5cd959119661fff060dd6225a7ac17a0"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00041.ply",
+      "bytes": 509575,
+      "sha256": "91f307bad4bc2af44159d6cfff311005caa58a321f9d889af310b6460c56b354"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00042.ply",
+      "bytes": 490671,
+      "sha256": "84e1f3895f6369078be127881be9de97e864c8d9ffd1142f3e9fa3c6d8b5ffa0"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00043.ply",
+      "bytes": 2778856,
+      "sha256": "1b9b76d1eb1b5c4afbd47aa31f21647fd4af61d00f052fe2e5096f1c39d303de"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00044.ply",
+      "bytes": 138701,
+      "sha256": "e879593d5b5048b3fef2aa6cf4803df66664dd21dc96a2dd6ca3e4d85b19bb91"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00045.ply",
+      "bytes": 10843,
+      "sha256": "f6d10f63411124ef2596d03bad991f826c93e0b40fd9950bad1d12b260b38cb1"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00046.ply",
+      "bytes": 565,
+      "sha256": "6fbf0c8583176b1cad158ef1421b344e1d3e06256014dd99e29f377c2320e1d0"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00047.ply",
+      "bytes": 565,
+      "sha256": "dfd31eb200b7216a00f7ffb6c243703a05ae92fdea917415d093a59e77f9b661"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00048.ply",
+      "bytes": 565,
+      "sha256": "8ff3658b91d55e252ea4956d8b702c80a35774ffd98c1d4cd1a1da185bb61296"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00049.ply",
+      "bytes": 565,
+      "sha256": "92a4bd153788ebf9038c57e1b52541516341c6d69dd9c9619b52528a1d775737"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00050.ply",
+      "bytes": 14117,
+      "sha256": "2883c313aba1f1b58446c915f7e1cf4e8699863959069b21559bbaf1fa91fd45"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00051.ply",
+      "bytes": 222101,
+      "sha256": "2d4e5e35823504f45aeb2868aa012ac00ae28bf979879cb7ebb66652c0e553cb"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00052.ply",
+      "bytes": 1631,
+      "sha256": "c57d160dfe905e056b74db746d0ce64f7168cf57ca8f6195af469e4fc776ed56"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00053.ply",
+      "bytes": 1521,
+      "sha256": "6dd063292c8f105e100ab05941c2cad63de6a264fd296744f1a3ffa915c67d83"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00054.ply",
+      "bytes": 14008,
+      "sha256": "1576320acee5cd6cf5e7085d5e80f8e20b69f00e635ee319830c60fb08621310"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00055.ply",
+      "bytes": 1521,
+      "sha256": "c851e05c3df550208b245e446b9aa830d8c822b6d4ec359a1a43eca9ba2f1380"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00056.ply",
+      "bytes": 1631,
+      "sha256": "13d00a08525927e90a03bf9713dbf2118ca79bf61e78b1156cfc289aff7d9158"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00057.ply",
+      "bytes": 1521,
+      "sha256": "fef73bea6c8ccd5ffac11033d2a280e1fa3118073c99747d63e7489e8358d7a6"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00058.ply",
+      "bytes": 14008,
+      "sha256": "8692d4534418f4851d4ed18ff064bc5cbdcec110b8b052f78923f7aa3126cd9c"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00059.ply",
+      "bytes": 1521,
+      "sha256": "bd6ee56d831f581041b5a9ec1ac3c5b4174d3be1828955f492194c79f2cfb3aa"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00060.ply",
+      "bytes": 1631,
+      "sha256": "a23806adc8d39fb88a6956e5b19b8947f69ff88aff50936d03d233693162786d"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00061.ply",
+      "bytes": 1521,
+      "sha256": "cde8dcb088529b74831357c1912fa34420011359020f2093f99c39ca3f9bdae4"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00062.ply",
+      "bytes": 13458,
+      "sha256": "2e2e1b7187ee7fae7d9cf5979bfc6f091e815abd2cc1f5dcdaa175d9bf83515b"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00063.ply",
+      "bytes": 1521,
+      "sha256": "0949dbc4d837593dc3e9b5e1553ddd0a41ac38cbc111e5cd8b82c3a5b434585d"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00064.ply",
+      "bytes": 2543,
+      "sha256": "f0742ccce9d70dd23c74b1b6ce787f007037c86ba059eaf378484599de57cc29"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00065.ply",
+      "bytes": 3129,
+      "sha256": "9056abfdd0b60b25157fd5d55e12d4b217f0bac4df40f76b7e99572034eec078"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00066.ply",
+      "bytes": 48387,
+      "sha256": "53dd9fd2ccf851c0c4f331aa422463518c8e4934c3a9c8546e10d855648b952f"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00067.ply",
+      "bytes": 3033,
+      "sha256": "6a143028f45354260fea59ba6ddab908d5a5fd14857bd178545e7cf775055fa7"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00068.ply",
+      "bytes": 1013,
+      "sha256": "112548007f91ded07a1cb3b17110c304ed4c88ad316841ec63ae04c127591fa7"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00069.ply",
+      "bytes": 45356,
+      "sha256": "51b3f438224dbad164839aaf33f7b34b97f909bbcc2e52363ae41e08ed671bd4"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00070.ply",
+      "bytes": 38588,
+      "sha256": "f20feaa72ad3773426263a9ffeb37a1c0377319fefb1c4d9375721d09f1e3bb8"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00071.ply",
+      "bytes": 32933,
+      "sha256": "6d3d334f167df877962ce4088c9d02b323b4ae13fb2996feadbc4bf5fced5573"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00072.ply",
+      "bytes": 25817,
+      "sha256": "ac4cb22a62df156419234bb7e79ea04612c0d47ae5378fcdb2736e6609dfc4a2"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00073.ply",
+      "bytes": 159973,
+      "sha256": "dc0d93fc3d66986cd4336524d7226ace86ff84eddabb1a6b256d752b88507f19"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00074.ply",
+      "bytes": 17013,
+      "sha256": "2c106388ee040efa7f597bd966297a50f9bccdac300885228ef4ead019854363"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00075.ply",
+      "bytes": 814157,
+      "sha256": "f0c0697f31a5f3ccfe5695a4794ba79eb66696b79fe7ce802fe70dac96737f27"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00076.ply",
+      "bytes": 13249,
+      "sha256": "0560c7069ad7e77314c88a6d60d8be63248e30c444f4b2420fc651b9bc5bf37f"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00077.ply",
+      "bytes": 17653,
+      "sha256": "609f27f47001a5d4d318ddda88d764160162ab212f90eb60eabaa131063330b5"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00078.ply",
+      "bytes": 130163,
+      "sha256": "de42ffd63f25f34594d04f61aa0eefe1e502cff2c7d01d8dd6dc088e475f42d7"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00079.ply",
+      "bytes": 5523,
+      "sha256": "227930e00468063e9ad19b3f796b44c6cd9c271525b6ec248f8db6124752ea52"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00080.ply",
+      "bytes": 42133,
+      "sha256": "db544bf14689b944857107c94291f06bc6d78b9fc96be19bd7b4c124cda2c4fe"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00081.ply",
+      "bytes": 68247,
+      "sha256": "cb307fcbb4ca1b4c33871d04fa741e44a2fde4719e23b2443b06632edefe91bd"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00082.ply",
+      "bytes": 10869,
+      "sha256": "ec28c48c45180fb29f4e17d51e5de04d488684ea5795bc1a14e235df4745a8a0"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00083.ply",
+      "bytes": 108487,
+      "sha256": "5078c78dfacf0dab2a23dfc1d6b80d5eb1c4a4b6ed0440a13b707a58346f2a75"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00084.ply",
+      "bytes": 1183,
+      "sha256": "38e67e29f9e03395240c4f932f2a6276814adf2cb2bc1ca5095161a5e0ecf2aa"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00085.ply",
+      "bytes": 67559,
+      "sha256": "863152e9482d931a232b6247a7d275f5522b8a53d0c9f724dfa6dd488c43d5c1"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00086.ply",
+      "bytes": 13521,
+      "sha256": "9d0ca9bc824d9191718e5d206f8b82d6571683f97a3aef0403696d94363bd504"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00087.ply",
+      "bytes": 7969,
+      "sha256": "b65d23b083894b2d941da28429b010938c65755589846c8984c6fcc78d03af50"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00088.ply",
+      "bytes": 5088,
+      "sha256": "21803a8d1d9cf08f51943744661661ffcfc8b482592c7ac08e0889dcb90f1ca8"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00089.ply",
+      "bytes": 11731,
+      "sha256": "7893dc90478651971c305f0fbaa1f36829de2891efb56e3f66d677078e8d63e8"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00090.ply",
+      "bytes": 509575,
+      "sha256": "94d6856045fdae4e86455bec1e5bdacfee5e6a4375d440e4a9c0b3826688ce7e"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00091.ply",
+      "bytes": 509215,
+      "sha256": "f53a4f5dab233a18bee4f124bc49e2dddaafae4a033a9a5ca5b3d81d729409e8"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00092.ply",
+      "bytes": 184007,
+      "sha256": "d9a31d4cc1243e43541b58fdffb524a88e10067ccf8d71f3cf8a5a113443ca20"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00093.ply",
+      "bytes": 19685,
+      "sha256": "887032598d44d0f64a42257e130dd96529c17d5daaabeef5128dbdb83a6433d8"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00094.ply",
+      "bytes": 97867,
+      "sha256": "55d6f7c0332fbac61c1791e0fc700ccfb4da4f166f714765ac83b6df88ef865c"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00095.ply",
+      "bytes": 178725,
+      "sha256": "ee918ae78437be97092f252914d6db4eab341b7895f6804a18f92641141e9efb"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00096.ply",
+      "bytes": 98215,
+      "sha256": "02162a28611a50d15d6e882081ec13fa09501fa64fc5b72b317badf8ee0fa83c"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00097.ply",
+      "bytes": 53374,
+      "sha256": "22fc71e139a0045c570b5141ff6939086b909af20634177783c6eb10449fc6ee"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00098.ply",
+      "bytes": 3023,
+      "sha256": "1ce2421ba8c1c04930cfe542281281b8d9684253ff4d7f1a80875896bf1a9b78"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00099.ply",
+      "bytes": 56775,
+      "sha256": "cc2ce60baa7b8e74a314f021498e84844d8ea6807cb710ebabb285ea43ba057e"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00100.ply",
+      "bytes": 30145,
+      "sha256": "6e1485edf25e3332267f7bd3beb1670900cfe9894bfbaa47c29d3bb83d2f3b2e"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00101.ply",
+      "bytes": 2019,
+      "sha256": "88aa0efe6bdb83e2dc176adfeee57907419a6e86e30f047491475c0ce265f866"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00102.ply",
+      "bytes": 26405,
+      "sha256": "91d82dd76910dd97df705c68cb44fc8cda4d3943ca9d274a8b6ebadf754f4bf9"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00103.ply",
+      "bytes": 65095,
+      "sha256": "5b80088e8fd4e1782874b5ad2a4d4301e03f41769f6813aac385ce905d67940e"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00104.ply",
+      "bytes": 10569,
+      "sha256": "b3698c62ff376e4f307405ea1d1066c58cd4a9fd3e0dd10c02215f6df43a6b75"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00105.ply",
+      "bytes": 26577,
+      "sha256": "df4a044ad14022d663614d7a8cd15234f7072830e83108175720275e2563c893"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00106.ply",
+      "bytes": 1013,
+      "sha256": "fde1a3e4480b4771d2a329d370e6e860c98b84543372f1565d87f5f18e6f511e"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00107.ply",
+      "bytes": 10627,
+      "sha256": "810c93986155cf54d5e24e52799308ee668397adaa9fe39e33db7a4193ce45fa"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00108.ply",
+      "bytes": 486542,
+      "sha256": "7cc6d39d8955e5476ca03d90dd9a535f4139aecdefe5c3b6fc8ec44ca2a8469d"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00109.ply",
+      "bytes": 624551,
+      "sha256": "021580f1a97fbb013d36765f8420806b2bd8ee46934b042685a517506111e59a"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00110.ply",
+      "bytes": 82215,
+      "sha256": "7e00ed8727d9e66dd5bd8b09fd6cbd064f05c8acbb264397427a233bdd6d1475"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00111.ply",
+      "bytes": 52935,
+      "sha256": "797e14b8463556e4f2aa5cd6028c49f0775fd039c971dfb62a992d3d4cf8b942"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00112.ply",
+      "bytes": 216423,
+      "sha256": "5e98fbcef63b9ee87c80eee47803cc0515819d259604520c8377a25cb8a90142"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00113.ply",
+      "bytes": 302919,
+      "sha256": "298d3ef1669ba483753da9fe2d566353264c67a93d3bed3b5737eb6aaf693d94"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_PBRT/geometry/mesh_00114.ply",
+      "bytes": 2281,
+      "sha256": "9056444a86530fc51d29c7c1dbec3cb86a85b55223b2140e25d8d27186b670ff"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_preparacion.json",
+      "bytes": 3992,
+      "sha256": "2b8510f2e220714d78c21d37aeabff66baaea4d933b566885371a193b8a7059e"
+    },
+    {
+      "archivo": "assets/vehiculos/BMW_M6_vehiculo_CC0.blend",
+      "bytes": 7264041,
+      "sha256": "acebed9751b72962649767501cf27fcecb615a784ffa4fa7f02df77650a88003"
+    },
+    {
+      "archivo": "control/control_glb.json",
+      "bytes": 27202,
+      "sha256": "35dad5cd1874b275de60ab74d9288327b2ed31a912b7ac79f12cd8472f0bee0f"
+    },
+    {
+      "archivo": "control/control_resultado.json",
+      "bytes": 22613,
+      "sha256": "e0a9cdf8dcf5b96fa8fd64ad3636c12c06db5d21f6dfa19034b0f7d0119af02e"
+    },
+    {
+      "archivo": "control/control_revision_visual_v3.json",
+      "bytes": 109496,
+      "sha256": "e7b2e667f40ecc0ab492cec47332d14e2b5736af477d0cb98c71dd8b7fc10372"
+    },
+    {
+      "archivo": "control/dimensiones_principales_v2.csv",
+      "bytes": 1057,
+      "sha256": "faf9b7ab5318163faeb5d659a1239d67545928f8e8198eaa6cf56d871ac638fd"
+    },
+    {
+      "archivo": "control/generar_laminas_v2.py",
+      "bytes": 32315,
+      "sha256": "6bf60dd4040fc6c78ffc2ec159392b11fe0851f405e013c28204c9417a53f982"
+    },
+    {
+      "archivo": "control/huecos_mesh_v2.json",
+      "bytes": 8255,
+      "sha256": "1243b0363e8b2dddf8df1c58ba845c443c1e9c54ddebc7b4dce526cbcc21d636"
+    },
+    {
+      "archivo": "control/informe_revision_v3.pdf",
+      "bytes": 18101005,
+      "sha256": "430ad1d928ef4bd0d0ff211da8c72869f39208b8adfb36824b1d005fa1e76a38"
+    },
+    {
+      "archivo": "control/mediciones_mesh_real.json",
+      "bytes": 290954,
+      "sha256": "74d3a940858cd2aa7d0d634021ef5503791ddff195b1b27fcab3a9d63a3a17e2"
+    },
+    {
+      "archivo": "control/vehiculos_reales_v3.json",
+      "bytes": 1780,
+      "sha256": "77a093363938b7f35a6bf0cbcf1ed8b6efab1753ec6daf99eafe13f5c41e9bd2"
+    },
+    {
+      "archivo": "control/verificar_glb.py",
+      "bytes": 1532,
+      "sha256": "55b0d656a570304b8ddbe11ff88c6d1cb011bf83b04f083145ce905a627d4a9a"
+    },
+    {
+      "archivo": "control/verificar_huecos_mesh_v2.py",
+      "bytes": 2426,
+      "sha256": "c29802d589502ee6f6eec4b31cca99aa77ce1bc9b654f40a2e964f24418a0780"
+    },
+    {
+      "archivo": "control/verificar_revision_v2.py",
+      "bytes": 8993,
+      "sha256": "8a46cec750f6ceb005473e36ec96942d70ea4c3d4fd0a3dd79462324a1567b13"
+    },
+    {
+      "archivo": "control/verificar_revision_visual_v3.py",
+      "bytes": 3234,
+      "sha256": "eb3651c6ee7ac172c7f15d5abecbb61047a1bdd02fdf817ba9f9e65acfee2b0e"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/01_planta_superposicion_final.png",
+      "bytes": 433852,
+      "sha256": "76f67d983067e416dcc34a9ee3c38b1783923070db673c6ad0b59633c987a02f"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/alzado_lateral_porche.png",
+      "bytes": 142430,
+      "sha256": "a2084d25748cccc355b7ca299363d40d724ca8672265ff3748f45bca0612a3e4"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/alzado_puerta_principal.png",
+      "bytes": 168973,
+      "sha256": "c79e5509c0fbb504df0293457bde7f3c9ff5d36e6d6c5fd08342187da1f6e3fa"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/alzado_trasero.png",
+      "bytes": 114361,
+      "sha256": "425476ec41cb03a1b8b84c89b0d8addb985003f6a3d23661fd91bfd1677b942d"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/alzado_vial_publico.png",
+      "bytes": 122801,
+      "sha256": "73c40c1e45974e1aebe744f58a871acbd0c4d59ec4419b078d530c6cccc2fbfa"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/informe_visual_v2.pdf",
+      "bytes": 18100618,
+      "sha256": "dea1b1dae34dcd70611d1b82c82e58a457f891b37d5bcff229463739843237ec"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/registro_laminas_v2.json",
+      "bytes": 8763,
+      "sha256": "20c058ffa0cbe82fb190d4b91b39d7b923a1bbff079d90ab70305dcf84e2947e"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/secciones_niveles_fuentes_v2.png",
+      "bytes": 475116,
+      "sha256": "5970ad3e7caca1fbc7bb94d0b9e58864f88023d3ba9d3a5f20efbbdbab7aa7f7"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/tabla_geometria_visual_v2.csv",
+      "bytes": 3793,
+      "sha256": "d02bc2d02ae29a3ce2566c5a479ec642634119f317292ed227f4c78cf07a53b1"
+    },
+    {
+      "archivo": "control/visual_v2/laminas/tabla_niveles_fuentes_v2.csv",
+      "bytes": 1957,
+      "sha256": "61dd776358dbaa1eb777814f1e8d733cd84dbdc4c0a11c656169f1d92f2a0128"
+    },
+    {
+      "archivo": "control/visual_v2/ortograficas/V2_QA00_Cubierta.png",
+      "bytes": 4655346,
+      "sha256": "18d6244915eb4133ced38f350022a9f36318317d008545e0bffb99f7c959a6f8"
+    },
+    {
+      "archivo": "control/visual_v2/ortograficas/V2_QA00_Planta_cortada_Z1_20.png",
+      "bytes": 4671133,
+      "sha256": "f31c826c081577751ca4676f60169c59ec6d99f40a0df96652dbded3454f40be"
+    },
+    {
+      "archivo": "control/visual_v2/ortograficas/V2_QA01_Alzado_puerta_principal.png",
+      "bytes": 1003722,
+      "sha256": "8aa8b8547095bcf4a0d46ddfbddfde49d29d624058a4cb8feb997e544e1dfe33"
+    },
+    {
+      "archivo": "control/visual_v2/ortograficas/V2_QA02_Alzado_lateral_porche.png",
+      "bytes": 1168243,
+      "sha256": "6664e3646a8db5d051ec170cce7ba3f3a2a53a555963fb92aa7efd4e0cedc67a"
+    },
+    {
+      "archivo": "control/visual_v2/ortograficas/V2_QA03_Alzado_vial_publico.png",
+      "bytes": 1874988,
+      "sha256": "7393778d6f957d4c9f1ab1b5048c92485764f7bcf1fccb499cd04bd3ef7f1e5d"
+    },
+    {
+      "archivo": "control/visual_v2/ortograficas/V2_QA04_Alzado_trasero.png",
+      "bytes": 1572908,
+      "sha256": "6ead31038caf71351c14e2595a41396f17470e9dacb84ed986bd31e1913aef6c"
+    },
+    {
+      "archivo": "control/visual_v2/ortograficas/registro_v2.json",
+      "bytes": 64969,
+      "sha256": "f414206da82f85159138a7f2cdea411d721dc7b93b24b23f335b6cabeed6a73b"
+    },
+    {
+      "archivo": "entrega/LEEME_V3.md",
+      "bytes": 3818,
+      "sha256": "de9d713c14f1d6bdbad6518204dfbb7e44b07e847c7e580907e34c8c23d1dd4d"
+    },
+    {
+      "archivo": "entrega/copiar_revision_v3.py",
+      "bytes": 3501,
+      "sha256": "91dde8cb6ecbd63c4d77953ea5e474fb76df6cb446643c932de35fd14b6f78dc"
+    },
+    {
+      "archivo": "entrega/entorno_verificado.json",
+      "bytes": 423,
+      "sha256": "64dd031f82b21c22947691721d83b75ddc878ddb29cb01207b0e97798d3555ef"
+    },
+    {
+      "archivo": "entrega/galeria.html",
+      "bytes": 2771,
+      "sha256": "03374a1bf52dfd1e1d09c62d2b8a99ff9a86d65a6d9df231054c54caf3908d97"
+    },
+    {
+      "archivo": "entrega/galeria_renders.pdf",
+      "bytes": 6456874,
+      "sha256": "c9309d06801f66c55d7d82e2ce3fe0e09d1ba55f91c142621154b64e514bd7f7"
+    },
+    {
+      "archivo": "entrega/galeria_v3.json",
+      "bytes": 2819,
+      "sha256": "323bc9bbcaeb902da54ba9414039874226968924b7560176bd5931c51adf5ada"
+    },
+    {
+      "archivo": "entrega/preparar_entrega_v3.py",
+      "bytes": 7165,
+      "sha256": "c9f532efdfd37cf069e4b70ab5cb917c71cb78e36f9bfdf5f779e907b376654a"
+    },
+    {
+      "archivo": "entrega/requirements.lock.txt",
+      "bytes": 95,
+      "sha256": "16d20b94197d504ebdee700e36155cc369dccfc41b4b57293e0198b9822ec75c"
+    },
+    {
+      "archivo": "entrega/resumen_control_v3.pdf",
+      "bytes": 2680,
+      "sha256": "b6cc025a7908032f1ff2deb8d4b504d67e5bcbb26d8289ae22349c6f7ae4de61"
+    },
+    {
+      "archivo": "entrega/setup_entorno_v2.sh",
+      "bytes": 685,
+      "sha256": "33d7d95f351e2caed23f7eb6d08534fd9aaab87481ef00a0ba8495c1282a52cd"
+    },
+    {
+      "archivo": "fuentes/datos_v1/criterios_qa_camaras.json",
+      "bytes": 26592,
+      "sha256": "c7835dfe6ca5a5eb2d4c944037d6817f92a5df03c14d67224430fa4d10498a4a"
+    },
+    {
+      "archivo": "fuentes/datos_v1/datos_alturas.json",
+      "bytes": 42738,
+      "sha256": "0981d32aa66aafa038e30e8c9e96762fca7e7f5cab080d2be6568d001ac06e1b"
+    },
+    {
+      "archivo": "fuentes/datos_v1/datos_mobiliario.json",
+      "bytes": 79012,
+      "sha256": "65ec1812282bf71714beda2becd2304c5b9d0a095a0625a1488789287ab99e91"
+    },
+    {
+      "archivo": "fuentes/datos_v1/datos_planta.json",
+      "bytes": 266593,
+      "sha256": "72cf556c0018f48f54141ac6d34164f9992481d6e0897d55fff22e5ddc06d9ff"
+    },
+    {
+      "archivo": "fuentes/geometria_validada_v2.json",
+      "bytes": 290756,
+      "sha256": "7f324674840ce7feb793bc9778a462d188dc40fa059e9f1519f4974399887fcd"
+    },
+    {
+      "archivo": "fuentes/planta_final_proyecto_obra.pdf",
+      "bytes": 668606,
+      "sha256": "556b057350ec6b0a4050dfbf0cf104c35ca5ed48d0e8bf22b2b19c107f403995"
+    },
+    {
+      "archivo": "fuentes/proyecto_basico.pdf",
+      "bytes": 5186376,
+      "sha256": "071b9f6ccf7feffd4075de69ec5728f899123266ea42b3091d868604916cbc82"
+    },
+    {
+      "archivo": "geometria_base.json",
+      "bytes": 647,
+      "sha256": "34f5a424be93996f21e525846b839260a2d0e9c084eb76020c6a03bf6ad97ee2"
+    },
+    {
+      "archivo": "herramientas/OIDN_USO.md",
+      "bytes": 3139,
+      "sha256": "2426b0cf8e3df89f1cd6fc340f301855558a5c472cc1eb66475c94de3c73af47"
+    },
+    {
+      "archivo": "herramientas/denoise_exr.py",
+      "bytes": 9318,
+      "sha256": "97f4e6ae77506c359de5b9d32e7c40160189968e625c3d00cee04dc670ec1690"
+    },
+    {
+      "archivo": "herramientas/oidn_instalacion_verificada.json",
+      "bytes": 1004,
+      "sha256": "53ab1d8507789d27399da08bf1e03f80a1ad294227d2cf1de004e51a16c59ad9"
+    },
+    {
+      "archivo": "modelo/anadir_puertas_interiores.py",
+      "bytes": 6138,
+      "sha256": "8fe6aa3514863034c42e9e5b842892dd3ba1167816c43440911deca4a126f80a"
+    },
+    {
+      "archivo": "modelo/aplicar_revision_v2.py",
+      "bytes": 8945,
+      "sha256": "7d217ab7653a65f7a4afa4191eecb18e777539f4c0a702f64dfd58f22d4d04e2"
+    },
+    {
+      "archivo": "modelo/camaras_v3.json",
+      "bytes": 7970,
+      "sha256": "abdd6b45e1a58fbba07af8ecbb7aa9ad86d951364e084afbb7cd569d150e845f"
+    },
+    {
+      "archivo": "modelo/camaras_v3.py",
+      "bytes": 2406,
+      "sha256": "2cefeed3b2f53ac4b2c7694efe285c827cf20b3a8784971209129e568f1b1ef6"
+    },
+    {
+      "archivo": "modelo/confirmaciones_usuario_v2.json",
+      "bytes": 983,
+      "sha256": "690ac6dc924f743b6e9fcc896c44e4ba46f1a5a00193a2d4fa82d3584ec026d3"
+    },
+    {
+      "archivo": "modelo/construir_modelo.py",
+      "bytes": 30106,
+      "sha256": "290f031637d7808973e715a45691d0e2b3a22a50b2aa455fb9355ea1ed1b3a4b"
+    },
+    {
+      "archivo": "modelo/criterios_qa_camaras.json",
+      "bytes": 25731,
+      "sha256": "997fc78cc26ec976fec91b82869e87564b47aff18897b3b92ac00c29c5d907d5"
+    },
+    {
+      "archivo": "modelo/datos_alturas.json",
+      "bytes": 40728,
+      "sha256": "3dc0d13446db85a29b76150e07b7309ae4ed5330794ab996a438313b3f508b3c"
+    },
+    {
+      "archivo": "modelo/datos_cerramiento_frontal.json",
+      "bytes": 131078,
+      "sha256": "dfcc126ebfd9e5a9c2bc41ba64fd6d31dac705bb41d35bf1d834aa83ced0e493"
+    },
+    {
+      "archivo": "modelo/datos_mobiliario.json",
+      "bytes": 66455,
+      "sha256": "f42f894b2ea40e6a1755c46193d92f4f24a77ed19e1cc986cc21aa7296ee5810"
+    },
+    {
+      "archivo": "modelo/datos_planta.json",
+      "bytes": 280847,
+      "sha256": "20e304551577e928c97054351385c0bd137cd3e9fbbe12dd5e6e55329d8e8216"
+    },
+    {
+      "archivo": "modelo/datos_puertas_interiores.json",
+      "bytes": 39098,
+      "sha256": "525e75788f897dca67ad94cd77ea0a5f309722602f058cc6bb9071683e725113"
+    },
+    {
+      "archivo": "modelo/detalle_servicios.png",
+      "bytes": 14675,
+      "sha256": "6f675870330b74102c7464b3cee037292dc65b3795bfe36a76bd341af634c00e"
+    },
+    {
+      "archivo": "modelo/detalle_vestidor.png",
+      "bytes": 14536,
+      "sha256": "d64cd5aec3fee2a51a6c5e3e4b76f3875c9fe0e128311379fe4cdd71766b312f"
+    },
+    {
+      "archivo": "modelo/detalles_interiores_v3.json",
+      "bytes": 29368,
+      "sha256": "7da2a50a214e1214680d6e3efc28a0054831b296b0e27935d8bbc5482deb0c11"
+    },
+    {
+      "archivo": "modelo/exportar_glb.py",
+      "bytes": 650,
+      "sha256": "203e16c77707bae25327e5b076e9dfdbb9d6e44c34ff12fa5883a7e2e34c1020"
+    },
+    {
+      "archivo": "modelo/exteriores_v3.json",
+      "bytes": 14729,
+      "sha256": "9b8f9b534928b56e47a70d9231d13b64fc45002179458393be822578dda4ca24"
+    },
+    {
+      "archivo": "modelo/exteriores_v3.py",
+      "bytes": 31005,
+      "sha256": "1cc597ee52ea11b4baaaf2b74cb3516b23a18c59089900c4032c672f1599cf75"
+    },
+    {
+      "archivo": "modelo/extraer_cerramiento_frontal.py",
+      "bytes": 8453,
+      "sha256": "6af124ba7553ee3e5b823203aab4e250d4f5e7af9c6b6f3ed0427ec46ffa2135"
+    },
+    {
+      "archivo": "modelo/extraer_mobiliario_pdf.py",
+      "bytes": 6748,
+      "sha256": "6c868c4a1987b86411cd982a55d7f3d65a4073459816071e79897ec9174dfa2c"
+    },
+    {
+      "archivo": "modelo/extraer_puertas_interiores_pdf.py",
+      "bytes": 6972,
+      "sha256": "60a9880b8291bd8edbbc18af88a645a69256443874260312b8932d6a7804a0b5"
+    },
+    {
+      "archivo": "modelo/interiores_v3.py",
+      "bytes": 38726,
+      "sha256": "7422c52159a6179aded45d7074bcd8022716da8d00ecd0d0daa019c69f23a34d"
+    },
+    {
+      "archivo": "modelo/materiales.py",
+      "bytes": 37476,
+      "sha256": "bc9e6277f620ee97ad20b1318eb7fa278da372dbdfd1e6db02f110fa0962628f"
+    },
+    {
+      "archivo": "modelo/preparar_asset_bmw_m6.py",
+      "bytes": 5869,
+      "sha256": "e70b142739f4939c8e4840c487c238b68ffe5929dcc50ea03bda428883c3110c"
+    },
+    {
+      "archivo": "modelo/preparar_superficies.py",
+      "bytes": 4597,
+      "sha256": "635b270f5fac6b5a66db5f619f9cb98bbd7a6cac0fa4f3ec319b169abb21481b"
+    },
+    {
+      "archivo": "modelo/renderizar.py",
+      "bytes": 6357,
+      "sha256": "1cac15bd747198ff5d7707be775e2c8df4382b7b79cd63cf382e62e6e215c4e1"
+    },
+    {
+      "archivo": "modelo/superficies_mesh.json",
+      "bytes": 36582,
+      "sha256": "34851b8a8e66f9175dae86f89355f9b5e33ce391c372f6059aeef4e0482d514b"
+    },
+    {
+      "archivo": "modelo/vegetacion_mobiliario.py",
+      "bytes": 33133,
+      "sha256": "8fa7b326032243f41f517af43fd22f700313fcb9e0146c4ebfcd63cf220330df"
+    },
+    {
+      "archivo": "modelo/vegetacion_v2.py",
+      "bytes": 31102,
+      "sha256": "1a8567edd039f6ea0827de895e9bb9e81ae9c978878d3718f93be51b195cc8c6"
+    },
+    {
+      "archivo": "modelo/vehiculos.py",
+      "bytes": 27691,
+      "sha256": "3a26cbbd36925502ec6862f81a22f1d1f96db9c9a33d2f29894a508309c12ac3"
+    },
+    {
+      "archivo": "modelo/vehiculos_reales_v3.py",
+      "bytes": 8921,
+      "sha256": "0f95f4fc6b2593587e01e6261198600757a84ec1238e2602c9640567ca900d18"
+    },
+    {
+      "archivo": "modelo/vistas_control_v2.py",
+      "bytes": 26639,
+      "sha256": "6a5c9767c4f3b855058620b82fb08a4f5bf22faeaa00cdd320252105263971f6"
+    },
+    {
+      "archivo": "renders/E01_Terraza.jpg",
+      "bytes": 831848,
+      "sha256": "3e7a49e458a99f6987d51b7679191c53857e83ba8718d5c201880ec2469518a5"
+    },
+    {
+      "archivo": "renders/E01_Terraza.oidn.json",
+      "bytes": 3025,
+      "sha256": "08cfa48d23779d4986ed85a03587a64ce8173a2dfec19673d9d53a00eef7fc6c"
+    },
+    {
+      "archivo": "renders/E01_Terraza.png",
+      "bytes": 16035783,
+      "sha256": "96c01bfcea825093712c1b438cd2301ad2b2cbcf0945a46262c0d7f426cd2478"
+    },
+    {
+      "archivo": "renders/E02_Piscina.jpg",
+      "bytes": 767574,
+      "sha256": "9e31806db4f9939d5303a18e63baca9cc86d169ad12e6ed5e3815fd1e1de7ce0"
+    },
+    {
+      "archivo": "renders/E02_Piscina.oidn.json",
+      "bytes": 3039,
+      "sha256": "680497b05ecabcf7872215c9b75f999de9b0dda615a7693cbba96c1e8d23ce8f"
+    },
+    {
+      "archivo": "renders/E02_Piscina.png",
+      "bytes": 14363257,
+      "sha256": "4ef8e898d7001917f31c28513e0d2d1841b285be6a4d091180bb0a5a5ead662c"
+    },
+    {
+      "archivo": "renders/E03_Aparcamiento.jpg",
+      "bytes": 710939,
+      "sha256": "7200dec1feb04905dfca39770e41dbb788e7a29d837e71d2f123152884d607c9"
+    },
+    {
+      "archivo": "renders/E03_Aparcamiento.oidn.json",
+      "bytes": 3064,
+      "sha256": "fa8b2285335cd2425bbc2ef55ad127788921c4a88149f51821ae097f7ca049af"
+    },
+    {
+      "archivo": "renders/E03_Aparcamiento.png",
+      "bytes": 13176252,
+      "sha256": "acd099bc7e3354a0648cdbe11194611a85f001c2526d0a43df7f387562777e3e"
+    },
+    {
+      "archivo": "renders/E04_Terraza_comedor.jpg",
+      "bytes": 887510,
+      "sha256": "3286f7e440c2ec66ccabd9f115ef7d8da3c6ba10291c521f0258d434ba480f7f"
+    },
+    {
+      "archivo": "renders/E04_Terraza_comedor.oidn.json",
+      "bytes": 3104,
+      "sha256": "51c69b4725e6c582da114ea9e99f91752f872bf899157f6d318004beddd4af8b"
+    },
+    {
+      "archivo": "renders/E04_Terraza_comedor.png",
+      "bytes": 17579721,
+      "sha256": "3825ccec4bbcc3e12b7eed1315d1d786e61312866ee789868a6c5a7a7ee563d8"
+    },
+    {
+      "archivo": "renders/I01_Salon.jpg",
+      "bytes": 597847,
+      "sha256": "cdc89ce82ff7ac6661b5da224c6daa353b0c241992eb647c092cdff5e461631d"
+    },
+    {
+      "archivo": "renders/I01_Salon.oidn.json",
+      "bytes": 2985,
+      "sha256": "a4eabc79b52ddc24b63251b90b02b6861a039ea2d08962064863fd5350e7e0db"
+    },
+    {
+      "archivo": "renders/I01_Salon.png",
+      "bytes": 16675841,
+      "sha256": "2657aa5e7054838ce0c0f6cc6ed9a3f1848fb9466bcac99ac9727751b251e339"
+    },
+    {
+      "archivo": "renders/I02_Cocina.jpg",
+      "bytes": 680641,
+      "sha256": "d6206a57b7517ba313ee0d04c562566ea4da7d1054d82f846bde0d7956606014"
+    },
+    {
+      "archivo": "renders/I02_Cocina.oidn.json",
+      "bytes": 2996,
+      "sha256": "2c0c5794a6730dde27fd21ab3527608c70f497283d31a930b51b4869b6aec3cc"
+    },
+    {
+      "archivo": "renders/I02_Cocina.png",
+      "bytes": 16394208,
+      "sha256": "bf380b15b32ab8cdc5a4c585c70fc13d651910f70a21e08cbc791c88f72b4bc9"
+    },
+    {
+      "archivo": "renders/I03_Comedor.jpg",
+      "bytes": 683196,
+      "sha256": "38e7ce35701658434d5e28378007378e202b261ba54edc5f1e1f1e4a5e725401"
+    },
+    {
+      "archivo": "renders/I03_Comedor.oidn.json",
+      "bytes": 3024,
+      "sha256": "409d601dd9c44fc740e0dfc9fdb036dd14dc3c1a5fe5e39cc13d478087819308"
+    },
+    {
+      "archivo": "renders/I03_Comedor.png",
+      "bytes": 16058869,
+      "sha256": "553ff0e44ffe857bdf3608ac27f3b4efe79828fc42b5d882ba18f719d1903b54"
+    },
+    {
+      "archivo": "renders/registro_renders.json",
+      "bytes": 6378,
+      "sha256": "ad5a624e9fd46dd5341edee84eb24bd4fa311cafe613b6eb336755f1cfe7f725"
+    },
+    {
+      "archivo": "tabla_dimensiones_modeladas.csv",
+      "bytes": 4255,
+      "sha256": "159ac73bedd0545808a3dd7e6a37069bd5bb78c50783868fb92a3cea56e137f0"
+    }
+  ]
+}

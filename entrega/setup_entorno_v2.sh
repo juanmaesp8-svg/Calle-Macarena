@@ -10,4 +10,4 @@ export MPLCONFIGDIR=/tmp/macarena-mpl
 export XDG_CACHE_HOME=/tmp/macarena-cache
 .venv/bin/python -c 'import fitz,numpy,PIL,matplotlib,reportlab,shapely; print("Dependencias V2 disponibles")'
 blender --version
-echo 'Entorno listo. Reconstrucción: consultar entrega/LEEME_V2.md.'
+echo 'Entorno listo. Reconstrucción: consultar entrega/LEEME_V3.md. Denoising: herramientas/OIDN_USO.md.'

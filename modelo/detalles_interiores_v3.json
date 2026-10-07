@@ -1,0 +1,801 @@
+{
+  "revision": "V3_visual_interiores",
+  "fuentes": {
+    "mobiliario_json_sha256": "f42f894b2ea40e6a1755c46193d92f4f24a77ed19e1cc986cc21aa7296ee5810",
+    "planta_final_pdf": "fuentes/planta_final_proyecto_obra.pdf",
+    "proyecto_basico_pagina": 35
+  },
+  "unidades": "m",
+  "licencia_assets": "Sofá/cocina/mesas y accesorios propios generados por este script. Butacas SheenChair Khronos / Eric Chadwick Wayfair, CC0 según README actual conservado en assets/mobiliario/SheenChair. Mapas fotográficos ambientCG CC0, modelo/materiales.py y assets/licencias.",
+  "regla": "Todas las alturas, grosores y despieces del mobiliario son decoración. No se atribuyen al proyecto dimensiones no escritas.",
+  "materiales_fotograficos": {
+    "roble": {
+      "material": "V3 Interior · roble natural tablero",
+      "fuente": "ambientCG / Lennart Demes, Wood058, CC0; mapa original + SHA en assets/licencias",
+      "color_lineal": [
+        0.36000001430511475,
+        0.25,
+        0.13500000536441803
+      ]
+    },
+    "roble_patas": {
+      "material": "V3 Interior · roble natural vertical",
+      "fuente": "ambientCG / Lennart Demes, Wood058, CC0; mapa original + SHA en assets/licencias",
+      "color_lineal": [
+        0.36000001430511475,
+        0.25,
+        0.13500000536441803
+      ]
+    },
+    "lino": {
+      "material": "V3 Interior · lino avena",
+      "fuente": "ambientCG / Lennart Demes, Fabric040, CC0; mapa original + SHA en assets/licencias",
+      "color_lineal": [
+        0.49000000953674316,
+        0.44600000977516174,
+        0.37599998712539673
+      ]
+    },
+    "cojin": {
+      "material": "V3 Interior · lino tostado",
+      "fuente": "ambientCG / Lennart Demes, Fabric040, CC0; mapa original + SHA en assets/licencias",
+      "color_lineal": [
+        0.22499999403953552,
+        0.16599999368190765,
+        0.10999999940395355
+      ]
+    },
+    "manta": {
+      "material": "V3 Interior · algodón crudo",
+      "fuente": "ambientCG / Lennart Demes, Fabric040, CC0; mapa original + SHA en assets/licencias",
+      "color_lineal": [
+        0.5699999928474426,
+        0.5350000262260437,
+        0.46799999475479126
+      ]
+    },
+    "cuarzo": {
+      "material": "V3 Interior · cuarzo crema compacto",
+      "fuente": "ambientCG / Lennart Demes, Marble015, CC0; mapa original + SHA en assets/licencias",
+      "color_lineal": [
+        0.6600000262260437,
+        0.625,
+        0.550000011920929
+      ]
+    }
+  },
+  "cocina": {
+    "encimera_lineal_bbox_xy_m": [
+      6.5024,
+      17.8181,
+      7.0993,
+      21.336
+    ],
+    "isla_bbox_xy_m": [
+      8.1026,
+      18.5801,
+      9.30275,
+      20.58035
+    ],
+    "placa_bbox_xy_m": [
+      6.66115,
+      20.110450000000004,
+      7.08025,
+      20.808950000000003
+    ],
+    "fregadero_bbox_xy_m": [
+      6.616700000000002,
+      18.364200000000004,
+      7.06755,
+      19.113500000000002
+    ],
+    "fregadero_asset_profundidad_m": 0.17,
+    "encimera_z_m": [
+      0.87,
+      0.91
+    ],
+    "frentes_modulos": "Partición decorativa en seis frentes; no cotas arquitectónicas",
+    "horno": "Asset contenido bajo placa; la documentación no prescribe modelo de electrodoméstico"
+  },
+  "sillas_comedor": [
+    {
+      "nombre": "silla_interior_izq_1",
+      "bbox_simbolo_visible_xy_m": [
+        8.1788,
+        14.9606,
+        8.42645,
+        15.3543
+      ],
+      "bbox_silla_completa_xy_m": [
+        8.1788,
+        14.9606,
+        8.6988,
+        15.3543
+      ],
+      "borde_exterior": [
+        "Xmin",
+        8.1788
+      ],
+      "fondo_asset_visual_m": 0.52,
+      "criterio": "Parte visible del símbolo conservada; prolongación exclusivamente bajo tablero para evitar comprimir una silla entera a 25cm de fondo"
+    },
+    {
+      "nombre": "silla_interior_der_1",
+      "bbox_simbolo_visible_xy_m": [
+        9.6266,
+        14.9606,
+        9.8806,
+        15.3543
+      ],
+      "bbox_silla_completa_xy_m": [
+        9.3606,
+        14.9606,
+        9.8806,
+        15.3543
+      ],
+      "borde_exterior": [
+        "Xmax",
+        9.8806
+      ],
+      "fondo_asset_visual_m": 0.52,
+      "criterio": "Parte visible del símbolo conservada; prolongación exclusivamente bajo tablero para evitar comprimir una silla entera a 25cm de fondo"
+    },
+    {
+      "nombre": "silla_interior_izq_2",
+      "bbox_simbolo_visible_xy_m": [
+        8.1788,
+        14.351,
+        8.42645,
+        14.73835
+      ],
+      "bbox_silla_completa_xy_m": [
+        8.1788,
+        14.351,
+        8.6988,
+        14.73835
+      ],
+      "borde_exterior": [
+        "Xmin",
+        8.1788
+      ],
+      "fondo_asset_visual_m": 0.52,
+      "criterio": "Parte visible del símbolo conservada; prolongación exclusivamente bajo tablero para evitar comprimir una silla entera a 25cm de fondo"
+    },
+    {
+      "nombre": "silla_interior_der_2",
+      "bbox_simbolo_visible_xy_m": [
+        9.6266,
+        14.351,
+        9.8806,
+        14.73835
+      ],
+      "bbox_silla_completa_xy_m": [
+        9.3606,
+        14.351,
+        9.8806,
+        14.73835
+      ],
+      "borde_exterior": [
+        "Xmax",
+        9.8806
+      ],
+      "fondo_asset_visual_m": 0.52,
+      "criterio": "Parte visible del símbolo conservada; prolongación exclusivamente bajo tablero para evitar comprimir una silla entera a 25cm de fondo"
+    },
+    {
+      "nombre": "silla_interior_izq_3",
+      "bbox_simbolo_visible_xy_m": [
+        8.1788,
+        13.73505,
+        8.42645,
+        14.1224
+      ],
+      "bbox_silla_completa_xy_m": [
+        8.1788,
+        13.73505,
+        8.6988,
+        14.1224
+      ],
+      "borde_exterior": [
+        "Xmin",
+        8.1788
+      ],
+      "fondo_asset_visual_m": 0.52,
+      "criterio": "Parte visible del símbolo conservada; prolongación exclusivamente bajo tablero para evitar comprimir una silla entera a 25cm de fondo"
+    },
+    {
+      "nombre": "silla_interior_der_3",
+      "bbox_simbolo_visible_xy_m": [
+        9.6266,
+        13.73505,
+        9.8806,
+        14.1224
+      ],
+      "bbox_silla_completa_xy_m": [
+        9.3606,
+        13.73505,
+        9.8806,
+        14.1224
+      ],
+      "borde_exterior": [
+        "Xmax",
+        9.8806
+      ],
+      "fondo_asset_visual_m": 0.52,
+      "criterio": "Parte visible del símbolo conservada; prolongación exclusivamente bajo tablero para evitar comprimir una silla entera a 25cm de fondo"
+    },
+    {
+      "nombre": "silla_interior_cabecera_norte",
+      "bbox_simbolo_visible_xy_m": [
+        8.83285,
+        15.5448,
+        9.22655,
+        15.79245
+      ],
+      "bbox_silla_completa_xy_m": [
+        8.83285,
+        15.272450000000001,
+        9.22655,
+        15.79245
+      ],
+      "borde_exterior": [
+        "Ymax",
+        15.79245
+      ],
+      "fondo_asset_visual_m": 0.52,
+      "criterio": "Parte visible del símbolo conservada; prolongación exclusivamente bajo tablero para evitar comprimir una silla entera a 25cm de fondo"
+    },
+    {
+      "nombre": "silla_interior_cabecera_sur",
+      "bbox_simbolo_visible_xy_m": [
+        8.83285,
+        13.29055,
+        9.22655,
+        13.54455
+      ],
+      "bbox_silla_completa_xy_m": [
+        8.83285,
+        13.29055,
+        9.22655,
+        13.81055
+      ],
+      "borde_exterior": [
+        "Ymin",
+        13.29055
+      ],
+      "fondo_asset_visual_m": 0.52,
+      "criterio": "Parte visible del símbolo conservada; prolongación exclusivamente bajo tablero para evitar comprimir una silla entera a 25cm de fondo"
+    }
+  ],
+  "taburetes_isla": [
+    {
+      "nombre": "taburete_isla_1",
+      "bbox_simbolo_visible_xy_m": [
+        7.85495,
+        19.98345,
+        8.1026,
+        20.37715
+      ],
+      "bbox_completo_xy_m": [
+        7.85495,
+        19.98345,
+        8.29495,
+        20.37715
+      ],
+      "z_asiento_visual_m": 0.665,
+      "criterio": "Prolongación hacia isla bajo encimera; borde exterior Xmin y ejeY de símbolo conservados"
+    },
+    {
+      "nombre": "taburete_isla_2",
+      "bbox_simbolo_visible_xy_m": [
+        7.85495,
+        19.3802,
+        8.1026,
+        19.7739
+      ],
+      "bbox_completo_xy_m": [
+        7.85495,
+        19.3802,
+        8.29495,
+        19.7739
+      ],
+      "z_asiento_visual_m": 0.665,
+      "criterio": "Prolongación hacia isla bajo encimera; borde exterior Xmin y ejeY de símbolo conservados"
+    },
+    {
+      "nombre": "taburete_isla_3",
+      "bbox_simbolo_visible_xy_m": [
+        7.85495,
+        18.77695,
+        8.1026,
+        19.17065
+      ],
+      "bbox_completo_xy_m": [
+        7.85495,
+        18.77695,
+        8.29495,
+        19.17065
+      ],
+      "z_asiento_visual_m": 0.665,
+      "criterio": "Prolongación hacia isla bajo encimera; borde exterior Xmin y ejeY de símbolo conservados"
+    }
+  ],
+  "salon_comedor": {
+    "mesa_comedor_bbox_xy_m": [
+      8.42645,
+      13.54455,
+      9.6266,
+      15.5448
+    ],
+    "mesa_centro_bbox_xy_m": [
+      4.7117,
+      14.2494,
+      5.9055,
+      14.9479
+    ],
+    "alturas_visuales_m": {
+      "mesa_comedor": 0.75,
+      "mesa_centro": 0.385,
+      "mueble_bajo": 0.46
+    },
+    "muebles_bajos_xy_fuente": "Rellenos grises de planta final PDF1; dos tramos junto pared sur salón",
+    "tv": "Accesorio de visualización sobre mueble bajo; no prescrito por planos",
+    "sofa": {
+      "huella_fuente_xy_m": [
+        [
+          3.48615,
+          16.28775
+        ],
+        [
+          6.4897,
+          16.28775
+        ],
+        [
+          6.4897,
+          15.5321
+        ],
+        [
+          4.24815,
+          15.5321
+        ],
+        [
+          4.24815,
+          14.6939
+        ],
+        [
+          3.48615,
+          14.6939
+        ]
+      ],
+      "altura_visual_m": 0.82,
+      "cojines_respaldo": 4,
+      "inclinacion_grados": [
+        6,
+        7,
+        5,
+        6.5
+      ],
+      "pliegues_visuales_m": [
+        0.0021,
+        0.0028
+      ],
+      "criterio": "Sólo tapizado decorativo; bases conservan exactamente huella L, ubicación y escala de plano"
+    },
+    "butacas": [
+      {
+        "nombre": "butaca_salon_1",
+        "asset": "assets/mobiliario/SheenChair/SheenChair.glb",
+        "asset_sha256": "f0af2a2b102d28d540236306ae19f8fb36842df76bd38cf76f063f9bd2853399",
+        "bbox_fuente_xy_m": [
+          6.36905,
+          14.4653,
+          7.13105,
+          15.1257
+        ],
+        "bbox_evaluado_xyz_m": [
+          6.369050025939941,
+          14.465299606323242,
+          0.0,
+          7.131050109863281,
+          15.125699996948242,
+          0.7800000309944153
+        ],
+        "error_bbox_max_m": 3.936767569712174e-07,
+        "altura_visual_m": 0.78,
+        "orientacion_grados_z": -90,
+        "licencia": "CC0 según READMEfuente actual; autoríaWayfair/EricChadwick preservada; importadorconserva mapas normales ydetalleesculpido"
+      },
+      {
+        "nombre": "butaca_salon_2",
+        "asset": "assets/mobiliario/SheenChair/SheenChair.glb",
+        "asset_sha256": "f0af2a2b102d28d540236306ae19f8fb36842df76bd38cf76f063f9bd2853399",
+        "bbox_fuente_xy_m": [
+          6.36905,
+          13.6398,
+          7.13105,
+          14.30655
+        ],
+        "bbox_evaluado_xyz_m": [
+          6.369050025939941,
+          13.639800071716309,
+          0.0,
+          7.131050109863281,
+          14.306550025939941,
+          0.7800000309944153
+        ],
+        "error_bbox_max_m": 1.0986328113915533e-07,
+        "altura_visual_m": 0.78,
+        "orientacion_grados_z": -90,
+        "licencia": "CC0 según READMEfuente actual; autoríaWayfair/EricChadwick preservada; importadorconserva mapas normales ydetalleesculpido"
+      }
+    ]
+  },
+  "iluminacion_decorativa": {
+    "colgante_comedor_cota_inferior_m": 2.3,
+    "colgantes_isla_cota_inferior_m": 2.35,
+    "cielorraso_fuente_m": 3.2,
+    "potencia_luces_w": 12,
+    "descripcion": "Luminarias físicas sobre muebles, emisores cálidos de baja potencia; accesorios no indicados en PDF"
+  },
+  "control_arquitectura": {
+    "sha256_antes": "0be3f486a0eeff8d0ef98fb5ebafd153bf64a31385512f8cd8103299a8e4e60f",
+    "sha256_despues": "0be3f486a0eeff8d0ef98fb5ebafd153bf64a31385512f8cd8103299a8e4e60f",
+    "meshes_controlados": 346,
+    "cambios": 0
+  },
+  "objetos_detalle_creados": 352,
+  "objetos": [
+    "encimera_cocina_V3_zocalo",
+    "encimera_cocina_V3_caja_posterior",
+    "encimera_cocina_V3_costado",
+    "encimera_cocina_V3_costado.001",
+    "encimera_cocina_V3_base",
+    "encimera_cocina_V3_frente_0_0",
+    "encimera_cocina_V3_uñero_0_0",
+    "encimera_cocina_V3_frente_0_1",
+    "encimera_cocina_V3_uñero_0_1",
+    "encimera_cocina_V3_frente_1_0",
+    "encimera_cocina_V3_uñero_1_0",
+    "encimera_cocina_V3_frente_1_1",
+    "encimera_cocina_V3_uñero_1_1",
+    "encimera_cocina_V3_frente_2_0",
+    "encimera_cocina_V3_uñero_2_0",
+    "encimera_cocina_V3_frente_2_1",
+    "encimera_cocina_V3_uñero_2_1",
+    "encimera_cocina_V3_frente_3_0",
+    "encimera_cocina_V3_uñero_3_0",
+    "encimera_cocina_V3_frente_3_1",
+    "encimera_cocina_V3_uñero_3_1",
+    "encimera_cocina_V3_horno_carcasa",
+    "encimera_cocina_V3_horno_inox",
+    "encimera_cocina_V3_horno_cristal",
+    "encimera_cocina_V3_horno_tirador",
+    "encimera_cocina_V3_mando_horno",
+    "encimera_cocina_V3_mando_horno.001",
+    "encimera_cocina_V3_frente_5_0",
+    "encimera_cocina_V3_uñero_5_0",
+    "encimera_cocina_V3_frente_5_1",
+    "encimera_cocina_V3_uñero_5_1",
+    "encimera_cocina_V3_encimera",
+    "Fregadero_doble_V3_cubeta_1",
+    "Fregadero_doble_V3_cubeta_1_desague",
+    "Fregadero_doble_V3_cubeta_1_fondo_desague",
+    "Fregadero_doble_V3_cubeta_2",
+    "Fregadero_doble_V3_cubeta_2_desague",
+    "Fregadero_doble_V3_cubeta_2_fondo_desague",
+    "Grifo_V3_base",
+    "Grifo_V3_caño_monobloc",
+    "Grifo_V3_mando",
+    "Grifo_V3_aireador",
+    "Placa_V3_vidrio_induccion",
+    "Placa_V3_zona_0",
+    "Placa_V3_zona_int_0",
+    "Placa_V3_zona_1",
+    "Placa_V3_zona_int_1",
+    "Placa_V3_zona_2",
+    "Placa_V3_zona_int_2",
+    "Placa_V3_control_tactil_0",
+    "Placa_V3_control_tactil_1",
+    "Placa_V3_control_tactil_2",
+    "isla_cocina_V3_zocalo",
+    "isla_cocina_V3_caja",
+    "isla_cocina_V3_costado_roble",
+    "isla_cocina_V3_costado_roble.001",
+    "isla_cocina_V3_frente_oeste_0",
+    "isla_cocina_V3_frente_oeste_1",
+    "isla_cocina_V3_frente_oeste_2",
+    "isla_cocina_V3_frente_este_0",
+    "isla_cocina_V3_frente_este_1",
+    "isla_cocina_V3_frente_este_2",
+    "isla_cocina_V3_encimera",
+    "silla_interior_izq_1",
+    "silla_interior_izq_1 · estructura",
+    "silla_interior_izq_1 · estructura · pata torneada",
+    "silla_interior_izq_1 · estructura · apoyo de suelo",
+    "silla_interior_izq_1 · estructura · pata torneada.001",
+    "silla_interior_izq_1 · estructura · apoyo de suelo.001",
+    "silla_interior_izq_1 · estructura · pata torneada.002",
+    "silla_interior_izq_1 · estructura · apoyo de suelo.002",
+    "silla_interior_izq_1 · estructura · pata torneada.003",
+    "silla_interior_izq_1 · estructura · apoyo de suelo.003",
+    "silla_interior_izq_1 · estructura · asiento tapizado",
+    "silla_interior_izq_1 · estructura · asiento tapizado · vivo ",
+    "silla_interior_izq_1 · estructura · larguero lateral",
+    "silla_interior_izq_1 · estructura · larguero lateral.001",
+    "silla_interior_izq_1 · estructura · travesaño frontal",
+    "silla_interior_izq_1 · estructura · montante curvo",
+    "silla_interior_izq_1 · estructura · montante curvo.001",
+    "silla_interior_izq_1 · estructura · respaldo de madera curvad",
+    "silla_interior_izq_1 · estructura · acolchado de respaldo",
+    "silla_interior_izq_1 · estructura · acolchado de respaldo · ",
+    "silla_interior_der_1",
+    "silla_interior_der_1 · estructura",
+    "silla_interior_der_1 · estructura · pata torneada",
+    "silla_interior_der_1 · estructura · apoyo de suelo",
+    "silla_interior_der_1 · estructura · pata torneada.001",
+    "silla_interior_der_1 · estructura · apoyo de suelo.001",
+    "silla_interior_der_1 · estructura · pata torneada.002",
+    "silla_interior_der_1 · estructura · apoyo de suelo.002",
+    "silla_interior_der_1 · estructura · pata torneada.003",
+    "silla_interior_der_1 · estructura · apoyo de suelo.003",
+    "silla_interior_der_1 · estructura · asiento tapizado",
+    "silla_interior_der_1 · estructura · asiento tapizado · vivo ",
+    "silla_interior_der_1 · estructura · larguero lateral",
+    "silla_interior_der_1 · estructura · larguero lateral.001",
+    "silla_interior_der_1 · estructura · travesaño frontal",
+    "silla_interior_der_1 · estructura · montante curvo",
+    "silla_interior_der_1 · estructura · montante curvo.001",
+    "silla_interior_der_1 · estructura · respaldo de madera curvad",
+    "silla_interior_der_1 · estructura · acolchado de respaldo",
+    "silla_interior_der_1 · estructura · acolchado de respaldo · ",
+    "silla_interior_izq_2",
+    "silla_interior_izq_2 · estructura",
+    "silla_interior_izq_2 · estructura · pata torneada",
+    "silla_interior_izq_2 · estructura · apoyo de suelo",
+    "silla_interior_izq_2 · estructura · pata torneada.001",
+    "silla_interior_izq_2 · estructura · apoyo de suelo.001",
+    "silla_interior_izq_2 · estructura · pata torneada.002",
+    "silla_interior_izq_2 · estructura · apoyo de suelo.002",
+    "silla_interior_izq_2 · estructura · pata torneada.003",
+    "silla_interior_izq_2 · estructura · apoyo de suelo.003",
+    "silla_interior_izq_2 · estructura · asiento tapizado",
+    "silla_interior_izq_2 · estructura · asiento tapizado · vivo ",
+    "silla_interior_izq_2 · estructura · larguero lateral",
+    "silla_interior_izq_2 · estructura · larguero lateral.001",
+    "silla_interior_izq_2 · estructura · travesaño frontal",
+    "silla_interior_izq_2 · estructura · montante curvo",
+    "silla_interior_izq_2 · estructura · montante curvo.001",
+    "silla_interior_izq_2 · estructura · respaldo de madera curvad",
+    "silla_interior_izq_2 · estructura · acolchado de respaldo",
+    "silla_interior_izq_2 · estructura · acolchado de respaldo · ",
+    "silla_interior_der_2",
+    "silla_interior_der_2 · estructura",
+    "silla_interior_der_2 · estructura · pata torneada",
+    "silla_interior_der_2 · estructura · apoyo de suelo",
+    "silla_interior_der_2 · estructura · pata torneada.001",
+    "silla_interior_der_2 · estructura · apoyo de suelo.001",
+    "silla_interior_der_2 · estructura · pata torneada.002",
+    "silla_interior_der_2 · estructura · apoyo de suelo.002",
+    "silla_interior_der_2 · estructura · pata torneada.003",
+    "silla_interior_der_2 · estructura · apoyo de suelo.003",
+    "silla_interior_der_2 · estructura · asiento tapizado",
+    "silla_interior_der_2 · estructura · asiento tapizado · vivo ",
+    "silla_interior_der_2 · estructura · larguero lateral",
+    "silla_interior_der_2 · estructura · larguero lateral.001",
+    "silla_interior_der_2 · estructura · travesaño frontal",
+    "silla_interior_der_2 · estructura · montante curvo",
+    "silla_interior_der_2 · estructura · montante curvo.001",
+    "silla_interior_der_2 · estructura · respaldo de madera curvad",
+    "silla_interior_der_2 · estructura · acolchado de respaldo",
+    "silla_interior_der_2 · estructura · acolchado de respaldo · ",
+    "silla_interior_izq_3",
+    "silla_interior_izq_3 · estructura",
+    "silla_interior_izq_3 · estructura · pata torneada",
+    "silla_interior_izq_3 · estructura · apoyo de suelo",
+    "silla_interior_izq_3 · estructura · pata torneada.001",
+    "silla_interior_izq_3 · estructura · apoyo de suelo.001",
+    "silla_interior_izq_3 · estructura · pata torneada.002",
+    "silla_interior_izq_3 · estructura · apoyo de suelo.002",
+    "silla_interior_izq_3 · estructura · pata torneada.003",
+    "silla_interior_izq_3 · estructura · apoyo de suelo.003",
+    "silla_interior_izq_3 · estructura · asiento tapizado",
+    "silla_interior_izq_3 · estructura · asiento tapizado · vivo ",
+    "silla_interior_izq_3 · estructura · larguero lateral",
+    "silla_interior_izq_3 · estructura · larguero lateral.001",
+    "silla_interior_izq_3 · estructura · travesaño frontal",
+    "silla_interior_izq_3 · estructura · montante curvo",
+    "silla_interior_izq_3 · estructura · montante curvo.001",
+    "silla_interior_izq_3 · estructura · respaldo de madera curvad",
+    "silla_interior_izq_3 · estructura · acolchado de respaldo",
+    "silla_interior_izq_3 · estructura · acolchado de respaldo · ",
+    "silla_interior_der_3",
+    "silla_interior_der_3 · estructura",
+    "silla_interior_der_3 · estructura · pata torneada",
+    "silla_interior_der_3 · estructura · apoyo de suelo",
+    "silla_interior_der_3 · estructura · pata torneada.001",
+    "silla_interior_der_3 · estructura · apoyo de suelo.001",
+    "silla_interior_der_3 · estructura · pata torneada.002",
+    "silla_interior_der_3 · estructura · apoyo de suelo.002",
+    "silla_interior_der_3 · estructura · pata torneada.003",
+    "silla_interior_der_3 · estructura · apoyo de suelo.003",
+    "silla_interior_der_3 · estructura · asiento tapizado",
+    "silla_interior_der_3 · estructura · asiento tapizado · vivo ",
+    "silla_interior_der_3 · estructura · larguero lateral",
+    "silla_interior_der_3 · estructura · larguero lateral.001",
+    "silla_interior_der_3 · estructura · travesaño frontal",
+    "silla_interior_der_3 · estructura · montante curvo",
+    "silla_interior_der_3 · estructura · montante curvo.001",
+    "silla_interior_der_3 · estructura · respaldo de madera curvad",
+    "silla_interior_der_3 · estructura · acolchado de respaldo",
+    "silla_interior_der_3 · estructura · acolchado de respaldo · ",
+    "silla_interior_cabecera_norte",
+    "silla_interior_cabecera_norte · estructura",
+    "silla_interior_cabecera_norte · estructura · pata torneada",
+    "silla_interior_cabecera_norte · estructura · apoyo de suelo",
+    "silla_interior_cabecera_norte · estructura · pata tornead",
+    "silla_interior_cabecera_norte · estructura · apoyo de sue",
+    "silla_interior_cabecera_norte · estructura · pata tornead.001",
+    "silla_interior_cabecera_norte · estructura · apoyo de sue.001",
+    "silla_interior_cabecera_norte · estructura · pata tornead.002",
+    "silla_interior_cabecera_norte · estructura · apoyo de sue.002",
+    "silla_interior_cabecera_norte · estructura · asiento tapizado",
+    "silla_interior_cabecera_norte · estructura · asiento tapi",
+    "silla_interior_cabecera_norte · estructura · larguero lateral",
+    "silla_interior_cabecera_norte · estructura · larguero lat",
+    "silla_interior_cabecera_norte · estructura · travesaño front",
+    "silla_interior_cabecera_norte · estructura · montante curvo",
+    "silla_interior_cabecera_norte · estructura · montante cur",
+    "silla_interior_cabecera_norte · estructura · respaldo de made",
+    "silla_interior_cabecera_norte · estructura · acolchado de res",
+    "silla_interior_cabecera_norte · estructura · acolchado de",
+    "silla_interior_cabecera_sur",
+    "silla_interior_cabecera_sur · estructura",
+    "silla_interior_cabecera_sur · estructura · pata torneada",
+    "silla_interior_cabecera_sur · estructura · apoyo de suelo",
+    "silla_interior_cabecera_sur · estructura · pata torneada.001",
+    "silla_interior_cabecera_sur · estructura · apoyo de suelo.001",
+    "silla_interior_cabecera_sur · estructura · pata torneada.002",
+    "silla_interior_cabecera_sur · estructura · apoyo de suelo.002",
+    "silla_interior_cabecera_sur · estructura · pata torneada.003",
+    "silla_interior_cabecera_sur · estructura · apoyo de suelo.003",
+    "silla_interior_cabecera_sur · estructura · asiento tapizado",
+    "silla_interior_cabecera_sur · estructura · asiento tapizado ",
+    "silla_interior_cabecera_sur · estructura · larguero lateral",
+    "silla_interior_cabecera_sur · estructura · larguero later",
+    "silla_interior_cabecera_sur · estructura · travesaño frontal",
+    "silla_interior_cabecera_sur · estructura · montante curvo",
+    "silla_interior_cabecera_sur · estructura · montante curvo.001",
+    "silla_interior_cabecera_sur · estructura · respaldo de madera",
+    "silla_interior_cabecera_sur · estructura · acolchado de respa",
+    "silla_interior_cabecera_sur · estructura · acolchado de r",
+    "taburete_isla_1",
+    "taburete_isla_1_pata",
+    "taburete_isla_1_pata.001",
+    "taburete_isla_1_pata.002",
+    "taburete_isla_1_pata.003",
+    "taburete_isla_1_reposapies",
+    "taburete_isla_1 · asiento real",
+    "taburete_isla_1 · asiento real · vivo cosido",
+    "taburete_isla_1 · respaldo bajo",
+    "taburete_isla_1 · respaldo bajo · vivo cosido",
+    "taburete_isla_2",
+    "taburete_isla_2_pata",
+    "taburete_isla_2_pata.001",
+    "taburete_isla_2_pata.002",
+    "taburete_isla_2_pata.003",
+    "taburete_isla_2_reposapies",
+    "taburete_isla_2 · asiento real",
+    "taburete_isla_2 · asiento real · vivo cosido",
+    "taburete_isla_2 · respaldo bajo",
+    "taburete_isla_2 · respaldo bajo · vivo cosido",
+    "taburete_isla_3",
+    "taburete_isla_3_pata",
+    "taburete_isla_3_pata.001",
+    "taburete_isla_3_pata.002",
+    "taburete_isla_3_pata.003",
+    "taburete_isla_3_reposapies",
+    "taburete_isla_3 · asiento real",
+    "taburete_isla_3 · asiento real · vivo cosido",
+    "taburete_isla_3 · respaldo bajo",
+    "taburete_isla_3 · respaldo bajo · vivo cosido",
+    "mesa_comedor_interior_V3_tablero",
+    "mesa_comedor_interior_V3_pata",
+    "mesa_comedor_interior_V3_pata.001",
+    "mesa_comedor_interior_V3_travesano",
+    "mesa_comedor_interior_V3_pata.002",
+    "mesa_comedor_interior_V3_pata.003",
+    "mesa_comedor_interior_V3_travesano.001",
+    "mesa_centro_salon_V3_tablero",
+    "mesa_centro_salon_V3_pedestal",
+    "mesa_centro_salon_V3_pedestal.001",
+    "sofa_L_salon",
+    "sofa_L_salon_V3_base_chaise",
+    "sofa_L_salon_V3_base_lineal",
+    "sofa_L_salon_V3_respaldo_estructura",
+    "sofa_L_salon_V3_brazo_chaise",
+    "sofa_L_salon_V3_brazo_derecho",
+    "sofa_L_salon_V3_pata",
+    "sofa_L_salon_V3_pata.001",
+    "sofa_L_salon_V3_pata.002",
+    "sofa_L_salon_V3_pata.003",
+    "sofa_L_salon_V3_pata.004",
+    "sofa_L_salon_V3_pata.005",
+    "sofa_L_salon_V3_asiento_chaise",
+    "sofa_L_salon_V3_asiento_chaise_vivo_cosido",
+    "sofa_L_salon_V3_asiento_0",
+    "sofa_L_salon_V3_asiento_0_vivo_cosido",
+    "sofa_L_salon_V3_asiento_1",
+    "sofa_L_salon_V3_asiento_1_vivo_cosido",
+    "sofa_L_salon_V3_asiento_2",
+    "sofa_L_salon_V3_asiento_2_vivo_cosido",
+    "sofa_L_salon_V3_cojin_respaldo_0",
+    "sofa_L_salon_V3_cojin_respaldo_0_vivo_cosido",
+    "sofa_L_salon_V3_cojin_respaldo_1",
+    "sofa_L_salon_V3_cojin_respaldo_1_vivo_cosido",
+    "sofa_L_salon_V3_cojin_respaldo_2",
+    "sofa_L_salon_V3_cojin_respaldo_2_vivo_cosido",
+    "sofa_L_salon_V3_cojin_respaldo_3",
+    "sofa_L_salon_V3_cojin_respaldo_3_vivo_cosido",
+    "sofa_L_salon_V3_cojin_suelto_izq",
+    "sofa_L_salon_V3_cojin_suelto_izq_vivo_cosido",
+    "sofa_L_salon_V3_cojin_suelto_der",
+    "sofa_L_salon_V3_cojin_suelto_der_vivo_cosido",
+    "butaca_salon_1",
+    "butaca_salon_1 · SheenChair_fabric",
+    "butaca_salon_1 · SheenChair_label",
+    "butaca_salon_1 · SheenChair_metal",
+    "butaca_salon_1 · SheenChair_wood",
+    "butaca_salon_2",
+    "butaca_salon_2 · SheenChair_fabric",
+    "butaca_salon_2 · SheenChair_label",
+    "butaca_salon_2 · SheenChair_metal",
+    "butaca_salon_2 · SheenChair_wood",
+    "sofa_L_salon_V3_manta_algodon",
+    "Mueble_bajo_salon_PDF_final_V3_0",
+    "Mueble_bajo_salon_PDF_final_V3_zocalo_0",
+    "Mueble_bajo_salon_PDF_final_V3_junta",
+    "Mueble_bajo_salon_PDF_final_V3_junta.001",
+    "Mueble_bajo_salon_PDF_final_V3_junta.002",
+    "Mueble_bajo_salon_PDF_final_V3_junta.003",
+    "Mueble_bajo_salon_PDF_final_V3_junta.004",
+    "Mueble_bajo_salon_PDF_final_V3_junta.005",
+    "Mueble_bajo_salon_PDF_final_V3_1",
+    "Mueble_bajo_salon_PDF_final_V3_zocalo_1",
+    "Mueble_bajo_salon_PDF_final_V3_junta.006",
+    "Mueble_bajo_salon_PDF_final_V3_junta.007",
+    "TV_salon_V3_marco",
+    "TV_salon_V3_pantalla",
+    "TV_salon_V3_soporte",
+    "TV_salon_V3_soporte.001",
+    "Libro_salon_V3_cubierta_0",
+    "Libro_salon_V3_paginas_0",
+    "Libro_salon_V3_tapa_0",
+    "Libro_salon_V3_cubierta_1",
+    "Libro_salon_V3_paginas_1",
+    "Libro_salon_V3_tapa_1",
+    "Jarron_ceramica_salon_V3",
+    "Cuenco_salon_V3",
+    "Plato_comedor_V3_0",
+    "Vaso_comedor_V3_0",
+    "Plato_comedor_V3_1",
+    "Vaso_comedor_V3_1",
+    "Centro_mesa_comedor_V3",
+    "Cuenco_isla_cocina_V3",
+    "Tabla_cocina_V3",
+    "Colgante_comedor_V3_floron",
+    "Colgante_comedor_V3_cable",
+    "Colgante_comedor_V3_pantalla",
+    "Colgante_comedor_V3_difusor",
+    "Luz_interior_V3_Colgante_comedor_V3",
+    "Colgante_isla_V3_0_floron",
+    "Colgante_isla_V3_0_cable",
+    "Colgante_isla_V3_0_pantalla",
+    "Colgante_isla_V3_0_difusor",
+    "Luz_interior_V3_Colgante_isla_V3_0",
+    "Colgante_isla_V3_1_floron",
+    "Colgante_isla_V3_1_cable",
+    "Colgante_isla_V3_1_pantalla",
+    "Colgante_isla_V3_1_difusor",
+    "Luz_interior_V3_Colgante_isla_V3_1"
+  ]
+}

@@ -103,7 +103,10 @@ def _mix_color(material, factor, a, b, location=(0, 200)):
     node = material.node_tree.nodes.new('ShaderNodeMixRGB')
     node.blend_type = 'MIX'
     node.location = location
-    material.node_tree.links.new(factor, node.inputs[0])
+    if isinstance(factor, (int, float)):
+        node.inputs[0].default_value = factor
+    else:
+        material.node_tree.links.new(factor, node.inputs[0])
     for index, source in enumerate((a, b), 1):
         if isinstance(source, tuple):
             node.inputs[index].default_value = (*source[:3], 1)
@@ -112,26 +115,75 @@ def _mix_color(material, factor, a, b, location=(0, 200)):
     return node.outputs['Color']
 
 
+def _metric_vector(material, axes=('X', 'Y', 'Z'), periods=(1.0, 1.0, 1.0)):
+    """World metric mapping, independent of mesh UVs or object transforms."""
+    xyz = material.node_tree.nodes.new('ShaderNodeSeparateXYZ')
+    material.node_tree.links.new(_position(material), xyz.inputs[0])
+    vector = material.node_tree.nodes.new('ShaderNodeCombineXYZ')
+    for destination, source, pitch in zip(('X', 'Y', 'Z'), axes, periods):
+        coordinate = _math(material, 'DIVIDE', xyz.outputs[source], pitch)
+        material.node_tree.links.new(coordinate, vector.inputs[destination])
+    return vector.outputs[0]
+
+
+def _photo_map(material, asset, role, vector, box=False):
+    """Load and pack the locally licensed, photographic ambientCG maps.
+
+    Original KTX2 and decoded PNG checksums are in assets/licencias. The
+    supplied 512 px maps provide photographic mesostructure; microdetail is
+    combined procedurally, at real metric scales, without mesh displacement.
+    """
+    path = ASSET_ROOT / 'texturas' / 'ambientcg' / asset / f'{asset}_1K-PNG_{role}.png'
+    if not path.is_file():
+        raise FileNotFoundError(f'Mapa PBR CC0 necesario: {path}')
+    image = bpy.data.images.load(str(path), check_existing=True)
+    image.colorspace_settings.name = 'sRGB' if role == 'Color' else 'Non-Color'
+    image.pack()
+    node = material.node_tree.nodes.new('ShaderNodeTexImage')
+    node.image = image
+    node.extension = 'REPEAT'
+    node.interpolation = 'Linear'
+    node.projection = 'BOX' if box else 'FLAT'
+    node.projection_blend = 0.18 if box else 0.0
+    node.label = f'Fotografía CC0 ambientCG · {asset} · {role}'
+    material.node_tree.links.new(vector, node.inputs['Vector'])
+    material['fuente_PBR'] = f'ambientCG / Lennart Demes, {asset}, CC0; mapa original + SHA en assets/licencias'
+    return node.outputs['Color']
+
+
+def _range(material, source, low, high, from_low=0.0, from_high=1.0):
+    node = material.node_tree.nodes.new('ShaderNodeMapRange')
+    node.clamp = True
+    material.node_tree.links.new(source, node.inputs['Value'])
+    for key, value in (('From Min', from_low), ('From Max', from_high),
+                       ('To Min', low), ('To Max', high)):
+        node.inputs[key].default_value = value
+    return node.outputs['Result']
+
+
 def _plaster(name, exterior=True):
-    mat, shader = _material(name, (0.76, 0.755, 0.745), 0.74)
+    mat, shader = _material(name, (0.78, 0.775, 0.766), 0.78)
     position = _position(mat)
-    mottling = _noise(mat, position, 2.6, 3.0)
-    color = _ramp(mat, mottling.outputs['Fac'], (0.748, 0.743, 0.733), (0.784, 0.780, 0.771))
+    photograph = _photo_map(mat, 'Plaster001', 'Color', _metric_vector(mat, periods=(1.6,)*3), True)
+    color = _ramp(mat, photograph, (0.742, 0.738, 0.728), (0.802, 0.797, 0.788))
     mat.node_tree.links.new(color.outputs['Color'], shader.inputs['Base Color'])
+    relief = _photo_map(mat, 'Plaster001', 'Displacement', _metric_vector(mat, periods=(1.6,)*3), True)
     render_grain = _noise(mat, position, 145.0, 3.5, location=(-540, -170))
     pores = _noise(mat, position, 540.0, 2.0, location=(-540, -430))
-    grain = _bump(mat, shader, render_grain.outputs['Fac'], 0.00075 if exterior else 0.00022, 0.42)
+    photo_grain = _bump(mat, shader, relief, 0.00045 if exterior else 0.00012, 0.35)
+    grain = _bump(mat, shader, render_grain.outputs['Fac'], 0.00028 if exterior else 0.00010,
+                  0.30, normal=photo_grain.outputs['Normal'])
     _bump(mat, shader, pores.outputs['Fac'], 0.00015 if exterior else 0.00006, 0.22,
           normal=grain.outputs['Normal'])
-    roughness = _ramp(mat, render_grain.outputs['Fac'], (0.63,)*3, (0.82,)*3, (-120, -420))
-    mat.node_tree.links.new(roughness.outputs['Color'], shader.inputs['Roughness'])
-    shader.inputs['Specular IOR Level'].default_value = 0.32
-    mat['microrelieve_m'] = 'Grano fino 0.75 mm + poro 0.15 mm; no desplazamiento geométrico.'
+    roughness = _photo_map(mat, 'Plaster001', 'Roughness', _metric_vector(mat, periods=(1.6,)*3), True)
+    mat.node_tree.links.new(_range(mat, roughness, 0.68, 0.86), shader.inputs['Roughness'])
+    shader.inputs['Specular IOR Level'].default_value = 0.24
+    mat['microrelieve_m'] = 'Fotografía 0.45 mm + grano fino 0.28 mm + poro 0.15 mm; solo normal de sombreado.'
     return mat
 
 
 def _porcelain(name, tile=0.9, interior=False):
-    base = (0.575, 0.565, 0.535) if interior else (0.66, 0.615, 0.535)
+    base = (0.60, 0.58, 0.54) if interior else (0.69, 0.644, 0.561)
     mat, shader = _material(name, base, 0.44 if interior else 0.52)
     position = _position(mat)
     xyz = mat.node_tree.nodes.new('ShaderNodeSeparateXYZ')
@@ -159,14 +211,21 @@ def _porcelain(name, tile=0.9, interior=False):
     cloud_tint = _ramp(mat, cloud.outputs['Fac'], tuple(v * 0.978 for v in base),
                        tuple(v * 1.020 for v in base), (-160, 460))
     detail = _mix_color(mat, cloud.outputs['Fac'], tile_tint.outputs['Color'], cloud_tint.outputs['Color'])
-    final_color = _mix_color(mat, joint, detail, (0.45, 0.43, 0.385), (220, 250))
+    photograph_vector = _metric_vector(mat, periods=(tile, tile, tile))
+    photograph = _photo_map(mat, 'Marble015', 'Color', photograph_vector)
+    mineral = _ramp(mat, photograph, tuple(v * 0.94 for v in base), tuple(v * 1.025 for v in base))
+    detail = _mix_color(mat, 0.75, detail, mineral.outputs['Color'])
+    final_color = _mix_color(mat, joint, detail, (0.44, 0.41, 0.355), (220, 250))
     mat.node_tree.links.new(final_color, shader.inputs['Base Color'])
     pores = _noise(mat, position, 360, 2, location=(-520, -280))
-    fine = _bump(mat, shader, pores.outputs['Fac'], 0.00018, 0.32)
+    photo_relief = _photo_map(mat, 'Marble015', 'Displacement', photograph_vector)
+    fine_relief = _bump(mat, shader, photo_relief, 0.00009, 0.25)
+    fine = _bump(mat, shader, pores.outputs['Fac'], 0.00010, 0.24, normal=fine_relief.outputs['Normal'])
     _bump(mat, shader, joint, 0.00135, 0.70, True, fine.outputs['Normal'])
     shader.inputs['Specular IOR Level'].default_value = 0.38
-    roughness = _ramp(mat, cloud.outputs['Fac'], (0.40,)*3, (0.58,)*3, (-100, -450))
-    mat.node_tree.links.new(roughness.outputs['Color'], shader.inputs['Roughness'])
+    roughness = _photo_map(mat, 'Marble015', 'Roughness', photograph_vector)
+    mat.node_tree.links.new(_range(mat, roughness, 0.28 if interior else 0.43,
+                                 0.43 if interior else 0.58), shader.inputs['Roughness'])
     mat['despiece'] = f'{tile:.2f} × {tile:.2f} m de paso, junta 3 mm; elección de acabado.'
     mat['periodo_x_m'] = tile
     mat['periodo_y_m'] = tile
@@ -175,17 +234,36 @@ def _porcelain(name, tile=0.9, interior=False):
 
 
 def _wood(name, vertical=True):
-    mat, shader = _material(name, (0.51, 0.36, 0.205), 0.43)
-    # Long axis of the grain is vertical on facade panels, X on tabletops.
-    vector = _position(mat, (31.0, 31.0, 0.13) if vertical else (0.13, 31.0, 31.0))
-    grain = _noise(mat, vector, 3.2, 4.0, 0.72)
-    color = _ramp(mat, grain.outputs['Fac'], (0.34, 0.225, 0.11), (0.65, 0.49, 0.295))
-    mat.node_tree.links.new(color.outputs['Color'], shader.inputs['Base Color'])
-    _bump(mat, shader, grain.outputs['Fac'], 0.00035, 0.36)
-    shader.inputs['Coat Weight'].default_value = 0.16
-    shader.inputs['Coat Roughness'].default_value = 0.30
-    roughness = _ramp(mat, grain.outputs['Fac'], (0.36,)*3, (0.49,)*3, (-100, -450))
-    mat.node_tree.links.new(roughness.outputs['Color'], shader.inputs['Roughness'])
+    mat, shader = _material(name, (0.46, 0.35, 0.22), 0.48)
+    # Source photograph grain runs in V. On the east-facing facade this maps
+    # exactly to Z; on horizontal furniture it maps to X. No UV assumptions.
+    vector = _metric_vector(mat, ('Y', 'Z', 'X') if vertical else ('Y', 'X', 'Z'),
+                             (0.72, 2.60, 1.0))
+    photo = _photo_map(mat, 'Wood058', 'Color', vector)
+    gamma = mat.node_tree.nodes.new('ShaderNodeGamma')
+    gamma.inputs['Gamma'].default_value = 0.76
+    mat.node_tree.links.new(photo, gamma.inputs['Color'])
+    neutral = mat.node_tree.nodes.new('ShaderNodeHueSaturation')
+    neutral.inputs['Saturation'].default_value = 0.72
+    neutral.inputs['Value'].default_value = 1.18
+    mat.node_tree.links.new(gamma.outputs['Color'], neutral.inputs['Color'])
+    color = neutral.outputs['Color']
+    relief = _photo_map(mat, 'Wood058', 'Displacement', vector)
+    grain = _bump(mat, shader, relief, 0.00028, 0.38)
+    fine = _noise(mat, _position(mat, (35, 35, 0.12) if vertical else (0.12, 35, 35)), 4.0, 3.0)
+    _bump(mat, shader, fine.outputs['Fac'], 0.00008, 0.24, normal=grain.outputs['Normal'])
+    if vertical:
+        xyz = mat.node_tree.nodes.new('ShaderNodeSeparateXYZ')
+        mat.node_tree.links.new(_position(mat), xyz.inputs[0])
+        seam = _math(mat, 'LESS_THAN', _math(mat, 'FLOORED_MODULO', xyz.outputs['Y'], 0.12), 0.0016)
+        color = _mix_color(mat, seam, color, (0.13, 0.093, 0.050))
+        _bump(mat, shader, seam, 0.00065, 0.45, True, grain.outputs['Normal'])
+        mat['despiece_decorativo'] = 'Tablas verticales de acabado: paso 0.12 m; junta visual 1.6 mm. Sin modificar huecos/masa.'
+    mat.node_tree.links.new(color, shader.inputs['Base Color'])
+    shader.inputs['Coat Weight'].default_value = 0.08
+    shader.inputs['Coat Roughness'].default_value = 0.38
+    roughness = _photo_map(mat, 'Wood058', 'Roughness', vector)
+    mat.node_tree.links.new(_range(mat, roughness, 0.39, 0.57), shader.inputs['Roughness'])
     mat['orientacion_veta'] = 'Z vertical' if vertical else 'X horizontal'
     return mat
 
@@ -246,7 +324,99 @@ def _fabric(name, color, sheets=False):
     mat.node_tree.links.new(tint.outputs['Color'], shader.inputs['Base Color'])
     shader.inputs['Sheen Weight'].default_value = 0.25
     shader.inputs['Sheen Roughness'].default_value = 0.70
+    if not sheets:
+        aplicar_lino_fotografico(mat, color, 0.16)
     return mat
+
+
+def _principled(material):
+    material.use_nodes = True
+    shader = material.node_tree.nodes.get('PBR')
+    if shader is None or shader.bl_idname != 'ShaderNodeBsdfPrincipled':
+        shader = next((n for n in material.node_tree.nodes
+                       if n.bl_idname == 'ShaderNodeBsdfPrincipled'), None)
+    if shader is None:
+        raise ValueError(f'{material.name}: falta shader Principled PBR')
+    return shader
+
+
+def aplicar_lino_fotografico(material, color=None, escala_m=0.16):
+    """Share licensed photographic weave across interior/exterior upholstery.
+
+    Colour is linear RGB; the photographic structure is recoloured rather
+    than imposing the source fabric's rust-red dye. Relief is shading only.
+    """
+    shader = _principled(material)
+    color = tuple(color or shader.inputs['Base Color'].default_value[:3])
+    vector = _metric_vector(material, periods=(escala_m,)*3)
+    photograph = _photo_map(material, 'Fabric040', 'Color', vector, True)
+    normalized = _range(material, photograph, 0.0, 1.0, 0.015, 0.30)
+    tint = _ramp(material, normalized, tuple(v * 0.82 for v in color),
+                 tuple(min(v * 1.075, 0.90) for v in color))
+    material.node_tree.links.new(tint.outputs['Color'], shader.inputs['Base Color'])
+    height = _photo_map(material, 'Fabric040', 'Displacement', vector, True)
+    photo_bump = _bump(material, shader, height, 0.00022, 0.56)
+    fine = _noise(material, _position(material), 1700, 2)
+    _bump(material, shader, fine.outputs['Fac'], 0.000035, 0.22,
+          normal=photo_bump.outputs['Normal'])
+    roughness = _photo_map(material, 'Fabric040', 'Roughness', vector, True)
+    material.node_tree.links.new(_range(material, roughness, 0.79, 0.94), shader.inputs['Roughness'])
+    shader.inputs['Sheen Weight'].default_value = 0.34
+    shader.inputs['Sheen Roughness'].default_value = 0.78
+    shader.inputs['Specular IOR Level'].default_value = 0.19
+    shader.inputs['Coat Weight'].default_value = 0.0
+    material.diffuse_color = (*color, 1)
+    material['escala_lino_m'] = escala_m
+    material['microrelieve_lino_m'] = 0.00022
+    return material
+
+
+def aplicar_madera_fotografica(material, eje_veta='Y', tono=None):
+    """Apply genuine wood grain to a Principled material, in a world axis."""
+    shader = _principled(material)
+    if eje_veta not in ('X', 'Y', 'Z'):
+        raise ValueError('eje_veta debe ser X, Y o Z')
+    across = 'X' if eje_veta == 'Y' else 'Y'
+    third = next(a for a in ('X', 'Y', 'Z') if a not in (eje_veta, across))
+    vector = _metric_vector(material, (across, eje_veta, third), (0.72, 2.60, 1.0))
+    photograph = _photo_map(material, 'Wood058', 'Color', vector)
+    if tono is None:
+        gamma = material.node_tree.nodes.new('ShaderNodeGamma')
+        gamma.inputs['Gamma'].default_value = 0.76
+        material.node_tree.links.new(photograph, gamma.inputs['Color'])
+        hue = material.node_tree.nodes.new('ShaderNodeHueSaturation')
+        hue.inputs['Saturation'].default_value = 0.72
+        hue.inputs['Value'].default_value = 1.18
+        material.node_tree.links.new(gamma.outputs[0], hue.inputs['Color'])
+        color = hue.outputs['Color']
+    else:
+        color = _ramp(material, photograph, tuple(v * 0.76 for v in tono),
+                      tuple(min(v * 1.20, 0.9) for v in tono)).outputs['Color']
+    material.node_tree.links.new(color, shader.inputs['Base Color'])
+    height = _photo_map(material, 'Wood058', 'Displacement', vector)
+    _bump(material, shader, height, 0.00028, 0.38)
+    roughness = _photo_map(material, 'Wood058', 'Roughness', vector)
+    material.node_tree.links.new(_range(material, roughness, 0.39, 0.57), shader.inputs['Roughness'])
+    shader.inputs['Coat Weight'].default_value = 0.08
+    shader.inputs['Coat Roughness'].default_value = 0.38
+    material['orientacion_veta'] = eje_veta
+    return material
+
+
+def aplicar_mineral_fotografico(material, color=None, escala_m=0.90):
+    """Subtle cream mineral mesostructure for quartz / ceramic decoration."""
+    shader = _principled(material)
+    color = tuple(color or shader.inputs['Base Color'].default_value[:3])
+    vector = _metric_vector(material, periods=(escala_m,)*3)
+    photograph = _photo_map(material, 'Marble015', 'Color', vector, True)
+    tint = _ramp(material, photograph, tuple(v * 0.94 for v in color),
+                 tuple(min(v * 1.035, 0.9) for v in color))
+    material.node_tree.links.new(tint.outputs['Color'], shader.inputs['Base Color'])
+    height = _photo_map(material, 'Marble015', 'Displacement', vector, True)
+    _bump(material, shader, height, 0.00007, 0.2)
+    roughness = _photo_map(material, 'Marble015', 'Roughness', vector, True)
+    material.node_tree.links.new(_range(material, roughness, 0.24, 0.38), shader.inputs['Roughness'])
+    return material
 
 
 def _painted_metal(name, color, roughness=0.29):
@@ -268,20 +438,47 @@ def make_materials():
     mats['porcelanico_exterior'] = _porcelain('Exterior · porcelánico claro mate')
     mats['suelo_interior'] = _porcelain('Interior · porcelánico neutro', 0.8, True)
     mats['madera_clara_vertical'] = _wood('Terraza · madera clara vertical')
-    mats['madera_patas'] = mats['madera_clara_vertical']
+    mat, shader = _material('Mobiliario · roble claro patas verticales', (0.46, 0.35, 0.22), 0.48)
+    mats['madera_patas'] = aplicar_madera_fotografica(mat, 'Z')
     mats['madera_pergola'] = _wood('Pérgola · madera clara')
     mats['carpinteria_antracita'] = _painted_metal('Carpinterías · aluminio lacado antracita', (0.017, 0.021, 0.025))
     mats['metal_pergola'] = _painted_metal('Pérgola · metal lacado antracita', (0.022, 0.026, 0.029), 0.33)
-    mat, shader = _material('Vidrio · neutro transparente IOR 1.45', (1.0, 1.0, 1.0), 0.009)
+    mat, shader = _material('Vidrio · neutro transparente IOR 1.52', (1.0, 1.0, 1.0), 0.006)
     shader.inputs['Transmission Weight'].default_value = 1.0
-    shader.inputs['IOR'].default_value = 1.45
+    shader.inputs['IOR'].default_value = 1.52
+    # A parallel 8 mm clear glazing plate transmits direct solar irradiance
+    # almost straight through. Cycles' disabled refractive caustics otherwise
+    # treats that pane as an opaque obstruction to the Sun shadow ray. This
+    # radiative shortcut affects ONLY the direct shadow test; camera rays,
+    # transmission paths and reflections retain the full refractive BSDF.
+    # 0.96 per surface -> 0.9216 through the two faces, an explicit visual
+    # material assumption rather than a specified architectural glass product.
+    paths = mat.node_tree.nodes.new('ShaderNodeLightPath')
+    paths.label = 'Solo prueba de sombra solar directa'
+    direct = mat.node_tree.nodes.new('ShaderNodeBsdfTransparent')
+    direct.inputs['Color'].default_value = (0.96, 0.96, 0.96, 1.0)
+    direct.label = 'Transmisión recta de irradiancia: 96% por cara'
+    mix = mat.node_tree.nodes.new('ShaderNodeMixShader')
+    mat.node_tree.links.new(paths.outputs['Is Shadow Ray'], mix.inputs[0])
+    mat.node_tree.links.new(shader.outputs['BSDF'], mix.inputs[1])
+    mat.node_tree.links.new(direct.outputs['BSDF'], mix.inputs[2])
+    output = next(n for n in mat.node_tree.nodes if n.bl_idname == 'ShaderNodeOutputMaterial')
+    mat.node_tree.links.new(mix.outputs[0], output.inputs['Surface'])
+    mat['transmision_sombra_por_cara'] = 0.96
+    mat['transmision_solar_dos_caras_visual'] = 0.9216
+    mat['aproximacion_solar'] = ('Solo Is Shadow Ray: transmisión recta de placa paralela de vidrio '
+                                'claro; cámara/reflexión/refracción conservan Principled IOR1.52. '
+                                'Hipótesis material de visualización, no vidrio especificado en PDF.')
     mats['vidrio'] = mat
-    mat, shader = _material('Piscina · superficie de agua', (0.88, 0.965, 0.985), 0.05)
+    mat, shader = _material('Piscina · superficie de agua', (0.88, 0.965, 0.985), 0.026)
     shader.inputs['Transmission Weight'].default_value = 1.0
     shader.inputs['IOR'].default_value = 1.333
     position = _position(mat)
-    ripples = _noise(mat, position, 13.0, 3.0, 0.55)
-    _bump(mat, shader, ripples.outputs['Fac'], 0.011, 0.18)
+    ripples = _noise(mat, _position(mat, (1.0, 0.62, 0.0)), 6.5, 3.0, 0.55)
+    broad = _bump(mat, shader, ripples.outputs['Fac'], 0.0011, 0.22)
+    surface = _noise(mat, _position(mat, (0.42, 1.0, 0.0)), 24.0, 2.5, 0.55)
+    _bump(mat, shader, surface.outputs['Fac'], 0.00016, 0.18, normal=broad.outputs['Normal'])
+    mat['ondas_visualizacion_m'] = 'Ondas de normal 1.1 mm + microondas 0.16 mm; sin modificar perímetro ni definir fondo.'
     mat['advertencia_geometria'] = 'El material no define fondo, profundidad ni nivel de agua.'
     mats['agua'] = mat
     mats['grava'] = _gravel()
@@ -353,8 +550,8 @@ def setup_lighting(scene, mode='day'):
     sky.sky_type = 'NISHITA'
     sky.sun_disc = False
     sky.sun_size = math.radians(0.55)
-    sky.sun_elevation = math.radians(43.0 if mode == 'day' else 5.5)
-    sky.sun_rotation = math.radians(315.0 if mode == 'day' else 330.0)
+    sky.sun_elevation = math.radians(28.0 if mode == 'day' else 5.5)
+    sky.sun_rotation = math.radians(105.0 if mode == 'day' else 330.0)
     sky.altitude = 35.0
     sky.air_density = 1.0
     sky.dust_density = 0.55 if mode == 'day' else 0.85
@@ -430,14 +627,21 @@ def setup_lighting(scene, mode='day'):
     elevation = sky.sun_elevation
     azimuth = sky.sun_rotation
     from mathutils import Vector
-    direction = Vector((math.cos(elevation) * math.cos(azimuth),
-                        math.cos(elevation) * math.sin(azimuth), math.sin(elevation)))
+    # Nishita's RNA sun_rotation is clockwise from world +Y (Cycles maps it
+    # internally to 2*pi-rotation then +pi/2). Match the explicit Sun to that
+    # same convention. 125 degrees places the source at +X/-Y, illuminating
+    # the long terrace facade; it is a visual coordinate choice, not north.
+    direction = Vector((math.cos(elevation) * math.sin(azimuth),
+                        math.cos(elevation) * math.cos(azimuth), math.sin(elevation)))
     sun.rotation_euler = (-direction).to_track_quat('-Z', 'Y').to_euler()
     data.energy = 3.0 if mode == 'day' else 1.05
     data.angle = math.radians(0.53 if mode == 'day' else 0.62)
-    data.color = (1.0, 0.97, 0.91) if mode == 'day' else (1.0, 0.64, 0.38)
+    data.color = (1.0, 0.975, 0.93) if mode == 'day' else (1.0, 0.64, 0.38)
     sun['orientacion'] = 'Elección de iluminación; norte geográfico no confirmado'
     sun['modo'] = mode
+    sun['rotacion_coordenadas_grados'] = math.degrees(azimuth)
+    sun['convencion_rotacion'] = 'Horario desde +Y mundial; no norte geográfico confirmado'
+    sun['direccion_hacia_fuente'] = tuple(direction)
     # V1's orange glazing mostly came from amber interior area lamps, rather
     # than the almost neutral glass itself. In daytime daylight dominates;
     # decorative lighting is enabled for the evening photograph only.
@@ -480,8 +684,9 @@ def setup_lighting(scene, mode='day'):
     scene.render.image_settings.file_format = 'PNG'
     scene.render.image_settings.color_mode = 'RGB'
     scene.render.image_settings.color_depth = '16'
-    world['nota'] = ('HDRI CC0 fotográfico para relleno/reflexión + sol físico; cielo Nishita a cámara. '
+    world['nota'] = ('HDRI CC0 fotográfico para relleno difuso + sol físico; cielo Nishita a cámara y reflexión. '
                      'Orientación artística de luz, sin estudio solar fechado ni norte confirmado.')
+    world['revision_visual'] = 'V3 · mañana mediterránea; materiales fotográficos CC0'
     return sun
 
 

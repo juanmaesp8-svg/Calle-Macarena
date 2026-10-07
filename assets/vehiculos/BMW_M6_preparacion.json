@@ -1,0 +1,149 @@
+{
+  "asset": "BMW_M6_vehiculo_CC0.blend",
+  "asset_sha256": "acebed9751b72962649767501cf27fcecb615a784ffa4fa7f02df77650a88003",
+  "componentes": 113,
+  "vertices": 236196,
+  "triangulos": 256090,
+  "triangulos_fuente": 792726,
+  "optimizacion_decorativa": [
+    {
+      "componente": "geometry/mesh_00004.ply",
+      "material": "CarPaint",
+      "triangulos_originales": 23728,
+      "triangulos_finales": 5932,
+      "ratio": 0.25
+    },
+    {
+      "componente": "geometry/mesh_00011.ply",
+      "material": "shinychrome",
+      "triangulos_originales": 8192,
+      "triangulos_finales": 5324,
+      "ratio": 0.65
+    },
+    {
+      "componente": "geometry/mesh_00015.ply",
+      "material": "brakeDisc",
+      "triangulos_originales": 16064,
+      "triangulos_finales": 2409,
+      "ratio": 0.15
+    },
+    {
+      "componente": "geometry/mesh_00017.ply",
+      "material": "Seal",
+      "triangulos_originales": 31648,
+      "triangulos_finales": 4747,
+      "ratio": 0.15
+    },
+    {
+      "componente": "geometry/mesh_00020.ply",
+      "material": "shinychrome",
+      "triangulos_originales": 2624,
+      "triangulos_finales": 1705,
+      "ratio": 0.65
+    },
+    {
+      "componente": "geometry/mesh_00034.ply",
+      "material": "tiresidewall",
+      "triangulos_originales": 110592,
+      "triangulos_finales": 11059,
+      "ratio": 0.1
+    },
+    {
+      "componente": "geometry/mesh_00037.ply",
+      "material": "tiresidewall",
+      "triangulos_originales": 110592,
+      "triangulos_finales": 11058,
+      "ratio": 0.1
+    },
+    {
+      "componente": "geometry/mesh_00038.ply",
+      "material": "tiresidewall",
+      "triangulos_originales": 110592,
+      "triangulos_finales": 11058,
+      "ratio": 0.1
+    },
+    {
+      "componente": "geometry/mesh_00040.ply",
+      "material": "WheelRim",
+      "triangulos_originales": 18520,
+      "triangulos_finales": 6481,
+      "ratio": 0.35
+    },
+    {
+      "componente": "geometry/mesh_00041.ply",
+      "material": "WheelRim",
+      "triangulos_originales": 18520,
+      "triangulos_finales": 6481,
+      "ratio": 0.35
+    },
+    {
+      "componente": "geometry/mesh_00043.ply",
+      "material": "tiresidewall",
+      "triangulos_originales": 110592,
+      "triangulos_finales": 11059,
+      "ratio": 0.1
+    },
+    {
+      "componente": "geometry/mesh_00073.ply",
+      "material": "shinychrome",
+      "triangulos_originales": 6144,
+      "triangulos_finales": 3992,
+      "ratio": 0.65
+    },
+    {
+      "componente": "geometry/mesh_00090.ply",
+      "material": "WheelRim",
+      "triangulos_originales": 18520,
+      "triangulos_finales": 6481,
+      "ratio": 0.35
+    },
+    {
+      "componente": "geometry/mesh_00091.ply",
+      "material": "WheelRim",
+      "triangulos_originales": 18520,
+      "triangulos_finales": 6482,
+      "ratio": 0.35
+    },
+    {
+      "componente": "geometry/mesh_00108.ply",
+      "material": "LEATHER",
+      "triangulos_originales": 19200,
+      "triangulos_finales": 9599,
+      "ratio": 0.5
+    },
+    {
+      "componente": "geometry/mesh_00109.ply",
+      "material": "brakeDisc",
+      "triangulos_originales": 16064,
+      "triangulos_finales": 2409,
+      "ratio": 0.15
+    },
+    {
+      "componente": "geometry/mesh_00113.ply",
+      "material": "shinychrome",
+      "triangulos_originales": 8000,
+      "triangulos_finales": 5200,
+      "ratio": 0.65
+    }
+  ],
+  "dimensiones_originales_m": [
+    4.2962141036987305,
+    10.002357482910156,
+    2.8301491737365723
+  ],
+  "bb_original_rotado_m": [
+    -2.1481070518493652,
+    -5.02512788772583,
+    -1.4329750537872314,
+    2.1481070518493652,
+    4.977230072021484,
+    1.3971740007400513
+  ],
+  "excluidos": [
+    "geometry/mesh_00106.ply: floor (suelo del estudio)"
+  ],
+  "fuente_commit": "30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572",
+  "autor": "tyrant monkey",
+  "licencia": "Creative Commons Zero (Public Domain)",
+  "transformacion": "X=-Zpbrt,Y=-Xpbrt,Z=Ypbrt; centradoXY y baseZ0; normales originales conservadas"
+}

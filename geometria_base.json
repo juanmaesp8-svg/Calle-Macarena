@@ -1,11 +1,13 @@
 {
-  "revision": "V2",
+  "revision_geometrica": "V2_planta_final_trastero",
+  "revision_visual": "V3_interiores_exteriores",
   "unidades": "m",
+  "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
   "planta_final_sha256": "556b057350ec6b0a4050dfbf0cf104c35ca5ed48d0e8bf22b2b19c107f403995",
   "datos_xy": "modelo/datos_planta.json",
   "datos_z": "modelo/datos_alturas.json",
   "confirmaciones_usuario": "modelo/confirmaciones_usuario_v2.json",
   "mediciones_reales": "control/mediciones_mesh_real.json",
-  "control": "control/control_resultado.json",
-  "estado": "Verificado dentro de precisión y discrepancias documentadas"
+  "control_geometrico": "control/control_resultado.json",
+  "control_identidad_visual": "control/control_revision_visual_v3.json"
 }

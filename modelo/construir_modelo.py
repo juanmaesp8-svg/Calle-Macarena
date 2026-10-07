@@ -359,6 +359,29 @@ scene['denoise']='OpenImageDenoise oficial independiente; beauty/albedo/normal l
 # Exportar mediciones desde los meshes reales, no desde las dimensiones esperadas.
 from anadir_puertas_interiores import anadir_puertas_interiores
 anadir_puertas_interiores()
+# Revisión visual V3: mismos sólidos arquitectónicos y distribución documental.
+# Los tres módulos actúan sobre acabados, assets decorativos y cámaras.
+from interiores_v3 import aplicar_interiores
+from exteriores_v3 import aplicar_exteriores
+from camaras_v3 import aplicar_camaras
+from vehiculos_reales_v3 import aplicar_vehiculos
+aplicar_interiores(scene)
+aplicar_exteriores(scene)
+aplicar_vehiculos(scene)
+aplicar_camaras(scene)
+# glTF conserva también grifos, costuras y luminarias al convertir sus curvas.
+# Los sólidos arquitectónicos ya son mallas y no entran en esta operación.
+curves=[ob for ob in scene.objects if ob.type=='CURVE']
+if curves:
+    bpy.ops.object.select_all(action='DESELECT')
+    for ob in curves:ob.select_set(True)
+    bpy.context.view_layer.objects.active=curves[0]
+    bpy.ops.object.convert(target='MESH')
+scene['curvas_decorativas_convertidas_para_glb']=len(curves)
+scene['revision_visual']='V3_interiores_exteriores'
+scene.camera=bpy.data.objects.get('I01_Salon')
+scene.view_settings.exposure=scene.camera['exposicion_ev']
+scene['alcance_v3']='Salón, cocina, comedor; terraza, piscina y aparcamiento descubierto.'
 actual=[]
 architectural={'parcela','muro_vivienda','tendedero','pilar_pergola','forjado','peto','marquesina','viga_pergola','pavimento','jardin','piscina','suelo_vivienda','cielorraso','carpinteria','vidrio','cerramiento','puerta_peatonal','porton_vehiculos','rejilla'}
 for ob in scene.objects:

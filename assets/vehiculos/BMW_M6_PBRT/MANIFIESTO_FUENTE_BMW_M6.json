@@ -1,0 +1,690 @@
+{
+  "repo": "mmp/pbrt-v4-scenes",
+  "commit": "30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572",
+  "archivos": [
+    {
+      "archivo": "geometry/mesh_00001.ply",
+      "bytes": 18643,
+      "sha256": "bff8f2993dd87814feabb64e46459a62433fcbe89d16c262fe65fdcc87eef666",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00001.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00002.ply",
+      "bytes": 105671,
+      "sha256": "f78505ca1c6650ae66a5cfda4446523c546333289e57875f7f80d1b733b25e21",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00002.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00003.ply",
+      "bytes": 70599,
+      "sha256": "5b2dd6f857f11f4a6bce2bafc199b64ae25185c4dddd348de9dd4dcf19f444db",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00003.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00004.ply",
+      "bytes": 826937,
+      "sha256": "1fdee28cbdaeb56a43468ab28f6dace080c8546f9c8dbbc67fd4aa6e4418691d",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00004.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00005.ply",
+      "bytes": 104199,
+      "sha256": "c49a6d9c8b12a63b391a887734b2d6943e9154e04c0dbcaf38a487b11abea853",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00005.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00006.ply",
+      "bytes": 45206,
+      "sha256": "60128dc4329f9a7288f544b4549808d06caf193c8d6e5ef5215bb26bffc88bc0",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00006.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00007.ply",
+      "bytes": 19141,
+      "sha256": "ccb545471dc527bddc5a280219c6e46048581f47e0186763179294efd2055f0d",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00007.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00008.ply",
+      "bytes": 8037,
+      "sha256": "b3a6f8e4d43898c8d3ef198a7a42ea3e2953539e1fcf0508649d43cc0e3746ad",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00008.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00009.ply",
+      "bytes": 8597,
+      "sha256": "eb4a0448a257eafe7c7f1db51ff7d5fbc202a7195bd0bcd5ee16a851c3d540b9",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00009.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00010.ply",
+      "bytes": 18643,
+      "sha256": "ce6d6955e88d657979202ecccd818c9738f7511f3ddee4eebc4c3989bfba7b73",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00010.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00011.ply",
+      "bytes": 211173,
+      "sha256": "f8b3eb32e5b1e09d50d824a31ecb5a7204a57eb0f3e2c7bc484c9ed16f7111dd",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00011.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00012.ply",
+      "bytes": 28900,
+      "sha256": "a04dda9bd04850d50cbfe6188021cd4090f224e79525ddb2ec14fe64fdcec7c6",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00012.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00013.ply",
+      "bytes": 17763,
+      "sha256": "6667aa21ccb86be7cb04914539ddf1820fa292af7cf47a604ba64d170d5fb8b8",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00013.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00014.ply",
+      "bytes": 7875,
+      "sha256": "99f6615acb67cdc8f8bd934bc1d4cc4de1ffa6a15011f39f597134e9d798db77",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00014.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00015.ply",
+      "bytes": 623015,
+      "sha256": "9ea01f0a327d141db90e0aa070b6f28d7b94dd14e6f2a0c2a3d89e09919c6065",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00015.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00016.ply",
+      "bytes": 34567,
+      "sha256": "493d8a89e6646e6c5eb1c317da7fed0f3f0ec6ec182e3b78e9da90f277573c9e",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00016.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00017.ply",
+      "bytes": 1069289,
+      "sha256": "8d631b8c6be33dd4328285e4523d298f14c05dd7653e94126f9c9794a736138d",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00017.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00018.ply",
+      "bytes": 4387,
+      "sha256": "0cb09a077c444242f7f77b9c9e711b744f846ee88b030fc573e5bba09c889aa2",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00018.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00019.ply",
+      "bytes": 13653,
+      "sha256": "32da9d3791fc0db92eb1b8f8c88f0e2d0cbcbd6013ca5370e38635cc73d47fc6",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00019.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00020.ply",
+      "bytes": 98567,
+      "sha256": "89e233f22dda2a115b19e224b73228bbb689af2735ec73cb44bc5f1d33530859",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00020.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00021.ply",
+      "bytes": 28900,
+      "sha256": "691a5b5fcefef1fe0a616a880c0536d8dcccf535236b45a53fc1472c6c335a07",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00021.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00022.ply",
+      "bytes": 1631,
+      "sha256": "28065bb5c406930be38d8530a9b4353a796674d1f1002b0913c8868c55ef07ec",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00022.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00023.ply",
+      "bytes": 1521,
+      "sha256": "87773539fffae09d5c3e698e4bb690ba6e6c3da64847808a3cba5f91fd1a5c5a",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00023.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00024.ply",
+      "bytes": 12808,
+      "sha256": "946815406914de0f42ab282111f7724fa021ede9448a5ec0b5c1cf8750fc9f1a",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00024.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00025.ply",
+      "bytes": 1521,
+      "sha256": "8fc7650294ca0201ec33466b4f90c1e866231b64ac5b7562bff35f3d729bda86",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00025.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00026.ply",
+      "bytes": 1631,
+      "sha256": "afd8a78536fb88f6d608b608645aaf5fba01010667c7cf87254dae934815b1e5",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00026.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00027.ply",
+      "bytes": 1521,
+      "sha256": "3a6aff2d8cdc6885e1511fefa9cf0411167a9a60877970a81c4785fcd73b4495",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00027.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00028.ply",
+      "bytes": 5210,
+      "sha256": "dd24c436df26ce142367552bcac60292808e15ace8fed1cfe76f321d2c571aab",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00028.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00029.ply",
+      "bytes": 11233,
+      "sha256": "2502a5ef26f986d131ecff953496557ddfbfb6bc40dd39a21116bac316f4f5fa",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00029.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00030.ply",
+      "bytes": 9317,
+      "sha256": "9e1a5432744101825c6d73a3155932dc75458a6180d3ec2f60ae21d86e05c564",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00030.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00031.ply",
+      "bytes": 9317,
+      "sha256": "dba7b9bd86d856b6c5639509bb60800eb10d564c2d6683eadf4d8062c7c60d57",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00031.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00032.ply",
+      "bytes": 431703,
+      "sha256": "b1dee54e0fa3de97769f553b265e3ddc2a13208e78e52899f2e81ccef0902e17",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00032.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00033.ply",
+      "bytes": 47479,
+      "sha256": "02c9a573d04cff772d1456721987cd7b7bfdcdfa7d4f5ddd77c5f249eda3c4c0",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00033.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00034.ply",
+      "bytes": 3225866,
+      "sha256": "0654bf3b2e8c9c1cb456b6dd6b5260a5e337a53057e9b053ef4be075bcbb716a",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00034.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00035.ply",
+      "bytes": 490671,
+      "sha256": "0b224839fb245d5212459cc4442fb1a7f2b8b71982739d778234b80e99195f06",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00035.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00036.ply",
+      "bytes": 490671,
+      "sha256": "c6385f8b1215ffd944ceace186ce198fbe33a1127aaf42202b18c76f5f1263df",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00036.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00037.ply",
+      "bytes": 2778856,
+      "sha256": "4e5cac64d79e6cd68e0e0620bf6b039d88632be1de785a3c878d7998a0b91e64",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00037.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00038.ply",
+      "bytes": 2778856,
+      "sha256": "e29e8494b828c68df3cfe1bd5f41a282d59cc695f7916714250aae6f465725af",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00038.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00039.ply",
+      "bytes": 490671,
+      "sha256": "a5dda94a0ae7b3bad1798175756c8fcf13dcd7e6bb9ff1d75935e0c8ad8259ba",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00039.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00040.ply",
+      "bytes": 509575,
+      "sha256": "54a66b32143cfc25db95c46de8db275f5cd959119661fff060dd6225a7ac17a0",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00040.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00041.ply",
+      "bytes": 509575,
+      "sha256": "91f307bad4bc2af44159d6cfff311005caa58a321f9d889af310b6460c56b354",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00041.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00042.ply",
+      "bytes": 490671,
+      "sha256": "84e1f3895f6369078be127881be9de97e864c8d9ffd1142f3e9fa3c6d8b5ffa0",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00042.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00043.ply",
+      "bytes": 2778856,
+      "sha256": "1b9b76d1eb1b5c4afbd47aa31f21647fd4af61d00f052fe2e5096f1c39d303de",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00043.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00044.ply",
+      "bytes": 138701,
+      "sha256": "e879593d5b5048b3fef2aa6cf4803df66664dd21dc96a2dd6ca3e4d85b19bb91",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00044.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00045.ply",
+      "bytes": 10843,
+      "sha256": "f6d10f63411124ef2596d03bad991f826c93e0b40fd9950bad1d12b260b38cb1",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00045.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00046.ply",
+      "bytes": 565,
+      "sha256": "6fbf0c8583176b1cad158ef1421b344e1d3e06256014dd99e29f377c2320e1d0",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00046.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00047.ply",
+      "bytes": 565,
+      "sha256": "dfd31eb200b7216a00f7ffb6c243703a05ae92fdea917415d093a59e77f9b661",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00047.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00048.ply",
+      "bytes": 565,
+      "sha256": "8ff3658b91d55e252ea4956d8b702c80a35774ffd98c1d4cd1a1da185bb61296",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00048.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00049.ply",
+      "bytes": 565,
+      "sha256": "92a4bd153788ebf9038c57e1b52541516341c6d69dd9c9619b52528a1d775737",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00049.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00050.ply",
+      "bytes": 14117,
+      "sha256": "2883c313aba1f1b58446c915f7e1cf4e8699863959069b21559bbaf1fa91fd45",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00050.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00051.ply",
+      "bytes": 222101,
+      "sha256": "2d4e5e35823504f45aeb2868aa012ac00ae28bf979879cb7ebb66652c0e553cb",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00051.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00052.ply",
+      "bytes": 1631,
+      "sha256": "c57d160dfe905e056b74db746d0ce64f7168cf57ca8f6195af469e4fc776ed56",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00052.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00053.ply",
+      "bytes": 1521,
+      "sha256": "6dd063292c8f105e100ab05941c2cad63de6a264fd296744f1a3ffa915c67d83",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00053.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00054.ply",
+      "bytes": 14008,
+      "sha256": "1576320acee5cd6cf5e7085d5e80f8e20b69f00e635ee319830c60fb08621310",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00054.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00055.ply",
+      "bytes": 1521,
+      "sha256": "c851e05c3df550208b245e446b9aa830d8c822b6d4ec359a1a43eca9ba2f1380",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00055.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00056.ply",
+      "bytes": 1631,
+      "sha256": "13d00a08525927e90a03bf9713dbf2118ca79bf61e78b1156cfc289aff7d9158",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00056.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00057.ply",
+      "bytes": 1521,
+      "sha256": "fef73bea6c8ccd5ffac11033d2a280e1fa3118073c99747d63e7489e8358d7a6",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00057.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00058.ply",
+      "bytes": 14008,
+      "sha256": "8692d4534418f4851d4ed18ff064bc5cbdcec110b8b052f78923f7aa3126cd9c",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00058.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00059.ply",
+      "bytes": 1521,
+      "sha256": "bd6ee56d831f581041b5a9ec1ac3c5b4174d3be1828955f492194c79f2cfb3aa",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00059.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00060.ply",
+      "bytes": 1631,
+      "sha256": "a23806adc8d39fb88a6956e5b19b8947f69ff88aff50936d03d233693162786d",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00060.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00061.ply",
+      "bytes": 1521,
+      "sha256": "cde8dcb088529b74831357c1912fa34420011359020f2093f99c39ca3f9bdae4",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00061.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00062.ply",
+      "bytes": 13458,
+      "sha256": "2e2e1b7187ee7fae7d9cf5979bfc6f091e815abd2cc1f5dcdaa175d9bf83515b",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00062.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00063.ply",
+      "bytes": 1521,
+      "sha256": "0949dbc4d837593dc3e9b5e1553ddd0a41ac38cbc111e5cd8b82c3a5b434585d",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00063.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00064.ply",
+      "bytes": 2543,
+      "sha256": "f0742ccce9d70dd23c74b1b6ce787f007037c86ba059eaf378484599de57cc29",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00064.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00065.ply",
+      "bytes": 3129,
+      "sha256": "9056abfdd0b60b25157fd5d55e12d4b217f0bac4df40f76b7e99572034eec078",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00065.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00066.ply",
+      "bytes": 48387,
+      "sha256": "53dd9fd2ccf851c0c4f331aa422463518c8e4934c3a9c8546e10d855648b952f",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00066.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00067.ply",
+      "bytes": 3033,
+      "sha256": "6a143028f45354260fea59ba6ddab908d5a5fd14857bd178545e7cf775055fa7",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00067.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00068.ply",
+      "bytes": 1013,
+      "sha256": "112548007f91ded07a1cb3b17110c304ed4c88ad316841ec63ae04c127591fa7",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00068.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00069.ply",
+      "bytes": 45356,
+      "sha256": "51b3f438224dbad164839aaf33f7b34b97f909bbcc2e52363ae41e08ed671bd4",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00069.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00070.ply",
+      "bytes": 38588,
+      "sha256": "f20feaa72ad3773426263a9ffeb37a1c0377319fefb1c4d9375721d09f1e3bb8",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00070.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00071.ply",
+      "bytes": 32933,
+      "sha256": "6d3d334f167df877962ce4088c9d02b323b4ae13fb2996feadbc4bf5fced5573",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00071.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00072.ply",
+      "bytes": 25817,
+      "sha256": "ac4cb22a62df156419234bb7e79ea04612c0d47ae5378fcdb2736e6609dfc4a2",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00072.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00073.ply",
+      "bytes": 159973,
+      "sha256": "dc0d93fc3d66986cd4336524d7226ace86ff84eddabb1a6b256d752b88507f19",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00073.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00074.ply",
+      "bytes": 17013,
+      "sha256": "2c106388ee040efa7f597bd966297a50f9bccdac300885228ef4ead019854363",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00074.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00075.ply",
+      "bytes": 814157,
+      "sha256": "f0c0697f31a5f3ccfe5695a4794ba79eb66696b79fe7ce802fe70dac96737f27",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00075.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00076.ply",
+      "bytes": 13249,
+      "sha256": "0560c7069ad7e77314c88a6d60d8be63248e30c444f4b2420fc651b9bc5bf37f",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00076.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00077.ply",
+      "bytes": 17653,
+      "sha256": "609f27f47001a5d4d318ddda88d764160162ab212f90eb60eabaa131063330b5",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00077.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00078.ply",
+      "bytes": 130163,
+      "sha256": "de42ffd63f25f34594d04f61aa0eefe1e502cff2c7d01d8dd6dc088e475f42d7",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00078.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00079.ply",
+      "bytes": 5523,
+      "sha256": "227930e00468063e9ad19b3f796b44c6cd9c271525b6ec248f8db6124752ea52",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00079.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00080.ply",
+      "bytes": 42133,
+      "sha256": "db544bf14689b944857107c94291f06bc6d78b9fc96be19bd7b4c124cda2c4fe",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00080.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00081.ply",
+      "bytes": 68247,
+      "sha256": "cb307fcbb4ca1b4c33871d04fa741e44a2fde4719e23b2443b06632edefe91bd",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00081.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00082.ply",
+      "bytes": 10869,
+      "sha256": "ec28c48c45180fb29f4e17d51e5de04d488684ea5795bc1a14e235df4745a8a0",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00082.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00083.ply",
+      "bytes": 108487,
+      "sha256": "5078c78dfacf0dab2a23dfc1d6b80d5eb1c4a4b6ed0440a13b707a58346f2a75",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00083.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00084.ply",
+      "bytes": 1183,
+      "sha256": "38e67e29f9e03395240c4f932f2a6276814adf2cb2bc1ca5095161a5e0ecf2aa",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00084.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00085.ply",
+      "bytes": 67559,
+      "sha256": "863152e9482d931a232b6247a7d275f5522b8a53d0c9f724dfa6dd488c43d5c1",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00085.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00086.ply",
+      "bytes": 13521,
+      "sha256": "9d0ca9bc824d9191718e5d206f8b82d6571683f97a3aef0403696d94363bd504",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00086.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00087.ply",
+      "bytes": 7969,
+      "sha256": "b65d23b083894b2d941da28429b010938c65755589846c8984c6fcc78d03af50",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00087.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00088.ply",
+      "bytes": 5088,
+      "sha256": "21803a8d1d9cf08f51943744661661ffcfc8b482592c7ac08e0889dcb90f1ca8",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00088.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00089.ply",
+      "bytes": 11731,
+      "sha256": "7893dc90478651971c305f0fbaa1f36829de2891efb56e3f66d677078e8d63e8",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00089.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00090.ply",
+      "bytes": 509575,
+      "sha256": "94d6856045fdae4e86455bec1e5bdacfee5e6a4375d440e4a9c0b3826688ce7e",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00090.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00091.ply",
+      "bytes": 509215,
+      "sha256": "f53a4f5dab233a18bee4f124bc49e2dddaafae4a033a9a5ca5b3d81d729409e8",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00091.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00092.ply",
+      "bytes": 184007,
+      "sha256": "d9a31d4cc1243e43541b58fdffb524a88e10067ccf8d71f3cf8a5a113443ca20",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00092.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00093.ply",
+      "bytes": 19685,
+      "sha256": "887032598d44d0f64a42257e130dd96529c17d5daaabeef5128dbdb83a6433d8",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00093.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00094.ply",
+      "bytes": 97867,
+      "sha256": "55d6f7c0332fbac61c1791e0fc700ccfb4da4f166f714765ac83b6df88ef865c",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00094.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00095.ply",
+      "bytes": 178725,
+      "sha256": "ee918ae78437be97092f252914d6db4eab341b7895f6804a18f92641141e9efb",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00095.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00096.ply",
+      "bytes": 98215,
+      "sha256": "02162a28611a50d15d6e882081ec13fa09501fa64fc5b72b317badf8ee0fa83c",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00096.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00097.ply",
+      "bytes": 53374,
+      "sha256": "22fc71e139a0045c570b5141ff6939086b909af20634177783c6eb10449fc6ee",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00097.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00098.ply",
+      "bytes": 3023,
+      "sha256": "1ce2421ba8c1c04930cfe542281281b8d9684253ff4d7f1a80875896bf1a9b78",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00098.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00099.ply",
+      "bytes": 56775,
+      "sha256": "cc2ce60baa7b8e74a314f021498e84844d8ea6807cb710ebabb285ea43ba057e",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00099.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00100.ply",
+      "bytes": 30145,
+      "sha256": "6e1485edf25e3332267f7bd3beb1670900cfe9894bfbaa47c29d3bb83d2f3b2e",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00100.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00101.ply",
+      "bytes": 2019,
+      "sha256": "88aa0efe6bdb83e2dc176adfeee57907419a6e86e30f047491475c0ce265f866",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00101.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00102.ply",
+      "bytes": 26405,
+      "sha256": "91d82dd76910dd97df705c68cb44fc8cda4d3943ca9d274a8b6ebadf754f4bf9",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00102.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00103.ply",
+      "bytes": 65095,
+      "sha256": "5b80088e8fd4e1782874b5ad2a4d4301e03f41769f6813aac385ce905d67940e",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00103.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00104.ply",
+      "bytes": 10569,
+      "sha256": "b3698c62ff376e4f307405ea1d1066c58cd4a9fd3e0dd10c02215f6df43a6b75",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00104.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00105.ply",
+      "bytes": 26577,
+      "sha256": "df4a044ad14022d663614d7a8cd15234f7072830e83108175720275e2563c893",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00105.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00106.ply",
+      "bytes": 1013,
+      "sha256": "fde1a3e4480b4771d2a329d370e6e860c98b84543372f1565d87f5f18e6f511e",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00106.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00107.ply",
+      "bytes": 10627,
+      "sha256": "810c93986155cf54d5e24e52799308ee668397adaa9fe39e33db7a4193ce45fa",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00107.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00108.ply",
+      "bytes": 486542,
+      "sha256": "7cc6d39d8955e5476ca03d90dd9a535f4139aecdefe5c3b6fc8ec44ca2a8469d",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00108.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00109.ply",
+      "bytes": 624551,
+      "sha256": "021580f1a97fbb013d36765f8420806b2bd8ee46934b042685a517506111e59a",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00109.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00110.ply",
+      "bytes": 82215,
+      "sha256": "7e00ed8727d9e66dd5bd8b09fd6cbd064f05c8acbb264397427a233bdd6d1475",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00110.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00111.ply",
+      "bytes": 52935,
+      "sha256": "797e14b8463556e4f2aa5cd6028c49f0775fd039c971dfb62a992d3d4cf8b942",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00111.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00112.ply",
+      "bytes": 216423,
+      "sha256": "5e98fbcef63b9ee87c80eee47803cc0515819d259604520c8377a25cb8a90142",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00112.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00113.ply",
+      "bytes": 302919,
+      "sha256": "298d3ef1669ba483753da9fe2d566353264c67a93d3bed3b5737eb6aaf693d94",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00113.ply"
+    },
+    {
+      "archivo": "geometry/mesh_00114.ply",
+      "bytes": 2281,
+      "sha256": "9056444a86530fc51d29c7c1dbec3cb86a85b55223b2140e25d8d27186b670ff",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/geometry/mesh_00114.ply"
+    }
+  ]
+}

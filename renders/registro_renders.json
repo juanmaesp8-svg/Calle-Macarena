@@ -1,32 +1,219 @@
 [
   {
-    "id": "05",
-    "nombre": "05_Piscina_hacia_vivienda",
+    "id": "I01",
+    "nombre": "I01_Salon",
     "motor": "Cycles CPU",
-    "modelo_sha256": "3abdabddb1774219b7e444e629cec6b322f12fdb0ef49fe31b96fbffa631d44c",
+    "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
     "resolucion": [
       2500,
       1667
     ],
-    "samples_max": 256,
-    "muestreo_adaptativo": 0.00800000037997961,
+    "samples_max": 64,
+    "muestreo_adaptativo": 0.019999999552965164,
     "camara_posicion_m": [
-      16.100000381469727,
-      4.099999904632568,
-      1.7000000476837158
+      8.100000381469727,
+      12.720000267028809,
+      1.5
     ],
     "camara_rotacion_radianes": [
       1.5707963705062866,
       -0.0,
-      0.3792094588279724
+      0.9360799789428711
+    ],
+    "focal_mm": 24.0,
+    "tipo": "PERSP",
+    "shift_y": -0.12999999523162842,
+    "iluminacion": "day",
+    "exposicion_ev": 2.4000000953674316,
+    "segundos_cycles": 935.87,
+    "png": "/workspace/arquitectura-macarena-v3/renders/I01_Salon.png",
+    "exr": "/workspace/arquitectura-macarena-v3/renders/I01_Salon.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "I02",
+    "nombre": "I02_Cocina",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 64,
+    "muestreo_adaptativo": 0.019999999552965164,
+    "camara_posicion_m": [
+      7.349999904632568,
+      22.549999237060547,
+      1.5
+    ],
+    "camara_rotacion_radianes": [
+      1.5707963705062866,
+      8.360849079735999e-08,
+      -2.8864102363586426
+    ],
+    "focal_mm": 24.0,
+    "tipo": "PERSP",
+    "shift_y": -0.014999999664723873,
+    "iluminacion": "day",
+    "exposicion_ev": 1.2000000476837158,
+    "segundos_cycles": 887.94,
+    "png": "/workspace/arquitectura-macarena-v3/renders/I02_Cocina.png",
+    "exr": "/workspace/arquitectura-macarena-v3/renders/I02_Cocina.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "I03",
+    "nombre": "I03_Comedor",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 64,
+    "muestreo_adaptativo": 0.019999999552965164,
+    "camara_posicion_m": [
+      7.050000190734863,
+      16.93000030517578,
+      1.5
+    ],
+    "camara_rotacion_radianes": [
+      1.5707964897155762,
+      -6.755945491931925e-08,
+      -2.4703032970428467
     ],
     "focal_mm": 28.0,
     "tipo": "PERSP",
-    "shift_y": 0.09000000357627869,
+    "shift_y": -0.03999999910593033,
     "iluminacion": "day",
-    "segundos_cycles": 1523.94,
-    "png": "/workspace/arquitectura-macarena-v2/renders/05_Piscina_hacia_vivienda.png",
-    "exr": "/workspace/arquitectura-macarena-v2/renders/05_Piscina_hacia_vivienda.exr",
+    "exposicion_ev": 1.2000000476837158,
+    "segundos_cycles": 846.13,
+    "png": "/workspace/arquitectura-macarena-v3/renders/I03_Comedor.png",
+    "exr": "/workspace/arquitectura-macarena-v3/renders/I03_Comedor.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "E01",
+    "nombre": "E01_Terraza",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 64,
+    "muestreo_adaptativo": 0.019999999552965164,
+    "camara_posicion_m": [
+      15.600000381469727,
+      12.300000190734863,
+      1.600000023841858
+    ],
+    "camara_rotacion_radianes": [
+      1.5707963705062866,
+      -6.623191239896187e-08,
+      0.6312901377677917
+    ],
+    "focal_mm": 28.0,
+    "tipo": "PERSP",
+    "shift_y": 0.06499999761581421,
+    "iluminacion": "day",
+    "exposicion_ev": 0.20000000298023224,
+    "segundos_cycles": 684.17,
+    "png": "/workspace/arquitectura-macarena-v3/renders/E01_Terraza.png",
+    "exr": "/workspace/arquitectura-macarena-v3/renders/E01_Terraza.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "E02",
+    "nombre": "E02_Piscina",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 64,
+    "muestreo_adaptativo": 0.019999999552965164,
+    "camara_posicion_m": [
+      16.100000381469727,
+      1.7999999523162842,
+      1.600000023841858
+    ],
+    "camara_rotacion_radianes": [
+      1.5707964897155762,
+      -4.2690246004895016e-08,
+      0.27057039737701416
+    ],
+    "focal_mm": 28.0,
+    "tipo": "PERSP",
+    "shift_y": 0.02500000037252903,
+    "iluminacion": "day",
+    "exposicion_ev": 0.20000000298023224,
+    "segundos_cycles": 427.9,
+    "png": "/workspace/arquitectura-macarena-v3/renders/E02_Piscina.png",
+    "exr": "/workspace/arquitectura-macarena-v3/renders/E02_Piscina.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "E03",
+    "nombre": "E03_Aparcamiento",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 64,
+    "muestreo_adaptativo": 0.019999999552965164,
+    "camara_posicion_m": [
+      0.699999988079071,
+      6.5,
+      1.649999976158142
+    ],
+    "camara_rotacion_radianes": [
+      1.5707964897155762,
+      -3.545625659739926e-08,
+      -1.9992021322250366
+    ],
+    "focal_mm": 28.0,
+    "tipo": "PERSP",
+    "shift_y": -0.03999999910593033,
+    "iluminacion": "day",
+    "exposicion_ev": 0.20000000298023224,
+    "segundos_cycles": 313.56,
+    "png": "/workspace/arquitectura-macarena-v3/renders/E03_Aparcamiento.png",
+    "exr": "/workspace/arquitectura-macarena-v3/renders/E03_Aparcamiento.exr",
+    "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
+  },
+  {
+    "id": "E04",
+    "nombre": "E04_Terraza_comedor",
+    "motor": "Cycles CPU",
+    "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
+    "resolucion": [
+      2500,
+      1667
+    ],
+    "samples_max": 64,
+    "muestreo_adaptativo": 0.019999999552965164,
+    "camara_posicion_m": [
+      15.75,
+      17.75,
+      1.600000023841858
+    ],
+    "camara_rotacion_radianes": [
+      1.5707963705062866,
+      7.358452336347909e-08,
+      1.019141435623169
+    ],
+    "focal_mm": 30.0,
+    "tipo": "PERSP",
+    "shift_y": -0.029999999329447746,
+    "iluminacion": "day",
+    "exposicion_ev": 0.20000000298023224,
+    "segundos_cycles": 807.62,
+    "png": "/workspace/arquitectura-macarena-v3/renders/E04_Terraza_comedor.png",
+    "exr": "/workspace/arquitectura-macarena-v3/renders/E04_Terraza_comedor.exr",
     "denoise": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high"
   }
 ]

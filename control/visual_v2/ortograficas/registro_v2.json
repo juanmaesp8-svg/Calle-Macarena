@@ -1,17 +1,17 @@
 {
   "revision": "V2",
-  "run_id": "20261006T175342Z_e474a528",
+  "run_id": "20261007T072714Z_93cb4750",
   "fuentes": {
     "revision": "V2_planta_final_trastero",
     "modelo": "Calle_Macarena_modelo_1a1.blend",
-    "modelo_sha256": "3abdabddb1774219b7e444e629cec6b322f12fdb0ef49fe31b96fbffa631d44c",
+    "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
     "planta_final": "fuentes/planta_final_proyecto_obra.pdf",
     "planta_final_sha256": "556b057350ec6b0a4050dfbf0cf104c35ca5ed48d0e8bf22b2b19c107f403995",
     "proyecto_basico": "fuentes/proyecto_basico.pdf",
     "proyecto_basico_sha256": "071b9f6ccf7feffd4075de69ec5728f899123266ea42b3091d868604916cbc82",
     "confirmaciones_sha256": "690ac6dc924f743b6e9fcc896c44e4ba46f1a5a00193a2d4fa82d3584ec026d3",
     "mediciones": "control/mediciones_mesh_real.json",
-    "mediciones_sha256": "7f324674840ce7feb793bc9778a462d188dc40fa059e9f1519f4974399887fcd",
+    "mediciones_sha256": "74d3a940858cd2aa7d0d634021ef5503791ddff195b1b27fcab3a9d63a3a17e2",
     "criterios_camaras_sha256": "997fc78cc26ec976fec91b82869e87564b47aff18897b3b92ac00c29c5d907d5",
     "script_sha256": "6a5c9767c4f3b855058620b82fb08a4f5bf22faeaa00cdd320252105263971f6",
     "objetos_registrados_comparados": 346,
@@ -24,11 +24,11 @@
       "id": "PLANTA_CORTE",
       "nombre": "V2_QA00_Planta_cortada_Z1_20",
       "png": "control/visual_v2/ortograficas/V2_QA00_Planta_cortada_Z1_20.png",
-      "png_sha256": "6cafcf6139c8c2e61a47f34fc3854f459104ddb83eacdfad475eb3dbe6e0b594",
-      "modelo_sha256": "3abdabddb1774219b7e444e629cec6b322f12fdb0ef49fe31b96fbffa631d44c",
+      "png_sha256": "f31c826c081577751ca4676f60169c59ec6d99f40a0df96652dbded3454f40be",
+      "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
       "planta_final_sha256": "556b057350ec6b0a4050dfbf0cf104c35ca5ed48d0e8bf22b2b19c107f403995",
       "motor": "CYCLES",
-      "samples": 8,
+      "samples": 24,
       "resolucion_px": [
         1600,
         2800
@@ -397,18 +397,18 @@
         "Jardin_cesped_02"
       ],
       "mallas_visibles_analiticas": 286,
-      "segundos": 37.278,
+      "segundos": 69.864,
       "proyeccion_pixel": "u=(dot(P-objetivo,derecha)/ancho+0.5)*resX; v=(0.5-dot(P-objetivo,arriba)/alto)*resY"
     },
     {
       "id": "PLANTA_CUBIERTA",
       "nombre": "V2_QA00_Cubierta",
       "png": "control/visual_v2/ortograficas/V2_QA00_Cubierta.png",
-      "png_sha256": "3325f0d6eacdcf0512b01fc57d0540fbaee2a185424c3905c1723a9cb1f5a790",
-      "modelo_sha256": "3abdabddb1774219b7e444e629cec6b322f12fdb0ef49fe31b96fbffa631d44c",
+      "png_sha256": "18d6244915eb4133ced38f350022a9f36318317d008545e0bffb99f7c959a6f8",
+      "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
       "planta_final_sha256": "556b057350ec6b0a4050dfbf0cf104c35ca5ed48d0e8bf22b2b19c107f403995",
       "motor": "CYCLES",
-      "samples": 8,
+      "samples": 24,
       "resolucion_px": [
         1600,
         2800
@@ -791,18 +791,18 @@
         "Jardin_cesped_02"
       ],
       "mallas_visibles_analiticas": 350,
-      "segundos": 41.744,
+      "segundos": 80.207,
       "proyeccion_pixel": "u=(dot(P-objetivo,derecha)/ancho+0.5)*resX; v=(0.5-dot(P-objetivo,arriba)/alto)*resY"
     },
     {
       "id": "QA01",
       "nombre": "V2_QA01_Alzado_puerta_principal",
       "png": "control/visual_v2/ortograficas/V2_QA01_Alzado_puerta_principal.png",
-      "png_sha256": "f2bcdefa054e0d227ce0b4405824b3227ff626e8185aa0d604884ffa10985835",
-      "modelo_sha256": "3abdabddb1774219b7e444e629cec6b322f12fdb0ef49fe31b96fbffa631d44c",
+      "png_sha256": "8aa8b8547095bcf4a0d46ddfbddfde49d29d624058a4cb8feb997e544e1dfe33",
+      "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
       "planta_final_sha256": "556b057350ec6b0a4050dfbf0cf104c35ca5ed48d0e8bf22b2b19c107f403995",
       "motor": "CYCLES",
-      "samples": 8,
+      "samples": 24,
       "resolucion_px": [
         2500,
         650
@@ -1062,18 +1062,18 @@
         "P_int_lavadero_corredera_hoja_posicion_planta"
       ],
       "mallas_visibles_analiticas": 227,
-      "segundos": 9.392,
+      "segundos": 9.556,
       "proyeccion_pixel": "u=(dot(P-objetivo,derecha)/ancho+0.5)*resX; v=(0.5-dot(P-objetivo,arriba)/alto)*resY"
     },
     {
       "id": "QA02",
       "nombre": "V2_QA02_Alzado_lateral_porche",
       "png": "control/visual_v2/ortograficas/V2_QA02_Alzado_lateral_porche.png",
-      "png_sha256": "fd7bd30f7efa7f5f0d64514e4c28abb87580584b86ca8755c513669be489a299",
-      "modelo_sha256": "3abdabddb1774219b7e444e629cec6b322f12fdb0ef49fe31b96fbffa631d44c",
+      "png_sha256": "6664e3646a8db5d051ec170cce7ba3f3a2a53a555963fb92aa7efd4e0cedc67a",
+      "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
       "planta_final_sha256": "556b057350ec6b0a4050dfbf0cf104c35ca5ed48d0e8bf22b2b19c107f403995",
       "motor": "CYCLES",
-      "samples": 8,
+      "samples": 24,
       "resolucion_px": [
         2500,
         650
@@ -1333,18 +1333,18 @@
         "P_int_lavadero_corredera_hoja_posicion_planta"
       ],
       "mallas_visibles_analiticas": 227,
-      "segundos": 7.278,
+      "segundos": 7.313,
       "proyeccion_pixel": "u=(dot(P-objetivo,derecha)/ancho+0.5)*resX; v=(0.5-dot(P-objetivo,arriba)/alto)*resY"
     },
     {
       "id": "QA03",
       "nombre": "V2_QA03_Alzado_vial_publico",
       "png": "control/visual_v2/ortograficas/V2_QA03_Alzado_vial_publico.png",
-      "png_sha256": "306f7ecfd2475fd65d6e3da7af35d8fd8bd1a5c920ef6560ce0c841fb402b7cb",
-      "modelo_sha256": "3abdabddb1774219b7e444e629cec6b322f12fdb0ef49fe31b96fbffa631d44c",
+      "png_sha256": "7393778d6f957d4c9f1ab1b5048c92485764f7bcf1fccb499cd04bd3ef7f1e5d",
+      "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
       "planta_final_sha256": "556b057350ec6b0a4050dfbf0cf104c35ca5ed48d0e8bf22b2b19c107f403995",
       "motor": "CYCLES",
-      "samples": 8,
+      "samples": 24,
       "resolucion_px": [
         2500,
         1350
@@ -1604,18 +1604,18 @@
         "P_int_lavadero_corredera_hoja_posicion_planta"
       ],
       "mallas_visibles_analiticas": 227,
-      "segundos": 16.581,
+      "segundos": 18.143,
       "proyeccion_pixel": "u=(dot(P-objetivo,derecha)/ancho+0.5)*resX; v=(0.5-dot(P-objetivo,arriba)/alto)*resY"
     },
     {
       "id": "QA04",
       "nombre": "V2_QA04_Alzado_trasero",
       "png": "control/visual_v2/ortograficas/V2_QA04_Alzado_trasero.png",
-      "png_sha256": "2e9945ed4da459ff729f183d707b501b79106c7663c3216c68d2bbe06813d4f9",
-      "modelo_sha256": "3abdabddb1774219b7e444e629cec6b322f12fdb0ef49fe31b96fbffa631d44c",
+      "png_sha256": "6ead31038caf71351c14e2595a41396f17470e9dacb84ed986bd31e1913aef6c",
+      "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
       "planta_final_sha256": "556b057350ec6b0a4050dfbf0cf104c35ca5ed48d0e8bf22b2b19c107f403995",
       "motor": "CYCLES",
-      "samples": 8,
+      "samples": 24,
       "resolucion_px": [
         2500,
         1350
@@ -1875,10 +1875,10 @@
         "P_int_lavadero_corredera_hoja_posicion_planta"
       ],
       "mallas_visibles_analiticas": 227,
-      "segundos": 12.878,
+      "segundos": 11.524,
       "proyeccion_pixel": "u=(dot(P-objetivo,derecha)/ancho+0.5)*resX; v=(0.5-dot(P-objetivo,arriba)/alto)*resY"
     }
   ],
   "nota": "Materiales opacos neutros y mallas analíticas temporales; no certifica coincidencia con planos.",
-  "fecha_utc": "2026-10-06T17:53:42.095621+00:00"
+  "fecha_utc": "2026-10-07T07:27:14.819746+00:00"
 }

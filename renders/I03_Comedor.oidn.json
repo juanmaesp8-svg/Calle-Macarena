@@ -1,0 +1,88 @@
+{
+  "algorithm": "Intel Open Image Denoise 2.5.1 RT, CPU, quality high",
+  "official_archive": "https://github.com/RenderKit/oidn/releases/download/v2.5.1/oidn-2.5.1.x86_64.linux.tar.gz",
+  "verified_sha256": "743c3e2aff8c220d5d70fe6cb970fb3d36f2702d2693c61d1d148e404cf37cd6",
+  "working_space": "scene-linear HDR; unmodified exposure; no blur",
+  "source": {
+    "width": 2500,
+    "height": 1667,
+    "source_colorspace": "Linear Rec.709"
+  },
+  "beauty": "/workspace/arquitectura-macarena-v3/renders/lineales/I03/beauty_0001.exr",
+  "albedo": "/workspace/arquitectura-macarena-v3/renders/lineales/I03/albedo_0001.exr",
+  "normal": "/workspace/arquitectura-macarena-v3/renders/lineales/I03/normal_0001.exr",
+  "prefilter_aux": true,
+  "guide_preparation": {
+    "albedo": {
+      "input_min": 0.0035566401202231646,
+      "input_max": 4.900369644165039,
+      "fraction_clipped_to_reflectance_range": 0.11883903219356129
+    },
+    "normal": {
+      "input_min": -1.0,
+      "input_max": 1.0
+    }
+  },
+  "output_exr": "/workspace/arquitectura-macarena-v3/renders/I03_Comedor.exr",
+  "output_png": "/workspace/arquitectura-macarena-v3/renders/I03_Comedor.png",
+  "commands": [
+    [
+      "/workspace/arquitectura-macarena-v3/herramientas/oidn-2.5.1.x86_64.linux/bin/oidnDenoise",
+      "--device",
+      "cpu",
+      "--alb",
+      "/workspace/arquitectura-macarena-v3/renders/I03_Comedor_oidn_buffers/albedo.pfm",
+      "--quality",
+      "high",
+      "--threads",
+      "5",
+      "--affinity",
+      "0",
+      "-o",
+      "/workspace/arquitectura-macarena-v3/renders/I03_Comedor_oidn_buffers/albedo_clean.pfm"
+    ],
+    [
+      "/workspace/arquitectura-macarena-v3/herramientas/oidn-2.5.1.x86_64.linux/bin/oidnDenoise",
+      "--device",
+      "cpu",
+      "--nrm",
+      "/workspace/arquitectura-macarena-v3/renders/I03_Comedor_oidn_buffers/normal.pfm",
+      "--quality",
+      "high",
+      "--threads",
+      "5",
+      "--affinity",
+      "0",
+      "-o",
+      "/workspace/arquitectura-macarena-v3/renders/I03_Comedor_oidn_buffers/normal_clean.pfm"
+    ],
+    [
+      "/workspace/arquitectura-macarena-v3/herramientas/oidn-2.5.1.x86_64.linux/bin/oidnDenoise",
+      "--device",
+      "cpu",
+      "--hdr",
+      "/workspace/arquitectura-macarena-v3/renders/I03_Comedor_oidn_buffers/beauty.pfm",
+      "--alb",
+      "/workspace/arquitectura-macarena-v3/renders/I03_Comedor_oidn_buffers/albedo_clean.pfm",
+      "--nrm",
+      "/workspace/arquitectura-macarena-v3/renders/I03_Comedor_oidn_buffers/normal_clean.pfm",
+      "--quality",
+      "high",
+      "--threads",
+      "5",
+      "--affinity",
+      "0",
+      "-o",
+      "/workspace/arquitectura-macarena-v3/renders/I03_Comedor_oidn_buffers/clean.pfm",
+      "--clean_aux"
+    ]
+  ],
+  "seconds_main_filter": 11.215,
+  "minimum_linear_output": 8.46692819322925e-06,
+  "maximum_linear_output": 23.072986602783203,
+  "png_color_management": {
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 1.2000000476837158
+  }
+}

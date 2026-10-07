@@ -1,0 +1,25 @@
+{
+  "asset": "BMW M6 2006",
+  "autor": "tyrant monkey",
+  "licencia": "Creative Commons Zero (Public Domain)",
+  "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "fuente_original_en_licencia": "http://www.blendswap.com/blends/view/3557",
+  "fuente_actual_de_PBRT": "https://www.blendswap.com/blend/2164",
+  "repositorio_fuente": "https://github.com/mmp/pbrt-v4-scenes/tree/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6",
+  "commit_fuente": "30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572",
+  "evidencias_licencia": [
+    {
+      "archivo": "assets/licencias/BMW_M6_CC0_BLENDSWAP_LICENSE.txt",
+      "sha256": "de4ebc4bc9336251d898e7ceab5c238ec1f0c126fa138401f21cf44dcf661965",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/bmw-m6/BLENDSWAP_LICENSE.txt"
+    },
+    {
+      "archivo": "assets/licencias/PBRT_scenes_README_fuente_BMW_M6.md",
+      "sha256": "570b84a7b0e13b7d69aaf8417c63f6fa48ed15ca58ea585f4c38974a34f33b08",
+      "url": "https://raw.githubusercontent.com/mmp/pbrt-v4-scenes/30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572/README.md"
+    }
+  ],
+  "archivo_asset_local": "assets/vehiculos/BMW_M6_vehiculo_CC0.blend",
+  "sha256_asset": "acebed9751b72962649767501cf27fcecb615a784ffa4fa7f02df77650a88003",
+  "cambios": "Se conserva únicamente el coche; se excluye el suelo del estudio. Rotación propia de ejes, normalización, optimización de accesorio para render y escala a la envolvente XY del símbolo del plano; materiales PBR neutros. Geometría arquitectónica intacta."
+}

@@ -1,0 +1,90 @@
+{
+  "revision": "V3",
+  "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
+  "vistas": [
+    {
+      "id": "I01",
+      "titulo": "Salón",
+      "png": "renders/I01_Salon.png",
+      "jpg": "renders/I01_Salon.jpg",
+      "sha256_png": "2657aa5e7054838ce0c0f6cc6ed9a3f1848fb9466bcac99ac9727751b251e339",
+      "sha256_jpg": "cdc89ce82ff7ac6661b5da224c6daa353b0c241992eb647c092cdff5e461631d",
+      "resolucion": [
+        2500,
+        1667
+      ]
+    },
+    {
+      "id": "I02",
+      "titulo": "Cocina",
+      "png": "renders/I02_Cocina.png",
+      "jpg": "renders/I02_Cocina.jpg",
+      "sha256_png": "bf380b15b32ab8cdc5a4c585c70fc13d651910f70a21e08cbc791c88f72b4bc9",
+      "sha256_jpg": "d6206a57b7517ba313ee0d04c562566ea4da7d1054d82f846bde0d7956606014",
+      "resolucion": [
+        2500,
+        1667
+      ]
+    },
+    {
+      "id": "I03",
+      "titulo": "Comedor",
+      "png": "renders/I03_Comedor.png",
+      "jpg": "renders/I03_Comedor.jpg",
+      "sha256_png": "553ff0e44ffe857bdf3608ac27f3b4efe79828fc42b5d882ba18f719d1903b54",
+      "sha256_jpg": "38e7ce35701658434d5e28378007378e202b261ba54edc5f1e1f1e4a5e725401",
+      "resolucion": [
+        2500,
+        1667
+      ]
+    },
+    {
+      "id": "E01",
+      "titulo": "Terraza · vista longitudinal",
+      "png": "renders/E01_Terraza.png",
+      "jpg": "renders/E01_Terraza.jpg",
+      "sha256_png": "96c01bfcea825093712c1b438cd2301ad2b2cbcf0945a46262c0d7f426cd2478",
+      "sha256_jpg": "3e7a49e458a99f6987d51b7679191c53857e83ba8718d5c201880ec2469518a5",
+      "resolucion": [
+        2500,
+        1667
+      ]
+    },
+    {
+      "id": "E02",
+      "titulo": "Piscina y vivienda",
+      "png": "renders/E02_Piscina.png",
+      "jpg": "renders/E02_Piscina.jpg",
+      "sha256_png": "4ef8e898d7001917f31c28513e0d2d1841b285be6a4d091180bb0a5a5ead662c",
+      "sha256_jpg": "9e31806db4f9939d5303a18e63baca9cc86d169ad12e6ed5e3815fd1e1de7ce0",
+      "resolucion": [
+        2500,
+        1667
+      ]
+    },
+    {
+      "id": "E03",
+      "titulo": "Aparcamiento descubierto",
+      "png": "renders/E03_Aparcamiento.png",
+      "jpg": "renders/E03_Aparcamiento.jpg",
+      "sha256_png": "acd099bc7e3354a0648cdbe11194611a85f001c2526d0a43df7f387562777e3e",
+      "sha256_jpg": "7200dec1feb04905dfca39770e41dbb788e7a29d837e71d2f123152884d607c9",
+      "resolucion": [
+        2500,
+        1667
+      ]
+    },
+    {
+      "id": "E04",
+      "titulo": "Terraza · comedor exterior",
+      "png": "renders/E04_Terraza_comedor.png",
+      "jpg": "renders/E04_Terraza_comedor.jpg",
+      "sha256_png": "3825ccec4bbcc3e12b7eed1315d1d786e61312866ee789868a6c5a7a7ee563d8",
+      "sha256_jpg": "3286f7e440c2ec66ccabd9f115ef7d8da3c6ba10291c521f0258d434ba480f7f",
+      "resolucion": [
+        2500,
+        1667
+      ]
+    }
+  ]
+}

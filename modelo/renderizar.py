@@ -12,11 +12,16 @@ parser=argparse.ArgumentParser()
 parser.add_argument('--ids',default='01');parser.add_argument('--width',type=int,default=2500)
 parser.add_argument('--samples',type=int,default=96);parser.add_argument('--qa',action='store_true')
 parser.add_argument('--preview',action='store_true')
+parser.add_argument('--threshold',type=float,default=.012)
 args=parser.parse_args(sys.argv[sys.argv.index('--')+1:])
 scene=bpy.context.scene
 if not args.qa:
     result=json.loads((ROOT/'control/control_resultado.json').read_text())
     if not result['apto_para_renders'] or result.get('version')!=2:raise RuntimeError('Control geométrico V2 no superado')
+    visual=json.loads((ROOT/'control/control_revision_visual_v3.json').read_text())
+    current_hash=hashlib.sha256((ROOT/'Calle_Macarena_modelo_1a1.blend').read_bytes()).hexdigest()
+    if not visual['valido'] or visual['modelo_sha256']!=current_hash or result['modelo_sha256']!=current_hash:
+        raise RuntimeError('La identidad geométrica o el SHA del modelo V3 no están validados')
 output=ROOT/('control/ortograficas' if args.qa else 'previsualizaciones' if args.preview else 'renders')
 output.mkdir(parents=True,exist_ok=True)
 manifest_path=output/'registro_renders.json'
@@ -28,15 +33,16 @@ for ident in args.ids.split(','):
         if ob.name in initial_hidden:ob.hide_render=initial_hidden[ob.name]
     camera=next(o for o in scene.objects if o.type=='CAMERA' and o.name.startswith(ident+'_'))
     scene.camera=camera
-    mode='sunset' if ident=='10' else 'day'
+    mode=camera.get('modo_luz','sunset' if ident=='10' else 'day')
     setup_lighting(scene,mode)
+    if 'exposicion_ev' in camera:scene.view_settings.exposure=camera['exposicion_ev']
     for ob in scene.objects:
         if ob.type=='LIGHT' and ob.name.startswith('Luz_exterior_'):
             ob.data.energy=18 if mode=='sunset' else 0
     scene.cycles.use_denoising=False;scene.cycles.device='CPU'
     scene.render.threads_mode='FIXED';scene.render.threads=5
     scene.cycles.samples=args.samples;scene.cycles.adaptive_min_samples=16
-    scene.cycles.adaptive_threshold=.008 if not args.preview else .025
+    scene.cycles.adaptive_threshold=args.threshold if not args.preview else .03
     scene.cycles.max_bounces=14;scene.cycles.diffuse_bounces=5;scene.cycles.glossy_bounces=6
     scene.cycles.caustics_reflective=False;scene.cycles.caustics_refractive=False
     scene.cycles.transmission_bounces=12
@@ -73,7 +79,7 @@ for ident in args.ids.split(','):
     info=denoise_files(rawpaths['beauty'],rawpaths['albedo'],rawpaths['normal'],output/(stem+'.exr'),output/(stem+'.png'),threads=5,prefilter_aux=True,scene=scene)
     item={'id':ident,'nombre':stem,'motor':'Cycles CPU','modelo_sha256':source_hash,'resolucion':[scene.render.resolution_x,scene.render.resolution_y],
           'samples_max':args.samples,'muestreo_adaptativo':scene.cycles.adaptive_threshold,'camara_posicion_m':list(camera.location),'camara_rotacion_radianes':list(camera.rotation_euler),
-          'focal_mm':camera.data.lens,'tipo':camera.data.type,'shift_y':camera.data.shift_y,'iluminacion':mode,'segundos_cycles':round(render_seconds,2),
+          'focal_mm':camera.data.lens,'tipo':camera.data.type,'shift_y':camera.data.shift_y,'iluminacion':mode,'exposicion_ev':scene.view_settings.exposure,'segundos_cycles':round(render_seconds,2),
           'png':str(output/(stem+'.png')),'exr':str(output/(stem+'.exr')),'denoise':info['algorithm']}
     manifest=[m for m in manifest if m['id']!=ident]+[item]
     manifest_path.write_text(json.dumps(manifest,indent=2,ensure_ascii=False))

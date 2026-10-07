@@ -8,6 +8,24 @@ SHA256: `743c3e2aff8c220d5d70fe6cb970fb3d36f2702d2693c61d1d148e404cf37cd6`
 
 Fuente: https://github.com/RenderKit/oidn/releases/tag/v2.5.1
 
+## Instalar el binario oficial para reconstruir en Linux
+
+Desde la carpeta principal del proyecto:
+
+```bash
+curl --fail --location https://github.com/RenderKit/oidn/releases/download/v2.5.1/oidn-2.5.1.x86_64.linux.tar.gz --output herramientas/oidn-2.5.1.x86_64.linux.tar.gz
+python - <<'PY'
+from pathlib import Path
+import hashlib
+p=Path('herramientas/oidn-2.5.1.x86_64.linux.tar.gz')
+assert hashlib.sha256(p.read_bytes()).hexdigest()=='743c3e2aff8c220d5d70fe6cb970fb3d36f2702d2693c61d1d148e404cf37cd6'
+PY
+tar -xzf herramientas/oidn-2.5.1.x86_64.linux.tar.gz -C herramientas
+```
+
+El script comprueba otra vez este hash antes de ejecutar OIDN. Para abrir los
+modelos y las imágenes finales descargadas no necesitas instalar OIDN.
+
 ## Preparar pases en Blender
 
 `scene.cycles.use_denoising = False`

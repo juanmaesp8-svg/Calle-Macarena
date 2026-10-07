@@ -14,35 +14,35 @@ Forjado inferior,3.35,3.3499999046325684,m,PDForiginal y usuario para trastero
 Forjado superior,3.7,3.700000047683716,m,PDForiginal y usuario para trastero
 Peto trastero,4.4,4.400000095367432,m,Usuario
 Porcelánico módulo,0.9,0.9,m,Acabado usuario; shader métrico
-V_bano1_norte · ancho,1.0,1.0033001899719238,m,Hueco vectorial PDFfinal; medida real de dintel
+V_bano1_norte · ancho,1.0,1.0033001899719238,m,PDF final; medida real del mesh
 V_bano1_norte · alto,,1.5,m,"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
-V_despacho_oeste · ancho,1.0,0.9969501495361328,m,Hueco vectorial PDFfinal; medida real de dintel
+V_despacho_oeste · ancho,1.0,0.9969501495361328,m,PDF final; medida real del mesh
 V_despacho_oeste · alto,,1.600000023841858,m,"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
-V_bano2_oeste · ancho,0.8,0.8001003265380859,m,Hueco vectorial PDFfinal; medida real de dintel
+V_bano2_oeste · ancho,0.8,0.8001003265380859,m,PDF final; medida real del mesh
 V_bano2_oeste · alto,,1.5,m,"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
-V_lavadero_oeste · ancho,0.6,0.5968990325927734,m,Hueco vectorial PDFfinal; medida real de dintel
+V_lavadero_oeste · ancho,0.6,0.5968990325927734,m,PDF final; medida real del mesh
 V_lavadero_oeste · alto,,1.5,m,"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
-P_lavadero_oeste · ancho,,0.9652004241943359,m,Hueco vectorial PDFfinal; medida real de dintel
+P_lavadero_oeste · ancho,,0.9652004241943359,m,PDF final; medida real del mesh
 P_lavadero_oeste · alto,,2.5,m,"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
-V_aseo_oeste · ancho,0.8,0.8000984191894531,m,Hueco vectorial PDFfinal; medida real de dintel
+V_aseo_oeste · ancho,0.8,0.8000984191894531,m,PDF final; medida real del mesh
 V_aseo_oeste · alto,,1.5,m,"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
-P_principal_oeste · ancho,,1.3398494720458984,m,Hueco vectorial PDFfinal; medida real de dintel
+P_principal_oeste · ancho,,1.3398494720458984,m,PDF final; medida real del mesh
 P_principal_oeste · alto,,2.5,m,"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
-V_salon_oeste · ancho,2.0,2.000250816345215,m,Hueco vectorial PDFfinal; medida real de dintel
+V_salon_oeste · ancho,2.0,2.000250816345215,m,PDF final; medida real del mesh
 V_salon_oeste · alto,,1.600000023841858,m,"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
-V_dormitorio1_este · ancho,2.0,2.0002498626708984,m,Hueco vectorial PDFfinal; medida real de dintel
+V_dormitorio1_este · ancho,2.0,2.0002498626708984,m,PDF final; medida real del mesh
 V_dormitorio1_este · alto,,1.600000023841858,m,"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
-V_dormitorio1_sur · ancho,1.5,1.4986000061035156,m,Hueco vectorial PDFfinal; medida real de dintel
+V_dormitorio1_sur · ancho,1.5,1.4986000061035156,m,PDF final; medida real del mesh
 V_dormitorio1_sur · alto,,2.5,m,"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
-V_dormitorio2_este · ancho,1.5,1.4986000061035156,m,Hueco vectorial PDFfinal; medida real de dintel
+V_dormitorio2_este · ancho,1.5,1.4986000061035156,m,PDF final; medida real del mesh
 V_dormitorio2_este · alto,,2.5,m,"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
-V_dormitorio3_este · ancho,1.5,1.4986000061035156,m,Hueco vectorial PDFfinal; medida real de dintel
+V_dormitorio3_este · ancho,1.5,1.4986000061035156,m,PDF final; medida real del mesh
 V_dormitorio3_este · alto,,2.5,m,"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
-V_cocina_este · ancho,4.13,4.13385009765625,m,Hueco vectorial PDFfinal; medida real de dintel
+V_cocina_este · ancho,4.13,4.13385009765625,m,PDF final; medida real del mesh
 V_cocina_este · alto,,2.5,m,"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
-V_salon_este · ancho,5.39,5.391149520874023,m,Hueco vectorial PDFfinal; medida real de dintel
+V_salon_este · ancho,5.39,5.391149520874023,m,PDF final; medida real del mesh
 V_salon_este · alto,,2.5,m,"PDF38 alzados; medidas gráficas calculadas, nominales contrastadas con memoria19/20."
-P_porton_trastero_sur · ancho,,4.000499725341797,m,Hueco vectorial PDFfinal; medida real de dintel
+P_porton_trastero_sur · ancho,,4.000499725341797,m,PDF final; medida real del mesh
 P_porton_trastero_sur · alto,,2.5,m,Confirmación usuario
-P_interior_trastero_norte · ancho,0.96,0.9600000381469727,m,Hueco vectorial PDFfinal; medida real de dintel
+P_interior_trastero_norte · ancho,0.96,0.9600000381469727,m,PDF final; medida real del mesh
 P_interior_trastero_norte · alto,,2.0299999713897705,m,Confirmación usuario

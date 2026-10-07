@@ -1,0 +1,65 @@
+{
+  "revision_visual": "V3",
+  "asset_sha256": "acebed9751b72962649767501cf27fcecb615a784ffa4fa7f02df77650a88003",
+  "autor": "tyrant monkey",
+  "licencia": "Creative Commons Zero (Public Domain)",
+  "fuente_repo": "mmp/pbrt-v4-scenes",
+  "fuente_commit": "30cf4a0346ae5a80a2d7a530a3ef7d0fa4f70572",
+  "arquitectura_intacta": 346,
+  "geometria_compartida_entre_dos_coches": true,
+  "altura_decorativa_proporcional": true,
+  "vehiculos": [
+    {
+      "nombre": "Vehiculo_01_posicion_plano",
+      "centro_xy_m": [
+        5.886335,
+        3.781426
+      ],
+      "bbox_real_m": [
+        4.84433492007107,
+        1.3144259048209506,
+        0.0,
+        6.928334872104223,
+        6.248426001001803,
+        1.3960665092485414
+      ],
+      "dimensiones_reales_m": [
+        2.083999952033153,
+        4.934000096180853,
+        1.3960665092485414
+      ],
+      "frente": "+Y",
+      "error_max_bbox_m": 1.2789577663596674e-07,
+      "componentes": 113,
+      "acabado": "antracita",
+      "cota_z_apoyo_m": 0,
+      "fuente_z_apoyo": "Superficie pavimentada existente del modelo, cara superior Z0"
+    },
+    {
+      "nombre": "Vehiculo_02_posicion_plano",
+      "centro_xy_m": [
+        8.407515,
+        3.781426
+      ],
+      "bbox_real_m": [
+        7.365514596126978,
+        1.3144259048209506,
+        0.0,
+        9.449514548160131,
+        6.248426001001803,
+        1.3960665092485414
+      ],
+      "dimensiones_reales_m": [
+        2.083999952033153,
+        4.934000096180853,
+        1.3960665092485414
+      ],
+      "frente": "+Y",
+      "error_max_bbox_m": 4.518398686315095e-07,
+      "componentes": 113,
+      "acabado": "gris",
+      "cota_z_apoyo_m": 0,
+      "fuente_z_apoyo": "Superficie pavimentada existente del modelo, cara superior Z0"
+    }
+  ]
+}

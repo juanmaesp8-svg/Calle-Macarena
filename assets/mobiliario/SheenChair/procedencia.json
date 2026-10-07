@@ -1,0 +1,25 @@
+{
+  "autor": "Eric Chadwick / Wayfair LLC",
+  "licencia": "CC0 1.0 según README actual glTF-Sample-Assets; atribución conservada",
+  "atribucion_anterior": "El repositorio antiguo glTF-Sample-Models describía CC-BY 4.0; se conserva crédito autor y modificaciones de escala/material",
+  "archivos": [
+    {
+      "archivo": "assets/mobiliario/SheenChair/README_fuente.md",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/SheenChair/README.md",
+      "sha256": "7bbb705e0532711b80a512161da64ab0f2a719412121daf24b8177bdbdbaca7a",
+      "bytes": 4250
+    },
+    {
+      "archivo": "assets/mobiliario/SheenChair/SheenChair.glb",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/SheenChair/glTF-Binary/SheenChair.glb",
+      "sha256": "f0af2a2b102d28d540236306ae19f8fb36842df76bd38cf76f063f9bd2853399",
+      "bytes": 4125648
+    },
+    {
+      "archivo": "assets/mobiliario/SheenChair/screenshot.jpg",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/SheenChair/screenshot/screenshot-large.jpg",
+      "sha256": "e41a9080903f4415f014470f934b3aec1bc1cacf6f03bc929d1561be65606678",
+      "bytes": 316185
+    }
+  ]
+}

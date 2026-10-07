@@ -1,11 +1,11 @@
 {
   "revision": "V2",
-  "fecha_utc": "2026-10-06T17:59:57.083579+00:00",
+  "fecha_utc": "2026-10-07T07:31:02.292835+00:00",
   "alcance": "Documentación y cotejo visual; sin dictamen APTO y sin reutilizar controles/láminas V1.",
   "modelo": "Calle_Macarena_modelo_1a1.blend",
-  "modelo_sha256": "3abdabddb1774219b7e444e629cec6b322f12fdb0ef49fe31b96fbffa631d44c",
+  "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
   "mediciones": "control/mediciones_mesh_real.json",
-  "mediciones_sha256": "7f324674840ce7feb793bc9778a462d188dc40fa059e9f1519f4974399887fcd",
+  "mediciones_sha256": "74d3a940858cd2aa7d0d634021ef5503791ddff195b1b27fcab3a9d63a3a17e2",
   "fuentes": [
     {
       "archivo": "fuentes/planta_final_proyecto_obra.pdf",
@@ -30,7 +30,7 @@
   ],
   "ortograficas": {
     "registro": "control/visual_v2/ortograficas/registro_v2.json",
-    "sha256": "c9923542eb8d47578e03440ddf7e7bebf72b5f9c6246b7fa29885d7ad7b6b032",
+    "sha256": "f414206da82f85159138a7f2cdea411d721dc7b93b24b23f335b6cabeed6a73b",
     "vistas": 6
   },
   "estadisticas_documentales": {
@@ -235,7 +235,7 @@
     },
     {
       "archivo": "control/visual_v2/laminas/informe_visual_v2.pdf",
-      "sha256": "56037803d67a744874952219144af2ac52db78e3ce66a7a598e40a7fa4f2bb7f"
+      "sha256": "dea1b1dae34dcd70611d1b82c82e58a457f891b37d5bcff229463739843237ec"
     }
   ],
   "secciones": "Se comparan cotas medidas con las secciones originales. No se inventan trazas de corte nuevas.",

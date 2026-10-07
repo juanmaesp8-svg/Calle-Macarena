@@ -1,0 +1,211 @@
+{
+  "revision_visual": "V3",
+  "licencia": "CC0",
+  "creator_original": "Lennart Demes / ambientCG.com",
+  "mirror": "https://github.com/Papyszoo/CC0-Public-Domain-Textures",
+  "mirror_commit": "fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2",
+  "licencia_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/LICENSE",
+  "maps": [
+    {
+      "asset": "Wood058",
+      "role": "Texture:Albedo",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Wood058/Wood058_1K-PNG_Color.ktx2",
+      "original_sha256": "a45affddccafc6f077c0c9730b585cf29f8a9d63cc80080aee3c2b4e81d83781",
+      "original_bytes": 277843,
+      "png": "assets/texturas/ambientcg/Wood058/Wood058_1K-PNG_Color.png",
+      "png_sha256": "f7d1f8fea63bb3f65ca536ee386c2aa98bec8cdbc39b41743a37215051e259df",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Wood058",
+      "role": "Texture:Height",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Wood058/Wood058_1K-PNG_Displacement.ktx2",
+      "original_sha256": "7aedbe84775ab57ccea84ae56a8ec0e3a1af44486cf21ecaef1f55c547362b7f",
+      "original_bytes": 282921,
+      "png": "assets/texturas/ambientcg/Wood058/Wood058_1K-PNG_Displacement.png",
+      "png_sha256": "028c480065282a11aaa37ebcf3bbfe609fbfc3e4f8279a8b2fa6bc4a38df411e",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Wood058",
+      "role": "Texture:Normal",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Wood058/Wood058_1K-PNG_NormalGL.ktx2",
+      "original_sha256": "c7ae623f664c6be1c3a04d5c35c755c0d40f304ba6379097c034a64c8b61dcae",
+      "original_bytes": 223050,
+      "png": "assets/texturas/ambientcg/Wood058/Wood058_1K-PNG_NormalGL.png",
+      "png_sha256": "b322d4c16cf9cc1f2acc1d5cfa87588d3e1448047390e6003d882f6344c06695",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Wood058",
+      "role": "Texture:Roughness",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Wood058/Wood058_1K-PNG_Roughness.ktx2",
+      "original_sha256": "f8090ad459d86a7d78a5ff58a9a993773c7912031455ca1d203051df72c0db4c",
+      "original_bytes": 257556,
+      "png": "assets/texturas/ambientcg/Wood058/Wood058_1K-PNG_Roughness.png",
+      "png_sha256": "9b0f9ce643cf8136b81f882d608e11734ad280cae9b65d927ffd6f65dd8b2625",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Wood046",
+      "role": "Texture:Albedo",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Wood046/Wood046_1K-PNG_Color.ktx2",
+      "original_sha256": "4d3e6564905a511c18817f8e05d2067282c8716d4d43f2e12ce9473dd67e83e1",
+      "original_bytes": 266494,
+      "png": "assets/texturas/ambientcg/Wood046/Wood046_1K-PNG_Color.png",
+      "png_sha256": "38682f331605a530b3bda46811df5d7199b6e3e329c569762144d5f09bdbac0a",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Wood046",
+      "role": "Texture:Height",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Wood046/Wood046_1K-PNG_Displacement.ktx2",
+      "original_sha256": "8553fbedee2a6df1f29752abfd8e824ce53bd50dd2ba1e34d1bfe3d5c94275cf",
+      "original_bytes": 247180,
+      "png": "assets/texturas/ambientcg/Wood046/Wood046_1K-PNG_Displacement.png",
+      "png_sha256": "700720fa250a579a9068dedeec4e6a801106b71a8f11f7d59150616c6da8ae89",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Wood046",
+      "role": "Texture:Normal",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Wood046/Wood046_1K-PNG_NormalGL.ktx2",
+      "original_sha256": "22731d0dc6599dd498595dce95cf76c54d7c4aac15e04cbea6e461129355ac13",
+      "original_bytes": 192321,
+      "png": "assets/texturas/ambientcg/Wood046/Wood046_1K-PNG_NormalGL.png",
+      "png_sha256": "2b18b3786123bbe5b3d87dafa4ed0e1998911d290b4ab9a8f1fc9bfd02f834f5",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Wood046",
+      "role": "Texture:Roughness",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Wood046/Wood046_1K-PNG_Roughness.ktx2",
+      "original_sha256": "be5532060d749a1b0b8083887659f5c50e6a4179f06fb4bd4c2591212e3b42e0",
+      "original_bytes": 150708,
+      "png": "assets/texturas/ambientcg/Wood046/Wood046_1K-PNG_Roughness.png",
+      "png_sha256": "667801ad80dba03230cfd44b1a895d9da5c6f3de44480101fae95f7d9ee31ecd",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Fabric040",
+      "role": "Texture:Albedo",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Fabric040/Fabric040_1K-PNG_Color.ktx2",
+      "original_sha256": "b9ab2cda84268d1ef720cb15529bc7af4e317ff366102f34e908f2cf945b4cbd",
+      "original_bytes": 292155,
+      "png": "assets/texturas/ambientcg/Fabric040/Fabric040_1K-PNG_Color.png",
+      "png_sha256": "e1a304e7598d24dfbd31bf11c01d65ddd1fc2fab71b5b1b2540a5555495126c6",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Fabric040",
+      "role": "Texture:Height",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Fabric040/Fabric040_1K-PNG_Displacement.ktx2",
+      "original_sha256": "f0eb3017681fadcd8ce647c39a1c7edf226bf78518641942e34ff3fc3d1a34c6",
+      "original_bytes": 283150,
+      "png": "assets/texturas/ambientcg/Fabric040/Fabric040_1K-PNG_Displacement.png",
+      "png_sha256": "62798e8fea2b1701d54b7c7af683b81186e8ddf91fde27803a9fb42fda05f7be",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Fabric040",
+      "role": "Texture:Normal",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Fabric040/Fabric040_1K-PNG_NormalGL.ktx2",
+      "original_sha256": "7d873d0dab88f7983c36ed15f167efafd2f8092bfbb1e274ba101e628410f172",
+      "original_bytes": 225788,
+      "png": "assets/texturas/ambientcg/Fabric040/Fabric040_1K-PNG_NormalGL.png",
+      "png_sha256": "f9e4bb911618e42377af4652133bba8cf66fd4ca94ffdfb37eb5fc3285ae8a3b",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Fabric040",
+      "role": "Texture:Roughness",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Fabric040/Fabric040_1K-PNG_Roughness.ktx2",
+      "original_sha256": "f5fd37fd2cd22134a2cfadb65675a8eb8caca75cc126926461fd817fe4d717b2",
+      "original_bytes": 171130,
+      "png": "assets/texturas/ambientcg/Fabric040/Fabric040_1K-PNG_Roughness.png",
+      "png_sha256": "bc0cfa923fb4e3620093eff9b55fdb070ade3a80836d863f680f78655a682e18",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Plaster001",
+      "role": "Texture:Albedo",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Plaster001/Plaster001_1K-PNG_Color.ktx2",
+      "original_sha256": "dfd72397da5906b26184c19a3ce2679d2ac606d4f534cba114cb9816e2993975",
+      "original_bytes": 189854,
+      "png": "assets/texturas/ambientcg/Plaster001/Plaster001_1K-PNG_Color.png",
+      "png_sha256": "ea2889e39b84eb66cd9d0e4bd19509a356de03b2d5230fde0f3f1d63795c7130",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Plaster001",
+      "role": "Texture:Height",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Plaster001/Plaster001_1K-PNG_Displacement.ktx2",
+      "original_sha256": "ef854704fa8243b890af68cb8172d110875e9ae50b0b1b22ec2dc3c72faf872b",
+      "original_bytes": 288322,
+      "png": "assets/texturas/ambientcg/Plaster001/Plaster001_1K-PNG_Displacement.png",
+      "png_sha256": "7738e37d9f9c0404a546cc3abfbc61b1b7ef82ade999af222bb1e6e0c40a5e80",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Plaster001",
+      "role": "Texture:Normal",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Plaster001/Plaster001_1K-PNG_NormalGL.ktx2",
+      "original_sha256": "2748e9ff3d85e42bf384522b936e3f604599655c1494b1682f6531f423c28623",
+      "original_bytes": 332556,
+      "png": "assets/texturas/ambientcg/Plaster001/Plaster001_1K-PNG_NormalGL.png",
+      "png_sha256": "4e907c69468ed115dfc34679e3f921670d76eb4770e2ce9bc5178d57334ce894",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Plaster001",
+      "role": "Texture:Roughness",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Plaster001/Plaster001_1K-PNG_Roughness.ktx2",
+      "original_sha256": "432b7c6ad897ece92e8f8fffbbbf027779e63eaa2a01e4661dc8de564668d99d",
+      "original_bytes": 192983,
+      "png": "assets/texturas/ambientcg/Plaster001/Plaster001_1K-PNG_Roughness.png",
+      "png_sha256": "108b945beeffc7ad63bb58279d2e4e500b43a1e808724db744e57ddb4595f1a4",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Marble015",
+      "role": "Texture:Albedo",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Marble015/Marble015_1K-PNG_Color.ktx2",
+      "original_sha256": "46d074e26b5d4bc9048e485a86e67e6d68c3666dd8670358624ddf0319b8e171",
+      "original_bytes": 142967,
+      "png": "assets/texturas/ambientcg/Marble015/Marble015_1K-PNG_Color.png",
+      "png_sha256": "018764d442e656ebdd2afa7b09e2db4d13d291c2d7a870109f329693ca7940c1",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Marble015",
+      "role": "Texture:Height",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Marble015/Marble015_1K-PNG_Displacement.ktx2",
+      "original_sha256": "444008625a77be8534a2cdeb4793c6320a331d70f8dc2594916ded095cc8998f",
+      "original_bytes": 297206,
+      "png": "assets/texturas/ambientcg/Marble015/Marble015_1K-PNG_Displacement.png",
+      "png_sha256": "8458ceb598d56df034790d3cec30f276c070eb5090b33a18da954865638357a7",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Marble015",
+      "role": "Texture:Normal",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Marble015/Marble015_1K-PNG_NormalGL.ktx2",
+      "original_sha256": "44b6492fc72812f4719821af6dc58deff5bfe9ee93c38424874d5541ede6e3cc",
+      "original_bytes": 142538,
+      "png": "assets/texturas/ambientcg/Marble015/Marble015_1K-PNG_NormalGL.png",
+      "png_sha256": "9516bb89a32846e502d6b572ec7cdf75033ac6537de3ed2ba9a184502a1a63d4",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    },
+    {
+      "asset": "Marble015",
+      "role": "Texture:Roughness",
+      "original_url": "https://raw.githubusercontent.com/Papyszoo/CC0-Public-Domain-Textures/fcc4ff97a5a843dc2e242ec9e195389bc46ed7d2/packs/ambientcg-textures/textures/Marble015/Marble015_1K-PNG_Roughness.ktx2",
+      "original_sha256": "b55c05cca82245eacb6833510cf84c3977e0bf0eae0a43217b0aec0fb43ea0fe",
+      "original_bytes": 237735,
+      "png": "assets/texturas/ambientcg/Marble015/Marble015_1K-PNG_Roughness.png",
+      "png_sha256": "222d96ac3b4dd31653585353de99b96e273e0264114d86f0667b3ff1a2d52d18",
+      "conversion": "KTX-Software 4.4.2 extract --transcode rgba8 (base mip level0, no resampling)"
+    }
+  ],
+  "notes": "El espejo suministra mapas 512 px comprimidos; se conservan originales KTX2 y conversión PNG. Color fotográfico y mapas físicos; no geometría generada por IA ni cotas arquitectónicas."
+}

@@ -1,0 +1,217 @@
+{
+  "revision_visual": "V3",
+  "unidades": "metros; escala 1:1",
+  "sensor_mm": 36,
+  "resolucion_inicial_px": [
+    2500,
+    1667
+  ],
+  "criterio": "Fotografía a altura humana, focal de 24 a 35 mm, verticales paralelas mediante eje óptico horizontal. Sólo se cambia la cámara, sin recortes de paredes ni desplazamientos de objetos.",
+  "camaras": [
+    {
+      "id": "I01",
+      "nombre": "Salon",
+      "espacio": "Interior salón",
+      "posicion_m": [
+        8.1,
+        12.72,
+        1.5
+      ],
+      "objetivo_m": [
+        4.8,
+        15.15,
+        1.5
+      ],
+      "focal_mm": 24,
+      "shift_y": -0.13,
+      "fuente": "Planta final: sofá en L X3.48615..6.4897/Y14.6939..16.28775; mesa de centro y dos butacas en sus huellas originales.",
+      "exposicion_ev": 2.4,
+      "verificacion_posicion": {
+        "fuente": "control/mediciones_mesh_real.json; mallas arquitectónicas V2 preservadas en V3",
+        "dentro_de_muro_carpinteria_o_cerramiento": false,
+        "holgura_minima_horizontal_a_bbox_arquitectonico_m": 0.335088,
+        "objeto_mas_cercano": "muros_v2_063_01",
+        "eje_optico_horizontal": true,
+        "inspeccion_encuadre": "Previsualización Workbench del modelo 3D real; sin ocultar arquitectura ni mobiliario.",
+        "dentro_parcela": true,
+        "dentro_huella_vivienda": true
+      }
+    },
+    {
+      "id": "I02",
+      "nombre": "Cocina",
+      "espacio": "Interior cocina",
+      "posicion_m": [
+        7.35,
+        22.55,
+        1.5
+      ],
+      "objetivo_m": [
+        8.25,
+        19.1,
+        1.5
+      ],
+      "focal_mm": 24,
+      "shift_y": -0.015,
+      "fuente": "Planta final: lineal X6.5024..7.0993/Y17.8181..21.336, isla X8.1026..9.30275/Y18.5801..20.58035. Cámara al noroeste, mostrando isla, lineal, cristalera y relación con salón/comedor.",
+      "exposicion_ev": 1.2,
+      "verificacion_posicion": {
+        "fuente": "control/mediciones_mesh_real.json; mallas arquitectónicas V2 preservadas en V3",
+        "dentro_de_muro_carpinteria_o_cerramiento": false,
+        "holgura_minima_horizontal_a_bbox_arquitectonico_m": 0.3481,
+        "objeto_mas_cercano": "muros_v2_038_01",
+        "eje_optico_horizontal": true,
+        "inspeccion_encuadre": "Previsualización Workbench del modelo 3D real; sin ocultar arquitectura ni mobiliario.",
+        "dentro_parcela": true,
+        "dentro_huella_vivienda": true
+      }
+    },
+    {
+      "id": "I03",
+      "nombre": "Comedor",
+      "espacio": "Interior comedor",
+      "posicion_m": [
+        7.05,
+        16.93,
+        1.5
+      ],
+      "objetivo_m": [
+        9.02,
+        14.45,
+        1.5
+      ],
+      "focal_mm": 28,
+      "shift_y": -0.04,
+      "fuente": "Planta final: mesa de comedor X8.42645..9.6266/Y13.54455..15.5448 y ocho sillas. Cámara en la circulación norte del salón.",
+      "exposicion_ev": 1.2,
+      "verificacion_posicion": {
+        "fuente": "control/mediciones_mesh_real.json; mallas arquitectónicas V2 preservadas en V3",
+        "dentro_de_muro_carpinteria_o_cerramiento": false,
+        "holgura_minima_horizontal_a_bbox_arquitectonico_m": 0.609782,
+        "objeto_mas_cercano": "muros_v2_060_01",
+        "eje_optico_horizontal": true,
+        "inspeccion_encuadre": "Previsualización Workbench del modelo 3D real; sin ocultar arquitectura ni mobiliario.",
+        "dentro_parcela": true,
+        "dentro_huella_vivienda": true
+      }
+    },
+    {
+      "id": "E01",
+      "nombre": "Terraza",
+      "espacio": "Exterior terraza frente a salón y cocina",
+      "posicion_m": [
+        15.6,
+        12.3,
+        1.6
+      ],
+      "objetivo_m": [
+        11.25,
+        18.25,
+        1.6
+      ],
+      "focal_mm": 28,
+      "shift_y": 0.065,
+      "fuente": "Planta final y alzado lateral: fachada de cristaleras del salón y cocina, voladizo de porche y mobiliario exterior en su posición original.",
+      "exposicion_ev": 0.2,
+      "verificacion_posicion": {
+        "fuente": "control/mediciones_mesh_real.json; mallas arquitectónicas V2 preservadas en V3",
+        "dentro_de_muro_carpinteria_o_cerramiento": false,
+        "holgura_minima_horizontal_a_bbox_arquitectonico_m": 0.842011,
+        "objeto_mas_cercano": "Cerramiento_lindero_07",
+        "eje_optico_horizontal": true,
+        "inspeccion_encuadre": "Previsualización Workbench del modelo 3D real; sin ocultar arquitectura ni mobiliario.",
+        "dentro_parcela": true,
+        "dentro_huella_vivienda": false
+      }
+    },
+    {
+      "id": "E02",
+      "nombre": "Piscina",
+      "espacio": "Exterior piscina y vivienda",
+      "posicion_m": [
+        16.1,
+        1.8,
+        1.6
+      ],
+      "objetivo_m": [
+        12.3,
+        15.5,
+        1.6
+      ],
+      "focal_mm": 28,
+      "shift_y": 0.025,
+      "fuente": "Planta final: piscina 3.50 por 5.00 m, X11.7094..15.2094/Y5.8585..10.8585. Cámara en jardín frontal, con distancia suficiente para incluir el perímetro completo; árboles en sus mismas posiciones.",
+      "exposicion_ev": 0.2,
+      "verificacion_posicion": {
+        "fuente": "control/mediciones_mesh_real.json; mallas arquitectónicas V2 preservadas en V3",
+        "dentro_de_muro_carpinteria_o_cerramiento": false,
+        "holgura_minima_horizontal_a_bbox_arquitectonico_m": 0.786593,
+        "objeto_mas_cercano": "Rejilla_frontal_2_verticales_13",
+        "eje_optico_horizontal": true,
+        "inspeccion_encuadre": "Previsualización Workbench del modelo 3D real; sin ocultar arquitectura ni mobiliario.",
+        "dentro_parcela": true,
+        "dentro_huella_vivienda": false
+      }
+    },
+    {
+      "id": "E03",
+      "nombre": "Aparcamiento",
+      "espacio": "Exterior aparcamiento descubierto de dos coches",
+      "posicion_m": [
+        0.7,
+        6.5,
+        1.65
+      ],
+      "objetivo_m": [
+        7.05,
+        3.6,
+        1.65
+      ],
+      "focal_mm": 28,
+      "shift_y": -0.04,
+      "fuente": "Planta final: dos vehículos en centros (5.886335,3.781426) y (8.407515,3.781426), huellas 2.084 por 4.934 m. Cámara desde retranqueo oeste para mostrar vehículos completos y espacio descubierto.",
+      "exposicion_ev": 0.2,
+      "verificacion_posicion": {
+        "fuente": "control/mediciones_mesh_real.json; mallas arquitectónicas V2 preservadas en V3",
+        "dentro_de_muro_carpinteria_o_cerramiento": false,
+        "holgura_minima_horizontal_a_bbox_arquitectonico_m": 2.683811,
+        "objeto_mas_cercano": "muros_v2_066_01",
+        "eje_optico_horizontal": true,
+        "inspeccion_encuadre": "Previsualización Workbench del modelo 3D real; sin ocultar arquitectura ni mobiliario.",
+        "dentro_parcela": true,
+        "dentro_huella_vivienda": false
+      }
+    },
+    {
+      "id": "E04",
+      "nombre": "Terraza_comedor",
+      "espacio": "Exterior comedor de terraza",
+      "posicion_m": [
+        15.75,
+        17.75,
+        1.6
+      ],
+      "objetivo_m": [
+        11.85,
+        20.15,
+        1.6
+      ],
+      "focal_mm": 30,
+      "shift_y": -0.03,
+      "fuente": "Planta final: mesa exterior X11.75385..12.7508/Y19.3294..21.1328 frente a la cristalera de cocina, porche conservado.",
+      "exposicion_ev": 0.2,
+      "verificacion_posicion": {
+        "fuente": "control/mediciones_mesh_real.json; mallas arquitectónicas V2 preservadas en V3",
+        "dentro_de_muro_carpinteria_o_cerramiento": false,
+        "holgura_minima_horizontal_a_bbox_arquitectonico_m": 0.216758,
+        "objeto_mas_cercano": "Cerramiento_lindero_06",
+        "eje_optico_horizontal": true,
+        "inspeccion_encuadre": "Previsualización Workbench del modelo 3D real; sin ocultar arquitectura ni mobiliario.",
+        "dentro_parcela": true,
+        "dentro_huella_vivienda": false
+      }
+    }
+  ],
+  "verificacion_base_geometrica_sha256": "7f324674840ce7feb793bc9778a462d188dc40fa059e9f1519f4974399887fcd",
+  "fuente_planta_final_sha256": "556b057350ec6b0a4050dfbf0cf104c35ca5ed48d0e8bf22b2b19c107f403995"
+}

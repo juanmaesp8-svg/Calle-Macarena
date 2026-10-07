@@ -1,0 +1,605 @@
+{
+  "revision_visual": "V3",
+  "unidades": "m",
+  "modulo": "modelo/exteriores_v3.py",
+  "objetos_mobiliario_recreados": [
+    "mesa_comedor_terraza",
+    "silla_terraza_izq_1",
+    "silla_terraza_der_1",
+    "silla_terraza_izq_2",
+    "silla_terraza_der_2",
+    "silla_terraza_izq_3",
+    "silla_terraza_der_3",
+    "silla_terraza_cabecera_norte",
+    "silla_terraza_cabecera_sur",
+    "sofa_terraza_dormitorios",
+    "mesa_centro_terraza_dormitorios",
+    "butaca_terraza_dormitorios_1",
+    "butaca_terraza_dormitorios_2",
+    "butaca_terraza_dormitorios_3",
+    "butaca_terraza_dormitorios_4",
+    "sofa_terraza_salon",
+    "mesa_centro_terraza_salon",
+    "butaca_terraza_salon_1",
+    "butaca_terraza_salon_2",
+    "butaca_terraza_salon_3",
+    "butaca_terraza_salon_4",
+    "Tumbona_piscina_01",
+    "Tumbona_piscina_02"
+  ],
+  "sillas_parte_oculta_bajo_tablero": [
+    {
+      "nombre": "silla_terraza_izq_1",
+      "bbox_visible_xy_m": [
+        11.49985,
+        20.6248,
+        11.75385,
+        21.01215
+      ],
+      "fondo_completo_m": 0.515
+    },
+    {
+      "nombre": "silla_terraza_der_1",
+      "bbox_visible_xy_m": [
+        12.7508,
+        20.6248,
+        13.0048,
+        21.01215
+      ],
+      "fondo_completo_m": 0.515
+    },
+    {
+      "nombre": "silla_terraza_izq_2",
+      "bbox_visible_xy_m": [
+        11.49985,
+        20.03425,
+        11.75385,
+        20.42795
+      ],
+      "fondo_completo_m": 0.515
+    },
+    {
+      "nombre": "silla_terraza_der_2",
+      "bbox_visible_xy_m": [
+        12.7508,
+        20.03425,
+        13.0048,
+        20.42795
+      ],
+      "fondo_completo_m": 0.515
+    },
+    {
+      "nombre": "silla_terraza_izq_3",
+      "bbox_visible_xy_m": [
+        11.49985,
+        19.45005,
+        11.75385,
+        19.84375
+      ],
+      "fondo_completo_m": 0.515
+    },
+    {
+      "nombre": "silla_terraza_der_3",
+      "bbox_visible_xy_m": [
+        12.7508,
+        19.45005,
+        13.0048,
+        19.84375
+      ],
+      "fondo_completo_m": 0.515
+    },
+    {
+      "nombre": "silla_terraza_cabecera_norte",
+      "bbox_visible_xy_m": [
+        12.05865,
+        21.1328,
+        12.446,
+        21.38045
+      ],
+      "fondo_completo_m": 0.515
+    },
+    {
+      "nombre": "silla_terraza_cabecera_sur",
+      "bbox_visible_xy_m": [
+        12.05865,
+        19.08175,
+        12.446,
+        19.3294
+      ],
+      "fondo_completo_m": 0.515
+    }
+  ],
+  "mediciones_mobiliario_real": [
+    {
+      "nombre": "mesa_comedor_terraza",
+      "bbox_real_xyz_m": [
+        11.753849983215332,
+        19.32939910888672,
+        -0.0018005722668021917,
+        12.750800132751465,
+        21.132801055908203,
+        0.75
+      ],
+      "bbox_pdf_xy_m": [
+        11.75385,
+        19.3294,
+        12.7508,
+        21.1328
+      ],
+      "error_contorno_o_borde_visible_max_m": 1.055908203539957e-06
+    },
+    {
+      "nombre": "silla_terraza_izq_1",
+      "bbox_real_xyz_m": [
+        11.499850273132324,
+        20.624801635742188,
+        -0.0006049943040125072,
+        12.014849662780762,
+        21.012149810791016,
+        0.8345105648040771
+      ],
+      "bbox_pdf_xy_m": [
+        11.49985,
+        20.6248,
+        11.75385,
+        21.01215
+      ],
+      "error_contorno_o_borde_visible_max_m": 1.635742187033884e-06
+    },
+    {
+      "nombre": "silla_terraza_der_1",
+      "bbox_real_xyz_m": [
+        12.489800453186035,
+        20.624801635742188,
+        -0.0006049943040125072,
+        13.004799842834473,
+        21.012149810791016,
+        0.8345105648040771
+      ],
+      "bbox_pdf_xy_m": [
+        12.7508,
+        20.6248,
+        13.0048,
+        21.01215
+      ],
+      "error_contorno_o_borde_visible_max_m": 1.635742187033884e-06
+    },
+    {
+      "nombre": "silla_terraza_izq_2",
+      "bbox_real_xyz_m": [
+        11.499850273132324,
+        20.034250259399414,
+        -0.000605722947511822,
+        12.014849662780762,
+        20.427949905395508,
+        0.8345105648040771
+      ],
+      "bbox_pdf_xy_m": [
+        11.49985,
+        20.03425,
+        11.75385,
+        20.42795
+      ],
+      "error_contorno_o_borde_visible_max_m": 2.73132323869163e-07
+    },
+    {
+      "nombre": "silla_terraza_der_2",
+      "bbox_real_xyz_m": [
+        12.489800453186035,
+        20.034250259399414,
+        -0.000605722947511822,
+        13.004799842834473,
+        20.427949905395508,
+        0.8345105648040771
+      ],
+      "bbox_pdf_xy_m": [
+        12.7508,
+        20.03425,
+        13.0048,
+        20.42795
+      ],
+      "error_contorno_o_borde_visible_max_m": 2.5939941394881316e-07
+    },
+    {
+      "nombre": "silla_terraza_izq_3",
+      "bbox_real_xyz_m": [
+        11.499850273132324,
+        19.450050354003906,
+        -0.000605722947511822,
+        12.014849662780762,
+        19.84375,
+        0.8345105648040771
+      ],
+      "bbox_pdf_xy_m": [
+        11.49985,
+        19.45005,
+        11.75385,
+        19.84375
+      ],
+      "error_contorno_o_borde_visible_max_m": 3.540039053007149e-07
+    },
+    {
+      "nombre": "silla_terraza_der_3",
+      "bbox_real_xyz_m": [
+        12.489800453186035,
+        19.450050354003906,
+        -0.000605722947511822,
+        13.004799842834473,
+        19.84375,
+        0.8345105648040771
+      ],
+      "bbox_pdf_xy_m": [
+        12.7508,
+        19.45005,
+        13.0048,
+        19.84375
+      ],
+      "error_contorno_o_borde_visible_max_m": 3.540039053007149e-07
+    },
+    {
+      "nombre": "silla_terraza_cabecera_norte",
+      "bbox_real_xyz_m": [
+        12.058650016784668,
+        20.865449905395508,
+        -0.0006049943040125072,
+        12.446000099182129,
+        21.380451202392578,
+        0.8345105648040771
+      ],
+      "bbox_pdf_xy_m": [
+        12.05865,
+        21.1328,
+        12.446,
+        21.38045
+      ],
+      "error_contorno_o_borde_visible_max_m": 1.202392578392164e-06
+    },
+    {
+      "nombre": "silla_terraza_cabecera_sur",
+      "bbox_real_xyz_m": [
+        12.058650016784668,
+        19.081748962402344,
+        -0.0006049943040125072,
+        12.446000099182129,
+        19.596750259399414,
+        0.8345105648040771
+      ],
+      "bbox_pdf_xy_m": [
+        12.05865,
+        19.08175,
+        12.446,
+        19.3294
+      ],
+      "error_contorno_o_borde_visible_max_m": 1.0375976557952526e-06
+    },
+    {
+      "nombre": "sofa_terraza_dormitorios",
+      "bbox_real_xyz_m": [
+        10.902949333190918,
+        25.660348892211914,
+        0.0033183740451931953,
+        11.664949417114258,
+        27.660600662231445,
+        0.7823637127876282
+      ],
+      "bbox_pdf_xy_m": [
+        10.90295,
+        25.66035,
+        11.66495,
+        27.6606
+      ],
+      "error_contorno_o_borde_visible_max_m": 1.1077880870402623e-06
+    },
+    {
+      "nombre": "mesa_centro_terraza_dormitorios",
+      "bbox_real_xyz_m": [
+        12.280900001525879,
+        26.060400009155273,
+        -0.001994756516069174,
+        12.979399681091309,
+        27.260549545288086,
+        0.3850000202655792
+      ],
+      "bbox_pdf_xy_m": [
+        12.2809,
+        26.0604,
+        12.9794,
+        27.26055
+      ],
+      "error_contorno_o_borde_visible_max_m": 4.547119125675181e-07
+    },
+    {
+      "nombre": "butaca_terraza_dormitorios_1",
+      "bbox_real_xyz_m": [
+        11.893549919128418,
+        27.730451583862305,
+        0.004189406055957079,
+        12.56029987335205,
+        28.492450714111328,
+        0.7823637127876282
+      ],
+      "bbox_pdf_xy_m": [
+        11.89355,
+        27.73045,
+        12.5603,
+        28.49245
+      ],
+      "error_contorno_o_borde_visible_max_m": 1.5838623035335786e-06
+    },
+    {
+      "nombre": "butaca_terraza_dormitorios_2",
+      "bbox_real_xyz_m": [
+        12.719050407409668,
+        27.730451583862305,
+        0.004189406055957079,
+        13.3858003616333,
+        28.492450714111328,
+        0.7823637127876282
+      ],
+      "bbox_pdf_xy_m": [
+        12.71905,
+        27.73045,
+        13.3858,
+        28.49245
+      ],
+      "error_contorno_o_borde_visible_max_m": 1.5838623035335786e-06
+    },
+    {
+      "nombre": "butaca_terraza_dormitorios_3",
+      "bbox_real_xyz_m": [
+        11.893549919128418,
+        24.82849884033203,
+        0.004189406055957079,
+        12.56029987335205,
+        25.590497970581055,
+        0.7823637127876282
+      ],
+      "bbox_pdf_xy_m": [
+        11.89355,
+        24.8285,
+        12.5603,
+        25.5905
+      ],
+      "error_contorno_o_borde_visible_max_m": 2.0294189440051014e-06
+    },
+    {
+      "nombre": "butaca_terraza_dormitorios_4",
+      "bbox_real_xyz_m": [
+        12.719050407409668,
+        24.82849884033203,
+        0.004189406055957079,
+        13.3858003616333,
+        25.590497970581055,
+        0.7823637127876282
+      ],
+      "bbox_pdf_xy_m": [
+        12.71905,
+        24.8285,
+        13.3858,
+        25.5905
+      ],
+      "error_contorno_o_borde_visible_max_m": 2.0294189440051014e-06
+    },
+    {
+      "nombre": "sofa_terraza_salon",
+      "bbox_real_xyz_m": [
+        10.902949333190918,
+        14.071599960327148,
+        0.0033183740451931953,
+        11.664950370788574,
+        16.071849822998047,
+        0.7823637127876282
+      ],
+      "bbox_pdf_xy_m": [
+        10.90295,
+        14.0716,
+        11.66495,
+        16.07185
+      ],
+      "error_contorno_o_borde_visible_max_m": 6.668090826167372e-07
+    },
+    {
+      "nombre": "mesa_centro_terraza_salon",
+      "bbox_real_xyz_m": [
+        12.280900001525879,
+        14.471650123596191,
+        -0.001994756516069174,
+        12.979399681091309,
+        15.671799659729004,
+        0.3850000202655792
+      ],
+      "bbox_pdf_xy_m": [
+        12.2809,
+        14.47165,
+        12.9794,
+        15.6718
+      ],
+      "error_contorno_o_borde_visible_max_m": 3.402709953803651e-07
+    },
+    {
+      "nombre": "butaca_terraza_salon_1",
+      "bbox_real_xyz_m": [
+        11.893549919128418,
+        16.141700744628906,
+        0.004189406055957079,
+        12.56029987335205,
+        16.90369987487793,
+        0.7823637127876282
+      ],
+      "bbox_pdf_xy_m": [
+        11.89355,
+        16.1417,
+        12.5603,
+        16.9037
+      ],
+      "error_contorno_o_borde_visible_max_m": 7.446289060908384e-07
+    },
+    {
+      "nombre": "butaca_terraza_salon_2",
+      "bbox_real_xyz_m": [
+        12.719050407409668,
+        16.141700744628906,
+        0.004189406055957079,
+        13.3858003616333,
+        16.90369987487793,
+        0.7823637127876282
+      ],
+      "bbox_pdf_xy_m": [
+        12.71905,
+        16.1417,
+        13.3858,
+        16.9037
+      ],
+      "error_contorno_o_borde_visible_max_m": 7.446289060908384e-07
+    },
+    {
+      "nombre": "butaca_terraza_salon_3",
+      "bbox_real_xyz_m": [
+        11.893549919128418,
+        13.239749908447266,
+        0.004189406055957079,
+        12.56029987335205,
+        14.001750946044922,
+        0.7823637127876282
+      ],
+      "bbox_pdf_xy_m": [
+        11.89355,
+        13.23975,
+        12.5603,
+        14.00175
+      ],
+      "error_contorno_o_borde_visible_max_m": 9.460449224008016e-07
+    },
+    {
+      "nombre": "butaca_terraza_salon_4",
+      "bbox_real_xyz_m": [
+        12.719050407409668,
+        13.239749908447266,
+        0.004189406055957079,
+        13.3858003616333,
+        14.001750946044922,
+        0.7823637127876282
+      ],
+      "bbox_pdf_xy_m": [
+        12.71905,
+        13.23975,
+        13.3858,
+        14.00175
+      ],
+      "error_contorno_o_borde_visible_max_m": 9.460449224008016e-07
+    },
+    {
+      "nombre": "Tumbona_piscina_01",
+      "bbox_real_xyz_m": [
+        11.772899627685547,
+        4.241797924041748,
+        -0.15137866139411926,
+        13.773149490356445,
+        4.991099834442139,
+        0.47814270853996277
+      ],
+      "bbox_pdf_xy_m": [
+        11.772900129191083,
+        4.241798191324873,
+        13.77314948323568,
+        4.991100000000003
+      ],
+      "seqno_pdf_final": 1115,
+      "error_contorno_o_borde_visible_max_m": 5.015055357660003e-07
+    },
+    {
+      "nombre": "Tumbona_piscina_02",
+      "bbox_real_xyz_m": [
+        11.772899627685547,
+        3.2765986919403076,
+        -0.15137866139411926,
+        13.773149490356445,
+        4.025900363922119,
+        0.47814270853996277
+      ],
+      "bbox_pdf_xy_m": [
+        11.772900129191083,
+        3.2765987080891956,
+        13.77314948323568,
+        4.025900516764326
+      ],
+      "seqno_pdf_final": 1117,
+      "error_contorno_o_borde_visible_max_m": 5.015055357660003e-07
+    }
+  ],
+  "criterio_sillas": "Borde exterior y eje transversal PDF invariantes. Glifo representa parte visible; fondo decorativo completo 0.515 m hacia debajo del tablero.",
+  "materiales_coche_afinados": [
+    "Coche · pintura antracita",
+    "V3 coche · pintura plata perlada"
+  ],
+  "curvas_de_cuerda_y_costura_convertidas_malla_para_glb": 560,
+  "tumbonas_fuente_planta_final": [
+    {
+      "nombre": "Tumbona_piscina_01",
+      "tipo": "tumbona_exterior",
+      "seqno_pdf_final": 1115,
+      "bbox_pdf_pt": [
+        315.44000244140625,
+        676.0,
+        353.239990234375,
+        690.1600341796875
+      ],
+      "bbox_xy_m": [
+        11.772900129191083,
+        4.241798191324873,
+        13.77314948323568,
+        4.991100000000003
+      ]
+    },
+    {
+      "nombre": "Tumbona_piscina_02",
+      "tipo": "tumbona_exterior",
+      "seqno_pdf_final": 1117,
+      "bbox_pdf_pt": [
+        315.44000244140625,
+        694.239990234375,
+        353.239990234375,
+        708.4000244140625
+      ],
+      "bbox_xy_m": [
+        11.772900129191083,
+        3.2765987080891956,
+        13.77314948323568,
+        4.025900516764326
+      ]
+    }
+  ],
+  "palmeras": [
+    {
+      "nombre": "Palmera_frente",
+      "raiz_xy_m": [
+        17.15,
+        2.9
+      ],
+      "altura_asset_m": 4.9
+    },
+    {
+      "nombre": "Palmera_jardin_lateral",
+      "raiz_xy_m": [
+        15.22,
+        23.2
+      ],
+      "altura_asset_m": 4.25
+    }
+  ],
+  "assets_externos": [
+    {
+      "asset": "Fabric040",
+      "autor": "ambientCG / Lennart Demes",
+      "licencia": "CC0",
+      "carpeta": "assets/texturas/ambientcg/Fabric040",
+      "procedencia_y_sha256": "assets/licencias"
+    }
+  ],
+  "licencia_assets": "Geometría y shaders originales procedurales; mapas fotográficos de lino Fabric040 CC0 compartidos con materiales.py.",
+  "arquitectura_objetos_comprobados": 346,
+  "arquitectura_sha256_antes": "7252893d2d3e49137b17af5e5412bdfd63649969c6314089d79801af1523d04a",
+  "arquitectura_sha256_despues": "7252893d2d3e49137b17af5e5412bdfd63649969c6314089d79801af1523d04a",
+  "arquitectura_invariable": true,
+  "piscina": "No se modifica su geometría ni se añade profundidad/fondo. Shader gestionado por materiales.py."
+}

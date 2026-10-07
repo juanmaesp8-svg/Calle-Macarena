@@ -1,0 +1,3643 @@
+{
+  "revision": "V3_visual_sobre_planta_final_V2",
+  "valido": true,
+  "modelo_sha256": "fb95f5a917521943a95156dddfd34bc930952a3da4e8c00ac8ab4f6ad999a1f0",
+  "referencia_geometrica_sha256": "7f324674840ce7feb793bc9778a462d188dc40fa059e9f1519f4974399887fcd",
+  "arquitectura_objetos_comparados": 346,
+  "maxima_diferencia_coordenada_m": 0.0,
+  "controles": 709,
+  "fallos": [],
+  "camaras": [
+    {
+      "id": "I01",
+      "nombre": "I01_Salon",
+      "posicion_m": [
+        8.100000381469727,
+        12.720000267028809,
+        1.5
+      ],
+      "focal_mm": 24.0,
+      "shift_y": -0.12999999523162842,
+      "exposicion_ev": 2.4
+    },
+    {
+      "id": "I02",
+      "nombre": "I02_Cocina",
+      "posicion_m": [
+        7.349999904632568,
+        22.549999237060547,
+        1.5
+      ],
+      "focal_mm": 24.0,
+      "shift_y": -0.014999999664723873,
+      "exposicion_ev": 1.2
+    },
+    {
+      "id": "I03",
+      "nombre": "I03_Comedor",
+      "posicion_m": [
+        7.050000190734863,
+        16.93000030517578,
+        1.5
+      ],
+      "focal_mm": 28.0,
+      "shift_y": -0.03999999910593033,
+      "exposicion_ev": 1.2
+    },
+    {
+      "id": "E01",
+      "nombre": "E01_Terraza",
+      "posicion_m": [
+        15.600000381469727,
+        12.300000190734863,
+        1.600000023841858
+      ],
+      "focal_mm": 28.0,
+      "shift_y": 0.06499999761581421,
+      "exposicion_ev": 0.2
+    },
+    {
+      "id": "E02",
+      "nombre": "E02_Piscina",
+      "posicion_m": [
+        16.100000381469727,
+        1.7999999523162842,
+        1.600000023841858
+      ],
+      "focal_mm": 28.0,
+      "shift_y": 0.02500000037252903,
+      "exposicion_ev": 0.2
+    },
+    {
+      "id": "E03",
+      "nombre": "E03_Aparcamiento",
+      "posicion_m": [
+        0.699999988079071,
+        6.5,
+        1.649999976158142
+      ],
+      "focal_mm": 28.0,
+      "shift_y": -0.03999999910593033,
+      "exposicion_ev": 0.2
+    },
+    {
+      "id": "E04",
+      "nombre": "E04_Terraza_comedor",
+      "posicion_m": [
+        15.75,
+        17.75,
+        1.600000023841858
+      ],
+      "focal_mm": 30.0,
+      "shift_y": -0.029999999329447746,
+      "exposicion_ev": 0.2
+    }
+  ],
+  "detalle": [
+    {
+      "control": "Mismos objetos arquitectónicos",
+      "cumple": true,
+      "detalle": "346 de referencia; 346 reales"
+    },
+    {
+      "control": "Parcela_limite_documental",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Parcela_limite_documental visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Suelo_vivienda",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Suelo_vivienda visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_001_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_001_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_002_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_002_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_003_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_003_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_004_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_004_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_005_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_005_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_006_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_006_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_007_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_007_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_008_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_008_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_009_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_009_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_010_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_010_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_011_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_011_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_012_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_012_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_013_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_013_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_014_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_014_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_015_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_015_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_016_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_016_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_017_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_017_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_018_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_018_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_019_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_019_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_020_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_020_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_021_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_021_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_022_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_022_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_023_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_023_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_024_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_024_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_025_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_025_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_026_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_026_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_027_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_027_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_028_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_028_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_029_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_029_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_030_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_030_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_031_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_031_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_032_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_032_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_033_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_033_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_034_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_034_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_035_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_035_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_036_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_036_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_037_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_037_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_038_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_038_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_039_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_039_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_040_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_040_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_041_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_041_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_042_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_042_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_043_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_043_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_044_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_044_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_045_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_045_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_046_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_046_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_047_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_047_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_048_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_048_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_049_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_049_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_050_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_050_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_051_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_051_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_052_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_052_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_053_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_053_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_054_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_054_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_055_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_055_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_056_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_056_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_057_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_057_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_058_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_058_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_059_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_059_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_060_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_060_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_061_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_061_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_062_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_062_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_067_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_067_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_bano1_norte_antepecho",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_bano1_norte_antepecho visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_bano1_norte_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_bano1_norte_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_despacho_oeste_antepecho",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_despacho_oeste_antepecho visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_despacho_oeste_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_despacho_oeste_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_bano2_oeste_antepecho",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_bano2_oeste_antepecho visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_bano2_oeste_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_bano2_oeste_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_lavadero_oeste_antepecho",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_lavadero_oeste_antepecho visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_lavadero_oeste_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_lavadero_oeste_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_lavadero_oeste_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_lavadero_oeste_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_aseo_oeste_antepecho",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_aseo_oeste_antepecho visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_aseo_oeste_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_aseo_oeste_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_principal_oeste_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_principal_oeste_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_oeste_antepecho",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_oeste_antepecho visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_oeste_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_oeste_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_este_antepecho",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_este_antepecho visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_este_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_este_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_sur_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_sur_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio2_este_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio2_este_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio3_este_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio3_este_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_cocina_este_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_cocina_este_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_este_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_este_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_porton_trastero_sur_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_porton_trastero_sur_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_063_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_063_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_064_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_064_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_065_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_065_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_066_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_066_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_068_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_068_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "muros_v2_069_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "muros_v2_069_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_interior_trastero_norte_dintel",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_interior_trastero_norte_dintel visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Forjado_cubierta_3_35_3_70",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Forjado_cubierta_3_35_3_70 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Cielorraso_vivienda_existente_3_20",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Cielorraso_vivienda_existente_3_20 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_central_N",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_central_N visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_central_E",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_central_E visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_central_S",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_central_S visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_central_W",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_central_W visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_bajo_W_trasero",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_bajo_W_trasero visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_bajo_N",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_bajo_N visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_bajo_E_D1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_bajo_E_D1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_bajo_S_D1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_bajo_S_D1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_portal_W",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_portal_W visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_portal_N_visible",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_portal_N_visible visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_portal_S",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_portal_S visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_portal_E_visible",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_portal_E_visible visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_trastero_W",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_trastero_W visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_trastero_S",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_trastero_S visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Peto_trastero_E",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Peto_trastero_E visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Marquesina_terraza_sin_pilares",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Marquesina_terraza_sin_pilares visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Piscina_agua_representacion_superficial",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Piscina_agua_representacion_superficial visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Pavimento_exterior_contorno_PDF_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Pavimento_exterior_contorno_PDF_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Pavimento_exterior_contorno_PDF_02",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Pavimento_exterior_contorno_PDF_02 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Pavimento_exterior_contorno_PDF_03",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Pavimento_exterior_contorno_PDF_03 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Pavimento_exterior_contorno_PDF_04",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Pavimento_exterior_contorno_PDF_04 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Pavimento_exterior_contorno_PDF_05",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Pavimento_exterior_contorno_PDF_05 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Cerramiento_lindero_01_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Cerramiento_lindero_01_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Cerramiento_lindero_01_02",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Cerramiento_lindero_01_02 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Cerramiento_lindero_02",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Cerramiento_lindero_02 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Cerramiento_lindero_03",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Cerramiento_lindero_03 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Cerramiento_lindero_04",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Cerramiento_lindero_04 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Cerramiento_lindero_05",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Cerramiento_lindero_05 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Cerramiento_lindero_06",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Cerramiento_lindero_06 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Cerramiento_lindero_07",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Cerramiento_lindero_07 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Cerramiento_lindero_08",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Cerramiento_lindero_08 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Cerramiento_lindero_10_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Cerramiento_lindero_10_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Cerramiento_lindero_10_02",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Cerramiento_lindero_10_02 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Cerramiento_lindero_10_03",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Cerramiento_lindero_10_03 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Puerta_peatonal_hoja_abierta",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Puerta_peatonal_hoja_abierta visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Muro_jamba_peatonal_garaje",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Muro_jamba_peatonal_garaje visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Porton_corredera",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Porton_corredera visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Machon_izquierdo_junto_garaje",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Machon_izquierdo_junto_garaje visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Machon_intermedio_rejillas",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Machon_intermedio_rejillas visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Machon_derecho_lindero",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Machon_derecho_lindero visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Zocalo_continuo_bajo_rejillas",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Zocalo_continuo_bajo_rejillas visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_marco_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_marco_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_marco_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_marco_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_marco_izquierdo",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_marco_izquierdo visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_marco_derecho",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_marco_derecho visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_02",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_02 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_03",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_03 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_04",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_04 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_05",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_05 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_06",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_06 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_07",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_07 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_08",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_08 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_09",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_09 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_10",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_10 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_11",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_11 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_12",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_12 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_13",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_13 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_14",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_14 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_15",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_15 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_16",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_16 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_17",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_17 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_18",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_18 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_19",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_19 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_20",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_20 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_21",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_21 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_22",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_22 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_23",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_23 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_24",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_24 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_25",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_25 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_26",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_26 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_27",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_27 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_28",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_verticales_28 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_02",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_02 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_03",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_03 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_04",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_04 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_05",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_05 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_06",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_06 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_07",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_07 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_08",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_08 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_09",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_09 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_10",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_10 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_11",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_1_horizontales_11 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_marco_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_marco_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_marco_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_marco_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_marco_izquierdo",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_marco_izquierdo visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_marco_derecho",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_marco_derecho visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_02",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_02 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_03",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_03 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_04",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_04 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_05",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_05 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_06",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_06 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_07",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_07 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_08",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_08 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_09",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_09 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_10",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_10 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_11",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_11 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_12",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_12 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_13",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_13 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_14",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_14 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_15",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_15 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_16",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_16 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_17",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_17 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_18",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_18 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_19",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_19 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_20",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_20 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_21",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_21 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_22",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_22 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_23",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_23 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_24",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_24 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_25",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_25 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_26",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_26 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_27",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_27 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_28",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_verticales_28 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_02",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_02 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_03",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_03 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_04",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_04 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_05",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_05 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_06",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_06 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_07",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_07 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_08",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_08 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_09",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_09 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_10",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_10 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_11",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Rejilla_frontal_2_horizontales_11 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_bano1_norte_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_bano1_norte_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_bano1_norte_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_bano1_norte_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_bano1_norte_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_bano1_norte_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_bano1_norte_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_bano1_norte_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_bano1_norte_vidrio_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_bano1_norte_vidrio_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_despacho_oeste_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_despacho_oeste_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_despacho_oeste_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_despacho_oeste_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_despacho_oeste_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_despacho_oeste_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_despacho_oeste_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_despacho_oeste_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_despacho_oeste_vidrio_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_despacho_oeste_vidrio_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_bano2_oeste_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_bano2_oeste_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_bano2_oeste_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_bano2_oeste_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_bano2_oeste_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_bano2_oeste_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_bano2_oeste_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_bano2_oeste_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_bano2_oeste_vidrio_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_bano2_oeste_vidrio_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_lavadero_oeste_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_lavadero_oeste_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_lavadero_oeste_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_lavadero_oeste_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_lavadero_oeste_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_lavadero_oeste_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_lavadero_oeste_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_lavadero_oeste_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_lavadero_oeste_vidrio_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_lavadero_oeste_vidrio_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_lavadero_oeste_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_lavadero_oeste_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_lavadero_oeste_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_lavadero_oeste_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_lavadero_oeste_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_lavadero_oeste_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_lavadero_oeste_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_lavadero_oeste_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_lavadero_oeste_hoja",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_lavadero_oeste_hoja visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_lavadero_oeste_tirador",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_lavadero_oeste_tirador visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_aseo_oeste_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_aseo_oeste_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_aseo_oeste_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_aseo_oeste_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_aseo_oeste_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_aseo_oeste_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_aseo_oeste_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_aseo_oeste_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_aseo_oeste_vidrio_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_aseo_oeste_vidrio_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_principal_oeste_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_principal_oeste_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_principal_oeste_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_principal_oeste_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_principal_oeste_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_principal_oeste_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_principal_oeste_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_principal_oeste_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_principal_oeste_hoja",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_principal_oeste_hoja visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_principal_oeste_junta_0.52",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_principal_oeste_junta_0.52 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_principal_oeste_junta_1.04",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_principal_oeste_junta_1.04 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_principal_oeste_junta_1.56",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_principal_oeste_junta_1.56 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_principal_oeste_junta_2.08",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_principal_oeste_junta_2.08 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_principal_oeste_tirador",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_principal_oeste_tirador visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_oeste_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_oeste_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_oeste_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_oeste_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_oeste_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_oeste_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_oeste_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_oeste_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_oeste_vidrio_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_oeste_vidrio_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_oeste_montante_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_oeste_montante_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_oeste_vidrio_2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_oeste_vidrio_2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_este_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_este_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_este_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_este_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_este_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_este_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_este_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_este_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_este_vidrio_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_este_vidrio_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_este_montante_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_este_montante_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_este_vidrio_2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_este_vidrio_2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_sur_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_sur_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_sur_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_sur_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_sur_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_sur_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_sur_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_sur_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_sur_vidrio_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_sur_vidrio_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_sur_montante_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_sur_montante_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio1_sur_vidrio_2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio1_sur_vidrio_2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio2_este_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio2_este_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio2_este_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio2_este_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio2_este_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio2_este_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio2_este_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio2_este_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio2_este_vidrio_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio2_este_vidrio_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio2_este_montante_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio2_este_montante_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio2_este_vidrio_2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio2_este_vidrio_2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio3_este_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio3_este_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio3_este_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio3_este_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio3_este_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio3_este_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio3_este_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio3_este_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio3_este_vidrio_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio3_este_vidrio_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio3_este_montante_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio3_este_montante_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_dormitorio3_este_vidrio_2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_dormitorio3_este_vidrio_2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_cocina_este_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_cocina_este_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_cocina_este_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_cocina_este_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_cocina_este_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_cocina_este_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_cocina_este_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_cocina_este_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_cocina_este_vidrio_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_cocina_este_vidrio_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_cocina_este_montante_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_cocina_este_montante_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_cocina_este_vidrio_2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_cocina_este_vidrio_2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_cocina_este_montante_2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_cocina_este_montante_2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_cocina_este_vidrio_3",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_cocina_este_vidrio_3 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_este_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_este_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_este_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_este_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_este_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_este_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_este_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_este_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_este_vidrio_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_este_vidrio_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_este_montante_1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_este_montante_1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_este_vidrio_2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_este_vidrio_2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_este_montante_2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_este_montante_2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "V_salon_este_vidrio_3",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "V_salon_este_vidrio_3 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_porton_trastero_sur_jamba1",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_porton_trastero_sur_jamba1 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_porton_trastero_sur_jamba2",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_porton_trastero_sur_jamba2 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_porton_trastero_sur_superior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_porton_trastero_sur_superior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_porton_trastero_sur_inferior",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_porton_trastero_sur_inferior visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_porton_trastero_sur_hoja",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_porton_trastero_sur_hoja visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_interior_trastero_norte_hoja",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_interior_trastero_norte_hoja visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_int_cocina_distribuidor1_hoja_posicion_planta",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_int_cocina_distribuidor1_hoja_posicion_planta visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_int_dormitorio3_hoja_posicion_planta",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_int_dormitorio3_hoja_posicion_planta visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_int_dormitorio2_hoja_posicion_planta",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_int_dormitorio2_hoja_posicion_planta visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_int_suite_principal_hoja_posicion_planta",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_int_suite_principal_hoja_posicion_planta visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_int_bano2_hoja_posicion_planta",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_int_bano2_hoja_posicion_planta visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_int_distribuidor2_hoja_posicion_planta",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_int_distribuidor2_hoja_posicion_planta visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_int_aseo_hoja_posicion_planta",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_int_aseo_hoja_posicion_planta visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_int_despacho_hoja_posicion_planta",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_int_despacho_hoja_posicion_planta visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_int_bano1_corredera_hoja_posicion_planta",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_int_bano1_corredera_hoja_posicion_planta visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_int_vestidor_corredera_hoja_posicion_planta",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_int_vestidor_corredera_hoja_posicion_planta visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_int_cocina_hall_corredera_hoja_posicion_planta",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_int_cocina_hall_corredera_hoja_posicion_planta visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "P_int_lavadero_corredera_hoja_posicion_planta",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "P_int_lavadero_corredera_hoja_posicion_planta visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Jardin_cesped_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Jardin_cesped_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Jardin_cesped_02",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "Jardin_cesped_02 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "tendedero_v2_001_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "tendedero_v2_001_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "tendedero_v2_002_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "tendedero_v2_002_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "tendedero_v2_003_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "tendedero_v2_003_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "tendedero_v2_004_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "tendedero_v2_004_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "tendedero_v2_005_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "tendedero_v2_005_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "tendedero_v2_006_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "tendedero_v2_006_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "tendedero_v2_007_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "tendedero_v2_007_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "tendedero_v2_008_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "tendedero_v2_008_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "tendedero_v2_009_01",
+      "cumple": true,
+      "detalle": "Diferencia máxima de coordenada 0 m"
+    },
+    {
+      "control": "tendedero_v2_009_01 visible",
+      "cumple": true,
+      "detalle": "Referencias de parcela ocultas; arquitectura restante visible"
+    },
+    {
+      "control": "Cámara I01",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Focal I01",
+      "cumple": true,
+      "detalle": "24.0"
+    },
+    {
+      "control": "Cámara I02",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Focal I02",
+      "cumple": true,
+      "detalle": "24.0"
+    },
+    {
+      "control": "Cámara I03",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Focal I03",
+      "cumple": true,
+      "detalle": "28.0"
+    },
+    {
+      "control": "Cámara E01",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Focal E01",
+      "cumple": true,
+      "detalle": "28.0"
+    },
+    {
+      "control": "Cámara E02",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Focal E02",
+      "cumple": true,
+      "detalle": "28.0"
+    },
+    {
+      "control": "Cámara E03",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Focal E03",
+      "cumple": true,
+      "detalle": "28.0"
+    },
+    {
+      "control": "Cámara E04",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Focal E04",
+      "cumple": true,
+      "detalle": "30.0"
+    },
+    {
+      "control": "Escala métrica 1:1",
+      "cumple": true,
+      "detalle": ""
+    },
+    {
+      "control": "Planta final idéntica",
+      "cumple": true,
+      "detalle": ""
+    }
+  ]
+}
